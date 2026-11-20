@@ -1,0 +1,3107 @@
+{
+  "schema": 1,
+  "version": 1,
+  "updated": "2026-11-20",
+  "countries": [
+    {
+      "code": "KR",
+      "name": "대한민국",
+      "flag": "🇰🇷",
+      "defaultTariffId": "KR-SEOUL"
+    },
+    {
+      "code": "JP",
+      "name": "일본",
+      "flag": "🇯🇵",
+      "defaultTariffId": "JP-TOKYO"
+    },
+    {
+      "code": "CN",
+      "name": "중국",
+      "flag": "🇨🇳",
+      "defaultTariffId": "CN-BEIJING"
+    },
+    {
+      "code": "HK",
+      "name": "홍콩",
+      "flag": "🇭🇰",
+      "defaultTariffId": "HK-HONGKONG"
+    },
+    {
+      "code": "TW",
+      "name": "대만",
+      "flag": "🇹🇼",
+      "defaultTariffId": "TW-TAIPEI"
+    },
+    {
+      "code": "SG",
+      "name": "싱가포르",
+      "flag": "🇸🇬",
+      "defaultTariffId": "SG-SINGAPORE"
+    },
+    {
+      "code": "MY",
+      "name": "말레이시아",
+      "flag": "🇲🇾",
+      "defaultTariffId": "MY-KL"
+    },
+    {
+      "code": "TH",
+      "name": "태국",
+      "flag": "🇹🇭",
+      "defaultTariffId": "TH-BANGKOK"
+    },
+    {
+      "code": "VN",
+      "name": "베트남",
+      "flag": "🇻🇳",
+      "defaultTariffId": "VN-HCMC"
+    },
+    {
+      "code": "ID",
+      "name": "인도네시아",
+      "flag": "🇮🇩",
+      "defaultTariffId": "ID-JAKARTA"
+    },
+    {
+      "code": "PH",
+      "name": "필리핀",
+      "flag": "🇵🇭",
+      "defaultTariffId": "PH-MANILA"
+    },
+    {
+      "code": "IN",
+      "name": "인도",
+      "flag": "🇮🇳",
+      "defaultTariffId": "IN-MUMBAI"
+    },
+    {
+      "code": "AE",
+      "name": "아랍에미리트",
+      "flag": "🇦🇪",
+      "defaultTariffId": "AE-DUBAI"
+    },
+    {
+      "code": "QA",
+      "name": "카타르",
+      "flag": "🇶🇦",
+      "defaultTariffId": "QA-DOHA"
+    },
+    {
+      "code": "SA",
+      "name": "사우디아라비아",
+      "flag": "🇸🇦",
+      "defaultTariffId": "SA-RIYADH"
+    },
+    {
+      "code": "TR",
+      "name": "튀르키예",
+      "flag": "🇹🇷",
+      "defaultTariffId": "TR-ISTANBUL"
+    },
+    {
+      "code": "IL",
+      "name": "이스라엘",
+      "flag": "🇮🇱",
+      "defaultTariffId": "IL-TELAVIV"
+    },
+    {
+      "code": "EG",
+      "name": "이집트",
+      "flag": "🇪🇬",
+      "defaultTariffId": "EG-CAIRO"
+    },
+    {
+      "code": "ZA",
+      "name": "남아프리카공화국",
+      "flag": "🇿🇦",
+      "defaultTariffId": "ZA-JOBURG"
+    },
+    {
+      "code": "GB",
+      "name": "영국",
+      "flag": "🇬🇧",
+      "defaultTariffId": "GB-LONDON"
+    },
+    {
+      "code": "IE",
+      "name": "아일랜드",
+      "flag": "🇮🇪",
+      "defaultTariffId": "IE-DUBLIN"
+    },
+    {
+      "code": "FR",
+      "name": "프랑스",
+      "flag": "🇫🇷",
+      "defaultTariffId": "FR-PARIS"
+    },
+    {
+      "code": "DE",
+      "name": "독일",
+      "flag": "🇩🇪",
+      "defaultTariffId": "DE-BERLIN"
+    },
+    {
+      "code": "NL",
+      "name": "네덜란드",
+      "flag": "🇳🇱",
+      "defaultTariffId": "NL-AMSTERDAM"
+    },
+    {
+      "code": "BE",
+      "name": "벨기에",
+      "flag": "🇧🇪",
+      "defaultTariffId": "BE-BRUSSELS"
+    },
+    {
+      "code": "CH",
+      "name": "스위스",
+      "flag": "🇨🇭",
+      "defaultTariffId": "CH-ZURICH"
+    },
+    {
+      "code": "AT",
+      "name": "오스트리아",
+      "flag": "🇦🇹",
+      "defaultTariffId": "AT-VIENNA"
+    },
+    {
+      "code": "IT",
+      "name": "이탈리아",
+      "flag": "🇮🇹",
+      "defaultTariffId": "IT-ROME"
+    },
+    {
+      "code": "ES",
+      "name": "스페인",
+      "flag": "🇪🇸",
+      "defaultTariffId": "ES-MADRID"
+    },
+    {
+      "code": "PT",
+      "name": "포르투갈",
+      "flag": "🇵🇹",
+      "defaultTariffId": "PT-LISBON"
+    },
+    {
+      "code": "GR",
+      "name": "그리스",
+      "flag": "🇬🇷",
+      "defaultTariffId": "GR-ATHENS"
+    },
+    {
+      "code": "SE",
+      "name": "스웨덴",
+      "flag": "🇸🇪",
+      "defaultTariffId": "SE-STOCKHOLM"
+    },
+    {
+      "code": "NO",
+      "name": "노르웨이",
+      "flag": "🇳🇴",
+      "defaultTariffId": "NO-OSLO"
+    },
+    {
+      "code": "DK",
+      "name": "덴마크",
+      "flag": "🇩🇰",
+      "defaultTariffId": "DK-COPENHAGEN"
+    },
+    {
+      "code": "FI",
+      "name": "핀란드",
+      "flag": "🇫🇮",
+      "defaultTariffId": "FI-HELSINKI"
+    },
+    {
+      "code": "PL",
+      "name": "폴란드",
+      "flag": "🇵🇱",
+      "defaultTariffId": "PL-WARSAW"
+    },
+    {
+      "code": "CZ",
+      "name": "체코",
+      "flag": "🇨🇿",
+      "defaultTariffId": "CZ-PRAGUE"
+    },
+    {
+      "code": "HU",
+      "name": "헝가리",
+      "flag": "🇭🇺",
+      "defaultTariffId": "HU-BUDAPEST"
+    },
+    {
+      "code": "RU",
+      "name": "러시아",
+      "flag": "🇷🇺",
+      "defaultTariffId": "RU-MOSCOW"
+    },
+    {
+      "code": "US",
+      "name": "미국",
+      "flag": "🇺🇸",
+      "defaultTariffId": "US-NYC"
+    },
+    {
+      "code": "CA",
+      "name": "캐나다",
+      "flag": "🇨🇦",
+      "defaultTariffId": "CA-TORONTO"
+    },
+    {
+      "code": "MX",
+      "name": "멕시코",
+      "flag": "🇲🇽",
+      "defaultTariffId": "MX-CDMX"
+    },
+    {
+      "code": "BR",
+      "name": "브라질",
+      "flag": "🇧🇷",
+      "defaultTariffId": "BR-SAOPAULO"
+    },
+    {
+      "code": "AR",
+      "name": "아르헨티나",
+      "flag": "🇦🇷",
+      "defaultTariffId": "AR-BUENOSAIRES"
+    },
+    {
+      "code": "CL",
+      "name": "칠레",
+      "flag": "🇨🇱",
+      "defaultTariffId": "CL-SANTIAGO"
+    },
+    {
+      "code": "AU",
+      "name": "호주",
+      "flag": "🇦🇺",
+      "defaultTariffId": "AU-SYDNEY"
+    },
+    {
+      "code": "NZ",
+      "name": "뉴질랜드",
+      "flag": "🇳🇿",
+      "defaultTariffId": "NZ-AUCKLAND"
+    }
+  ],
+  "tariffs": [
+    {
+      "id": "KR-SEOUL",
+      "country": "KR",
+      "region": "서울",
+      "regionEn": "SEOUL",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "radiusKm": 35,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 1600,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "서울시 중형택시 요금 (2023년 2월 개정). 시계외 할증 20%는 미반영."
+    },
+    {
+      "id": "KR-BUSAN",
+      "country": "KR",
+      "region": "부산",
+      "regionEn": "BUSAN",
+      "lat": 35.1796,
+      "lng": 129.0756,
+      "radiusKm": 30,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 132,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 33,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "부산시 중형택시 요금 (2023년 개정)."
+    },
+    {
+      "id": "KR-INCHEON",
+      "country": "KR",
+      "region": "인천",
+      "regionEn": "INCHEON",
+      "lat": 37.4563,
+      "lng": 126.7052,
+      "radiusKm": 25,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 1600,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 135,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "인천시 중형택시 요금 (2023년 7월 개정)."
+    },
+    {
+      "id": "KR-DAEGU",
+      "country": "KR",
+      "region": "대구",
+      "regionEn": "DAEGU",
+      "lat": 35.8714,
+      "lng": 128.6014,
+      "radiusKm": 25,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 127,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "대구시 중형택시 요금 (2023년 1월 개정)."
+    },
+    {
+      "id": "KR-GWANGJU",
+      "country": "KR",
+      "region": "광주",
+      "regionEn": "GWANGJU",
+      "lat": 35.1595,
+      "lng": 126.8526,
+      "radiusKm": 25,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 127,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "광주시 중형택시 요금 (2023년 개정)."
+    },
+    {
+      "id": "KR-DAEJEON",
+      "country": "KR",
+      "region": "대전",
+      "regionEn": "DAEJEON",
+      "lat": 36.3504,
+      "lng": 127.3845,
+      "radiusKm": 25,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 126,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "대전시 중형택시 요금 (2023년 개정)."
+    },
+    {
+      "id": "KR-JEJU",
+      "country": "KR",
+      "region": "제주",
+      "regionEn": "JEJU",
+      "lat": 33.4996,
+      "lng": 126.5312,
+      "radiusKm": 45,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 135,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "제주도 중형택시 요금 (2023년 개정)."
+    },
+    {
+      "id": "JP-TOKYO",
+      "country": "JP",
+      "region": "도쿄",
+      "regionEn": "TOKYO",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "radiusKm": 40,
+      "currency": "JPY",
+      "symbol": "¥",
+      "decimals": 0,
+      "baseFare": 500,
+      "baseDistanceM": 1096,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 255,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 95,
+      "timeFare": 100,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "深夜",
+          "startHour": 22,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "도쿄 23구·무사시노·미타카 일반 택시 (2022년 11월 개정)."
+    },
+    {
+      "id": "JP-OSAKA",
+      "country": "JP",
+      "region": "오사카",
+      "regionEn": "OSAKA",
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "radiusKm": 35,
+      "currency": "JPY",
+      "symbol": "¥",
+      "decimals": 0,
+      "baseFare": 600,
+      "baseDistanceM": 1300,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 260,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 95,
+      "timeFare": 100,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "深夜",
+          "startHour": 22,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "오사카 지역 일반 택시 (2023년 개정)."
+    },
+    {
+      "id": "JP-NAGOYA",
+      "country": "JP",
+      "region": "나고야",
+      "regionEn": "NAGOYA",
+      "lat": 35.1815,
+      "lng": 136.9066,
+      "radiusKm": 30,
+      "currency": "JPY",
+      "symbol": "¥",
+      "decimals": 0,
+      "baseFare": 500,
+      "baseDistanceM": 1011,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 232,
+          "fare": 90
+        }
+      ],
+      "timeUnitSec": 85,
+      "timeFare": 90,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "深夜",
+          "startHour": 22,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "나고야 지역 일반 택시 (2023년 개정)."
+    },
+    {
+      "id": "JP-FUKUOKA",
+      "country": "JP",
+      "region": "후쿠오카",
+      "regionEn": "FUKUOKA",
+      "lat": 33.5902,
+      "lng": 130.4017,
+      "radiusKm": 30,
+      "currency": "JPY",
+      "symbol": "¥",
+      "decimals": 0,
+      "baseFare": 670,
+      "baseDistanceM": 1400,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 228,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 90,
+      "timeFare": 100,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "深夜",
+          "startHour": 22,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "후쿠오카 지역 일반 택시 (2024년 개정)."
+    },
+    {
+      "id": "CN-BEIJING",
+      "country": "CN",
+      "region": "베이징",
+      "regionEn": "BEIJING",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "radiusKm": 50,
+      "currency": "CNY",
+      "symbol": "¥",
+      "decimals": 1,
+      "baseFare": 13,
+      "baseDistanceM": 3000,
+      "distanceTiers": [
+        {
+          "uptoM": 15000,
+          "unitM": 43.48,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 28.99,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 300,
+      "timeFare": 2.3,
+      "slowSpeedKmh": 12,
+      "extras": [
+        {
+          "name": "연료 추가금",
+          "amount": 1
+        }
+      ],
+      "surcharges": [
+        {
+          "name": "夜间",
+          "startHour": 23,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "베이징 일반 택시. 15km 초과 시 50% 공차비 할증 포함."
+    },
+    {
+      "id": "CN-SHANGHAI",
+      "country": "CN",
+      "region": "상하이",
+      "regionEn": "SHANGHAI",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "radiusKm": 50,
+      "currency": "CNY",
+      "symbol": "¥",
+      "decimals": 1,
+      "baseFare": 14,
+      "baseDistanceM": 3000,
+      "distanceTiers": [
+        {
+          "uptoM": 15000,
+          "unitM": 37.04,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 24.69,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 240,
+      "timeFare": 2.7,
+      "slowSpeedKmh": 12,
+      "surcharges": [
+        {
+          "name": "夜间",
+          "startHour": 23,
+          "endHour": 5,
+          "percent": 33,
+          "baseFare": 18
+        }
+      ],
+      "note": "상하이 일반 택시 (2020년 11월 개정). 야간 기본요금 18위안·km당 3.6위안."
+    },
+    {
+      "id": "CN-GUANGZHOU",
+      "country": "CN",
+      "region": "광저우",
+      "regionEn": "GUANGZHOU",
+      "lat": 23.1291,
+      "lng": 113.2644,
+      "radiusKm": 40,
+      "currency": "CNY",
+      "symbol": "¥",
+      "decimals": 1,
+      "baseFare": 12,
+      "baseDistanceM": 3000,
+      "distanceTiers": [
+        {
+          "uptoM": 15000,
+          "unitM": 38.46,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 25.64,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 0.5,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "夜间",
+          "startHour": 23,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "광저우 일반 택시 (2019년 개정)."
+    },
+    {
+      "id": "CN-SHENZHEN",
+      "country": "CN",
+      "region": "선전",
+      "regionEn": "SHENZHEN",
+      "lat": 22.5431,
+      "lng": 114.0579,
+      "radiusKm": 35,
+      "currency": "CNY",
+      "symbol": "¥",
+      "decimals": 1,
+      "baseFare": 10,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": 25000,
+          "unitM": 38.46,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 29.59,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 0.8,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "夜间",
+          "startHour": 23,
+          "endHour": 6,
+          "percent": 20
+        }
+      ],
+      "note": "선전 일반 택시 (2021년 개정)."
+    },
+    {
+      "id": "HK-HONGKONG",
+      "country": "HK",
+      "region": "홍콩 (시내)",
+      "regionEn": "HONG KONG",
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "radiusKm": 35,
+      "currency": "HKD",
+      "symbol": "HK$",
+      "decimals": 1,
+      "baseFare": 29,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": 9000,
+          "unitM": 200,
+          "fare": 2.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 200,
+          "fare": 1.5
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 2.1,
+      "slowSpeedKmh": 6,
+      "surcharges": [],
+      "note": "홍콩 시내(빨간) 택시 (2024년 7월 개정). 요금 HK$102.5 이후 단위요금 HK$1.5."
+    },
+    {
+      "id": "TW-TAIPEI",
+      "country": "TW",
+      "region": "타이베이",
+      "regionEn": "TAIPEI",
+      "lat": 25.033,
+      "lng": 121.5654,
+      "radiusKm": 35,
+      "currency": "TWD",
+      "symbol": "NT$",
+      "decimals": 0,
+      "baseFare": 85,
+      "baseDistanceM": 1250,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 200,
+          "fare": 5
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 5,
+      "slowSpeedKmh": 5,
+      "surcharges": [
+        {
+          "name": "夜間",
+          "startHour": 23,
+          "endHour": 6,
+          "flat": 20
+        }
+      ],
+      "note": "타이베이·신베이 일반 택시 (2023년 개정). 야간 가산 NT$20."
+    },
+    {
+      "id": "TW-KAOHSIUNG",
+      "country": "TW",
+      "region": "가오슝",
+      "regionEn": "KAOHSIUNG",
+      "lat": 22.6273,
+      "lng": 120.3014,
+      "radiusKm": 30,
+      "currency": "TWD",
+      "symbol": "NT$",
+      "decimals": 0,
+      "baseFare": 85,
+      "baseDistanceM": 1500,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 200,
+          "fare": 5
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 5,
+      "slowSpeedKmh": 5,
+      "surcharges": [
+        {
+          "name": "夜間",
+          "startHour": 23,
+          "endHour": 6,
+          "flat": 20
+        }
+      ],
+      "note": "가오슝 일반 택시 (2023년 개정)."
+    },
+    {
+      "id": "SG-SINGAPORE",
+      "country": "SG",
+      "region": "싱가포르",
+      "regionEn": "SINGAPORE",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "radiusKm": 30,
+      "currency": "SGD",
+      "symbol": "S$",
+      "decimals": 2,
+      "baseFare": 4.4,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": 10000,
+          "unitM": 400,
+          "fare": 0.26
+        },
+        {
+          "uptoM": null,
+          "unitM": 350,
+          "fare": 0.26
+        }
+      ],
+      "timeUnitSec": 45,
+      "timeFare": 0.26,
+      "slowSpeedKmh": 8,
+      "surcharges": [
+        {
+          "name": "PEAK",
+          "startHour": 6,
+          "endHour": 9.5,
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "percent": 25
+        },
+        {
+          "name": "PEAK",
+          "startHour": 18,
+          "endHour": 24,
+          "percent": 25
+        },
+        {
+          "name": "MIDNIGHT",
+          "startHour": 0,
+          "endHour": 6,
+          "percent": 50
+        }
+      ],
+      "note": "ComfortDelGro 일반 택시 (2022년 12월 개정) 기준."
+    },
+    {
+      "id": "MY-KL",
+      "country": "MY",
+      "region": "쿠알라룸푸르",
+      "regionEn": "KUALA LUMPUR",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "radiusKm": 40,
+      "currency": "MYR",
+      "symbol": "RM",
+      "decimals": 2,
+      "baseFare": 3,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 115,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 21,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 8,
+      "surcharges": [
+        {
+          "name": "MIDNIGHT",
+          "startHour": 0,
+          "endHour": 6,
+          "percent": 50
+        }
+      ],
+      "note": "쿠알라룸푸르 버짓(빨강·흰색) 택시 공식 요율."
+    },
+    {
+      "id": "TH-BANGKOK",
+      "country": "TH",
+      "region": "방콕",
+      "regionEn": "BANGKOK",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "radiusKm": 45,
+      "currency": "THB",
+      "symbol": "฿",
+      "decimals": 0,
+      "baseFare": 35,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": 10000,
+          "unitM": 153.85,
+          "fare": 1
+        },
+        {
+          "uptoM": 20000,
+          "unitM": 142.86,
+          "fare": 1
+        },
+        {
+          "uptoM": 40000,
+          "unitM": 125,
+          "fare": 1
+        },
+        {
+          "uptoM": 60000,
+          "unitM": 117.65,
+          "fare": 1
+        },
+        {
+          "uptoM": 80000,
+          "unitM": 111.11,
+          "fare": 1
+        },
+        {
+          "uptoM": null,
+          "unitM": 95.24,
+          "fare": 1
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 1,
+      "slowSpeedKmh": 6,
+      "surcharges": [],
+      "note": "방콕 미터 택시 (2022년 1월 개정). 저속(6km/h 이하) 분당 3바트."
+    },
+    {
+      "id": "VN-HCMC",
+      "country": "VN",
+      "region": "호찌민",
+      "regionEn": "HO CHI MINH",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "radiusKm": 40,
+      "currency": "VND",
+      "symbol": "₫",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 11000,
+      "baseDistanceM": 500,
+      "distanceTiers": [
+        {
+          "uptoM": 30000,
+          "unitM": 5.68,
+          "fare": 100
+        },
+        {
+          "uptoM": null,
+          "unitM": 6.9,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 500,
+      "slowSpeedKmh": 5,
+      "surcharges": [],
+      "note": "Vinasun 4인승 택시 요율 기준 (2023년)."
+    },
+    {
+      "id": "VN-HANOI",
+      "country": "VN",
+      "region": "하노이",
+      "regionEn": "HA NOI",
+      "lat": 21.0278,
+      "lng": 105.8342,
+      "radiusKm": 40,
+      "currency": "VND",
+      "symbol": "₫",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 20000,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": 25000,
+          "unitM": 6.45,
+          "fare": 100
+        },
+        {
+          "uptoM": null,
+          "unitM": 7.69,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 500,
+      "slowSpeedKmh": 5,
+      "surcharges": [],
+      "note": "Mai Linh 4인승 택시 요율 기준 (2023년)."
+    },
+    {
+      "id": "ID-JAKARTA",
+      "country": "ID",
+      "region": "자카르타",
+      "regionEn": "JAKARTA",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "radiusKm": 45,
+      "currency": "IDR",
+      "symbol": "Rp",
+      "decimals": 0,
+      "baseFare": 8500,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 18.18,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 6.55,
+      "timeFare": 100,
+      "slowSpeedKmh": 5,
+      "minFare": 40000,
+      "surcharges": [],
+      "note": "Blue Bird 일반 택시 요율 (2023년). 최소 요금 Rp 40,000."
+    },
+    {
+      "id": "PH-MANILA",
+      "country": "PH",
+      "region": "마닐라",
+      "regionEn": "MANILA",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "radiusKm": 40,
+      "currency": "PHP",
+      "symbol": "₱",
+      "decimals": 2,
+      "baseFare": 45,
+      "baseDistanceM": 500,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 300,
+          "fare": 4
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 2,
+      "slowSpeedKmh": 5,
+      "surcharges": [],
+      "note": "메트로 마닐라 일반 택시 LTFRB 요율 (2022년 10월 개정)."
+    },
+    {
+      "id": "IN-MUMBAI",
+      "country": "IN",
+      "region": "뭄바이",
+      "regionEn": "MUMBAI",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "radiusKm": 40,
+      "currency": "INR",
+      "symbol": "₹",
+      "decimals": 0,
+      "baseFare": 28,
+      "baseDistanceM": 1500,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 100,
+          "fare": 1.87
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 1.72,
+      "slowSpeedKmh": 6,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 0,
+          "endHour": 5,
+          "percent": 25
+        }
+      ],
+      "note": "뭄바이 깔리-삘리 택시 (2022년 10월 개정)."
+    },
+    {
+      "id": "IN-DELHI",
+      "country": "IN",
+      "region": "델리",
+      "regionEn": "DELHI",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "radiusKm": 40,
+      "currency": "INR",
+      "symbol": "₹",
+      "decimals": 0,
+      "baseFare": 25,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 100,
+          "fare": 1.4
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 0.5,
+      "slowSpeedKmh": 6,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 23,
+          "endHour": 5,
+          "percent": 25
+        }
+      ],
+      "note": "델리 경제형(블랙·옐로) 택시 공식 요율."
+    },
+    {
+      "id": "AE-DUBAI",
+      "country": "AE",
+      "region": "두바이",
+      "regionEn": "DUBAI",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "radiusKm": 45,
+      "currency": "AED",
+      "symbol": "AED",
+      "decimals": 2,
+      "baseFare": 5,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 120.77,
+          "fare": 0.25
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 10,
+      "minFare": 12,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 22,
+          "endHour": 6,
+          "baseFare": 5.5
+        }
+      ],
+      "note": "두바이 RTA 일반 택시 (2024년). 최소 요금 AED 12."
+    },
+    {
+      "id": "AE-ABUDHABI",
+      "country": "AE",
+      "region": "아부다비",
+      "regionEn": "ABU DHABI",
+      "lat": 24.4539,
+      "lng": 54.3773,
+      "radiusKm": 45,
+      "currency": "AED",
+      "symbol": "AED",
+      "decimals": 2,
+      "baseFare": 5,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130.21,
+          "fare": 0.25
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 10,
+      "minFare": 12,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 22,
+          "endHour": 6,
+          "baseFare": 5.5
+        }
+      ],
+      "note": "아부다비 ITC 일반 택시 요율. 최소 요금 AED 12."
+    },
+    {
+      "id": "QA-DOHA",
+      "country": "QA",
+      "region": "도하",
+      "regionEn": "DOHA",
+      "lat": 25.2854,
+      "lng": 51.531,
+      "radiusKm": 40,
+      "currency": "QAR",
+      "symbol": "QR",
+      "decimals": 2,
+      "baseFare": 10,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 62.5,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 21,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "Karwa(Mowasalat) 공식 택시 요율."
+    },
+    {
+      "id": "SA-RIYADH",
+      "country": "SA",
+      "region": "리야드",
+      "regionEn": "RIYADH",
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "radiusKm": 45,
+      "currency": "SAR",
+      "symbol": "SR",
+      "decimals": 2,
+      "baseFare": 10,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 55.56,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 10,
+      "surcharges": [],
+      "note": "리야드 공공 택시 교통청 요율 기준."
+    },
+    {
+      "id": "TR-ISTANBUL",
+      "country": "TR",
+      "region": "이스탄불",
+      "regionEn": "ISTANBUL",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "radiusKm": 50,
+      "currency": "TRY",
+      "symbol": "₺",
+      "decimals": 2,
+      "baseFare": 42,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 35.71,
+          "fare": 1
+        }
+      ],
+      "timeUnitSec": 12.86,
+      "timeFare": 1,
+      "slowSpeedKmh": 10,
+      "minFare": 125,
+      "surcharges": [],
+      "note": "이스탄불 택시 요율 (2025년 1월 개정). 물가 변동으로 자주 바뀜."
+    },
+    {
+      "id": "IL-TELAVIV",
+      "country": "IL",
+      "region": "텔아비브",
+      "regionEn": "TEL AVIV",
+      "lat": 32.0853,
+      "lng": 34.7818,
+      "radiusKm": 40,
+      "currency": "ILS",
+      "symbol": "₪",
+      "decimals": 2,
+      "baseFare": 13.5,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 54.55,
+          "fare": 0.3
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 0.3,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "TARIFF 2",
+          "startHour": 21,
+          "endHour": 5.5,
+          "percent": 25
+        }
+      ],
+      "note": "이스라엘 교통부 택시 요율 (2024년) 근사치."
+    },
+    {
+      "id": "EG-CAIRO",
+      "country": "EG",
+      "region": "카이로",
+      "regionEn": "CAIRO",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "radiusKm": 45,
+      "currency": "EGP",
+      "symbol": "E£",
+      "decimals": 2,
+      "baseFare": 8,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 45.45,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 15,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 8,
+      "surcharges": [],
+      "note": "카이로 화이트 택시 공식 요율 (2023년 개정)."
+    },
+    {
+      "id": "ZA-JOBURG",
+      "country": "ZA",
+      "region": "요하네스버그",
+      "regionEn": "JOHANNESBURG",
+      "lat": -26.2041,
+      "lng": 28.0473,
+      "radiusKm": 45,
+      "currency": "ZAR",
+      "symbol": "R",
+      "decimals": 2,
+      "baseFare": 20,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 33.33,
+          "fare": 0.5
+        }
+      ],
+      "timeUnitSec": 12,
+      "timeFare": 0.5,
+      "slowSpeedKmh": 8,
+      "surcharges": [],
+      "note": "요하네스버그 미터 택시 일반 요율 근사치."
+    },
+    {
+      "id": "GB-LONDON",
+      "country": "GB",
+      "region": "런던",
+      "regionEn": "LONDON",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "radiusKm": 40,
+      "currency": "GBP",
+      "symbol": "£",
+      "decimals": 2,
+      "baseFare": 3.8,
+      "baseDistanceM": 191,
+      "distanceTiers": [
+        {
+          "uptoM": 9656,
+          "unitM": 95,
+          "fare": 0.2
+        },
+        {
+          "uptoM": null,
+          "unitM": 75,
+          "fare": 0.2
+        }
+      ],
+      "timeUnitSec": 20.5,
+      "timeFare": 0.2,
+      "slowSpeedKmh": 16.7,
+      "surcharges": [
+        {
+          "name": "TARIFF 2",
+          "startHour": 20,
+          "endHour": 22,
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "percent": 15
+        },
+        {
+          "name": "TARIFF 2",
+          "startHour": 5,
+          "endHour": 22,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 15
+        },
+        {
+          "name": "TARIFF 3",
+          "startHour": 22,
+          "endHour": 5,
+          "percent": 30
+        }
+      ],
+      "note": "런던 블랙캡 Tariff 1 (2024년 4월 개정) 기준. Tariff 2·3은 할증률로 근사."
+    },
+    {
+      "id": "GB-MANCHESTER",
+      "country": "GB",
+      "region": "맨체스터",
+      "regionEn": "MANCHESTER",
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "radiusKm": 30,
+      "currency": "GBP",
+      "symbol": "£",
+      "decimals": 2,
+      "baseFare": 3.2,
+      "baseDistanceM": 275,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 155,
+          "fare": 0.2
+        }
+      ],
+      "timeUnitSec": 33,
+      "timeFare": 0.2,
+      "slowSpeedKmh": 16,
+      "surcharges": [
+        {
+          "name": "TARIFF 2",
+          "startHour": 23,
+          "endHour": 6,
+          "percent": 30
+        }
+      ],
+      "note": "맨체스터 해크니 캐리지 Tariff 1 (2023년) 기준."
+    },
+    {
+      "id": "IE-DUBLIN",
+      "country": "IE",
+      "region": "더블린",
+      "regionEn": "DUBLIN",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "decimals": 2,
+      "baseFare": 4.2,
+      "baseDistanceM": 500,
+      "distanceTiers": [
+        {
+          "uptoM": 15000,
+          "unitM": 76.92,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 60.61,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 12.86,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "PREMIUM",
+          "startHour": 20,
+          "endHour": 8,
+          "percent": 20
+        }
+      ],
+      "note": "아일랜드 전국 택시 요율 (2024년). 야간·일요일·공휴일 프리미엄."
+    },
+    {
+      "id": "FR-PARIS",
+      "country": "FR",
+      "region": "파리",
+      "regionEn": "PARIS",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 4.4,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 78.74,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 9,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 25,
+      "minFare": 8,
+      "surcharges": [
+        {
+          "name": "TARIF B",
+          "startHour": 17,
+          "endHour": 10,
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "percent": 25
+        },
+        {
+          "name": "TARIF B",
+          "startHour": 7,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 25
+        },
+        {
+          "name": "TARIF C",
+          "startHour": 0,
+          "endHour": 7,
+          "days": [
+            0
+          ],
+          "percent": 35
+        }
+      ],
+      "note": "파리 택시 Tarif A (2025년) 기준. 최소 요금 €8. B·C 요율은 할증률로 근사."
+    },
+    {
+      "id": "FR-LYON",
+      "country": "FR",
+      "region": "리옹",
+      "regionEn": "LYON",
+      "lat": 45.764,
+      "lng": 4.8357,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 3.2,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 90.91,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 10.59,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 22,
+      "minFare": 8,
+      "surcharges": [
+        {
+          "name": "TARIF B",
+          "startHour": 19,
+          "endHour": 7,
+          "percent": 45
+        }
+      ],
+      "note": "리옹 택시 Tarif A·B (2024년) 근사치. 최소 요금 €8."
+    },
+    {
+      "id": "DE-BERLIN",
+      "country": "DE",
+      "region": "베를린",
+      "regionEn": "BERLIN",
+      "lat": 52.52,
+      "lng": 13.405,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 4.3,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": 7000,
+          "unitM": 35.71,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 47.62,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 10.91,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "베를린 택시 요율 (2024년 1월 개정). 1~7km €2.80, 이후 €2.10/km."
+    },
+    {
+      "id": "DE-MUNICH",
+      "country": "DE",
+      "region": "뮌헨",
+      "regionEn": "MÜNCHEN",
+      "lat": 48.1351,
+      "lng": 11.582,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 5.7,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": 5000,
+          "unitM": 38.46,
+          "fare": 0.1
+        },
+        {
+          "uptoM": 10000,
+          "unitM": 41.67,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 47.62,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 10,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "뮌헨 택시 요율 (2023년 개정)."
+    },
+    {
+      "id": "DE-HAMBURG",
+      "country": "DE",
+      "region": "함부르크",
+      "regionEn": "HAMBURG",
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 4,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": 4000,
+          "unitM": 35.71,
+          "fare": 0.1
+        },
+        {
+          "uptoM": 9000,
+          "unitM": 40,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 45.45,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 10.29,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "함부르크 택시 요율 (2024년 개정)."
+    },
+    {
+      "id": "DE-FRANKFURT",
+      "country": "DE",
+      "region": "프랑크푸르트",
+      "regionEn": "FRANKFURT",
+      "lat": 50.1109,
+      "lng": 8.6821,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 4,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": 4000,
+          "unitM": 41.67,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 45.45,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 10,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "프랑크푸르트 택시 요율 (2023년 개정)."
+    },
+    {
+      "id": "NL-AMSTERDAM",
+      "country": "NL",
+      "region": "암스테르담",
+      "regionEn": "AMSTERDAM",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 3.8,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 36.1,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 13,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "네덜란드 법정 최고 택시 요율 (2024년)."
+    },
+    {
+      "id": "BE-BRUSSELS",
+      "country": "BE",
+      "region": "브뤼셀",
+      "regionEn": "BRUXELLES",
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 2.6,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 43.48,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 12,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "NUIT",
+          "startHour": 22,
+          "endHour": 6,
+          "flat": 2
+        }
+      ],
+      "note": "브뤼셀 수도권 택시 요율 (시내 요율). 야간 €2 추가."
+    },
+    {
+      "id": "CH-ZURICH",
+      "country": "CH",
+      "region": "취리히",
+      "regionEn": "ZÜRICH",
+      "lat": 47.3769,
+      "lng": 8.5417,
+      "radiusKm": 30,
+      "currency": "CHF",
+      "symbol": "CHF",
+      "decimals": 2,
+      "baseFare": 6,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 26.32,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 5.45,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "취리히 시 택시 요율 (2023년)."
+    },
+    {
+      "id": "CH-GENEVA",
+      "country": "CH",
+      "region": "제네바",
+      "regionEn": "GENÈVE",
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "radiusKm": 25,
+      "currency": "CHF",
+      "symbol": "CHF",
+      "decimals": 2,
+      "baseFare": 6.3,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 31.25,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 6,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "NUIT",
+          "startHour": 20,
+          "endHour": 6,
+          "percent": 20
+        }
+      ],
+      "note": "제네바 택시 요율 Tarif I·II (2024년) 근사치."
+    },
+    {
+      "id": "AT-VIENNA",
+      "country": "AT",
+      "region": "빈",
+      "regionEn": "WIEN",
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 3.8,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": 4000,
+          "unitM": 68.49,
+          "fare": 0.1
+        },
+        {
+          "uptoM": null,
+          "unitM": 87.72,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 11.69,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "NACHT",
+          "startHour": 23,
+          "endHour": 6,
+          "baseFare": 4.3
+        }
+      ],
+      "note": "빈 택시 요율 (2021년 개정). 야간·일요일 기본요금 €4.30."
+    },
+    {
+      "id": "IT-ROME",
+      "country": "IT",
+      "region": "로마",
+      "regionEn": "ROMA",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 3.5,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 87.72,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 12,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 20,
+      "surcharges": [
+        {
+          "name": "FESTIVO",
+          "startHour": 6,
+          "endHour": 22,
+          "days": [
+            0
+          ],
+          "baseFare": 5
+        },
+        {
+          "name": "NOTTE",
+          "startHour": 22,
+          "endHour": 6,
+          "baseFare": 7
+        }
+      ],
+      "note": "로마 택시 요율 (2024년). 야간 기본요금 €7, 공휴일 €5."
+    },
+    {
+      "id": "IT-MILAN",
+      "country": "IT",
+      "region": "밀라노",
+      "regionEn": "MILANO",
+      "lat": 45.4642,
+      "lng": 9.19,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 3.9,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 82.64,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 10.71,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 20,
+      "surcharges": [
+        {
+          "name": "FESTIVO",
+          "startHour": 6,
+          "endHour": 21,
+          "days": [
+            0
+          ],
+          "baseFare": 6.2
+        },
+        {
+          "name": "NOTTE",
+          "startHour": 21,
+          "endHour": 6,
+          "baseFare": 7
+        }
+      ],
+      "note": "밀라노 택시 요율 (2024년). 야간 기본요금 €7, 공휴일 €6.20."
+    },
+    {
+      "id": "ES-MADRID",
+      "country": "ES",
+      "region": "마드리드",
+      "regionEn": "MADRID",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 2.5,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 38.46,
+          "fare": 0.05
+        }
+      ],
+      "timeUnitSec": 8.07,
+      "timeFare": 0.05,
+      "slowSpeedKmh": 20,
+      "minFare": 4.5,
+      "surcharges": [
+        {
+          "name": "TARIFA 2",
+          "startHour": 21,
+          "endHour": 6,
+          "percent": 15,
+          "baseFare": 3.2
+        },
+        {
+          "name": "TARIFA 2",
+          "startHour": 6,
+          "endHour": 21,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 15,
+          "baseFare": 3.2
+        }
+      ],
+      "note": "마드리드 택시 Tarifa 1·2 (2024년). 최소 요금 €4.50."
+    },
+    {
+      "id": "ES-BARCELONA",
+      "country": "ES",
+      "region": "바르셀로나",
+      "regionEn": "BARCELONA",
+      "lat": 41.3874,
+      "lng": 2.1686,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 2.55,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 40.65,
+          "fare": 0.05
+        }
+      ],
+      "timeUnitSec": 7.96,
+      "timeFare": 0.05,
+      "slowSpeedKmh": 20,
+      "minFare": 4.8,
+      "surcharges": [
+        {
+          "name": "T2",
+          "startHour": 20,
+          "endHour": 8,
+          "percent": 23
+        },
+        {
+          "name": "T2",
+          "startHour": 8,
+          "endHour": 20,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 23
+        }
+      ],
+      "note": "바르셀로나 택시 T1·T2 (2024년). 최소 요금 €4.80."
+    },
+    {
+      "id": "PT-LISBON",
+      "country": "PT",
+      "region": "리스본",
+      "regionEn": "LISBOA",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "radiusKm": 30,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 3.25,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 63.69,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 24.32,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "TARIFA 2",
+          "startHour": 21,
+          "endHour": 6,
+          "percent": 20,
+          "baseFare": 3.9
+        },
+        {
+          "name": "TARIFA 2",
+          "startHour": 6,
+          "endHour": 21,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 20,
+          "baseFare": 3.9
+        }
+      ],
+      "note": "포르투갈 도시 택시 Tarifa 1·2 (2024년)."
+    },
+    {
+      "id": "GR-ATHENS",
+      "country": "GR",
+      "region": "아테네",
+      "regionEn": "ATHENS",
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 2,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 55.56,
+          "fare": 0.05
+        }
+      ],
+      "timeUnitSec": 12,
+      "timeFare": 0.05,
+      "slowSpeedKmh": 15,
+      "minFare": 4,
+      "surcharges": [
+        {
+          "name": "TARIFF 2",
+          "startHour": 0,
+          "endHour": 5,
+          "percent": 40
+        }
+      ],
+      "note": "아테네 택시 요율 (2024년). 최소 요금 €4."
+    },
+    {
+      "id": "SE-STOCKHOLM",
+      "country": "SE",
+      "region": "스톡홀름",
+      "regionEn": "STOCKHOLM",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "radiusKm": 35,
+      "currency": "SEK",
+      "symbol": "kr",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 55,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 60.61,
+          "fare": 1
+        }
+      ],
+      "timeUnitSec": 7.5,
+      "timeFare": 1,
+      "slowSpeedKmh": 20,
+      "surcharges": [],
+      "note": "Taxi Stockholm 일반 요율 (2024년) 근사치."
+    },
+    {
+      "id": "NO-OSLO",
+      "country": "NO",
+      "region": "오슬로",
+      "regionEn": "OSLO",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "radiusKm": 35,
+      "currency": "NOK",
+      "symbol": "kr",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 80,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 58.82,
+          "fare": 1
+        }
+      ],
+      "timeUnitSec": 6,
+      "timeFare": 1,
+      "slowSpeedKmh": 20,
+      "surcharges": [
+        {
+          "name": "KVELD",
+          "startHour": 18,
+          "endHour": 6,
+          "percent": 25
+        }
+      ],
+      "note": "Oslo Taxi 일반 요율 (2024년) 근사치."
+    },
+    {
+      "id": "DK-COPENHAGEN",
+      "country": "DK",
+      "region": "코펜하겐",
+      "regionEn": "KØBENHAVN",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "radiusKm": 35,
+      "currency": "DKK",
+      "symbol": "kr",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 39,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 32.47,
+          "fare": 0.5
+        }
+      ],
+      "timeUnitSec": 4.29,
+      "timeFare": 0.5,
+      "slowSpeedKmh": 20,
+      "surcharges": [
+        {
+          "name": "AFTEN",
+          "startHour": 18,
+          "endHour": 6,
+          "percent": 25,
+          "baseFare": 49
+        }
+      ],
+      "note": "코펜하겐 택시 요율 (2024년) 근사치."
+    },
+    {
+      "id": "FI-HELSINKI",
+      "country": "FI",
+      "region": "헬싱키",
+      "regionEn": "HELSINKI",
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "radiusKm": 35,
+      "currency": "EUR",
+      "symbol": "€",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 5.9,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 83.33,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 5.22,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 20,
+      "surcharges": [
+        {
+          "name": "ILTA",
+          "startHour": 20,
+          "endHour": 6,
+          "baseFare": 9
+        }
+      ],
+      "note": "Taksi Helsinki 일반 요율 (2024년) 근사치."
+    },
+    {
+      "id": "PL-WARSAW",
+      "country": "PL",
+      "region": "바르샤바",
+      "regionEn": "WARSZAWA",
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "radiusKm": 35,
+      "currency": "PLN",
+      "symbol": "zł",
+      "symbolAfter": true,
+      "decimals": 2,
+      "baseFare": 8,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 33.33,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 9,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 12,
+      "surcharges": [
+        {
+          "name": "TARYFA 2",
+          "startHour": 22,
+          "endHour": 6,
+          "percent": 50
+        },
+        {
+          "name": "TARYFA 2",
+          "startHour": 6,
+          "endHour": 22,
+          "days": [
+            0
+          ],
+          "percent": 50
+        }
+      ],
+      "note": "바르샤바 시 택시 최고 요율 (2023년)."
+    },
+    {
+      "id": "CZ-PRAGUE",
+      "country": "CZ",
+      "region": "프라하",
+      "regionEn": "PRAHA",
+      "lat": 50.0755,
+      "lng": 14.4378,
+      "radiusKm": 35,
+      "currency": "CZK",
+      "symbol": "Kč",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 60,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 27.78,
+          "fare": 1
+        }
+      ],
+      "timeUnitSec": 8.57,
+      "timeFare": 1,
+      "slowSpeedKmh": 12,
+      "surcharges": [],
+      "note": "프라하 시 택시 최고 요율 (2023년 개정)."
+    },
+    {
+      "id": "HU-BUDAPEST",
+      "country": "HU",
+      "region": "부다페스트",
+      "regionEn": "BUDAPEST",
+      "lat": 47.4979,
+      "lng": 19.0402,
+      "radiusKm": 35,
+      "currency": "HUF",
+      "symbol": "Ft",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 1100,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 22.73,
+          "fare": 10
+        }
+      ],
+      "timeUnitSec": 5.45,
+      "timeFare": 10,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "부다페스트 고정 택시 요율 (2023년 개정)."
+    },
+    {
+      "id": "RU-MOSCOW",
+      "country": "RU",
+      "region": "모스크바",
+      "regionEn": "MOSCOW",
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "radiusKm": 50,
+      "currency": "RUB",
+      "symbol": "₽",
+      "symbolAfter": true,
+      "decimals": 0,
+      "baseFare": 199,
+      "baseDistanceM": 3000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 25,
+          "fare": 1
+        }
+      ],
+      "timeUnitSec": 6,
+      "timeFare": 1,
+      "slowSpeedKmh": 10,
+      "surcharges": [],
+      "note": "모스크바 공식 택시 일반 요율 근사치 (대부분 앱 기반 요금 적용)."
+    },
+    {
+      "id": "US-NYC",
+      "country": "US",
+      "region": "뉴욕",
+      "regionEn": "NEW YORK",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "radiusKm": 40,
+      "currency": "USD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 322,
+          "fare": 0.7
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 0.7,
+      "slowSpeedKmh": 19.3,
+      "extras": [
+        {
+          "name": "MTA 세금",
+          "amount": 0.5
+        },
+        {
+          "name": "개선 부담금",
+          "amount": 1
+        }
+      ],
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 20,
+          "endHour": 6,
+          "flat": 1
+        },
+        {
+          "name": "RUSH",
+          "startHour": 16,
+          "endHour": 20,
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "flat": 2.5
+        }
+      ],
+      "note": "NYC 옐로캡 (2022년 12월 개정). 맨해튼 혼잡 통행료는 미반영."
+    },
+    {
+      "id": "US-LA",
+      "country": "US",
+      "region": "로스앤젤레스",
+      "regionEn": "LOS ANGELES",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "radiusKm": 60,
+      "currency": "USD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.1,
+      "baseDistanceM": 179,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 179,
+          "fare": 0.33
+        }
+      ],
+      "timeUnitSec": 37,
+      "timeFare": 0.33,
+      "slowSpeedKmh": 17,
+      "surcharges": [],
+      "note": "LA 시 택시 요율 (2023년). 1/9마일당 $0.33."
+    },
+    {
+      "id": "US-CHICAGO",
+      "country": "US",
+      "region": "시카고",
+      "regionEn": "CHICAGO",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "radiusKm": 45,
+      "currency": "USD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.25,
+      "baseDistanceM": 179,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 179,
+          "fare": 0.25
+        }
+      ],
+      "timeUnitSec": 36,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 17,
+      "surcharges": [],
+      "note": "시카고 시 택시 요율 ($2.25/마일, 대기 $25/시간)."
+    },
+    {
+      "id": "US-SF",
+      "country": "US",
+      "region": "샌프란시스코",
+      "regionEn": "SAN FRANCISCO",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "radiusKm": 35,
+      "currency": "USD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 4.15,
+      "baseDistanceM": 322,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 322,
+          "fare": 0.65
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 0.65,
+      "slowSpeedKmh": 17,
+      "surcharges": [],
+      "note": "샌프란시스코 SFMTA 택시 요율 (2023년)."
+    },
+    {
+      "id": "US-DC",
+      "country": "US",
+      "region": "워싱턴 D.C.",
+      "regionEn": "WASHINGTON DC",
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "radiusKm": 35,
+      "currency": "USD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.5,
+      "baseDistanceM": 201,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 201,
+          "fare": 0.27
+        }
+      ],
+      "timeUnitSec": 28,
+      "timeFare": 0.27,
+      "slowSpeedKmh": 16,
+      "surcharges": [],
+      "note": "워싱턴 D.C. 택시 요율 ($2.16/마일, 대기 $35/시간)."
+    },
+    {
+      "id": "US-LASVEGAS",
+      "country": "US",
+      "region": "라스베이거스",
+      "regionEn": "LAS VEGAS",
+      "lat": 36.1699,
+      "lng": -115.1398,
+      "radiusKm": 35,
+      "currency": "USD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.5,
+      "baseDistanceM": 134,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 0.23
+        }
+      ],
+      "timeUnitSec": 25,
+      "timeFare": 0.23,
+      "slowSpeedKmh": 16,
+      "surcharges": [],
+      "note": "라스베이거스 네바다 택시청 요율 ($2.76/마일, 대기 $33.60/시간)."
+    },
+    {
+      "id": "CA-TORONTO",
+      "country": "CA",
+      "region": "토론토",
+      "regionEn": "TORONTO",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "radiusKm": 40,
+      "currency": "CAD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 4.25,
+      "baseDistanceM": 143,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 143,
+          "fare": 0.25
+        }
+      ],
+      "timeUnitSec": 29,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 17,
+      "surcharges": [],
+      "note": "토론토 시 택시 요율 (2023년). 143m당 $0.25."
+    },
+    {
+      "id": "CA-VANCOUVER",
+      "country": "CA",
+      "region": "밴쿠버",
+      "regionEn": "VANCOUVER",
+      "lat": 49.2827,
+      "lng": -123.1207,
+      "radiusKm": 35,
+      "currency": "CAD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.75,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 47.39,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 9.57,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "밴쿠버 지역 택시 요율 (2023년)."
+    },
+    {
+      "id": "CA-MONTREAL",
+      "country": "CA",
+      "region": "몬트리올",
+      "regionEn": "MONTRÉAL",
+      "lat": 45.5017,
+      "lng": -73.5673,
+      "radiusKm": 35,
+      "currency": "CAD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 4.1,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 48.78,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 7.79,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "NUIT",
+          "startHour": 23,
+          "endHour": 5,
+          "percent": 15,
+          "baseFare": 4.7
+        }
+      ],
+      "note": "퀘벡 택시 요율 (2024년). 야간 기본요금 $4.70."
+    },
+    {
+      "id": "MX-CDMX",
+      "country": "MX",
+      "region": "멕시코시티",
+      "regionEn": "CIUDAD DE MÉXICO",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "radiusKm": 45,
+      "currency": "MXN",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 8.74,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 250,
+          "fare": 1.07
+        }
+      ],
+      "timeUnitSec": 45,
+      "timeFare": 1.07,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "NOCTURNO",
+          "startHour": 23,
+          "endHour": 5,
+          "percent": 20
+        }
+      ],
+      "note": "멕시코시티 일반(libre) 택시 요율. 250m 또는 45초당 $1.07."
+    },
+    {
+      "id": "BR-SAOPAULO",
+      "country": "BR",
+      "region": "상파울루",
+      "regionEn": "SÃO PAULO",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "radiusKm": 45,
+      "currency": "BRL",
+      "symbol": "R$",
+      "decimals": 2,
+      "baseFare": 6,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 25.64,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 7.35,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "BANDEIRA 2",
+          "startHour": 20,
+          "endHour": 6,
+          "percent": 30
+        },
+        {
+          "name": "BANDEIRA 2",
+          "startHour": 6,
+          "endHour": 20,
+          "days": [
+            0
+          ],
+          "percent": 30
+        }
+      ],
+      "note": "상파울루 일반 택시 Bandeira 1·2 (2023년 개정)."
+    },
+    {
+      "id": "BR-RIO",
+      "country": "BR",
+      "region": "리우데자네이루",
+      "regionEn": "RIO DE JANEIRO",
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "radiusKm": 40,
+      "currency": "BRL",
+      "symbol": "R$",
+      "decimals": 2,
+      "baseFare": 6.2,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 32.15,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 8.28,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "BANDEIRA 2",
+          "startHour": 21,
+          "endHour": 6,
+          "percent": 20
+        },
+        {
+          "name": "BANDEIRA 2",
+          "startHour": 6,
+          "endHour": 21,
+          "days": [
+            0
+          ],
+          "percent": 20
+        }
+      ],
+      "note": "리우 일반 택시 Bandeira 1·2 (2023년 개정)."
+    },
+    {
+      "id": "AR-BUENOSAIRES",
+      "country": "AR",
+      "region": "부에노스아이레스",
+      "regionEn": "BUENOS AIRES",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "radiusKm": 40,
+      "currency": "ARS",
+      "symbol": "$",
+      "decimals": 0,
+      "baseFare": 1700,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 200,
+          "fare": 170
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 170,
+      "slowSpeedKmh": 10,
+      "surcharges": [
+        {
+          "name": "NOCTURNA",
+          "startHour": 22,
+          "endHour": 6,
+          "percent": 20
+        }
+      ],
+      "note": "부에노스아이레스 택시 (2025년). 물가 변동으로 수시 개정됨."
+    },
+    {
+      "id": "CL-SANTIAGO",
+      "country": "CL",
+      "region": "산티아고",
+      "regionEn": "SANTIAGO",
+      "lat": -33.4489,
+      "lng": -70.6693,
+      "radiusKm": 40,
+      "currency": "CLP",
+      "symbol": "$",
+      "decimals": 0,
+      "baseFare": 500,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 200,
+          "fare": 180
+        }
+      ],
+      "timeUnitSec": 60,
+      "timeFare": 180,
+      "slowSpeedKmh": 10,
+      "surcharges": [],
+      "note": "산티아고 택시 바시코 요율 (2024년) 근사치. 200m 또는 60초당 $180."
+    },
+    {
+      "id": "AU-SYDNEY",
+      "country": "AU",
+      "region": "시드니",
+      "regionEn": "SYDNEY",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "radiusKm": 50,
+      "currency": "AUD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.6,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 43.67,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 6.35,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 26,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 22,
+          "endHour": 6,
+          "percent": 20
+        },
+        {
+          "name": "PEAK",
+          "startHour": 22,
+          "endHour": 6,
+          "days": [
+            5,
+            6
+          ],
+          "flat": 2.5
+        }
+      ],
+      "note": "NSW 도시 택시 요율 (2023년 7월). 금·토 야간 추가 $2.50."
+    },
+    {
+      "id": "AU-MELBOURNE",
+      "country": "AU",
+      "region": "멜버른",
+      "regionEn": "MELBOURNE",
+      "lat": -37.8136,
+      "lng": 144.9631,
+      "radiusKm": 50,
+      "currency": "AUD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 4.8,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 46.3,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 8.89,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 21,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 17,
+          "endHour": 9,
+          "percent": 10
+        },
+        {
+          "name": "LATE",
+          "startHour": 0,
+          "endHour": 5,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 20
+        }
+      ],
+      "note": "빅토리아주 도시 택시 최고 요율 (2023년) 근사치."
+    },
+    {
+      "id": "NZ-AUCKLAND",
+      "country": "NZ",
+      "region": "오클랜드",
+      "regionEn": "AUCKLAND",
+      "lat": -36.8509,
+      "lng": 174.7645,
+      "radiusKm": 45,
+      "currency": "NZD",
+      "symbol": "$",
+      "decimals": 2,
+      "baseFare": 3.5,
+      "baseDistanceM": 0,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 29.41,
+          "fare": 0.1
+        }
+      ],
+      "timeUnitSec": 6,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 15,
+      "surcharges": [],
+      "note": "Auckland Co-op Taxis 일반 요율 (2024년) 근사치."
+    }
+  ]
+}
