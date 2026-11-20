@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "updated": "2026-11-20",
   "countries": [
     {
@@ -309,28 +309,33 @@
       ],
       "timeUnitSec": 30,
       "timeFare": 100,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 15.72,
       "surcharges": [
         {
           "name": "심야",
           "startHour": 22,
           "endHour": 23,
-          "percent": 20
+          "percent": 20,
+          "baseFare": 5800
         },
         {
           "name": "심야",
           "startHour": 23,
           "endHour": 2,
-          "percent": 40
+          "percent": 40,
+          "baseFare": 6700
         },
         {
           "name": "심야",
           "startHour": 2,
           "endHour": 4,
-          "percent": 20
+          "percent": 20,
+          "baseFare": 5800
         }
       ],
-      "note": "서울시 중형택시 요금 (2023년 2월 개정). 시계외 할증 20%는 미반영."
+      "note": "서울시 중형택시 요금 (2023년 2월 1일 시행). 심야 기본요금 5,800원·6,700원. 시계외 할증 20%는 미반영.",
+      "source": "https://news.seoul.go.kr/traffic/archives/1659",
+      "verified": "2026-11-20"
     },
     {
       "id": "KR-BUSAN",
@@ -358,13 +363,13 @@
       "surcharges": [
         {
           "name": "심야",
-          "startHour": 22,
-          "endHour": 23,
+          "startHour": 23,
+          "endHour": 24,
           "percent": 20
         },
         {
           "name": "심야",
-          "startHour": 23,
+          "startHour": 0,
           "endHour": 2,
           "percent": 30
         },
@@ -375,7 +380,9 @@
           "percent": 20
         }
       ],
-      "note": "부산시 중형택시 요금 (2023년 개정)."
+      "note": "부산시 중형택시 요금 (2023년 6월 1일 시행). 시계외 할증 30%는 미반영.",
+      "source": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
+      "verified": "2026-11-20"
     },
     {
       "id": "KR-INCHEON",
@@ -397,7 +404,7 @@
           "fare": 100
         }
       ],
-      "timeUnitSec": 32,
+      "timeUnitSec": 33,
       "timeFare": 100,
       "slowSpeedKmh": 15,
       "surcharges": [
@@ -420,7 +427,9 @@
           "percent": 20
         }
       ],
-      "note": "인천시 중형택시 요금 (2023년 7월 개정)."
+      "note": "인천시 중형택시 요금 (2023년 7월 1일 시행). 시계외 할증 30%는 미반영.",
+      "source": "https://www.incheon.go.kr/traffic/TR010201",
+      "verified": "2026-11-20"
     },
     {
       "id": "KR-DAEGU",
@@ -433,27 +442,41 @@
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
-      "baseFare": 4000,
+      "baseFare": 4500,
       "baseDistanceM": 1700,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 127,
+          "unitM": 125,
           "fare": 100
         }
       ],
-      "timeUnitSec": 30,
+      "timeUnitSec": 31,
       "timeFare": 100,
       "slowSpeedKmh": 15,
       "surcharges": [
         {
           "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
           "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
           "endHour": 4,
           "percent": 20
         }
       ],
-      "note": "대구시 중형택시 요금 (2023년 1월 개정)."
+      "note": "대구시 중형택시 요금 (2025년 2월 22일 시행). 시계외 할증 35%는 미반영. 2027년 초 인상이 검토되고 있음.",
+      "source": "https://www.daegu.go.kr/tra/?menu_id=00000647",
+      "verified": "2026-11-20"
     },
     {
       "id": "KR-GWANGJU",
@@ -466,27 +489,41 @@
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
-      "baseFare": 4300,
-      "baseDistanceM": 2000,
+      "baseFare": 4800,
+      "baseDistanceM": 1700,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 127,
+          "unitM": 132,
           "fare": 100
         }
       ],
-      "timeUnitSec": 30,
+      "timeUnitSec": 32,
       "timeFare": 100,
       "slowSpeedKmh": 15,
       "surcharges": [
         {
           "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
           "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
           "endHour": 4,
           "percent": 20
         }
       ],
-      "note": "광주시 중형택시 요금 (2023년 개정)."
+      "note": "광주 중형택시 요금 (2025년 10월 22일 시행). 시계외 할증 35~40%는 미반영. 시청 고시 원문이 아닌 언론 보도 3건으로 확인.",
+      "source": "https://www.mt.co.kr/policy/2025/10/13/2025101313451027607",
+      "verified": "2026-11-20"
     },
     {
       "id": "KR-DAEJEON",
@@ -499,27 +536,41 @@
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
-      "baseFare": 4300,
-      "baseDistanceM": 1700,
+      "baseFare": 4800,
+      "baseDistanceM": 1650,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 126,
+          "unitM": 125,
           "fare": 100
         }
       ],
-      "timeUnitSec": 30,
+      "timeUnitSec": 29,
       "timeFare": 100,
       "slowSpeedKmh": 15,
       "surcharges": [
         {
           "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
           "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
           "endHour": 4,
           "percent": 20
         }
       ],
-      "note": "대전시 중형택시 요금 (2023년 개정)."
+      "note": "대전시 중형택시 요금 (2026년 11월 1일 시행, 할증은 2026년 3월 16일 시행). 시계외 할증 30%는 미반영. 시청 고시 원문이 아닌 언론 보도 5건으로 확인.",
+      "source": "https://www.mt.co.kr/policy/2026/10/26/2026102610445369029",
+      "verified": "2026-11-20"
     },
     {
       "id": "KR-JEJU",
@@ -536,23 +587,30 @@
       "baseDistanceM": 2000,
       "distanceTiers": [
         {
-          "uptoM": null,
-          "unitM": 135,
+          "uptoM": 20000,
+          "unitM": 126,
           "fare": 100
+        },
+        {
+          "uptoM": null,
+          "unitM": 126,
+          "fare": 120
         }
       ],
-      "timeUnitSec": 32,
+      "timeUnitSec": 31,
       "timeFare": 100,
       "slowSpeedKmh": 15,
       "surcharges": [
         {
           "name": "심야",
-          "startHour": 0,
+          "startHour": 23,
           "endHour": 4,
           "percent": 20
         }
       ],
-      "note": "제주도 중형택시 요금 (2023년 개정)."
+      "note": "제주도 중형택시 요금 (2024년 7월 1일 시행). 20km 이상은 126m당 120원.",
+      "source": "https://jeju.go.kr/traffic/bus/taxifee.htm",
+      "verified": "2026-11-20"
     },
     {
       "id": "JP-TOKYO",
