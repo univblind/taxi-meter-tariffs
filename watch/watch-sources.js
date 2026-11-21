@@ -127,6 +127,135 @@ async function fetchSource(url) {
   }
 }
 
+// ───────────────────────── 뉴스 감시 ─────────────────────────
+
+/** 나라별 뉴스 검색 언어와 "택시 요금 변경" 검색어, 제목에서 확인할 낱말 */
+const NEWS_LANG = {
+  KR: ['ko', 'KR', '택시 요금 인상', /택시/, /요금|기본요금|할증/],
+  JP: ['ja', 'JP', 'タクシー 運賃 改定', /タクシー/, /運賃|料金|値上げ/],
+  CN: ['zh-CN', 'CN', '出租车 运价 调整', /出租车|的士/, /运价|价格|起步价|调价|涨价/],
+  TW: ['zh-TW', 'TW', '計程車 費率 調漲', /計程車|小黃/, /費率|運價|漲|起跳/],
+  HK: ['zh-HK', 'HK', '的士 加價', /的士/, /加價|收費|車資/],
+  DE: ['de', 'DE', 'Taxitarif Erhöhung', /taxi/i, /tarif|preis|teurer|erhöh/i],
+  AT: ['de', 'AT', 'Taxitarif Erhöhung', /taxi/i, /tarif|preis|teurer|erhöh/i],
+  CH: ['de', 'CH', 'Taxitarif', /taxi/i, /tarif|preis|teurer|erhöh/i],
+  FR: ['fr', 'FR', 'tarif taxi hausse', /taxi/i, /tarif|prix|hausse|augment/i],
+  BE: ['fr', 'BE', 'tarif taxi', /taxi/i, /tarif|prix|hausse|augment/i],
+  IT: ['it', 'IT', 'tariffe taxi aumento', /taxi/i, /tariff|prezz|aument|rincar/i],
+  ES: ['es', 'ES', 'tarifa taxi subida', /taxi/i, /tarifa|precio|subida|sube|aument/i],
+  MX: ['es-419', 'MX', 'tarifa taxi aumento', /taxi/i, /tarifa|precio|aument|sube/i],
+  AR: ['es-419', 'AR', 'tarifa taxi aumento', /taxi/i, /tarifa|bajada de bandera|aument|ficha/i],
+  CL: ['es-419', 'CL', 'tarifa taxi alza', /taxi/i, /tarifa|bajada de bandera|alza|aument/i],
+  BR: ['pt-BR', 'BR', 'tarifa táxi reajuste', /t[áa]xi/i, /tarifa|bandeira|reajuste|aument/i],
+  PT: ['pt-PT', 'PT', 'tarifa táxi aumento', /t[áa]xi/i, /tarifa|preço|aument/i],
+  NL: ['nl', 'NL', 'taxitarief verhoging', /taxi/i, /tarie|prijs|duurder|verhog/i],
+  PL: ['pl', 'PL', 'ceny taxi podwyżka', /taks|taxi/i, /cen|stawk|podwyż|opłat/i],
+  CZ: ['cs', 'CZ', 'ceny taxi zdražení', /taxi/i, /cen|tarif|zdraž/i],
+  HU: ['hu', 'HU', 'taxi tarifa emelés', /taxi/i, /tarifa|ár|emel|drágul/i],
+  TR: ['tr', 'TR', 'taksi ücreti zam', /taksi/i, /ücret|zam|tarife|indi-bindi|açılış/i],
+  RU: ['ru', 'RU', 'тариф такси повышение', /такси/i, /тариф|цен|подорож|повыш/i],
+  SE: ['sv', 'SE', 'taxi taxa höjning', /taxi/i, /taxa|pris|höj|dyrare/i],
+  NO: ['no', 'NO', 'taxi takst økning', /taxi|drosje/i, /takst|pris|øk|dyrere/i],
+  DK: ['da', 'DK', 'taxa takst stigning', /taxa|taxi/i, /takst|pris|stig|dyrere/i],
+  FI: ['fi', 'FI', 'taksi hinta korotus', /taksi/i, /hinta|hinna|koro|kallis/i],
+  GR: ['el', 'GR', 'ταξί τιμολόγιο αύξηση', /ταξί/i, /τιμ|αύξησ|κόμιστρ/i],
+  IL: ['he', 'IL', 'מונית תעריף', /מונית|מוניות/, /תעריף|מחיר|התייקר|עלי/],
+  TH: ['th', 'TH', 'ค่าแท็กซี่ ขึ้นราคา', /แท็กซี่/, /ค่า|ราคา|ขึ้น/],
+  VN: ['vi', 'VN', 'giá cước taxi tăng', /taxi/i, /giá|cước|tăng/i],
+  ID: ['id', 'ID', 'tarif taksi naik', /taksi|taxi/i, /tarif|harga|naik/i],
+  AE: ['en', 'AE', 'taxi fare', /taxi/i, /fare|tariff|price|rate/i],
+  SA: ['ar', 'SA', 'تسعيرة سيارات الأجرة', /أجرة|تاكسي/, /تسعير|أسعار|رفع|زياد/],
+  QA: ['en', 'QA', 'Karwa taxi fare', /taxi|karwa/i, /fare|tariff|price|rate/i],
+  EG: ['ar', 'EG', 'تعريفة التاكسي', /تاكسي|أجرة/, /تعريف|أسعار|زياد|رفع/],
+};
+const NEWS_DEFAULT = ['en', 'US', 'taxi fare increase', /taxi|cab/i, /fare|rate|tariff|price|meter/i];
+const NEWS_DAYS = 10; // 최근 이만큼 안의 기사만
+const NEWS_CONCURRENCY = 3;
+
+/** 검색에 쓸 도시 이름: 한국은 한글, 한자를 쓰는 나라는 구역 이름 중 한자, 그 밖에는 영문 */
+function newsPlace(t) {
+  const strip = (s) => s.replace(/\s*\([^)]*\)/g, '').replace(/\s*외\s*\d+곳$/, '').split(/[·,]/)[0].trim();
+  if (t.country === 'KR') return strip(t.region);
+  if (t.match && t.match.country) {
+    // 전국 요금: 여러 나라가 함께 쓰는 언어(영어·아랍어·포르투갈어 등)의 뉴스는 다른 나라 기사가 섞이므로
+    // 나라 이름이 제목에 있어야 한다. 그 나라만 쓰는 언어(네덜란드어·그리스어 등)는 언어가 이미 범위를 좁힌다
+    const lang = (NEWS_LANG[t.country] || NEWS_DEFAULT)[0].split('-')[0];
+    const SHORT = { SA: 'السعودية', QA: 'Qatar' };
+    if (!['en', 'ar', 'pt', 'es', 'fr', 'de', 'zh'].includes(lang)) return '';
+    return SHORT[t.country] || new Intl.DisplayNames([lang], { type: 'region' }).of(t.country);
+  }
+  const names = [...((t.match && t.match.cities) || []), ...((t.match && t.match.regions) || [])];
+  if (['JP', 'CN', 'TW', 'HK'].includes(t.country)) {
+    const cjk = names.find((n) => /[぀-ヿ一-鿿]/.test(n));
+    if (cjk) return cjk.replace(/(都|府|県|市|区|省)$/, '');
+  }
+  return t.regionEn.toLowerCase().replace(/(^|[\s-])\p{L}/gu, (m) => m.toUpperCase()).split(/[(/]/)[0].trim();
+}
+
+function parseRss(xml) {
+  const items = [];
+  for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+    const get = (tag) => {
+      const r = m[1].match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
+      return r ? r[1].replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").trim() : '';
+    };
+    items.push({ title: get('title'), link: get('link'), date: get('pubDate') });
+  }
+  return items;
+}
+
+async function watchNews(tariffs) {
+  // 같은 검색어는 한 번만 (전국 요금 나라, 같은 이름의 구역)
+  const queries = new Map();
+  for (const t of tariffs) {
+    const [hl, gl, words, taxiRe, fareRe] = NEWS_LANG[t.country] || [...NEWS_DEFAULT.slice(0, 1), t.country, ...NEWS_DEFAULT.slice(2)];
+    const place = newsPlace(t);
+    const q = place ? `"${place}" ${words}` : words;
+    const key = `${gl}|${q}`;
+    if (!queries.has(key)) queries.set(key, { ids: [], names: [], hl, gl, q, taxiRe, fareRe, place });
+    queries.get(key).ids.push(t.id);
+    queries.get(key).names.push(`${t.region} (${t.id})`);
+  }
+  const since = Date.now() - NEWS_DAYS * 86400000;
+  const items = [];
+  let failed = 0;
+  const list = [...queries.values()];
+  let next = 0;
+  async function worker() {
+    while (next < list.length) {
+      const job = list[next++];
+      const lang = job.hl.split('-')[0];
+      const url = `https://news.google.com/rss/search?q=${encodeURIComponent(job.q + ' when:' + NEWS_DAYS + 'd')}&hl=${job.hl}&gl=${job.gl}&ceid=${job.gl}:${lang}`;
+      try {
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+        const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: ctrl.signal });
+        clearTimeout(timer);
+        if (!res.ok) {
+          failed++;
+          continue;
+        }
+        for (const it of parseRss(await res.text())) {
+          const when = Date.parse(it.date);
+          if (!Number.isFinite(when) || when < since) continue;
+          // Google 뉴스 제목 끝의 " - 언론사" 를 뗀다 ("부산일보", "경기뉴스원" 이 도시 이름으로 잡히지 않게)
+          it.title = it.title.replace(/\s+-\s+[^-]+$/, '').trim();
+          // 제목에 택시와 요금 낱말이 모두 있고, 도시 이름이 있으면 그것도 있어야 한다
+          if (!job.taxiRe.test(it.title) || !job.fareRe.test(it.title)) continue;
+          if (job.place && !it.title.toLowerCase().includes(job.place.toLowerCase())) continue;
+          items.push({ id: job.ids[0], name: job.names.join(', '), title: it.title, link: it.link, date: new Date(when).toISOString().slice(0, 10), key: it.link || it.title });
+        }
+      } catch {
+        failed++;
+      }
+      await new Promise((r) => setTimeout(r, 700)); // 너무 빠르게 묻지 않는다
+    }
+  }
+  await Promise.all(Array.from({ length: NEWS_CONCURRENCY }, worker));
+  console.log(`뉴스 검색 ${list.length}건, 관련 기사 ${items.length}건, 실패 ${failed}건`);
+  return { items, failed };
+}
+
 async function main() {
   const tariffs = data.tariffs;
   const urls = [...new Set(tariffs.map((t) => t.source).filter((u) => typeof u === 'string' && /^https?:\/\//.test(u)))];
@@ -205,6 +334,11 @@ async function main() {
       }
     }
   }
+
+  // 6. 뉴스: 출처 페이지가 바뀌기 전에 "요금 인상" 발표를 잡는다 (Google 뉴스 RSS, 무료·키 없음)
+  const news = await watchNews(tariffs);
+  for (const n of news.items) findings.push(['뉴스: 요금 변경 보도', n.id, `${n.name}: ${n.title} (${n.date})\n  ${n.link}`, `news:${n.key}`]);
+  if (news.failed) notes.push(`뉴스 검색 ${news.failed}건을 읽지 못했습니다 (일시적인 접속 제한일 수 있음).`);
 
   // 이미 알린 것은 다시 알리지 않는다
   const fresh = findings.filter((f) => !state.alerted[f[3]]);
