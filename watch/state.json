@@ -17,7 +17,7 @@
   "KR-BUSAN": {
    "url": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
    "version": 6,
-   "fails": 1,
+   "fails": 2,
    "error": "ECONNRESET"
   },
   "KR-INCHEON": {
@@ -152,7 +152,7 @@
   "KR-GN-HAMAN": {
    "url": "https://www.idomin.com/news/articleView.html?idxno=2015711",
    "version": 6,
-   "fails": 1,
+   "fails": 2,
    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
   },
   "KR-GN-GOSEONG": {
@@ -164,7 +164,8 @@
     150,
     130
    ],
-   "fails": 0
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-GB-POHANG": {
    "url": "https://www.pohang.go.kr/portal/board/post/view.do?idx=1015665&bcIdx=100&mid=0201010000",
@@ -569,7 +570,8 @@
     100,
     130
    ],
-   "fails": 0
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-SUNCHEON": {
    "url": "https://gwangyang.go.kr/kor/board.es?mid=a11007000000&bid=0057&list_no=156497&act=view",
@@ -591,7 +593,8 @@
     100,
     130
    ],
-   "fails": 0
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-NAJU": {
    "url": "https://www.kpinews.kr/newsView/1065600293324231",
@@ -620,7 +623,8 @@
    "version": 6,
    "kind": "text",
    "numbers": [],
-   "fails": 0
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-YEONGGWANG": {
    "url": "https://kpinews.kr/newsView/1065588690650501",
@@ -653,7 +657,8 @@
     160,
     130
    ],
-   "fails": 0
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-JANGHEUNG": {
    "url": "https://www.jangheung.go.kr/www/organization/news/notification?print=true&idx=23076&v_cnt=1246&search_type=title&page=7&mode=view",
@@ -713,7 +718,8 @@
    "numbers": [
     5000
    ],
-   "fails": 0
+   "fails": 1,
+   "error": "HTTP 403"
   },
   "JP-TOKYO": {
    "url": "https://wwwtb.mlit.go.jp/kanto/content/000369955.pdf",
@@ -767,7 +773,7 @@
   "CN-SHENZHEN": {
    "url": "https://www.sz.gov.cn/ztfw/jtly/wyc_184756/ggjtcx/czccx/content/post_4888409.html",
    "version": 6,
-   "fails": 1,
+   "fails": 2,
    "error": "ECONNRESET"
   },
   "HK-HONGKONG": {
@@ -952,12 +958,13 @@
    "version": 6,
    "kind": "text",
    "numbers": [],
-   "fails": 0
+   "fails": 1,
+   "error": "HTTP 403"
   },
   "GB-MANCHESTER": {
    "url": "https://www.manchester.gov.uk/taxis-and-private-hire/taxi-and-private-hire-passenger-information/taxi-fares-and-charges/public-taxi-fares-and-charges",
    "version": 6,
-   "fails": 1,
+   "fails": 2,
    "error": "HTTP 403"
   },
   "IE-DUBLIN": {
@@ -988,7 +995,8 @@
    "version": 6,
    "kind": "file",
    "hash": "4f9c53b775c2fc0b",
-   "fails": 0
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
   },
   "DE-BERLIN": {
    "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g22520606.pdf",
@@ -1158,8 +1166,13 @@
   "PL-WARSAW": {
    "url": "https://warszawa19115.pl/-/op%C5%82aty-za-przejazd-taks%C3%B3wk%C4%85",
    "version": 6,
-   "fails": 1,
-   "error": "UND_ERR_CONNECT_TIMEOUT"
+   "kind": "text",
+   "numbers": [
+    10,
+    5,
+    50
+   ],
+   "fails": 0
   },
   "CZ-PRAGUE": {
    "url": "https://mf.gov.cz/assets/attachments/2026-10-20_Cenovy-vestnik-106-2026.pdf",
@@ -1181,8 +1194,8 @@
   "RU-MOSCOW": {
    "url": "https://taxi.yandex.ru/moscow/tariff",
    "version": 6,
-   "fails": 1,
-   "error": "ETIMEDOUT"
+   "fails": 2,
+   "error": "HTTP 403"
   },
   "US-NYC": {
    "url": "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page",
@@ -1205,7 +1218,7 @@
   "US-CHICAGO": {
    "url": "https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/ridesmartchicago/chicagotaxiplacard2026.pdf",
    "version": 6,
-   "fails": 1,
+   "fails": 2,
    "error": "HTTP 403"
   },
   "US-SF": {
@@ -1355,6 +1368,7 @@
  },
  "alerted": {
   "soon:KR-GN-GOSEONG:2026-12-01": "2026-11-21",
+  "gone:ZA-JOBURG:15": "2026-11-21",
   "unverified:ZA-JOBURG": "2026-11-21",
   "unverified:RU-MOSCOW": "2026-11-21",
   "unverified:CL-SANTIAGO": "2026-11-21"
