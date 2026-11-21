@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 2,
-  "updated": "2026-11-20",
+  "version": 3,
+  "updated": "2026-11-21",
   "countries": [
     {
       "code": "KR",
@@ -335,7 +335,9 @@
       ],
       "note": "서울시 중형택시 요금 (2023년 2월 1일 시행). 심야 기본요금 5,800원·6,700원. 시계외 할증 20%는 미반영.",
       "source": "https://news.seoul.go.kr/traffic/archives/1659",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2023-02-01",
+      "confidence": "high"
     },
     {
       "id": "KR-BUSAN",
@@ -382,7 +384,9 @@
       ],
       "note": "부산시 중형택시 요금 (2023년 6월 1일 시행). 시계외 할증 30%는 미반영.",
       "source": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2023-06-01",
+      "confidence": "medium"
     },
     {
       "id": "KR-INCHEON",
@@ -429,7 +433,9 @@
       ],
       "note": "인천시 중형택시 요금 (2023년 7월 1일 시행). 시계외 할증 30%는 미반영.",
       "source": "https://www.incheon.go.kr/traffic/TR010201",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2023-07-01",
+      "confidence": "high"
     },
     {
       "id": "KR-DAEGU",
@@ -476,7 +482,9 @@
       ],
       "note": "대구시 중형택시 요금 (2025년 2월 22일 시행). 시계외 할증 35%는 미반영. 2027년 초 인상이 검토되고 있음.",
       "source": "https://www.daegu.go.kr/tra/?menu_id=00000647",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2025-02-22",
+      "confidence": "high"
     },
     {
       "id": "KR-GWANGJU",
@@ -523,7 +531,9 @@
       ],
       "note": "광주 중형택시 요금 (2025년 10월 22일 시행). 시계외 할증 35~40%는 미반영. 시청 고시 원문이 아닌 언론 보도 3건으로 확인.",
       "source": "https://www.mt.co.kr/policy/2025/10/13/2025101313451027607",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2025-10-22",
+      "confidence": "medium"
     },
     {
       "id": "KR-DAEJEON",
@@ -570,7 +580,9 @@
       ],
       "note": "대전시 중형택시 요금 (2026년 11월 1일 시행, 할증은 2026년 3월 16일 시행). 시계외 할증 30%는 미반영. 시청 고시 원문이 아닌 언론 보도 5건으로 확인.",
       "source": "https://www.mt.co.kr/policy/2026/10/26/2026102610445369029",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2026-11-01",
+      "confidence": "medium"
     },
     {
       "id": "KR-JEJU",
@@ -610,7 +622,9 @@
       ],
       "note": "제주도 중형택시 요금 (2024년 7월 1일 시행). 20km 이상은 126m당 120원.",
       "source": "https://jeju.go.kr/traffic/bus/taxifee.htm",
-      "verified": "2026-11-20"
+      "verified": "2026-11-20",
+      "effective": "2024-07-01",
+      "confidence": "high"
     },
     {
       "id": "JP-TOKYO",
@@ -624,15 +638,15 @@
       "symbol": "¥",
       "decimals": 0,
       "baseFare": 500,
-      "baseDistanceM": 1096,
+      "baseDistanceM": 1000,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 255,
+          "unitM": 232,
           "fare": 100
         }
       ],
-      "timeUnitSec": 95,
+      "timeUnitSec": 85,
       "timeFare": 100,
       "slowSpeedKmh": 10,
       "surcharges": [
@@ -643,7 +657,11 @@
           "percent": 20
         }
       ],
-      "note": "도쿄 23구·무사시노·미타카 일반 택시 (2022년 11월 개정)."
+      "note": "도쿄 23구·무사시노·미타카(特別区・武三地区) 일반 택시(보통차) 상한운임으로, 2026년 4월 20일 개정(인상률 10.14%)분입니다. 호출료(迎車料金), 고속도로 통행료, 9,000엔 초과분 장거리 할인은 반영하지 않았습니다.",
+      "source": "https://wwwtb.mlit.go.jp/kanto/content/000369955.pdf",
+      "effective": "2026-04-20",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "JP-OSAKA",
@@ -657,15 +675,15 @@
       "symbol": "¥",
       "decimals": 0,
       "baseFare": 600,
-      "baseDistanceM": 1300,
+      "baseDistanceM": 1200,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 260,
+          "unitM": 231,
           "fare": 100
         }
       ],
-      "timeUnitSec": 95,
+      "timeUnitSec": 85,
       "timeFare": 100,
       "slowSpeedKmh": 10,
       "surcharges": [
@@ -676,7 +694,11 @@
           "percent": 20
         }
       ],
-      "note": "오사카 지역 일반 택시 (2023년 개정)."
+      "note": "오사카 지구(오사카부 전역, 오사카시역 교통권 포함) 일반 택시(보통차) 상한운임으로, 2025년 11월 5일 개정(인상률 10.88%)분입니다. 호출료, 고속도로 통행료, 회사별 장거리 할인은 반영하지 않았습니다.",
+      "source": "https://wwwtb.mlit.go.jp/kinki/content/000359487.pdf",
+      "effective": "2025-11-05",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "JP-NAGOYA",
@@ -690,16 +712,16 @@
       "symbol": "¥",
       "decimals": 0,
       "baseFare": 500,
-      "baseDistanceM": 1011,
+      "baseDistanceM": 910,
       "distanceTiers": [
         {
           "uptoM": null,
           "unitM": 232,
-          "fare": 90
+          "fare": 100
         }
       ],
       "timeUnitSec": 85,
-      "timeFare": 90,
+      "timeFare": 100,
       "slowSpeedKmh": 10,
       "surcharges": [
         {
@@ -709,7 +731,11 @@
           "percent": 20
         }
       ],
-      "note": "나고야 지역 일반 택시 (2023년 개정)."
+      "note": "나고야 지구(나고야시 및 주변 12시 4정 1촌) 일반 택시(보통차) 상한운임(A운임)으로, 2025년 10월 14일 개정(인상률 10.54%)분입니다. 호출료, 고속도로 통행료, 회사별 할인은 반영하지 않았습니다.",
+      "source": "https://wwwtb.mlit.go.jp/chubu/press/pdf/jikou2025091101.pdf",
+      "effective": "2025-10-14",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "JP-FUKUOKA",
@@ -722,16 +748,16 @@
       "currency": "JPY",
       "symbol": "¥",
       "decimals": 0,
-      "baseFare": 670,
-      "baseDistanceM": 1400,
+      "baseFare": 600,
+      "baseDistanceM": 1100,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 228,
+          "unitM": 287,
           "fare": 100
         }
       ],
-      "timeUnitSec": 90,
+      "timeUnitSec": 105,
       "timeFare": 100,
       "slowSpeedKmh": 10,
       "surcharges": [
@@ -742,7 +768,11 @@
           "percent": 20
         }
       ],
-      "note": "후쿠오카 지역 일반 택시 (2024년 개정)."
+      "note": "후쿠오카 시역 블록(후쿠오카시·가스가·오노조·지쿠시노·다자이후·고가·이토시마·나카가와·가스야군) 일반 택시(보통차) 상한운임으로, 2026년 7월 1일 개정(인상률 10.62%)분입니다. 호출료, 고속도로 통행료, 회사별 할인은 반영하지 않았습니다.",
+      "source": "https://wwwtb.mlit.go.jp/kyushu/content/000374925.pdf",
+      "effective": "2026-07-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "CN-BEIJING",
@@ -769,12 +799,12 @@
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 300,
-      "timeFare": 2.3,
+      "timeUnitSec": 13.04,
+      "timeFare": 0.1,
       "slowSpeedKmh": 12,
       "extras": [
         {
-          "name": "연료 추가금",
+          "name": "유류할증료",
           "amount": 1
         }
       ],
@@ -783,10 +813,15 @@
           "name": "夜间",
           "startHour": 23,
           "endHour": 5,
-          "percent": 20
+          "percent": 20,
+          "baseFare": 13
         }
       ],
-      "note": "베이징 일반 택시. 15km 초과 시 50% 공차비 할증 포함."
+      "note": "베이징 일반 순항택시(巡游出租车) 요금: 기본 13위안(3km), 이후 km당 2.3위안, 15km 초과분은 공차 회송료로 50% 가산, 매 승차 유류할증료 1위안(2018-08-01부터). 출퇴근 시간 저속요금 2배, 예약 호출료(5~6위안), 통행료는 반영하지 못했습니다.",
+      "source": "https://zdzqgw.beijing.gov.cn/zqfw/bjsdgjjc/bjsdgjjcjb/202410/t20241012_3917838.html",
+      "effective": "2018-08-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "CN-SHANGHAI",
@@ -799,7 +834,7 @@
       "currency": "CNY",
       "symbol": "¥",
       "decimals": 1,
-      "baseFare": 14,
+      "baseFare": 16,
       "baseDistanceM": 3000,
       "distanceTiers": [
         {
@@ -813,19 +848,22 @@
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 240,
-      "timeFare": 2.7,
+      "timeUnitSec": 5.93,
+      "timeFare": 0.1,
       "slowSpeedKmh": 12,
       "surcharges": [
         {
           "name": "夜间",
           "startHour": 23,
           "endHour": 5,
-          "percent": 33,
-          "baseFare": 18
+          "percent": 30
         }
       ],
-      "note": "상하이 일반 택시 (2020년 11월 개정). 야간 기본요금 18위안·km당 3.6위안."
+      "note": "상하이 시내 순항택시 요금(2022-01-15 시행): 기본 16위안(3km, 투란·룽웨이 Ei5 전기차 기준. 구형 일반 차량은 14위안), 이후 km당 2.7위안, 15km 초과분 50% 가산, 야간(23~5시) 30% 할증. 춘절(10위안)·노동절·국경절(5위안) 연휴 부가금과 회사별 ±5% 변동 운임은 반영하지 못했습니다.",
+      "source": "https://fgw.sh.gov.cn/wx_ggjt/20200727/e80ea0d667da4fb0afc95c30e173865f.html",
+      "effective": "2022-01-15",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "CN-GUANGZHOU",
@@ -847,23 +885,45 @@
           "fare": 0.1
         },
         {
+          "uptoM": 25000,
+          "unitM": 32.05,
+          "fare": 0.1
+        },
+        {
           "uptoM": null,
           "unitM": 25.64,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 60,
-      "timeFare": 0.5,
+      "timeUnitSec": 8.18,
+      "timeFare": 0.1,
       "slowSpeedKmh": 10,
       "surcharges": [
+        {
+          "name": "高峰上浮",
+          "startHour": 7,
+          "endHour": 9,
+          "percent": 10
+        },
+        {
+          "name": "高峰上浮",
+          "startHour": 17,
+          "endHour": 19,
+          "percent": 10
+        },
         {
           "name": "夜间",
           "startHour": 23,
           "endHour": 5,
-          "percent": 20
+          "percent": 30,
+          "baseFare": 12
         }
       ],
-      "note": "광저우 일반 택시 (2019년 개정)."
+      "note": "광저우 순항택시 요금: 기본 12위안(3km), 이후 km당 2.6위안, 15~25km 구간 20%·25km 초과 50% 공차 회송료, 야간(23~5시) 30% 할증. 2026년 하반기(7~12월)는 전 회사가 출퇴근 시간(7~9시, 17~19시) 10% 인상을 적용 중이며, 낮 12~14시 10% 인하와 춘절 부가금(10위안)은 반영하지 못했습니다.",
+      "source": "https://www.gz.gov.cn/zwgk/sjfb/sjkd/content/post_10337021.html",
+      "effective": "2024-11-30",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "CN-SHENZHEN",
@@ -880,28 +940,37 @@
       "baseDistanceM": 2000,
       "distanceTiers": [
         {
-          "uptoM": 25000,
-          "unitM": 38.46,
+          "uptoM": 20000,
+          "unitM": 37.04,
+          "fare": 0.1
+        },
+        {
+          "uptoM": 35000,
+          "unitM": 28.49,
           "fare": 0.1
         },
         {
           "uptoM": null,
-          "unitM": 29.59,
+          "unitM": 23.15,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 60,
-      "timeFare": 0.8,
+      "timeUnitSec": 7.5,
+      "timeFare": 0.1,
       "slowSpeedKmh": 10,
       "surcharges": [
         {
           "name": "夜间",
           "startHour": 23,
           "endHour": 6,
-          "percent": 20
+          "percent": 30
         }
       ],
-      "note": "선전 일반 택시 (2021년 개정)."
+      "note": "선전 순항택시 요금(2021-08-20 시행): 기본 10위안(2km), 이후 km당 2.7위안, 20~35km 구간 30%·35km 이상 60% 공차 회송료, 야간(23~6시) 기본요금·거리요금 30% 할증, 대기료 분당 0.8위안. 공항·선전북역 야간 부가금, 춘절 부가금(10위안), 호출료는 반영하지 못했습니다.",
+      "source": "https://www.sz.gov.cn/ztfw/jtly/wyc_184756/ggjtcx/czccx/content/post_4888409.html",
+      "effective": "2021-08-20",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "HK-HONGKONG",
@@ -925,14 +994,18 @@
         {
           "uptoM": null,
           "unitM": 200,
-          "fare": 1.5
+          "fare": 1.4
         }
       ],
       "timeUnitSec": 60,
       "timeFare": 2.1,
-      "slowSpeedKmh": 6,
+      "slowSpeedKmh": 12,
       "surcharges": [],
-      "note": "홍콩 시내(빨간) 택시 (2024년 7월 개정). 요금 HK$102.5 이후 단위요금 HK$1.5."
+      "note": "홍콩 시구(빨간색) 택시 요금으로, 2024년 7월 14일 시행분입니다. 야간 할증은 없으며, 짐 1개당 6홍콩달러, 전화 예약 5홍콩달러, 동물 5홍콩달러, 터널 통행료(해저터널은 25+회차분 25홍콩달러)는 반영하지 않았습니다.",
+      "source": "https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/taxi/taxi_fare_of_hong_kong/index.html",
+      "effective": "2024-07-14",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "TW-TAIPEI",
@@ -959,13 +1032,17 @@
       "slowSpeedKmh": 5,
       "surcharges": [
         {
-          "name": "夜間",
+          "name": "夜間加成",
           "startHour": 23,
           "endHour": 6,
           "flat": 20
         }
       ],
-      "note": "타이베이·신베이 일반 택시 (2023년 개정). 야간 가산 NT$20."
+      "note": "타이베이·신베이(및 지룽) 공통 미터 택시 요금으로, 2023년 4월 1일 시행분입니다. 춘절 기간(2026년은 2월 11~22일)에는 1회당 30대만달러가 추가되지만 앱에서는 반영하지 못하며, 고속도로 통행료와 단수이·루이팡·우라이 지역 가산금도 반영하지 않았습니다.",
+      "source": "https://www.businesstoday.com.tw/article/category/183030/post/202609210033/",
+      "effective": "2023-04-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "TW-KAOHSIUNG",
@@ -979,7 +1056,7 @@
       "symbol": "NT$",
       "decimals": 0,
       "baseFare": 85,
-      "baseDistanceM": 1500,
+      "baseDistanceM": 1250,
       "distanceTiers": [
         {
           "uptoM": null,
@@ -987,18 +1064,22 @@
           "fare": 5
         }
       ],
-      "timeUnitSec": 60,
+      "timeUnitSec": 100,
       "timeFare": 5,
       "slowSpeedKmh": 5,
       "surcharges": [
         {
-          "name": "夜間",
+          "name": "夜間加成",
           "startHour": 23,
           "endHour": 6,
-          "flat": 20
+          "percent": 20
         }
       ],
-      "note": "가오슝 일반 택시 (2023년 개정)."
+      "note": "가오슝시 미터 택시 요금으로, 2022년 1월 27일 시행 이후 변동이 없습니다. 춘절 기간(2026년은 2월 13~22일)에는 1회당 50대만달러, 태풍·호우 휴무일에도 50대만달러, 가오슝 공항 국제선 승차 시 50대만달러가 추가되지만 앱에서는 반영하지 못합니다.",
+      "source": "https://www.nownews.com/news/6554804",
+      "effective": "2022-01-27",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "SG-SINGAPORE",
@@ -1011,23 +1092,23 @@
       "currency": "SGD",
       "symbol": "S$",
       "decimals": 2,
-      "baseFare": 4.4,
+      "baseFare": 4.6,
       "baseDistanceM": 1000,
       "distanceTiers": [
         {
           "uptoM": 10000,
           "unitM": 400,
-          "fare": 0.26
+          "fare": 0.27
         },
         {
           "uptoM": null,
           "unitM": 350,
-          "fare": 0.26
+          "fare": 0.27
         }
       ],
       "timeUnitSec": 45,
-      "timeFare": 0.26,
-      "slowSpeedKmh": 8,
+      "timeFare": 0.27,
+      "slowSpeedKmh": 32,
       "surcharges": [
         {
           "name": "PEAK",
@@ -1044,18 +1125,32 @@
         },
         {
           "name": "PEAK",
-          "startHour": 18,
+          "startHour": 10,
+          "endHour": 14,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 25
+        },
+        {
+          "name": "PEAK",
+          "startHour": 17,
           "endHour": 24,
           "percent": 25
         },
         {
-          "name": "MIDNIGHT",
+          "name": "LATE NIGHT",
           "startHour": 0,
           "endHour": 6,
           "percent": 50
         }
       ],
-      "note": "ComfortDelGro 일반 택시 (2022년 12월 개정) 기준."
+      "note": "컴포트델그로(최대 사업자) 일반 택시(도요타 프리우스·현대 아이오닉 하이브리드) 요금: 기본 4.60싱가포르달러(1km), 이후 400m(10km 초과 시 350m) 또는 대기 45초마다 0.27달러. 0.27달러는 유가 상승에 따른 임시 인상분(+0.01)이 포함된 값으로 2026-03-24부터 2027-02-28까지 적용됩니다. 도심·공항 등 장소 할증, ERP 통행료, 예약료는 반영하지 못했습니다.",
+      "source": "https://www.cdgtaxi.com.sg/fares/",
+      "effective": "2026-03-24",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "MY-KL",
@@ -1073,13 +1168,13 @@
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 115,
-          "fare": 0.1
+          "unitM": 200,
+          "fare": 0.25
         }
       ],
-      "timeUnitSec": 21,
-      "timeFare": 0.1,
-      "slowSpeedKmh": 8,
+      "timeUnitSec": 36,
+      "timeFare": 0.25,
+      "slowSpeedKmh": 20,
       "surcharges": [
         {
           "name": "MIDNIGHT",
@@ -1088,7 +1183,11 @@
           "percent": 50
         }
       ],
-      "note": "쿠알라룸푸르 버짓(빨강·흰색) 택시 공식 요율."
+      "note": "쿠알라룸푸르(클랑밸리) 일반 예산(bajet) 미터 택시 요금: 기본 3링깃(1km), 이후 200m 또는 36초마다 25센, 자정~6시 50% 할증(2015년 3월 개정 요금). 2026년 7월 출범한 '택시 마다니'(빨간색 프로톤 S70, 번호판 GET) 차량은 기본 4링깃, 200m·36초마다 35센의 별도 요금을 씁니다. 전화 예약료, 짐·추가 승객 요금, 통행료는 반영하지 못했습니다.",
+      "source": "https://www.thestar.com.my/news/nation/2015/03/20/public-transport-to-cost-more-fares-increased-for-taxi-train-and-express-bus-services",
+      "effective": "2015-03",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "TH-BANGKOK",
@@ -1139,7 +1238,11 @@
       "timeFare": 1,
       "slowSpeedKmh": 6,
       "surcharges": [],
-      "note": "방콕 미터 택시 (2022년 1월 개정). 저속(6km/h 이하) 분당 3바트."
+      "note": "방콕 택시미터 요금(2023-01-13 시행, 일반 소형 택시 기준): 기본 35바트(1km, 대형 택시는 40바트), 이후 km당 6.5~10.5바트(거리 구간별), 시속 6km 이하에서는 분당 3바트. 공항 승차장 요금(50바트), 호출료(20바트), 고속도로 통행료는 반영하지 못했습니다.",
+      "source": "https://www.itax.in.th/media/%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%97%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B8%B5%E0%B9%88/",
+      "effective": "2023-01-13",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "VN-HCMC",
@@ -1153,25 +1256,28 @@
       "symbol": "₫",
       "symbolAfter": true,
       "decimals": 0,
-      "baseFare": 11000,
+      "baseFare": 16000,
       "baseDistanceM": 500,
       "distanceTiers": [
         {
-          "uptoM": 30000,
-          "unitM": 5.68,
+          "uptoM": 25000,
+          "unitM": 6.1,
           "fare": 100
         },
         {
           "uptoM": null,
-          "unitM": 6.9,
+          "unitM": 7.41,
           "fare": 100
         }
       ],
-      "timeUnitSec": 60,
-      "timeFare": 500,
-      "slowSpeedKmh": 5,
+      "timeUnitSec": 0,
+      "timeFare": 0,
+      "slowSpeedKmh": 0,
       "surcharges": [],
-      "note": "Vinasun 4인승 택시 요율 기준 (2023년)."
+      "note": "호찌민 최대 전통 택시 회사 Vinasun의 4인승(Toyota Vios) 요금: 기본 16,000동/500m, 25km까지 km당 16,400동, 26km부터 km당 13,500동(부가세 포함). 2026년 3월 약 11~12% 인상이 보도되었으며 통행료·공항 진입료·대기 요금은 반영하지 못했습니다.",
+      "source": "https://vinasun.vn/dich-vu-taxi",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "VN-HANOI",
@@ -1186,24 +1292,28 @@
       "symbolAfter": true,
       "decimals": 0,
       "baseFare": 20000,
-      "baseDistanceM": 1000,
+      "baseDistanceM": 1290,
       "distanceTiers": [
         {
-          "uptoM": 25000,
+          "uptoM": 20000,
           "unitM": 6.45,
           "fare": 100
         },
         {
           "uptoM": null,
-          "unitM": 7.69,
+          "unitM": 8,
           "fare": 100
         }
       ],
-      "timeUnitSec": 60,
-      "timeFare": 500,
-      "slowSpeedKmh": 5,
+      "timeUnitSec": 9,
+      "timeFare": 100,
+      "slowSpeedKmh": 2.58,
       "surcharges": [],
-      "note": "Mai Linh 4인승 택시 요율 기준 (2023년)."
+      "note": "하노이 G7 Taxi의 세단(Vios·Accent 등 승객 4인) 시내 요금: 기본 20,000동/1,290m, 20km까지 km당 15,500동, 21km부터 km당 12,500동, 대기 시간당 40,000동(부가세 포함, 2024년 8월 27일 시행). 소형차(i10·Morning)는 km당 14,000동으로 더 싸며, 통행료·주차비·공항 요금제는 반영하지 못했습니다.",
+      "source": "https://g7taxi.vn/bang-gia-cuoc-taxi-g7/",
+      "effective": "2024-08-27",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "ID-JAKARTA",
@@ -1216,21 +1326,34 @@
       "currency": "IDR",
       "symbol": "Rp",
       "decimals": 0,
-      "baseFare": 8500,
+      "baseFare": 9000,
       "baseDistanceM": 1000,
       "distanceTiers": [
         {
+          "uptoM": 10000,
+          "unitM": 16.67,
+          "fare": 100
+        },
+        {
+          "uptoM": 30000,
+          "unitM": 19.23,
+          "fare": 100
+        },
+        {
           "uptoM": null,
-          "unitM": 18.18,
+          "unitM": 20,
           "fare": 100
         }
       ],
-      "timeUnitSec": 6.55,
+      "timeUnitSec": 7.5,
       "timeFare": 100,
-      "slowSpeedKmh": 5,
-      "minFare": 40000,
+      "slowSpeedKmh": 8,
       "surcharges": [],
-      "note": "Blue Bird 일반 택시 요율 (2023년). 최소 요금 Rp 40,000."
+      "note": "자카르타(자보데타벡) Blue Bird 일반 택시 요금: 기본 9,000루피아, 10km 미만 km당 6,000, 10~30km km당 5,200, 30km 초과 km당 5,000루피아(2024년 1월 조정, 2026년에도 동일하게 보도됨). 최소 요금은 현재 금액을 확인하지 못해 넣지 않았고, 대기 요금(시간당 48,000루피아)과 기본요금 포함 거리(1km)는 공식 확인이 되지 않은 값이며 통행료는 별도입니다.",
+      "source": "https://www.bluebirdgroup.com/news/penyesuaian-tarif-taksi-bluebird-di-wilayah-jabodetabek?lang=en",
+      "effective": "2024-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "PH-MANILA",
@@ -1243,20 +1366,24 @@
       "currency": "PHP",
       "symbol": "₱",
       "decimals": 2,
-      "baseFare": 45,
-      "baseDistanceM": 500,
+      "baseFare": 65,
+      "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 300,
-          "fare": 4
+          "unitM": 74.07,
+          "fare": 1
         }
       ],
-      "timeUnitSec": 60,
-      "timeFare": 2,
-      "slowSpeedKmh": 5,
+      "timeUnitSec": 30,
+      "timeFare": 1,
+      "slowSpeedKmh": 8.89,
       "surcharges": [],
-      "note": "메트로 마닐라 일반 택시 LTFRB 요율 (2022년 10월 개정)."
+      "note": "메트로 마닐라 일반(흰색) 택시 LTFRB 요금: 기본요금 65페소(2026년 9월 28일부터 잠정 인상, 종전 50페소) + km당 13.50페소 + 주행 시간 1분당 2페소. 실제로는 거리와 시간 요금이 동시에 붙기 때문에 이 앱의 계산은 실제 미터기보다 낮게 나올 수 있으며, 공항 택시·통행료는 반영하지 못했습니다.",
+      "source": "https://www.sunstar.com.ph/manila/ltfrb-sets-new-puv-rates-effective-sept-28",
+      "effective": "2026-09-28",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "IN-MUMBAI",
@@ -1269,27 +1396,31 @@
       "currency": "INR",
       "symbol": "₹",
       "decimals": 0,
-      "baseFare": 28,
+      "baseFare": 33,
       "baseDistanceM": 1500,
       "distanceTiers": [
         {
           "uptoM": null,
           "unitM": 100,
-          "fare": 1.87
+          "fare": 2.19
         }
       ],
       "timeUnitSec": 60,
-      "timeFare": 1.72,
+      "timeFare": 2.19,
       "slowSpeedKmh": 6,
       "surcharges": [
         {
-          "name": "NIGHT",
+          "name": "MIDNIGHT",
           "startHour": 0,
           "endHour": 5,
           "percent": 25
         }
       ],
-      "note": "뭄바이 깔리-삘리 택시 (2022년 10월 개정)."
+      "note": "뭄바이 깔리-삘리(검정·노랑) 미터 택시 MMRTA 요금: 처음 1.5km 33루피, 이후 km당 21.90루피, 대기 1분당 2.19루피, 자정~오전 5시 25% 할증(2026년 9월 1일 시행). 에어컨 택시는 10% 더 비싸고, 큰 짐 1개당 6루피와 통행료는 반영하지 못했습니다.",
+      "source": "https://transport.maharashtra.gov.in/Site/Upload/GR/Metered_Taxi_Tariff_Card.pdf",
+      "effective": "2026-09-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "IN-DELHI",
@@ -1302,17 +1433,17 @@
       "currency": "INR",
       "symbol": "₹",
       "decimals": 0,
-      "baseFare": 25,
+      "baseFare": 40,
       "baseDistanceM": 1000,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 100,
-          "fare": 1.4
+          "unitM": 58.82,
+          "fare": 1
         }
       ],
       "timeUnitSec": 60,
-      "timeFare": 0.5,
+      "timeFare": 1,
       "slowSpeedKmh": 6,
       "surcharges": [
         {
@@ -1322,7 +1453,11 @@
           "percent": 25
         }
       ],
-      "note": "델리 경제형(블랙·옐로) 택시 공식 요율."
+      "note": "델리 검정·노랑(일반) 택시의 비에어컨 고시 요금: 처음 1km 40루피, 이후 km당 17루피, 대기 1분당 1루피, 밤 11시~오전 5시 25% 할증(2023년 1월 9일 델리 정부 고시). 에어컨 택시는 km당 20루피이며, 짐 1개당 15루피와 통행료는 반영하지 못했습니다.",
+      "source": "https://www.dnaindia.com/delhi/report-delhi-auto-taxi-fares-hiked-as-govt-notifies-new-rates-delhi-auto-new-fare-check-new-details-3016354",
+      "effective": "2023-01-09",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "AE-DUBAI",
@@ -1340,13 +1475,13 @@
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 120.77,
-          "fare": 0.25
+          "unitM": 204.08,
+          "fare": 0.5
         }
       ],
-      "timeUnitSec": 30,
-      "timeFare": 0.25,
-      "slowSpeedKmh": 10,
+      "timeUnitSec": 60,
+      "timeFare": 0.5,
+      "slowSpeedKmh": 12.24,
       "minFare": 12,
       "surcharges": [
         {
@@ -1356,7 +1491,10 @@
           "baseFare": 5.5
         }
       ],
-      "note": "두바이 RTA 일반 택시 (2024년). 최소 요금 AED 12."
+      "note": "두바이 RTA 일반 택시를 길에서 잡을 때의 요금입니다(기본 5디르함, 밤 10시~아침 6시 5.5디르함, km당 2.45디르함, 최소 12디르함). km당 요금은 연료 가격에 따라 수시로 조정되며, 살릭 통행료(게이트당 약 4~6디르함), 공항 출발 기본요금 20디르함, 앱 예약 요금(기본 9~13디르함, 최소 13디르함)은 반영하지 않았습니다.",
+      "source": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/taxi-fare",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "AE-ABUDHABI",
@@ -1374,13 +1512,13 @@
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 130.21,
-          "fare": 0.25
+          "unitM": 274.73,
+          "fare": 0.5
         }
       ],
-      "timeUnitSec": 30,
-      "timeFare": 0.25,
-      "slowSpeedKmh": 10,
+      "timeUnitSec": 60,
+      "timeFare": 0.5,
+      "slowSpeedKmh": 16.48,
       "minFare": 12,
       "surcharges": [
         {
@@ -1390,7 +1528,10 @@
           "baseFare": 5.5
         }
       ],
-      "note": "아부다비 ITC 일반 택시 요율. 최소 요금 AED 12."
+      "note": "아부다비 통합교통센터(ITC) 일반(실버) 택시 요금입니다(기본 5디르함, 밤 10시~아침 6시 5.5디르함, km당 1.82디르함, 대기 분당 0.5디르함, 최소 12디르함). 공항 출발 기본요금 20디르함, 전화·앱 예약비(낮 4·밤 5디르함), 다르브 통행료는 반영하지 않았습니다.",
+      "source": "https://admobility.gov.ae/en/taxi-fares",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "QA-DOHA",
@@ -1403,7 +1544,7 @@
       "currency": "QAR",
       "symbol": "QR",
       "decimals": 2,
-      "baseFare": 10,
+      "baseFare": 4,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
@@ -1412,18 +1553,24 @@
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 30,
-      "timeFare": 0.25,
-      "slowSpeedKmh": 10,
+      "timeUnitSec": 11.25,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 20,
       "surcharges": [
         {
           "name": "NIGHT",
-          "startHour": 21,
-          "endHour": 5,
-          "percent": 20
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 18.75,
+          "baseFare": 4
         }
       ],
-      "note": "Karwa(Mowasalat) 공식 택시 요율."
+      "note": "도하 카르와(모와살랏) 택시의 2018년 2월 1일 시행 요금입니다(기본 4리얄, 도하 시내 낮 km당 1.6리얄·밤 1.9리얄, 최소 10리얄). 하마드 공항 출발 기본요금 25리얄, 도하 밖 km당 1.9리얄, 전화 예약비 5리얄은 반영하지 않았습니다.",
+      "minFare": 10,
+      "source": "https://www.qatar-tribune.com/article/110438/NATION/Taxi-fares-revised-to-meet-operational-costs-Karwa/amp",
+      "effective": "2018-02-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "SA-RIYADH",
@@ -1436,20 +1583,49 @@
       "currency": "SAR",
       "symbol": "SR",
       "decimals": 2,
-      "baseFare": 10,
+      "baseFare": 6.4,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 55.56,
+          "unitM": 47.62,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 30,
-      "timeFare": 0.25,
-      "slowSpeedKmh": 10,
-      "surcharges": [],
-      "note": "리야드 공공 택시 교통청 요율 기준."
+      "timeUnitSec": 6.67,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 20,
+      "surcharges": [
+        {
+          "name": "NIGHT",
+          "startHour": 0,
+          "endHour": 6,
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "baseFare": 10
+        },
+        {
+          "name": "NIGHT",
+          "startHour": 2,
+          "endHour": 6,
+          "days": [
+            5,
+            6
+          ],
+          "baseFare": 10
+        }
+      ],
+      "note": "사우디 교통총국(TGA)이 정한 4인승 일반 택시 전국 공통 요금으로, 2022년 3월 인상분입니다(기본 6.4리얄, km당 2.1리얄, 시속 20km 미만일 때 분당 0.9리얄, 최소 10리얄, 심야 기본 10리얄). 5인승 이상 차량(기본 7.3리얄, km당 2.4리얄, 분당 1.1리얄)과 공항 택시 요금은 반영하지 않았습니다.",
+      "minFare": 10,
+      "source": "https://www.youm7.com/story/2022/3/13/%D8%B9%D9%83%D8%A7%D8%B8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A3%D8%AC%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-17-%D9%8810-%D8%B1%D9%8A%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89/5690177",
+      "effective": "2022-03",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "TR-ISTANBUL",
@@ -1462,21 +1638,25 @@
       "currency": "TRY",
       "symbol": "₺",
       "decimals": 2,
-      "baseFare": 42,
+      "baseFare": 71.94,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 35.71,
-          "fare": 1
+          "unitM": 100,
+          "fare": 4.792
         }
       ],
-      "timeUnitSec": 12.86,
-      "timeFare": 1,
-      "slowSpeedKmh": 10,
-      "minFare": 125,
+      "timeUnitSec": 28.8,
+      "timeFare": 4.792,
+      "slowSpeedKmh": 12.5,
+      "minFare": 230,
       "surcharges": [],
-      "note": "이스탄불 택시 요율 (2025년 1월 개정). 물가 변동으로 자주 바뀜."
+      "note": "이스탄불 노란 택시의 2026년 7월 20일 시행 요금입니다(기본 71.94리라, km당 47.92리라, 시간당 598.90리라, 짧은 거리 최소요금 230리라). 야간 할증은 없으며, 다리·터널·고속도로 통행료와 터키석색·검은색 고급 택시의 더 비싼 요금은 반영하지 않았습니다.",
+      "source": "https://www.haberturk.com/zamli-taksi-ucretleri-2026-yeni-taksi-acilis-ucreti-ve-kisa-mesafe-indi-bindi-ne-kadar-oldu-3899248",
+      "effective": "2026-07-20",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "IL-TELAVIV",
@@ -1489,27 +1669,103 @@
       "currency": "ILS",
       "symbol": "₪",
       "decimals": 2,
-      "baseFare": 13.5,
+      "baseFare": 12.46,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
+          "uptoM": 10000,
+          "unitM": 20.51,
+          "fare": 0.1
+        },
+        {
           "uptoM": null,
-          "unitM": 54.55,
-          "fare": 0.3
+          "unitM": 14.89,
+          "fare": 0.1
         }
       ],
-      "timeUnitSec": 20,
-      "timeFare": 0.3,
-      "slowSpeedKmh": 10,
+      "timeUnitSec": 2.46,
+      "timeFare": 0.1,
+      "slowSpeedKmh": 30,
       "surcharges": [
         {
-          "name": "TARIFF 2",
+          "name": "תעריף ב",
           "startHour": 21,
-          "endHour": 5.5,
-          "percent": 25
+          "endHour": 6,
+          "days": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "percent": 20,
+          "baseFare": 12.46
+        },
+        {
+          "name": "תעריף ב",
+          "startHour": 21,
+          "endHour": 23,
+          "days": [
+            4
+          ],
+          "percent": 20,
+          "baseFare": 12.46
+        },
+        {
+          "name": "תעריף ג",
+          "startHour": 23,
+          "endHour": 6,
+          "days": [
+            4
+          ],
+          "percent": 40,
+          "baseFare": 12.46
+        },
+        {
+          "name": "תעריף ב",
+          "startHour": 16,
+          "endHour": 21,
+          "days": [
+            5
+          ],
+          "percent": 20,
+          "baseFare": 12.46
+        },
+        {
+          "name": "תעריף ג",
+          "startHour": 21,
+          "endHour": 6,
+          "days": [
+            5
+          ],
+          "percent": 40,
+          "baseFare": 12.46
+        },
+        {
+          "name": "תעריף ב",
+          "startHour": 6,
+          "endHour": 19,
+          "days": [
+            6
+          ],
+          "percent": 20,
+          "baseFare": 12.46
+        },
+        {
+          "name": "תעריף ג",
+          "startHour": 19,
+          "endHour": 6,
+          "days": [
+            6
+          ],
+          "percent": 40,
+          "baseFare": 12.46
         }
       ],
-      "note": "이스라엘 교통부 택시 요율 (2024년) 근사치."
+      "note": "이스라엘 전국 공통(에일라트 제외) 일반 택시 미터 요금으로 2026년 4월 1일 시행, 부가세 18% 포함입니다(기본 12.46셰켈, 분당 1.95셰켈과 km당 1.95셰켈을 동시에 합산, 10km 넘으면 km당 3.79셰켈). 실제 미터는 시간과 거리를 함께 더하므로 이 앱에서는 근사값으로 계산되며, 호출비 5.78셰켈, 벤구리온 공항 추가금 5셰켈, 6번 도로 통행료 등은 반영하지 않았습니다.",
+      "source": "https://icab.co.il/wp-content/uploads/2026/05/taxi-rate-26.pdf",
+      "effective": "2026-04-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "EG-CAIRO",
@@ -1522,20 +1778,24 @@
       "currency": "EGP",
       "symbol": "E£",
       "decimals": 2,
-      "baseFare": 8,
-      "baseDistanceM": 0,
+      "baseFare": 15,
+      "baseDistanceM": 1000,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 45.45,
-          "fare": 0.1
+          "unitM": 125,
+          "fare": 0.5
         }
       ],
-      "timeUnitSec": 15,
-      "timeFare": 0.1,
+      "timeUnitSec": 56.25,
+      "timeFare": 0.5,
       "slowSpeedKmh": 8,
       "surcharges": [],
-      "note": "카이로 화이트 택시 공식 요율 (2023년 개정)."
+      "note": "카이로 흰색 미터 택시의 2026년 3월 10일 시행 요금입니다(기본 15파운드에 첫 1km 포함, 이후 km당 4파운드, 대기 첫 1시간 32파운드). 실제로는 미터를 켜지 않고 흥정하는 기사가 많아 실제 지불액은 다를 수 있습니다.",
+      "source": "https://www.youm7.com/story/2026/3/31/%E2%80%8B%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A9-%D8%B1%D9%83%D9%88%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%88%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A8%D9%80/7360111",
+      "effective": "2026-03-10",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "ZA-JOBURG",
@@ -1548,20 +1808,22 @@
       "currency": "ZAR",
       "symbol": "R",
       "decimals": 2,
-      "baseFare": 20,
+      "baseFare": 14,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 33.33,
-          "fare": 0.5
+          "unitM": 66.67,
+          "fare": 1
         }
       ],
-      "timeUnitSec": 12,
-      "timeFare": 0.5,
-      "slowSpeedKmh": 8,
+      "timeUnitSec": 15,
+      "timeFare": 1,
+      "slowSpeedKmh": 16,
       "surcharges": [],
-      "note": "요하네스버그 미터 택시 일반 요율 근사치."
+      "note": "요하네스버그에는 정부가 정한 단일 미터 요금이 없고 택시 회사마다 요금이 다릅니다. 이 값은 공개된 추정치(기본 약 14랜드, km당 약 15랜드)를 쓴 참고용이며, 타기 전에 기사와 요금을 확인하는 것이 좋습니다.",
+      "source": "https://www.numbeo.com/taxi-fare/in/Johannesburg",
+      "confidence": "low"
     },
     {
       "id": "GB-LONDON",
@@ -1574,26 +1836,26 @@
       "currency": "GBP",
       "symbol": "£",
       "decimals": 2,
-      "baseFare": 3.8,
-      "baseDistanceM": 191,
+      "baseFare": 4.4,
+      "baseDistanceM": 155.8,
       "distanceTiers": [
         {
-          "uptoM": 9656,
-          "unitM": 95,
+          "uptoM": 9581.7,
+          "unitM": 77.9,
           "fare": 0.2
         },
         {
           "uptoM": null,
-          "unitM": 75,
+          "unitM": 64.5,
           "fare": 0.2
         }
       ],
-      "timeUnitSec": 20.5,
+      "timeUnitSec": 16.8,
       "timeFare": 0.2,
-      "slowSpeedKmh": 16.7,
+      "slowSpeedKmh": 16.74,
       "surcharges": [
         {
-          "name": "TARIFF 2",
+          "name": "Tariff 2 (Mon-Fri 20-22)",
           "startHour": 20,
           "endHour": 22,
           "days": [
@@ -1603,26 +1865,33 @@
             4,
             5
           ],
-          "percent": 15
+          "percent": 20.8,
+          "baseFare": 4.4
         },
         {
-          "name": "TARIFF 2",
+          "name": "Tariff 2 (Sat-Sun 05-22)",
           "startHour": 5,
           "endHour": 22,
           "days": [
             0,
             6
           ],
-          "percent": 15
+          "percent": 20.8,
+          "baseFare": 4.4
         },
         {
-          "name": "TARIFF 3",
+          "name": "Tariff 3 (night 22-05)",
           "startHour": 22,
           "endHour": 5,
-          "percent": 30
+          "percent": 27.9,
+          "baseFare": 4.4
         }
       ],
-      "note": "런던 블랙캡 Tariff 1 (2024년 4월 개정) 기준. Tariff 2·3은 할증률로 근사."
+      "note": "런던 블랙캡(TfL 규제 택시) 요금, 2026년 4월 25일 시행. 최소요금 £4.40. 공휴일 종일 야간요율(Tariff 3), 히드로 승차 £1.60·공항 하차 최대 £6, 전화/앱 예약 최대 £2, 성탄·연말 £4 추가는 반영하지 않음.",
+      "source": "https://tfl.gov.uk/modes/taxis-and-minicabs/taxi-fares/tariffs",
+      "effective": "2026-04-25",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "GB-MANCHESTER",
@@ -1635,27 +1904,32 @@
       "currency": "GBP",
       "symbol": "£",
       "decimals": 2,
-      "baseFare": 3.2,
-      "baseDistanceM": 275,
+      "baseFare": 3.4,
+      "baseDistanceM": 348.44,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 155,
+          "unitM": 123,
           "fare": 0.2
         }
       ],
-      "timeUnitSec": 33,
+      "timeUnitSec": 31.57,
       "timeFare": 0.2,
-      "slowSpeedKmh": 16,
+      "slowSpeedKmh": 14.03,
       "surcharges": [
         {
-          "name": "TARIFF 2",
-          "startHour": 23,
+          "name": "NIGHT (Tariff 2)",
+          "startHour": 22,
           "endHour": 6,
-          "percent": 30
+          "percent": 33,
+          "baseFare": 3.8
         }
       ],
-      "note": "맨체스터 해크니 캐리지 Tariff 1 (2023년) 기준."
+      "note": "맨체스터 시의회가 정한 해크니 캐리지(블랙캡) 최고 요금, 2023년 9월 15일 시행. 공휴일 종일 야간요율, 성탄·연말 야간요율+50%, 추가 승객 1인당 20p, 피카딜리역 60p·공항 차단기 요금은 반영하지 않음.",
+      "source": "https://www.manchester.gov.uk/taxis-and-private-hire/taxi-and-private-hire-passenger-information/taxi-fares-and-charges/public-taxi-fares-and-charges",
+      "effective": "2023-09-15",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "IE-DUBLIN",
@@ -1668,32 +1942,58 @@
       "currency": "EUR",
       "symbol": "€",
       "decimals": 2,
-      "baseFare": 4.2,
+      "baseFare": 4.4,
       "baseDistanceM": 500,
       "distanceTiers": [
         {
-          "uptoM": 15000,
-          "unitM": 76.92,
-          "fare": 0.1
+          "uptoM": 15045.5,
+          "unitM": 151.5,
+          "fare": 0.2
         },
         {
           "uptoM": null,
-          "unitM": 60.61,
-          "fare": 0.1
+          "unitM": 116.3,
+          "fare": 0.2
         }
       ],
-      "timeUnitSec": 12.86,
-      "timeFare": 0.1,
-      "slowSpeedKmh": 10,
+      "timeUnitSec": 25.7,
+      "timeFare": 0.2,
+      "slowSpeedKmh": 21.2,
       "surcharges": [
         {
-          "name": "PREMIUM",
+          "name": "PREMIUM (20-08)",
           "startHour": 20,
           "endHour": 8,
-          "percent": 20
+          "percent": 37.1,
+          "baseFare": 5.4
+        },
+        {
+          "name": "PREMIUM (Sunday)",
+          "startHour": 0,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 37.1,
+          "baseFare": 5.4
+        },
+        {
+          "name": "SPECIAL (Sat/Sun 00-04)",
+          "startHour": 0,
+          "endHour": 4,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 66.7,
+          "baseFare": 5.4
         }
       ],
-      "note": "아일랜드 전국 택시 요율 (2024년). 야간·일요일·공휴일 프리미엄."
+      "note": "아일랜드 전국 최고 택시 요금(NTA, Maximum Fares Order 2024), 2024년 12월 1일 시행. 공휴일은 일요일과 같은 할증 요율. 예약료 €3, 추가 승객 1인당 €1, 통행료, 성탄·새해 특별요율은 반영하지 않음.",
+      "source": "https://www.irishstatutebook.ie/eli/2024/si/479/made/en/print",
+      "effective": "2024-12-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "FR-PARIS",
@@ -1707,54 +2007,53 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 4.4,
+      "baseFare": 3,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 78.74,
+          "unitM": 76.92,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 9,
+      "timeUnitSec": 9.1,
       "timeFare": 0.1,
-      "slowSpeedKmh": 25,
+      "slowSpeedKmh": 30.43,
       "minFare": 8,
       "surcharges": [
         {
-          "name": "TARIF B",
+          "name": "Tarif B (17h-10h)",
           "startHour": 17,
           "endHour": 10,
-          "days": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "percent": 25
+          "percent": 27.7,
+          "baseFare": 3
         },
         {
-          "name": "TARIF B",
+          "name": "Tarif B (dimanche 7h-24h)",
           "startHour": 7,
           "endHour": 24,
           "days": [
             0
           ],
-          "percent": 25
+          "percent": 27.7,
+          "baseFare": 3
         },
         {
-          "name": "TARIF C",
+          "name": "Tarif C (dimanche 0h-7h)",
           "startHour": 0,
           "endHour": 7,
           "days": [
             0
           ],
-          "percent": 35
+          "percent": 35.4,
+          "baseFare": 3
         }
       ],
-      "note": "파리 택시 Tarif A (2025년) 기준. 최소 요금 €8. B·C 요율은 할증률로 근사."
+      "note": "파리 택시(taxis parisiens) 시내 구역 요금, 2026년 1월 21일 경찰청 고시(2026-00088), 2월 1일부터 적용. 최소요금 €8. 외곽(교외) 구역 요율, 공휴일 종일 B요율, 예약료 €4/€7, 5번째 승객부터 €5.50, 공항 정액요금(CDG €56/€65, 오를리 €45/€36)은 반영하지 않음.",
+      "source": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134824/987340/file/recueil-75-2026-047-recueil-des-actes-administratifs-special%20du%2021.01.2026.pdf",
+      "effective": "2026-02-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "FR-LYON",
@@ -1768,28 +2067,43 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 3.2,
+      "baseFare": 3.1,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 90.91,
+          "unitM": 100,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 10.59,
+      "timeUnitSec": 8.72,
       "timeFare": 0.1,
-      "slowSpeedKmh": 22,
+      "slowSpeedKmh": 41.28,
       "minFare": 8,
       "surcharges": [
         {
-          "name": "TARIF B",
+          "name": "Tarif B (nuit 19h-7h)",
           "startHour": 19,
           "endHour": 7,
-          "percent": 45
+          "percent": 50,
+          "baseFare": 3.1
+        },
+        {
+          "name": "Tarif B (dimanche)",
+          "startHour": 0,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 50,
+          "baseFare": 3.1
         }
       ],
-      "note": "리옹 택시 Tarif A·B (2024년) 근사치. 최소 요금 €8."
+      "note": "리옹(론 주) 택시 최고 요금, 2026년 2월 19일 주지사 고시(69-2026-02-19-00002). 주간 A요율 기준, 야간(19~7시)·일요일·공휴일은 B요율(+50%). 최소요금 €8. 빈 차 귀환 요율 C/D(km당 €2/€3), 예약료 €2/€4, 5번째 승객 €4, 큰 짐 €2는 반영하지 않음.",
+      "source": "https://www.rhone.gouv.fr/contenu/telechargement/67519/454692/file/Arr%C3%AAt%C3%A9%20reglementant%20les%20tarifs%20taxis%20dans%20le%20d%C3%A9partement%20du%20Rh%C3%B4ne%202026.pdf",
+      "effective": "2026-02-19",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "DE-BERLIN",
@@ -1807,21 +2121,30 @@
       "baseDistanceM": 0,
       "distanceTiers": [
         {
+          "uptoM": 3000,
+          "unitM": 71.43,
+          "fare": 0.2
+        },
+        {
           "uptoM": 7000,
-          "unitM": 35.71,
-          "fare": 0.1
+          "unitM": 76.92,
+          "fare": 0.2
         },
         {
           "uptoM": null,
-          "unitM": 47.62,
-          "fare": 0.1
+          "unitM": 95.24,
+          "fare": 0.2
         }
       ],
-      "timeUnitSec": 10.91,
-      "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "timeUnitSec": 18.46,
+      "timeFare": 0.2,
+      "slowSpeedKmh": 13.93,
       "surcharges": [],
-      "note": "베를린 택시 요율 (2024년 1월 개정). 1~7km €2.80, 이후 €2.10/km."
+      "note": "베를린 일반 택시 표준요금(Tarifstufe 2, 주야 동일), 2022-12-20 시행 후 요금액 변동 없음(2024년 개정은 예약 정액요금 도입만). 길에서 잡은 2km 이내 단거리 정액 6유로, BER 공항 출발 가산 1.50유로·공항요금제, 5인 이상 대형택시 6유로는 반영하지 않음.",
+      "source": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g22520606.pdf",
+      "effective": "2022-12-20",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "DE-MUNICH",
@@ -1835,30 +2158,29 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 5.7,
+      "baseFare": 5.9,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
-          "uptoM": 5000,
-          "unitM": 38.46,
-          "fare": 0.1
-        },
-        {
-          "uptoM": 10000,
-          "unitM": 41.67,
-          "fare": 0.1
+          "uptoM": 7000,
+          "unitM": 74.07,
+          "fare": 0.2
         },
         {
           "uptoM": null,
-          "unitM": 47.62,
-          "fare": 0.1
+          "unitM": 80,
+          "fare": 0.2
         }
       ],
-      "timeUnitSec": 10,
-      "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "timeUnitSec": 18.46,
+      "timeFare": 0.2,
+      "slowSpeedKmh": 14.44,
       "surcharges": [],
-      "note": "뮌헨 택시 요율 (2023년 개정)."
+      "note": "뮌헨 일반 택시 요금(주야 동일), 2026-05-19 개정·2026-07-01 시행: 시작요금 5.90유로, 7km까지 km당 2.70유로, 이후 2.50유로, 대기 시간당 39유로. 공항·박람회장·중앙역 구간 정액(96/90/41유로), 5인 이상 대형택시 10유로, 자전거 7.50유로는 반영하지 않음.",
+      "source": "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/410/version8/0.html",
+      "effective": "2026-07-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "DE-HAMBURG",
@@ -1872,30 +2194,29 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 4,
+      "baseFare": 4.5,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
-          "uptoM": 4000,
-          "unitM": 35.71,
-          "fare": 0.1
-        },
-        {
           "uptoM": 9000,
-          "unitM": 40,
+          "unitM": 37.04,
           "fare": 0.1
         },
         {
           "uptoM": null,
-          "unitM": 45.45,
+          "unitM": 50,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 10.29,
+      "timeUnitSec": 9.47,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 14.08,
       "surcharges": [],
-      "note": "함부르크 택시 요율 (2024년 개정)."
+      "note": "함부르크 일반 택시 미터요금, 2025-02-01 시행(시간대 구분 폐지, 요일·시간 무관 단일요금). 5인 이상 대형택시·자전거 운반 8유로와 예약 시 정액요금(12/20/35km 이하 38/52/82유로)은 반영하지 않음.",
+      "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/die-themen-der-behoerde/fuer-taxi-fahrgaeste/taxi-fahrpreise-410302",
+      "effective": "2025-02-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "DE-FRANKFURT",
@@ -1913,21 +2234,20 @@
       "baseDistanceM": 0,
       "distanceTiers": [
         {
-          "uptoM": 4000,
-          "unitM": 41.67,
-          "fare": 0.1
-        },
-        {
           "uptoM": null,
-          "unitM": 45.45,
+          "unitM": 41.67,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 10,
+      "timeUnitSec": 9.47,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 15.84,
       "surcharges": [],
-      "note": "프랑크푸르트 택시 요율 (2023년 개정)."
+      "note": "프랑크푸르트 일반 택시 미터요금(2024-12-18 시행 Taxentarif): 기본 4유로, km당 2.40유로, 대기 시간당 38유로. 예약 시 정액요금(km당 2.40~4유로, 기본요금 없음)과 대형택시 가산은 반영하지 않음.",
+      "source": "https://www.frankfurt-main.ihk.de/branchenthemen/verkehr-logistik/verkehr-logistik-aktuell/festpreis-bei-taxis-in-frankfurt-eingefuehrt-6420100",
+      "effective": "2024-12-18",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "NL-AMSTERDAM",
@@ -1941,20 +2261,24 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 3.8,
+      "baseFare": 4.31,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 36.1,
+          "unitM": 23.75,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 13,
+      "timeUnitSec": 11.54,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 7.41,
       "surcharges": [],
-      "note": "네덜란드 법정 최고 택시 요율 (2024년)."
+      "note": "네덜란드 법정 최고 택시 요율(승객 4인 이하 승용차, 2026년 1월 1일 시행): 기본 €4.31 + km당 €3.17 + 분당 €0.52가 동시에 부과됨. 앱에서는 주행 중 시간 요금을 평균 시속 30km로 환산해 km 요금에 합친 근사값이며, 실제 택시는 이 최고액보다 낮게 받을 수 있음.",
+      "source": "https://www.rijksoverheid.nl/onderwerpen/taxi/vraag-en-antwoord/wat-zijn-de-kosten-voor-een-taxi",
+      "effective": "2026-01-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "BE-BRUSSELS",
@@ -1973,13 +2297,13 @@
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 43.48,
+          "unitM": 28.57,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 12,
+      "timeUnitSec": 10,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 10.29,
       "surcharges": [
         {
           "name": "NUIT",
@@ -1988,7 +2312,12 @@
           "flat": 2
         }
       ],
-      "note": "브뤼셀 수도권 택시 요율 (시내 요율). 야간 €2 추가."
+      "note": "브뤼셀 수도권 정류장 택시(taxi de station)의 예약 없는 승차 요금(2022년 10월 21일 개편): 기본 €2.60 + km당 €2.30 + 분당 €0.60 동시 부과, 최소요금 €8, 야간(22~6시) €2 추가. 앱에서는 주행 중 시간 요금을 평균 시속 30km로 환산해 km 요금에 합친 근사값이며, 예약 승차·앱 호출 택시(taxi de rue)의 변동 요금은 반영하지 않음.",
+      "minFare": 8,
+      "source": "https://be.brussels/fr/transport-mobilite/transport-en-commun/taxi-et-mobilite-partagee/prendre-un-taxi",
+      "effective": "2022-10-21",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "CH-ZURICH",
@@ -2001,20 +2330,24 @@
       "currency": "CHF",
       "symbol": "CHF",
       "decimals": 2,
-      "baseFare": 6,
+      "baseFare": 8,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 26.32,
+          "unitM": 20,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 5.45,
+      "timeUnitSec": 4.51,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 15.96,
       "surcharges": [],
-      "note": "취리히 시 택시 요율 (2023년)."
+      "note": "취리히시가 정한 법정 최고요금(2015-01-01 시행: 기본 8프랑, km당 5프랑, 대기 분당 1.33프랑)이며 실제 택시는 회사별로 더 낮은 요금을 게시하는 경우가 많음. 4인 초과 대형차 8프랑, 화물 10프랑, 유아용 카시트 30프랑 가산은 반영하지 않음.",
+      "source": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/935/440/935.440_Taxitarif%20V3.pdf",
+      "effective": "2015-01-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "CH-GENEVA",
@@ -2038,16 +2371,41 @@
       ],
       "timeUnitSec": 6,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 18.75,
       "surcharges": [
         {
-          "name": "NUIT",
-          "startHour": 20,
-          "endHour": 6,
-          "percent": 20
+          "name": "TARIF II (nuit)",
+          "startHour": 20.5,
+          "endHour": 6.5,
+          "percent": 18.75,
+          "baseFare": 6.3
+        },
+        {
+          "name": "TARIF II (samedi soir)",
+          "startHour": 18,
+          "endHour": 20.5,
+          "days": [
+            6
+          ],
+          "percent": 18.75,
+          "baseFare": 6.3
+        },
+        {
+          "name": "TARIF II (dimanche)",
+          "startHour": 0,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 18.75,
+          "baseFare": 6.3
         }
       ],
-      "note": "제네바 택시 요율 Tarif I·II (2024년) 근사치."
+      "note": "제네바주 택시 법정 최고요금(RTVTC 제32조, 2022-11-01 시행): 기본 6.30프랑, 요금I km당 3.20프랑, 요금II(야간·토요일 저녁·일요일·공휴일) km당 3.80프랑, 대기 시간당 60프랑. 공항 승차 시 기본 7.80프랑, 공항 구간 정액(25~60프랑), 짐·스키·개 1.50프랑, 4인 이상 승차·주 경계 밖 운행 시 요금II 적용은 반영하지 않음.",
+      "source": "https://silgeneve.ch/legis/program/books/rsg/pdf/rsg_h1_31p01.pdf",
+      "effective": "2022-11-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "AT-VIENNA",
@@ -2065,28 +2423,43 @@
       "baseDistanceM": 0,
       "distanceTiers": [
         {
-          "uptoM": 4000,
-          "unitM": 68.49,
-          "fare": 0.1
+          "uptoM": 5000,
+          "unitM": 94.79,
+          "fare": 0.2
         },
         {
           "uptoM": null,
-          "unitM": 87.72,
-          "fare": 0.1
+          "unitM": 114.94,
+          "fare": 0.2
         }
       ],
-      "timeUnitSec": 11.69,
-      "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "timeUnitSec": 20.69,
+      "timeFare": 0.2,
+      "slowSpeedKmh": 16.49,
       "surcharges": [
         {
           "name": "NACHT",
           "startHour": 23,
           "endHour": 6,
+          "percent": 15,
+          "baseFare": 4.3
+        },
+        {
+          "name": "SONN-/FEIERTAG",
+          "startHour": 0,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 15,
           "baseFare": 4.3
         }
       ],
-      "note": "빈 택시 요율 (2021년 개정). 야간·일요일 기본요금 €4.30."
+      "note": "빈 택시 법정요금(2023-06-02 시행, 이후 인상 없음): 주간 기본 3.80유로, 야간(23~6시)·일요일·공휴일 기본 4.30유로에 거리·시간 15% 할증. 실제 미터는 거리요금과 시간요금을 주행 내내 동시에 더하므로 이 앱 값은 근사치이며, 전화·앱 호출 2유로와 5인 이상 2유로 가산은 반영하지 않음.",
+      "source": "https://www.wko.at/wien/transport-verkehr/befoerderungsgewerbe-personenkraftwagen/wiener-taxitarif.pdf",
+      "effective": "2023-06-02",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "IT-ROME",
@@ -2104,32 +2477,48 @@
       "baseDistanceM": 0,
       "distanceTiers": [
         {
+          "uptoM": 5263,
+          "unitM": 75.19,
+          "fare": 0.1
+        },
+        {
+          "uptoM": 22505,
+          "unitM": 68.97,
+          "fare": 0.1
+        },
+        {
           "uptoM": null,
-          "unitM": 87.72,
+          "unitM": 57.8,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 12,
+      "timeUnitSec": 11.05,
       "timeFare": 0.1,
       "slowSpeedKmh": 20,
       "surcharges": [
         {
-          "name": "FESTIVO",
+          "name": "NOTTURNA",
+          "startHour": 22,
+          "endHour": 6,
+          "baseFare": 7.5
+        },
+        {
+          "name": "SABATO E FESTIVI",
           "startHour": 6,
           "endHour": 22,
           "days": [
-            0
+            0,
+            6
           ],
           "baseFare": 5
-        },
-        {
-          "name": "NOTTE",
-          "startHour": 22,
-          "endHour": 6,
-          "baseFare": 7
         }
       ],
-      "note": "로마 택시 요율 (2024년). 야간 기본요금 €7, 공휴일 €5."
+      "note": "로마 시(Roma Capitale) 흰색 일반 택시의 미터 요금으로, 시 집행부 결의 제157호(2026-05-21)에 따른 2026년 6월 요금표입니다. 공항 정액 요금(피우미치노↔아우렐리아누스 성벽 안 55유로, 참피노 40유로), 두 번째 짐부터 개당 1유로, 5번째 승객부터 1인당 5유로, 호출 시 승차 지점까지의 요금은 반영하지 않았습니다.",
+      "minFare": 9,
+      "source": "https://www.comune.roma.it/web-resources/cms/documents/TariffarioTaxi_giugno2026.pdf",
+      "effective": "2026-06",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "IT-MILAN",
@@ -2143,19 +2532,25 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 3.9,
+      "baseFare": 4.1,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 82.64,
+          "unitM": 75.76,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 10.71,
+      "timeUnitSec": 10.44,
       "timeFare": 0.1,
-      "slowSpeedKmh": 20,
+      "slowSpeedKmh": 26.12,
       "surcharges": [
+        {
+          "name": "NOTTURNO",
+          "startHour": 21,
+          "endHour": 6,
+          "baseFare": 7.9
+        },
         {
           "name": "FESTIVO",
           "startHour": 6,
@@ -2163,16 +2558,14 @@
           "days": [
             0
           ],
-          "baseFare": 6.2
-        },
-        {
-          "name": "NOTTE",
-          "startHour": 21,
-          "endHour": 6,
-          "baseFare": 7
+          "baseFare": 6.6
         }
       ],
-      "note": "밀라노 택시 요율 (2024년). 야간 기본요금 €7, 공휴일 €6.20."
+      "note": "밀라노를 포함한 롬바르디아 공항권역 공통 택시 미터 요금으로, 2024-07-31부터 시행 중이며 2026년 9월 주정부 결의(DGR XII/6828)로 2026년에도 그대로 유지되었습니다. 미터 금액이 일정액을 넘으면 km·시간 단가가 1.5배가 되는 누진제와 시속 50km 초과 시 1.7배 할증, 말펜사·오리오 알 세리오 공항 정액 요금(114유로·128유로), 공항 출발 최저 요금 16유로는 반영하지 않았습니다.",
+      "source": "https://www.regione.lombardia.it/infrastrutture-trasporti-e-mobilita/taxi-collegamenti-aeroportuali-e-noleggio/servizio-e-tariffe-taxi-nel-bacino-aeroportuale",
+      "effective": "2024-07-31",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "ES-MADRID",
@@ -2186,40 +2579,43 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 2.5,
+      "baseFare": 2.55,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 38.46,
-          "fare": 0.05
+          "unitM": 7.14,
+          "fare": 0.01
         }
       ],
-      "timeUnitSec": 8.07,
-      "timeFare": 0.05,
-      "slowSpeedKmh": 20,
-      "minFare": 4.5,
+      "timeUnitSec": 1.33,
+      "timeFare": 0.01,
+      "slowSpeedKmh": 19.29,
       "surcharges": [
         {
-          "name": "TARIFA 2",
+          "name": "TARIFA 2 (noche)",
           "startHour": 21,
-          "endHour": 6,
-          "percent": 15,
+          "endHour": 7,
+          "percent": 14.29,
           "baseFare": 3.2
         },
         {
-          "name": "TARIFA 2",
-          "startHour": 6,
+          "name": "TARIFA 2 (sáb., dom. y festivos)",
+          "startHour": 7,
           "endHour": 21,
           "days": [
             0,
             6
           ],
-          "percent": 15,
+          "percent": 14.29,
           "baseFare": 3.2
         }
       ],
-      "note": "마드리드 택시 Tarifa 1·2 (2024년). 최소 요금 €4.50."
+      "note": "마드리드 공동운행구역(APC) 일반 택시의 2026년 요금(2026-01-01 시행)입니다. 요금 1은 평일 07~21시, 요금 2는 매일 21~07시와 토·일·공휴일 종일 적용됩니다. 공항↔M-30 안쪽 정액 요금, 주요 역·IFEMA 출발 시의 요금 7(기본 8유로), 성탄절·연말 할증은 반영하지 않았습니다.",
+      "source": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/03/BOCM-20251203-38.PDF",
+      "effective": "2026-01-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "ES-BARCELONA",
@@ -2233,38 +2629,43 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 2.55,
+      "baseFare": 2.8,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 40.65,
-          "fare": 0.05
+          "unitM": 7.41,
+          "fare": 0.01
         }
       ],
-      "timeUnitSec": 7.96,
-      "timeFare": 0.05,
-      "slowSpeedKmh": 20,
-      "minFare": 4.8,
+      "timeUnitSec": 1.3,
+      "timeFare": 0.01,
+      "slowSpeedKmh": 20.56,
       "surcharges": [
         {
-          "name": "T2",
+          "name": "T-2 (nit)",
           "startHour": 20,
           "endHour": 8,
-          "percent": 23
+          "percent": 22.96,
+          "baseFare": 2.8
         },
         {
-          "name": "T2",
+          "name": "T-2 (dissabtes i festius)",
           "startHour": 8,
           "endHour": 20,
           "days": [
             0,
             6
           ],
-          "percent": 23
+          "percent": 22.96,
+          "baseFare": 2.8
         }
       ],
-      "note": "바르셀로나 택시 T1·T2 (2024년). 최소 요금 €4.80."
+      "note": "바르셀로나 광역권(AMB) 일반 택시의 2026년 요금(2026-01-19 시행)입니다. T-1은 평일 08~20시, T-2는 평일 20~08시와 토·일·공휴일에 적용됩니다. 길에서 잡는 택시에는 최저 요금이 없으며, 공항·크루즈 부두 4.60유로, 산츠역 출발 2.55유로, 피라 그란 비아 출발 3.30유로, 공항 출발 최저 21유로, 전화·앱 예약 최저 8유로는 반영하지 않았습니다.",
+      "source": "https://taxi.amb.cat/en/usuari/tarifes",
+      "effective": "2026-01-19",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "PT-LISBON",
@@ -2278,39 +2679,86 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 3.25,
+      "baseFare": 2.05,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 63.69,
+          "unitM": 74.63,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 24.32,
+      "timeUnitSec": 16.22,
       "timeFare": 0.1,
-      "slowSpeedKmh": 10,
+      "slowSpeedKmh": 16.57,
       "surcharges": [
         {
-          "name": "TARIFA 2",
-          "startHour": 21,
-          "endHour": 6,
-          "percent": 20,
-          "baseFare": 3.9
+          "name": "NOTURNO (dias úteis)",
+          "startHour": 22,
+          "endHour": 24,
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "percent": 13.43,
+          "baseFare": 2.05
         },
         {
-          "name": "TARIFA 2",
-          "startHour": 6,
-          "endHour": 21,
+          "name": "NOTURNO (dias úteis)",
+          "startHour": 0,
+          "endHour": 7,
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "percent": 13.43,
+          "baseFare": 2.05
+        },
+        {
+          "name": "FIM DE SEMANA (diurno)",
+          "startHour": 7,
+          "endHour": 22,
           "days": [
             0,
             6
           ],
-          "percent": 20,
-          "baseFare": 3.9
+          "percent": 28.36,
+          "baseFare": 2.05
+        },
+        {
+          "name": "FIM DE SEMANA (noturno)",
+          "startHour": 22,
+          "endHour": 24,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 41.79,
+          "baseFare": 2.05
+        },
+        {
+          "name": "FIM DE SEMANA (noturno)",
+          "startHour": 0,
+          "endHour": 7,
+          "days": [
+            0,
+            6
+          ],
+          "percent": 41.79,
+          "baseFare": 2.05
         }
       ],
-      "note": "포르투갈 도시 택시 Tarifa 1·2 (2024년)."
+      "note": "포르투갈 전국 공통 택시 기준 요금(4인 이하)으로, 2026-10-23 시행된 새 요금 규정(AMT 규정 1324-A/2026)에 따라 2026-10-29 승인된 값입니다. 기본요금 2.05유로에 km당 0.60유로와 분당 0.37유로(야간·주말·공휴일은 0.46~0.65유로)를 주행 내내 함께 받는 방식이며, 미터기 교체 기한인 2027-01-21까지는 옛 요금(기본 3.25유로) 택시가 섞여 있습니다. 호출·예약 추가금 0.80유로와 통행료는 반영하지 않았습니다.",
+      "source": "https://www.amt-autoridade.pt/media/6186/comunicado-tarifas-a-vigor-nos-táxis-em-2027.pdf",
+      "effective": "2026-10-29",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "GR-ATHENS",
@@ -2324,28 +2772,33 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 2,
+      "baseFare": 1.8,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 55.56,
-          "fare": 0.05
+          "unitM": 11.11,
+          "fare": 0.01
         }
       ],
-      "timeUnitSec": 12,
-      "timeFare": 0.05,
-      "slowSpeedKmh": 15,
+      "timeUnitSec": 1.8,
+      "timeFare": 0.01,
+      "slowSpeedKmh": 22.22,
       "minFare": 4,
       "surcharges": [
         {
-          "name": "TARIFF 2",
+          "name": "ΤΙΜΟΛΟΓΙΟ 2",
           "startHour": 0,
           "endHour": 5,
-          "percent": 40
+          "percent": 38.89,
+          "baseFare": 1.8
         }
       ],
-      "note": "아테네 택시 요율 (2024년). 최소 요금 €4."
+      "note": "그리스 전국 공통 택시 요금으로 아테네의 노란색 일반 택시에 적용되며, 2022년 요금표를 고친 2026-09-18 자 장관 결정(관보 Β' 5674)이 현재 기준입니다. 요금 1은 시내 05~24시, 요금 2는 00~05시와 시 경계 밖에서 적용됩니다. 공항 출발·도착 4유로, 항구·기차역·시외버스터미널 승차 1.07유로, 공항↔도심 정액 요금(50유로·65유로), 예약 호출료는 반영하지 않았습니다.",
+      "source": "https://www.taxheaven.gr/circulars/55396/147620-16-09-2026",
+      "effective": "2026-09-18",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "SE-STOCKHOLM",
@@ -2359,20 +2812,23 @@
       "symbol": "kr",
       "symbolAfter": true,
       "decimals": 0,
-      "baseFare": 55,
+      "baseFare": 59,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 60.61,
+          "unitM": 33.59,
           "fare": 1
         }
       ],
-      "timeUnitSec": 7.5,
+      "timeUnitSec": 6.05,
       "timeFare": 1,
-      "slowSpeedKmh": 20,
+      "slowSpeedKmh": 19.99,
       "surcharges": [],
-      "note": "Taxi Stockholm 일반 요율 (2024년) 근사치."
+      "note": "스톡홀름은 요금 자율제라 최대 회사인 Taxi Stockholm의 공시 미터 요금(1~4인, 요일·시간 구분 없는 단일 요금)을 사용: 기본 59kr + 14.90kr/km + 595kr/시간(거리·시간 동시 부과), 비교가격(10km·15분) 357kr. 다른 회사 택시는 요금이 크게 다를 수 있으며, 알란다 공항 정액요금·5인 이상 대형차 요금은 반영하지 않음.",
+      "source": "https://www.taxistockholm.se/sv/priser/",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "NO-OSLO",
@@ -2386,27 +2842,90 @@
       "symbol": "kr",
       "symbolAfter": true,
       "decimals": 0,
-      "baseFare": 80,
+      "baseFare": 52,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 58.82,
+          "unitM": 33.73,
           "fare": 1
         }
       ],
-      "timeUnitSec": 6,
+      "timeUnitSec": 6.9,
       "timeFare": 1,
-      "slowSpeedKmh": 20,
+      "slowSpeedKmh": 17.6,
       "surcharges": [
         {
-          "name": "KVELD",
-          "startHour": 18,
+          "name": "KVELD/NATT",
+          "startHour": 17,
           "endHour": 6,
-          "percent": 25
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "percent": 20,
+          "baseFare": 65
+        },
+        {
+          "name": "KVELD",
+          "startHour": 17,
+          "endHour": 22,
+          "days": [
+            5
+          ],
+          "percent": 20,
+          "baseFare": 65
+        },
+        {
+          "name": "HELG",
+          "startHour": 6,
+          "endHour": 22,
+          "days": [
+            6
+          ],
+          "percent": 20,
+          "baseFare": 65
+        },
+        {
+          "name": "HELG",
+          "startHour": 6,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 20,
+          "baseFare": 65
+        },
+        {
+          "name": "NATT",
+          "startHour": 0,
+          "endHour": 6,
+          "days": [
+            1
+          ],
+          "percent": 20,
+          "baseFare": 65
+        },
+        {
+          "name": "HELG NATT",
+          "startHour": 22,
+          "endHour": 6,
+          "days": [
+            5,
+            6
+          ],
+          "percent": 40,
+          "baseFare": 75
         }
       ],
-      "note": "Oslo Taxi 일반 요율 (2024년) 근사치."
+      "note": "오슬로는 요금 자율제라 최대 회사인 Oslo Taxi의 공시 요금(1~4인, 거리에서 잡거나 승강장 탑승 기준)을 사용: 주간(월~금 06~17시) 기본 52kr + 15.53kr/km + 8.69kr/분(거리·시간 동시 부과), 최저요금 140kr. 저녁·밤·주말 약 20% 할증, 금·토 심야 40% 할증. 공휴일 요금(약 60% 할증), 예약 시 높은 기본요금(75kr)과 예약료, 유료도로 통행료(Oslopakke 3, 약 23kr), 5인 이상 대형차 요금은 반영하지 않음.",
+      "minFare": 140,
+      "source": "https://www.oslotaxi.no/priser",
+      "effective": "2024-12-15",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "DK-COPENHAGEN",
@@ -2425,23 +2944,72 @@
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 32.47,
-          "fare": 0.5
+          "unitM": 51.8,
+          "fare": 1
         }
       ],
-      "timeUnitSec": 4.29,
-      "timeFare": 0.5,
-      "slowSpeedKmh": 20,
+      "timeUnitSec": 9,
+      "timeFare": 1,
+      "slowSpeedKmh": 20.7,
       "surcharges": [
         {
-          "name": "AFTEN",
+          "name": "AFTEN/NAT",
           "startHour": 18,
           "endHour": 6,
-          "percent": 25,
+          "days": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "percent": 23,
+          "baseFare": 49
+        },
+        {
+          "name": "WEEKEND",
+          "startHour": 18,
+          "endHour": 24,
+          "days": [
+            5
+          ],
+          "percent": 23,
+          "baseFare": 49
+        },
+        {
+          "name": "WEEKEND",
+          "startHour": 0,
+          "endHour": 24,
+          "days": [
+            6
+          ],
+          "percent": 23,
+          "baseFare": 49
+        },
+        {
+          "name": "WEEKEND",
+          "startHour": 0,
+          "endHour": 24,
+          "days": [
+            0
+          ],
+          "percent": 23,
+          "baseFare": 49
+        },
+        {
+          "name": "WEEKEND",
+          "startHour": 0,
+          "endHour": 6,
+          "days": [
+            1
+          ],
+          "percent": 23,
           "baseFare": 49
         }
       ],
-      "note": "코펜하겐 택시 요율 (2024년) 근사치."
+      "note": "코펜하겐 최대 택시 회사 Dantaxi 요금 기준: 주간(월~금 06~18시) 기본 39kr + 11.30kr/km + 분당 6.67kr, 저녁·밤·주말 기본 49kr + 14.74kr/km + 분당 7.50kr. 거리와 시간이 함께 붙는 요금이라 평균 속도를 가정한 근사값입니다. 법정 상한은 이보다 30~40% 높습니다. 공항 승차료와 다리 통행료는 반영하지 않았습니다.",
+      "source": "https://dantaxi.dk/taxa-pris/",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "FI-HELSINKI",
@@ -2455,27 +3023,42 @@
       "symbol": "€",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 5.9,
+      "baseFare": 5.7,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 83.33,
+          "unitM": 35.09,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 5.22,
+      "timeUnitSec": 5.26,
       "timeFare": 0.1,
-      "slowSpeedKmh": 20,
+      "slowSpeedKmh": 24.02,
       "surcharges": [
         {
-          "name": "ILTA",
-          "startHour": 20,
+          "name": "ILTA/YÖ",
+          "startHour": 18,
           "endHour": 6,
-          "baseFare": 9
+          "percent": 5.6,
+          "baseFare": 8
+        },
+        {
+          "name": "SUNNUNTAI",
+          "startHour": 6,
+          "endHour": 18,
+          "days": [
+            0
+          ],
+          "percent": 5.6,
+          "baseFare": 8
         }
       ],
-      "note": "Taksi Helsinki 일반 요율 (2024년) 근사치."
+      "note": "헬싱키는 요금 자율제라 최대 회사인 Taksi Helsinki의 공시 요금(1~4인)을 사용: 월~토 06~18시 기본 5.70€ + 1.14€/km + 1.14€/분(거리·시간 동시 부과), 최저요금 14.40€. 저녁·밤(매일 18~06시)과 일요일·공휴일은 기본 8.00€ + 1.30€/km. 사전예약료(7.60€), 큰 짐·반려동물(3.20€), 공항 정액요금, 5~8인 요금은 반영하지 않음.",
+      "minFare": 14.4,
+      "source": "https://taksihelsinki.fi/tilaa-taksi/taksin-hinta/",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "PL-WARSAW",
@@ -2489,36 +3072,42 @@
       "symbol": "zł",
       "symbolAfter": true,
       "decimals": 2,
-      "baseFare": 8,
+      "baseFare": 10,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 33.33,
+          "unitM": 20,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 9,
+      "timeUnitSec": 7.2,
       "timeFare": 0.1,
-      "slowSpeedKmh": 12,
+      "slowSpeedKmh": 10,
       "surcharges": [
         {
-          "name": "TARYFA 2",
+          "name": "TARYFA 2 (NOC)",
           "startHour": 22,
           "endHour": 6,
-          "percent": 50
+          "percent": 50,
+          "baseFare": 10
         },
         {
-          "name": "TARYFA 2",
-          "startHour": 6,
-          "endHour": 22,
+          "name": "TARYFA 2 (NIEDZIELA)",
+          "startHour": 0,
+          "endHour": 24,
           "days": [
             0
           ],
-          "percent": 50
+          "percent": 50,
+          "baseFare": 10
         }
       ],
-      "note": "바르샤바 시 택시 최고 요율 (2023년)."
+      "note": "바르샤바 시의회가 정한 택시 최고요금(2024년 9월 22일 시행, 요금 구역 폐지로 시 전역 단일 구역): 기본 10zł, 1요금(평일 06~22시) 5zł/km, 2요금(평일 22~06시, 일요일·공휴일 종일) 7.50zł/km, 대기 50zł/시간. 최고요금이므로 회사·기사에 따라 더 낮을 수 있음. 12월 24일·31일과 부활절 전 토요일 19시 이후의 2요금 적용은 반영하지 않음.",
+      "source": "https://warszawa19115.pl/-/op%C5%82aty-za-przejazd-taks%C3%B3wk%C4%85",
+      "effective": "2024-09-22",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "CZ-PRAGUE",
@@ -2532,20 +3121,24 @@
       "symbol": "Kč",
       "symbolAfter": true,
       "decimals": 0,
-      "baseFare": 60,
+      "baseFare": 70,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 27.78,
+          "unitM": 23.81,
           "fare": 1
         }
       ],
       "timeUnitSec": 8.57,
       "timeFare": 1,
-      "slowSpeedKmh": 12,
+      "slowSpeedKmh": 10,
       "surcharges": [],
-      "note": "프라하 시 택시 최고 요율 (2023년 개정)."
+      "note": "프라하 시가 정한 미터 택시 최고요금(가격고시 3/2026, 2026년 10월 하순 시행): 승차 기본 70Kč + 42Kč/km + 대기·서행 7Kč/분, 추가 할증·부가요금 금지. 2026년 10월 1일~20일경에는 최고요금 규제가 일시 폐지되었다가 다시 도입됨. 앱 호출 서비스(Uber, Bolt 등 미터 없는 차량)는 규제 대상이 아님.",
+      "source": "https://mf.gov.cz/assets/attachments/2026-10-20_Cenovy-vestnik-106-2026.pdf",
+      "effective": "2026-10-21",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "HU-BUDAPEST",
@@ -2559,20 +3152,24 @@
       "symbol": "Ft",
       "symbolAfter": true,
       "decimals": 0,
-      "baseFare": 1100,
+      "baseFare": 1300,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 22.73,
-          "fare": 10
+          "unitM": 9.6,
+          "fare": 5
         }
       ],
-      "timeUnitSec": 5.45,
-      "timeFare": 10,
-      "slowSpeedKmh": 15,
+      "timeUnitSec": 2.31,
+      "timeFare": 5,
+      "slowSpeedKmh": 14.96,
       "surcharges": [],
-      "note": "부다페스트 고정 택시 요율 (2023년 개정)."
+      "note": "부다페스트 시가 정한 고정(통일) 택시 요금으로 모든 택시가 동일하게 적용, 2026년 8월 1일 인상 시행: 기본 1300Ft + 521Ft/km + 130Ft/분(서행·대기 시). 종전(2023년 3월~)은 1100Ft + 440Ft/km + 110Ft/분. 리스트 페렌츠 공항 출발·도착 시 추가되는 공항요금 800Ft와 예약료는 반영하지 않음.",
+      "source": "https://infostart.hu/belfold/2026/08/01/taxizas-kozlekedes-vasut-nagy-valtozasok-leptek-eletbe-szombattol",
+      "effective": "2026-08-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "RU-MOSCOW",
@@ -2586,20 +3183,23 @@
       "symbol": "₽",
       "symbolAfter": true,
       "decimals": 0,
-      "baseFare": 199,
-      "baseDistanceM": 3000,
+      "baseFare": 189,
+      "baseDistanceM": 1000,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 25,
+          "unitM": 25.64,
           "fare": 1
         }
       ],
-      "timeUnitSec": 6,
+      "timeUnitSec": 4.62,
       "timeFare": 1,
-      "slowSpeedKmh": 10,
+      "slowSpeedKmh": 19.98,
       "surcharges": [],
-      "note": "모스크바 공식 택시 일반 요율 근사치 (대부분 앱 기반 요금 적용)."
+      "note": "모스크바에는 시가 정한 미터 요금이 없어, 시장 대부분을 차지하는 Yandex Go '이코노미' 공시 요금표를 참고값으로 사용: 최소 189₽(1km·3분 포함), 이후 최대 13₽/km + 13₽/분(거리·시간 동시 부과). 실제 요금은 수요에 따른 배율(서지)과 사전 확정가로 결정되어 이 값과 크게 다를 수 있음. 공항·유료도로·대기료는 반영하지 않음.",
+      "minFare": 189,
+      "source": "https://taxi.yandex.ru/moscow/tariff",
+      "confidence": "low"
     },
     {
       "id": "US-NYC",
@@ -2613,36 +3213,36 @@
       "symbol": "$",
       "decimals": 2,
       "baseFare": 3,
-      "baseDistanceM": 0,
+      "baseDistanceM": 321.87,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 322,
+          "unitM": 321.87,
           "fare": 0.7
         }
       ],
       "timeUnitSec": 60,
       "timeFare": 0.7,
-      "slowSpeedKmh": 19.3,
+      "slowSpeedKmh": 19.31,
       "extras": [
         {
-          "name": "MTA 세금",
+          "name": "MTA 주(州) 할증료",
           "amount": 0.5
         },
         {
-          "name": "개선 부담금",
+          "name": "택시 개선 할증료",
           "amount": 1
         }
       ],
       "surcharges": [
         {
-          "name": "NIGHT",
+          "name": "OVERNIGHT",
           "startHour": 20,
           "endHour": 6,
           "flat": 1
         },
         {
-          "name": "RUSH",
+          "name": "RUSH HOUR",
           "startHour": 16,
           "endHour": 20,
           "days": [
@@ -2655,7 +3255,11 @@
           "flat": 2.5
         }
       ],
-      "note": "NYC 옐로캡 (2022년 12월 개정). 맨해튼 혼잡 통행료는 미반영."
+      "note": "뉴욕시 옐로캡(메달리온 택시) 미터 요금, 2022년 12월 19일 시행. 맨해튼 96번가 이남 혼잡 할증료 $2.50, 60번가 이남 혼잡통행료 $0.75, JFK 정액 $70, 라과디아 $5, 뉴어크 $20 추가금, 통행료·팁은 반영하지 않았습니다.",
+      "source": "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page",
+      "effective": "2022-12-19",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "US-LA",
@@ -2669,19 +3273,22 @@
       "symbol": "$",
       "decimals": 2,
       "baseFare": 3.1,
-      "baseDistanceM": 179,
+      "baseDistanceM": 178.82,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 179,
+          "unitM": 178.82,
           "fare": 0.33
         }
       ],
       "timeUnitSec": 37,
       "timeFare": 0.33,
-      "slowSpeedKmh": 17,
+      "slowSpeedKmh": 17.4,
       "surcharges": [],
-      "note": "LA 시 택시 요율 (2023년). 1/9마일당 $0.33."
+      "note": "로스앤젤레스시(LADOT) 허가 택시의 미터 요금으로, LADOT '2023 개정 요금표' 기준입니다(정확한 시행일은 확인하지 못함). LAX 출발 추가금 $4.00, LAX 출발 최소요금 $16.50, LAX–다운타운 정액 $51.15는 반영하지 않았습니다.",
+      "source": "https://ladot.lacity.gov/sites/default/files/documents/taxicab-rates-2023.pdf",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "US-CHICAGO",
@@ -2695,19 +3302,36 @@
       "symbol": "$",
       "decimals": 2,
       "baseFare": 3.25,
-      "baseDistanceM": 179,
+      "baseDistanceM": 178.82,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 179,
-          "fare": 0.25
+          "unitM": 178.82,
+          "fare": 0.31
         }
       ],
-      "timeUnitSec": 36,
-      "timeFare": 0.25,
-      "slowSpeedKmh": 17,
-      "surcharges": [],
-      "note": "시카고 시 택시 요율 ($2.25/마일, 대기 $25/시간)."
+      "timeUnitSec": 45,
+      "timeFare": 0.31,
+      "slowSpeedKmh": 14.31,
+      "surcharges": [
+        {
+          "name": "RUSH HOUR",
+          "startHour": 15.5,
+          "endHour": 19,
+          "flat": 2.5
+        },
+        {
+          "name": "OVERNIGHT",
+          "startHour": 20,
+          "endHour": 6,
+          "flat": 1
+        }
+      ],
+      "note": "시카고시(BACP) 택시 미터 요금으로, 10년 만에 인상되어 2026년 7월 1일부터 시행 중입니다. 추가 승객 요금(첫 1명 $1.00, 이후 1명당 $0.50), 전자결제 수수료 $0.50, 공항 출발세 $4.00, 통행료는 반영하지 않았습니다.",
+      "source": "https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/ridesmartchicago/chicagotaxiplacard2026.pdf",
+      "effective": "2026-07-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "US-SF",
@@ -2721,19 +3345,23 @@
       "symbol": "$",
       "decimals": 2,
       "baseFare": 4.15,
-      "baseDistanceM": 322,
+      "baseDistanceM": 321.87,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 322,
+          "unitM": 321.87,
           "fare": 0.65
         }
       ],
       "timeUnitSec": 60,
       "timeFare": 0.65,
-      "slowSpeedKmh": 17,
+      "slowSpeedKmh": 19.31,
       "surcharges": [],
-      "note": "샌프란시스코 SFMTA 택시 요율 (2023년)."
+      "note": "샌프란시스코(SFMTA) 택시 미터 요금으로, 2022년 11월 17일부터 시행 중입니다. SFO 공항 픽업 수수료 $6.00, 시 경계 밖 15마일 초과 구간의 150% 할증, 교량 통행료는 반영하지 않았습니다.",
+      "source": "https://www.sfmta.com/getting-around/taxi/taxi-fares",
+      "effective": "2022-11-17",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "US-DC",
@@ -2746,20 +3374,34 @@
       "currency": "USD",
       "symbol": "$",
       "decimals": 2,
-      "baseFare": 3.5,
-      "baseDistanceM": 201,
+      "baseFare": 4,
+      "baseDistanceM": 201.17,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 201,
-          "fare": 0.27
+          "unitM": 201.17,
+          "fare": 0.32
         }
       ],
-      "timeUnitSec": 28,
-      "timeFare": 0.27,
-      "slowSpeedKmh": 16,
+      "timeUnitSec": 60,
+      "timeFare": 0.4167,
+      "slowSpeedKmh": 16.09,
       "surcharges": [],
-      "note": "워싱턴 D.C. 택시 요율 ($2.16/마일, 대기 $35/시간)."
+      "note": "워싱턴 DC(DFHV) 택시의 길거리 승차·전화 배차 미터 요금으로, 2024년 8월 2일 시행입니다. 긴급 유류할증료 $1.00은 2026년 12월 25일까지 한시 적용이며, 추가 승객 요금 $1.00, 전화 배차 $2.00, 공항 추가금·통행료는 반영하지 않았습니다.",
+      "extras": [
+        {
+          "name": "승객 할증료",
+          "amount": 0.5
+        },
+        {
+          "name": "긴급 유류할증료(2026-12-25까지)",
+          "amount": 1
+        }
+      ],
+      "source": "https://dfhv.dc.gov/page/taxicab-fares",
+      "effective": "2024-08-02",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "US-LASVEGAS",
@@ -2772,20 +3414,31 @@
       "currency": "USD",
       "symbol": "$",
       "decimals": 2,
-      "baseFare": 3.5,
-      "baseDistanceM": 134,
+      "baseFare": 5.5,
+      "baseDistanceM": 178.82,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 134,
-          "fare": 0.23
+          "unitM": 178.82,
+          "fare": 0.35
         }
       ],
-      "timeUnitSec": 25,
-      "timeFare": 0.23,
-      "slowSpeedKmh": 16,
-      "surcharges": [],
-      "note": "라스베이거스 네바다 택시청 요율 ($2.76/마일, 대기 $33.60/시간)."
+      "timeUnitSec": 38.89,
+      "timeFare": 0.35,
+      "slowSpeedKmh": 16.55,
+      "surcharges": [
+        {
+          "name": "3% EXCISE TAX",
+          "startHour": 0,
+          "endHour": 24,
+          "percent": 3
+        }
+      ],
+      "note": "라스베이거스(클라크 카운티, 네바다 택시청) 택시 미터 요금으로, 유류할증 1단계가 포함된 2026년 4월 9일자 요율입니다. 모든 요금에 붙는 주 소비세 3%는 상시 할증으로 넣었고, 공항 픽업 수수료 $2.40, 카드 결제 수수료 $3.00, 공항–스트립 구역 정액요금, 특별 행사 할증은 반영하지 않았습니다.",
+      "source": "https://taxi.nv.gov/uploadedFiles/taxinvgov/content/About_Us/ALL/BoardMeetings/2026/March/Taxi-Authority-Board-Order-for-Fuel-Surcharge_4-26.pdf",
+      "effective": "2026-04-09",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "CA-TORONTO",
@@ -2798,7 +3451,7 @@
       "currency": "CAD",
       "symbol": "$",
       "decimals": 2,
-      "baseFare": 4.25,
+      "baseFare": 3.25,
       "baseDistanceM": 143,
       "distanceTiers": [
         {
@@ -2809,9 +3462,19 @@
       ],
       "timeUnitSec": 29,
       "timeFare": 0.25,
-      "slowSpeedKmh": 17,
+      "slowSpeedKmh": 17.75,
       "surcharges": [],
-      "note": "토론토 시 택시 요율 (2023년). 143m당 $0.25."
+      "note": "토론토시 택시의 길거리 승차·승차장 미터 요금(시 조례 546장 부록 A)으로, 기본 $3.25에 2022년 5월 도입된 유류할증료 $1.00이 더해져 미터가 $4.25에서 시작합니다. 4명 초과 승객 1인당 $2.00, 카드 결제 수수료, 피어슨 공항 정액요금은 반영하지 않았습니다.",
+      "extras": [
+        {
+          "name": "유류할증료",
+          "amount": 1
+        }
+      ],
+      "source": "https://www.toronto.ca/legdocs/municode/toronto-code-546.pdf",
+      "effective": "2022-05",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "CA-VANCOUVER",
@@ -2825,19 +3488,22 @@
       "symbol": "$",
       "decimals": 2,
       "baseFare": 3.75,
-      "baseDistanceM": 0,
+      "baseDistanceM": 45.95,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 47.39,
+          "unitM": 45.95,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 9.57,
+      "timeUnitSec": 9.25,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 17.88,
       "surcharges": [],
-      "note": "밴쿠버 지역 택시 요율 (2023년)."
+      "note": "메트로 밴쿠버 공통 택시 요금(BC 여객운송위원회 규칙 9, GST 5% 포함)으로, 현행 요율의 정확한 시행일은 확인하지 못했습니다. 밴쿠버 공항(YVR) 출발 구역 정액요금과 $4.00 공항 추가금, 크루즈 터미널 정액요금, 통행료는 반영하지 않았습니다.",
+      "source": "https://www.ptboard.bc.ca/rule-9-common-rate-metro-vancouver",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "CA-MONTREAL",
@@ -2855,23 +3521,33 @@
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 48.78,
-          "fare": 0.1
+          "unitM": 24.39,
+          "fare": 0.05
         }
       ],
-      "timeUnitSec": 7.79,
-      "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "timeUnitSec": 3.9,
+      "timeFare": 0.05,
+      "slowSpeedKmh": 22.54,
       "surcharges": [
         {
           "name": "NUIT",
           "startHour": 23,
           "endHour": 5,
-          "percent": 15,
+          "percent": 14.63,
           "baseFare": 4.7
         }
       ],
-      "note": "퀘벡 택시 요율 (2024년). 야간 기본요금 $4.70."
+      "note": "몬트리올을 포함한 퀘벡주 공통 택시 미터 요금(퀘벡 교통위원회 CTQ, 세금 포함)으로, 2022년 9월 12일부터 시행 중입니다. 주간(05:00~22:59) 기본 $4.10·km당 $2.05·대기 분당 $0.77, 야간(23:00~04:59) 기본 $4.70·km당 $2.35·분당 $0.89이며, 모든 승차에 부담금 $1.05가 추가됩니다. 공항 관련 요금과 통행료는 반영하지 않았습니다.",
+      "extras": [
+        {
+          "name": "의무 부담금(redevance, 세금 포함)",
+          "amount": 1.05
+        }
+      ],
+      "source": "https://www.ctq.gouv.qc.ca/permis-et-autorisations-de-transport/transport-remunere-de-personnes-par-automobile/tarifs-de-transport-remunere-de-personnes-par-automobile/",
+      "effective": "2022-09-12",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "MX-CDMX",
@@ -2895,16 +3571,19 @@
       ],
       "timeUnitSec": 45,
       "timeFare": 1.07,
-      "slowSpeedKmh": 10,
+      "slowSpeedKmh": 20,
       "surcharges": [
         {
-          "name": "NOCTURNO",
+          "name": "NOCTURNA",
           "startHour": 23,
-          "endHour": 5,
+          "endHour": 6,
           "percent": 20
         }
       ],
-      "note": "멕시코시티 일반(libre) 택시 요율. 250m 또는 45초당 $1.07."
+      "note": "멕시코시티 길거리에서 잡는 일반 택시(taxi libre) 요금입니다. 기본 8.74페소에 250m 또는 45초마다 1.07페소가 오르고, 23시~06시는 20% 할증됩니다. 정류장 택시(sitio, 기본 13.10)와 콜택시(radio taxi, 기본 27.30), 공항 택시 요금은 반영하지 않았습니다.",
+      "source": "http://web.archive.org/web/20250324053626/https://www.semovi.cdmx.gob.mx/tramites-y-servicios/transparencia/preguntas-frecuentes",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "BR-SAOPAULO",
@@ -2917,36 +3596,42 @@
       "currency": "BRL",
       "symbol": "R$",
       "decimals": 2,
-      "baseFare": 6,
+      "baseFare": 6.55,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 25.64,
+          "unitM": 20.83,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 7.35,
+      "timeUnitSec": 6.49,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 11.55,
       "surcharges": [
         {
-          "name": "BANDEIRA 2",
+          "name": "Bandeira 2",
           "startHour": 20,
           "endHour": 6,
-          "percent": 30
+          "percent": 30,
+          "baseFare": 6.55
         },
         {
-          "name": "BANDEIRA 2",
-          "startHour": 6,
-          "endHour": 20,
+          "name": "Bandeira 2 (domingo/feriado)",
+          "startHour": 0,
+          "endHour": 24,
           "days": [
             0
           ],
-          "percent": 30
+          "percent": 30,
+          "baseFare": 6.55
         }
       ],
-      "note": "상파울루 일반 택시 Bandeira 1·2 (2023년 개정)."
+      "note": "상파울루 일반 택시(Comum) 요금으로 2025년 8월 11일부터 시행 중입니다(기본 6.55헤알, km당 4.80헤알, 정차 시간당 55.50헤알). 밤 20시~06시와 일요일·공휴일은 km 요금이 30% 오르는 '반데이라 2'가 적용됩니다. 고급(Luxo) 택시 요금과 공항·통행료는 반영하지 않았습니다.",
+      "source": "https://prefeitura.sp.gov.br/web/mobilidade/w/saiba_como_e_e_como_funciona/3875",
+      "effective": "2025-08-11",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "BR-RIO",
@@ -2959,36 +3644,42 @@
       "currency": "BRL",
       "symbol": "R$",
       "decimals": 2,
-      "baseFare": 6.2,
+      "baseFare": 6.3,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 32.15,
+          "unitM": 25.97,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 8.28,
+      "timeUnitSec": 7.42,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 12.6,
       "surcharges": [
         {
-          "name": "BANDEIRA 2",
+          "name": "Tarifa II",
           "startHour": 21,
           "endHour": 6,
-          "percent": 20
+          "percent": 20,
+          "baseFare": 6.3
         },
         {
-          "name": "BANDEIRA 2",
-          "startHour": 6,
-          "endHour": 21,
+          "name": "Tarifa II (domingo/feriado)",
+          "startHour": 0,
+          "endHour": 24,
           "days": [
             0
           ],
-          "percent": 20
+          "percent": 20,
+          "baseFare": 6.3
         }
       ],
-      "note": "리우 일반 택시 Bandeira 1·2 (2023년 개정)."
+      "note": "리우데자네이루 일반 노란 택시(Convencional) 요금으로 2026년 1월 2일부터 시행 중입니다(기본 6.30헤알, km당 3.85헤알, 정차 시간당 48.51헤알). 밤 21시~06시와 일요일·공휴일은 km당 4.62헤알(20% 할증)인 '타리파 II'가 적용됩니다. 큰 짐(개당 3.85헤알), 가파른 언덕 지역과 카니발 기간의 타리파 II 적용, 공항 정액 요금은 반영하지 않았습니다. 매년 1월 초에 요금이 조정되므로 2027년 1월에 다시 확인이 필요합니다.",
+      "source": "https://www.normasbrasil.com.br/norma/resolucao-3893-2025-rio-de-janeiro_488787.html",
+      "effective": "2026-01-02",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "AR-BUENOSAIRES",
@@ -3001,18 +3692,18 @@
       "currency": "ARS",
       "symbol": "$",
       "decimals": 0,
-      "baseFare": 1700,
+      "baseFare": 2550,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
           "unitM": 200,
-          "fare": 170
+          "fare": 255
         }
       ],
       "timeUnitSec": 60,
-      "timeFare": 170,
-      "slowSpeedKmh": 10,
+      "timeFare": 255,
+      "slowSpeedKmh": 12,
       "surcharges": [
         {
           "name": "NOCTURNA",
@@ -3021,7 +3712,11 @@
           "percent": 20
         }
       ],
-      "note": "부에노스아이레스 택시 (2025년). 물가 변동으로 수시 개정됨."
+      "note": "부에노스아이레스 시내 택시 요금으로 2026년 11월 1일부터 시행 중입니다(기본 2,550페소, 200m 또는 대기 1분마다 255페소). 밤 22시~06시는 20% 할증(기본 3,060페소, 단위 306페소)입니다. 2027년 2월 1일부터 단위 요금이 310페소(야간 372페소)로 다시 오를 예정이며, 추가 짐 요금(단위 요금의 5배)은 반영하지 않았습니다.",
+      "source": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/885043",
+      "effective": "2026-11-01",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     },
     {
       "id": "CL-SANTIAGO",
@@ -3035,19 +3730,22 @@
       "symbol": "$",
       "decimals": 0,
       "baseFare": 500,
-      "baseDistanceM": 0,
+      "baseDistanceM": 200,
       "distanceTiers": [
         {
           "uptoM": null,
           "unitM": 200,
-          "fare": 180
+          "fare": 200
         }
       ],
       "timeUnitSec": 60,
-      "timeFare": 180,
-      "slowSpeedKmh": 10,
+      "timeFare": 200,
+      "slowSpeedKmh": 12,
       "surcharges": [],
-      "note": "산티아고 택시 바시코 요율 (2024년) 근사치. 200m 또는 60초당 $180."
+      "note": "산티아고 일반 택시(taxi básico, 검은 차체에 노란 지붕) 요금입니다. 기본요금은 2026년 8월 10일부터 500페소이고, 200m 또는 대기 60초마다 붙는 금액은 택시마다 정해진 범위 안에서 다르며 여기서는 확인된 가장 최근 상한(200페소)을 썼습니다. 이 단위 요금은 공식 문서로 확인하지 못한 참고값이며, 차량 앞유리에 붙은 요금표가 우선합니다.",
+      "source": "https://www.expat.com/en/guide/south-america/chile/santiago/37461-getting-around-santiago.html",
+      "effective": "2026-08-10",
+      "confidence": "low"
     },
     {
       "id": "AU-SYDNEY",
@@ -3060,37 +3758,53 @@
       "currency": "AUD",
       "symbol": "$",
       "decimals": 2,
-      "baseFare": 3.6,
+      "baseFare": 5.17,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
+          "uptoM": 12000,
+          "unitM": 38.31,
+          "fare": 0.1
+        },
+        {
           "uptoM": null,
-          "unitM": 43.67,
+          "unitM": 42.19,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 6.35,
+      "timeUnitSec": 5.31,
       "timeFare": 0.1,
       "slowSpeedKmh": 26,
       "surcharges": [
         {
-          "name": "NIGHT",
+          "name": "Night rate",
           "startHour": 22,
           "endHour": 6,
-          "percent": 20
+          "percent": 18.77,
+          "baseFare": 5.17
         },
         {
-          "name": "PEAK",
+          "name": "Peak time hiring charge",
           "startHour": 22,
           "endHour": 6,
           "days": [
             5,
             6
           ],
-          "flat": 2.5
+          "flat": 2.65
         }
       ],
-      "note": "NSW 도시 택시 요율 (2023년 7월). 금·토 야간 추가 $2.50."
+      "note": "뉴사우스웨일스주 도시 지역(시드니)에서 길에서 잡거나 승강장에서 타는 택시의 법정 최고 요금으로 2026년 6월 1일부터 시행 중입니다(기본 5.17달러, 12km까지 km당 2.61달러, 이후 2.37달러, 시속 26km 미만일 때 분당 1.13달러). 밤 22시~06시는 km 요금이 약 20% 오르고, 금·토요일 밤에는 2.65달러가 더 붙습니다. 통행료, 공항 이용료, 카드 수수료(최대 5%), 대형 택시 요금, 예약 택시 요금은 반영하지 않았습니다.",
+      "extras": [
+        {
+          "name": "승객 서비스 부담금(PSL, 부가세 포함)",
+          "amount": 1.32
+        }
+      ],
+      "source": "https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges",
+      "effective": "2026-06-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "AU-MELBOURNE",
@@ -3103,37 +3817,78 @@
       "currency": "AUD",
       "symbol": "$",
       "decimals": 2,
-      "baseFare": 4.8,
+      "baseFare": 5.4,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 46.3,
+          "unitM": 47.62,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 8.89,
+      "timeUnitSec": 8.57,
       "timeFare": 0.1,
       "slowSpeedKmh": 21,
       "surcharges": [
         {
-          "name": "NIGHT",
+          "name": "Overnight",
           "startHour": 17,
           "endHour": 9,
-          "percent": 10
-        },
-        {
-          "name": "LATE",
-          "startHour": 0,
-          "endHour": 5,
           "days": [
             0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "percent": 9.52,
+          "baseFare": 6.75
+        },
+        {
+          "name": "Overnight",
+          "startHour": 17,
+          "endHour": 22,
+          "days": [
+            5,
             6
           ],
-          "percent": 20
+          "percent": 9.52,
+          "baseFare": 6.75
+        },
+        {
+          "name": "Peak",
+          "startHour": 22,
+          "endHour": 4,
+          "days": [
+            5,
+            6
+          ],
+          "percent": 21.43,
+          "baseFare": 8
+        },
+        {
+          "name": "Overnight",
+          "startHour": 4,
+          "endHour": 9,
+          "days": [
+            6,
+            0
+          ],
+          "percent": 9.52,
+          "baseFare": 6.75
         }
       ],
-      "note": "빅토리아주 도시 택시 최고 요율 (2023년) 근사치."
+      "note": "멜버른 대도시권에서 예약 없이 타는 택시의 법정 최고 요금으로 2026년 7월 1일부터 시행 중입니다. 낮(09~17시)은 기본 5.40달러·km당 2.10달러·분당 0.70달러, 야간(17~09시)은 6.75·2.30·0.80달러, 금·토요일 밤 22시~04시 피크는 8.00·2.55·0.85달러이며 시속 21km 미만이면 시간 요금으로 바뀝니다. 2026년부터 요금 결정 기관이 ESC에서 주 교통계획부로 바뀌었고 매년 7월 물가에 맞춰 조정됩니다. 공항 승강장 요금, 통행료, 5인 이상 요금(18.35달러), 카드 수수료, 성탄절·새해 종일 피크 요금은 반영하지 않았습니다.",
+      "extras": [
+        {
+          "name": "상업용 승객 차량 부담금(CPV levy)",
+          "amount": 1.25
+        }
+      ],
+      "source": "https://safetransport.vic.gov.au/on-the-road/cpv-driver-accreditation/fares-and-levies/",
+      "effective": "2026-07-01",
+      "verified": "2026-11-21",
+      "confidence": "high"
     },
     {
       "id": "NZ-AUCKLAND",
@@ -3146,20 +3901,23 @@
       "currency": "NZD",
       "symbol": "$",
       "decimals": 2,
-      "baseFare": 3.5,
+      "baseFare": 3,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
-          "unitM": 29.41,
+          "unitM": 33.9,
           "fare": 0.1
         }
       ],
-      "timeUnitSec": 6,
+      "timeUnitSec": 6.32,
       "timeFare": 0.1,
-      "slowSpeedKmh": 15,
+      "slowSpeedKmh": 19.31,
       "surcharges": [],
-      "note": "Auckland Co-op Taxis 일반 요율 (2024년) 근사치."
+      "note": "오클랜드는 택시 요금이 자율화되어 회사마다 다릅니다. 여기서는 가장 큰 회사인 오클랜드 코옵 택시(Auckland Co-op Taxis)의 요금(기본 3.00달러, km당 2.95달러, 대기 분당 0.95달러)을 썼으며, 오클랜드 교통국(AT)이 2026년 10월 28일 갱신한 운영사 요금표 기준입니다. 다른 회사는 훨씬 비싸거나 쌀 수 있고(예: Corporate Cabs 기본 7.00달러·km당 약 4.15달러), 공항 출발 요금·카드 수수료·전화 예약료는 반영하지 않았습니다.",
+      "source": "https://at.govt.nz/bus-train-ferry/accessible-travel/total-mobility-scheme/total-mobility-taxi-operators-fares",
+      "verified": "2026-11-21",
+      "confidence": "medium"
     }
   ]
 }
