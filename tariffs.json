@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 5,
+  "version": 6,
   "updated": "2026-11-21",
   "countries": [
     {
@@ -1077,6 +1077,3440 @@
       }
     },
     {
+      "id": "KR-ULSAN",
+      "country": "KR",
+      "region": "울산",
+      "regionEn": "ULSAN",
+      "match": {
+        "regions": [
+          "울산광역시",
+          "Ulsan"
+        ],
+        "wholeRegion": true
+      },
+      "lat": 35.5384,
+      "lng": 129.3114,
+      "radiusKm": 18,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 125,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "울산 중형택시 요금 (2025-03-10 시행). 심야 할증 22~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://www.ulsan.go.kr/u/traffic/contents.ulsan?mId=001003006001000000",
+      "effective": "2025-03-10",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "region"
+      }
+    },
+    {
+      "id": "KR-SEJONG",
+      "country": "KR",
+      "region": "세종",
+      "regionEn": "SEJONG",
+      "match": {
+        "regions": [
+          "세종특별자치시",
+          "Sejong",
+          "Sejong-si"
+        ],
+        "wholeRegion": true
+      },
+      "lat": 36.48,
+      "lng": 127.289,
+      "radiusKm": 18,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1400,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 97,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 29,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "세종 중형택시 요금 (2024-08-01 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://www.sejong.go.kr/viewer/result/R0653/BBS_0000095534fdT77840.hwpx.files/1.html",
+      "effective": "2024-08-01",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "region"
+      }
+    },
+    {
+      "id": "KR-GN-CHANGWON",
+      "country": "KR",
+      "region": "경남 창원·김해 외 5곳",
+      "regionEn": "CHANGWON",
+      "match": {
+        "regions": [
+          "경상남도",
+          "Gyeongsangnam-do",
+          "South Gyeongsang"
+        ],
+        "cities": [
+          "창원시",
+          "김해시",
+          "진주시",
+          "거제시",
+          "밀양시",
+          "통영시",
+          "사천시",
+          "Changwon",
+          "Gimhae",
+          "Jinju",
+          "Geoje",
+          "Miryang",
+          "Tongyeong",
+          "Sacheon"
+        ],
+        "regionDefault": true
+      },
+      "lat": 35.228,
+      "lng": 128.6811,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상남도 창원·김해·진주·거제·밀양·통영·사천 중형택시 요금 (2026-07-20 시행). 심야 할증 22~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산). 복합할증: 시마다 다름. 김해시: 읍·면 지역 운행 시 40%(동 지역, 주촌면 선천지구, 진영읍 원도심·신도시 제외, 경계의 복합할증 표지판에서 적용·해제). 밀양시: 동↔읍·면, 읍·면↔읍·면 이동 시 복합할증 지점을 지나면 기본요금의 25%(1,150원) 가산, 복합할증 지역 운행 요금은 40% 할증. 거제시: 동 지역과 면 지역을 오갈 때 복합할증(율은 '현행 유지'라고만 보도, 2013년 시 보도자료에는 35%). 창원시·진주시·통영시·사천시의 복합할증 내용은 확인하지 못함. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://miryang.go.kr/web/index.do?mnNo=50305000000",
+      "effective": "2026-07-20",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-31",
+        "why": "경남의 일부 군(의령·창녕·남해·하동·거창)이 2026년 안에 요금을 조정할 예정이라 아직 요금표가 없습니다."
+      }
+    },
+    {
+      "id": "KR-GN-YANGSAN",
+      "country": "KR",
+      "region": "경남 양산",
+      "regionEn": "YANGSAN",
+      "match": {
+        "regions": [
+          "경상남도",
+          "Gyeongsangnam-do",
+          "South Gyeongsang"
+        ],
+        "cities": [
+          "양산시",
+          "Yangsan"
+        ]
+      },
+      "lat": 35.335,
+      "lng": 129.0372,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상남도 양산 중형택시 요금 (2026-07-01 시행). 심야 할증 22~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야와 겹쳐도 30%). 복합할증: 오지지역 할증 30%: 2026-07-01부터 원동면만 대상(상북면·하북면은 제외됨). 심야에 원동면을 운행해도 심야 20%를 더하지 않고 30%만 적용. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://v.daum.net/v/20260625202457752",
+      "effective": "2026-07-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "city",
+        "percentWhenSurcharged": 30
+      },
+      "review": {
+        "on": "2026-12-31",
+        "why": "경남의 일부 군(의령·창녕·남해·하동·거창)이 2026년 안에 요금을 조정할 예정이라 아직 요금표가 없습니다."
+      }
+    },
+    {
+      "id": "KR-GN-HAMAN",
+      "country": "KR",
+      "region": "경남 함안·합천 외 2곳",
+      "regionEn": "HAMAN",
+      "match": {
+        "regions": [
+          "경상남도",
+          "Gyeongsangnam-do",
+          "South Gyeongsang"
+        ],
+        "cities": [
+          "함안군",
+          "합천군",
+          "함양군",
+          "산청군",
+          "Haman",
+          "Hapcheon",
+          "Hamyang",
+          "Sancheong"
+        ]
+      },
+      "lat": 35.2725,
+      "lng": 128.4065,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 6000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 150
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 150,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상남도 함안·합천·함양·산청 중형택시 요금 (2026-11-19 시행). 심야 할증 22~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산). 복합할증: 군 전역 요금에 복합할증이 이미 들어 있음: 기본요금 6,000원 = 도 기본운임 4,600원 + 복합할증 1,400원(함안군 발표 기준), 거리·시간 단가는 100원이 아니라 복합할증 50%를 적용한 150원. 따로 더 붙는 읍·면 할증은 확인되지 않음.",
+      "verified": "2026-11-21",
+      "source": "https://www.idomin.com/news/articleView.html?idxno=2015711",
+      "effective": "2026-11-19",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-31",
+        "why": "경남의 일부 군(의령·창녕·남해·하동·거창)이 2026년 안에 요금을 조정할 예정이라 아직 요금표가 없습니다."
+      }
+    },
+    {
+      "id": "KR-GN-GOSEONG",
+      "country": "KR",
+      "region": "경남 고성",
+      "regionEn": "GOSEONG",
+      "match": {
+        "regions": [
+          "경상남도",
+          "Gyeongsangnam-do",
+          "South Gyeongsang"
+        ],
+        "cities": [
+          "고성군",
+          "Goseong"
+        ]
+      },
+      "lat": 34.973,
+      "lng": 128.3222,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 150
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 150,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상남도 고성 중형택시 요금 (시행일 미확인). 심야 할증 22~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산). 복합할증: 군 전역 요금에 복합할증이 이미 들어 있음: 현행 기본요금 5,000원 = 도 기본운임 4,000원 + 복합할증 1,000원, 거리·시간 단가는 복합할증률 50%를 적용한 150원. 2026-12-01부터 4,600원 + 900원 = 5,500원(단가 150원은 그대로).",
+      "verified": "2026-11-21",
+      "source": "https://www.metroseoul.co.kr/article/20261117500586",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "city"
+      },
+      "upcoming": [
+        {
+          "effective": "2026-12-01",
+          "set": {
+            "baseFare": 5500,
+            "distanceTiers": [
+              {
+                "uptoM": null,
+                "unitM": 128,
+                "fare": 150
+              }
+            ],
+            "timeUnitSec": 30,
+            "source": "https://www.metroseoul.co.kr/article/20261117500586"
+          }
+        }
+      ],
+      "review": {
+        "on": "2026-12-31",
+        "why": "경남의 일부 군(의령·창녕·남해·하동·거창)이 2026년 안에 요금을 조정할 예정이라 아직 요금표가 없습니다."
+      }
+    },
+    {
+      "id": "KR-GB-POHANG",
+      "country": "KR",
+      "region": "경북 포항·경주 외 3곳",
+      "regionEn": "POHANG",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "포항시",
+          "경주시",
+          "안동시",
+          "상주시",
+          "문경시",
+          "Pohang",
+          "Gyeongju",
+          "Andong",
+          "Sangju",
+          "Mungyeong"
+        ],
+        "regionDefault": true
+      },
+      "lat": 36.019,
+      "lng": 129.3435,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 포항·경주·안동·상주·문경 중형택시 요금 (2026-02-20 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 다섯 시 모두 읍·면 복합할증이 있으나 2026년 현행 숫자는 확인하지 못함. 경주·상주는 '복합할증 현행 유지'라고만 발표. 안동시는 복합할증 요율을 그대로 두고 읍·면 복합할증의 기본거리만 1.7km로 바꿈(2023-09-01 기준으로는 읍·면 안에서 이동하면 기본요금에 1,000원을 더하고 구간별 단가가 131m당 160~200원이었음. 2026년 고시의 단가는 보지 못함). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.pohang.go.kr/portal/board/post/view.do?idx=1015665&bcIdx=100&mid=0201010000",
+      "effective": "2026-02-20",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GB-CHILGOK",
+      "country": "KR",
+      "region": "경북 칠곡·의성 외 4곳",
+      "regionEn": "CHILGOK",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "칠곡군",
+          "의성군",
+          "청도군",
+          "성주군",
+          "봉화군",
+          "청송군",
+          "Chilgok",
+          "Uiseong",
+          "Cheongdo",
+          "Seongju",
+          "Bonghwa",
+          "Cheongsong",
+          "Euiseong"
+        ]
+      },
+      "lat": 35.9955,
+      "lng": 128.4017,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 칠곡·의성·청도·성주·봉화·청송 중형택시 요금 (2026-02-01 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 여섯 군 어느 자료에도 복합할증 숫자가 나오지 않음. 칠곡군은 '할증은 기존과 동일'이라고만 발표. 경북의 다른 군(영덕·울진)은 기본거리 초과 시 63%가 붙으므로 이 군들도 복합할증이 있을 가능성이 있음. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.kbmaeil.com/article/20260113500274",
+      "effective": "2026-02-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GB-GIMCHEON",
+      "country": "KR",
+      "region": "경북 김천",
+      "regionEn": "GIMCHEON",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "김천시",
+          "Gimcheon"
+        ]
+      },
+      "lat": 36.1398,
+      "lng": 128.1136,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 김천 중형택시 요금 (2026-01-09 시행). 심야 할증 23~4시 20%. 복합할증: 3km 이상 운행 시 복합할증 61%(종전과 같음). 지역 구분 없이 붙는지, 읍·면 구간에만 붙는지는 기사에 없음. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://v.daum.net/v/20260102112520864",
+      "effective": "2026-01-09",
+      "confidence": "medium"
+    },
+    {
+      "id": "KR-GB-GUMI",
+      "country": "KR",
+      "region": "경북 구미",
+      "regionEn": "GUMI",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "구미시",
+          "Gumi"
+        ]
+      },
+      "lat": 36.1195,
+      "lng": 128.3446,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": 3000,
+          "unitM": 128,
+          "fare": 100
+        },
+        {
+          "uptoM": 8000,
+          "unitM": 128,
+          "fare": 130
+        },
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 150
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 구미 중형택시 요금 (2026-01-30 시행). 심야 할증 23~4시 20%. 일정 거리 이후의 거리 할증을 반영했습니다. 복합할증: 주행할증(동↔동·읍·면): 3km 이후 8km까지 30%, 8km 이후 50%. 복합할증(읍·면↔읍·면): 1.7km 이후 8km까지 38%, 8km 이후 55%. 고아읍(원호·문성)과 산동확장단지는 제외(동 지역으로 취급). 시계외는 별도 율이 아니라 '출발 시부터 복합할증 적용'.",
+      "verified": "2026-11-21",
+      "source": "https://www.gumi.go.kr/traffic/contents.do?mid=0105020000",
+      "effective": "2026-01-30",
+      "confidence": "high"
+    },
+    {
+      "id": "KR-GB-GYEONGSAN",
+      "country": "KR",
+      "region": "경북 경산",
+      "regionEn": "GYEONGSAN",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "경산시",
+          "Gyeongsan"
+        ]
+      },
+      "lat": 35.8251,
+      "lng": 128.7411,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 97,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 경산 중형택시 요금 (2026-02-23 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 읍·면 지역 할증 300원(정액). 적용 조건의 세부(승차·하차 기준)는 확인하지 못함. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://view.asiae.co.kr/article/2026020214194175554",
+      "effective": "2026-02-23",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GB-YEONGJU",
+      "country": "KR",
+      "region": "경북 영주",
+      "regionEn": "YEONGJU",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "영주시",
+          "Yeongju"
+        ]
+      },
+      "lat": 36.8057,
+      "lng": 128.624,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 163
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 163,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 영주 중형택시 요금 (2026-02-01 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야와 겹쳐도 20%). 복합할증이 반영된 단가(163원)입니다. 복합할증: 복합할증 63%: 동↔읍·면·동은 1.7km 초과분부터 63% 할증. 읍·면↔읍·면은 초기요금이 5,300원이고 1.7km 초과분부터 63% 할증. 적용지역은 영주시 전지역(읍·면·동).",
+      "verified": "2026-11-21",
+      "source": "https://www.yeongju.go.kr/open_content/main/page.do?mnu_uid=1521&parm_bod_uid=1167422&step=258",
+      "effective": "2026-02-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "percentWhenSurcharged": 20
+      }
+    },
+    {
+      "id": "KR-GB-YEONGCHEON",
+      "country": "KR",
+      "region": "경북 영천",
+      "regionEn": "YEONGCHEON",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "영천시",
+          "Yeongcheon"
+        ]
+      },
+      "lat": 35.9733,
+      "lng": 128.9386,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 영천 중형택시 요금 (2026-02-20 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증률 62%(변동 없음). 복합할증 구간에서는 거리 기준이 81m→79m로 줄어 79m당 100원, 심야·시계외 할증이 겹치면 79m당 120원. 복합할증이 붙는 지역 범위는 기사에 없음.",
+      "verified": "2026-11-21",
+      "source": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4064283",
+      "effective": "2026-02-20",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GB-YECHEON",
+      "country": "KR",
+      "region": "경북 예천",
+      "regionEn": "YECHEON",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "예천군",
+          "Yecheon"
+        ]
+      },
+      "lat": 36.6577,
+      "lng": 128.4528,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 예천 중형택시 요금 (2026-02-01 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증 요율은 현행 유지. 현행은 2024-03-18 조정분으로, 복합할증 구간에서 기본거리를 넘으면 10km까지 주행요금 100% 할증, 10km 초과분은 63% 할증(종전의 1,000원 가산은 2024년에 삭제). 2024년 안내의 기준 거리 2km가 2026년에 1.7km로 바뀌었는지는 확인하지 못함. 경북도청 신도시는 도시계획구역 경계선까지 시계외 할증을 적용하지 않음. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4062960",
+      "effective": "2026-02-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GB-ULJIN",
+      "country": "KR",
+      "region": "경북 울진·영덕",
+      "regionEn": "ULJIN",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "울진군",
+          "영덕군",
+          "Uljin",
+          "Yeongdeok",
+          "Yeongdeog"
+        ]
+      },
+      "lat": 36.993,
+      "lng": 129.4004,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": 1828,
+          "unitM": 128,
+          "fare": 2998
+        },
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 163
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 163,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 울진·영덕 중형택시 요금 (2026-05-19 시행). 심야 할증 23~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증이 반영된 단가(163원)입니다. 복합할증: 군 관내 어디서든 주행거리가 1.7km를 넘으면 복합할증 63%가 붙음: 1.7km 지점 요금이 7,335원(4,500원×1.63)이 되고 그 뒤로 128m당 163원, 30초당 163원.",
+      "verified": "2026-11-21",
+      "source": "https://www.uljin.go.kr/index.uljin?menuCd=DOM_000000106003006002",
+      "effective": "2026-05-19",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GB-ULLEUNG",
+      "country": "KR",
+      "region": "경북 울릉",
+      "regionEn": "ULLEUNG",
+      "match": {
+        "regions": [
+          "경상북도",
+          "Gyeongsangbuk-do",
+          "North Gyeongsang"
+        ],
+        "cities": [
+          "울릉군",
+          "Ulleung"
+        ]
+      },
+      "lat": 37.4844,
+      "lng": 130.9058,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4500,
+      "baseDistanceM": 1700,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 128,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "경상북도 울릉 중형택시 요금 (2026-02-06 시행). 심야 할증 23~4시 20%. 복합할증: 확인하지 못함. 군의회 회의록(2026-02-03)에 따르면 울릉읍에서 서면·북면으로 갈 때는 미터기 대신 마을별 정액(콜 요금)을 받고, 서면·북면에서 울릉읍으로 나올 때는 미터기를 쓰는 관행이 있음. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다. 공식 자료로 확인하지 못한 값이 섞여 있어 참고용입니다.",
+      "verified": "2026-11-21",
+      "source": "https://news.tf.co.kr/read/national/2288685.htm",
+      "effective": "2026-02-06",
+      "confidence": "low"
+    },
+    {
+      "id": "KR-GW-WONJU",
+      "country": "KR",
+      "region": "강원 춘천·원주 외 1곳",
+      "regionEn": "WONJU",
+      "match": {
+        "regions": [
+          "강원특별자치도",
+          "강원도",
+          "Gangwon-do",
+          "Gangwon State",
+          "Gangwon"
+        ],
+        "cities": [
+          "춘천시",
+          "원주시",
+          "강릉시",
+          "Chuncheon",
+          "Wonju",
+          "Gangneung",
+          "Weonju"
+        ],
+        "regionDefault": true
+      },
+      "lat": 37.3422,
+      "lng": 127.9202,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": 6000,
+          "unitM": 131,
+          "fare": 100
+        },
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 200
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "강원특별자치도 춘천·원주·강릉 중형택시 요금 (2024-08-05 시행). 심야 할증 23~24시 20%, 0~2시 30%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 일정 거리 이후의 거리 할증을 반영했습니다. 복합할증: 6km 초과 구간은 거리운임 100% 할증(131m당 200원, 미터기 자동). 강릉시 공식 요율표에 '2km~6km 131m당 100원, 6km 초과 131m당 200원'으로 적혀 있다. 강릉은 별도로 옥계면 일부(옥계현내 시장 기점 → 주수리·도직리·낙풍리·북동리·금진리·남양리·산계리·한라아파트)에 6km까지 복합할증 25%, 시 경계 밖은 미터요금이되 옥계 기점→동해시·주문진 기점→양양군은 6km까지 20% 할증. 춘천·원주의 '6km 지점부터 100%'는 나무위키 택시 문서(2026-11-17 수정)와 2013년 춘천시 공지('6km 초과 운행 시 이후요금 200원')에 근거한 것으로 2024년 고시 원문은 확인하지 못함.",
+      "verified": "2026-11-21",
+      "source": "https://its.gn.go.kr/information/openTaxiPage",
+      "effective": "2024-08-05",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GW-DONGHAE",
+      "country": "KR",
+      "region": "강원 동해",
+      "regionEn": "DONGHAE",
+      "match": {
+        "regions": [
+          "강원특별자치도",
+          "강원도",
+          "Gangwon-do",
+          "Gangwon State",
+          "Gangwon"
+        ],
+        "cities": [
+          "동해시",
+          "Donghae"
+        ]
+      },
+      "lat": 37.5247,
+      "lng": 129.1143,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": 5000,
+          "unitM": 131,
+          "fare": 100
+        },
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 200
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "강원특별자치도 동해 중형택시 요금 (2024-08-05 시행). 심야 할증 23~24시 20%, 0~2시 30%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 일정 거리 이후의 거리 할증을 반영했습니다. 복합할증: 5km 초과 구간은 거리운임 100% 할증(131m당 200원으로 추정). 2019-04-19 개편 때 시 외곽 31곳 복합할증제를 폐지하고 '2~5km 133m당 100원, 5km 초과 133m당 200원' 체계로 바꿨다(강원일보 2019-04-18). 나무위키도 '동해시: 5km 지점부터 100%'. 공식 자료로 확인하지 못한 값이 섞여 있어 참고용입니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.kwnews.co.kr/article/201904170507188",
+      "effective": "2024-08-05",
+      "confidence": "low",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GW-SOKCHO",
+      "country": "KR",
+      "region": "강원 속초·삼척",
+      "regionEn": "SOKCHO",
+      "match": {
+        "regions": [
+          "강원특별자치도",
+          "강원도",
+          "Gangwon-do",
+          "Gangwon State",
+          "Gangwon"
+        ],
+        "cities": [
+          "속초시",
+          "삼척시",
+          "Sokcho",
+          "Samcheok",
+          "Samcheog"
+        ]
+      },
+      "lat": 38.207,
+      "lng": 128.5918,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": 4000,
+          "unitM": 131,
+          "fare": 100
+        },
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 200
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "강원특별자치도 속초·삼척 중형택시 요금 (2024-08-05 시행). 심야 할증 23~24시 20%, 0~2시 30%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 일정 거리 이후의 거리 할증을 반영했습니다. 복합할증: 4km 초과 구간은 거리운임 100% 할증(나무위키 '삼척시, 속초시: 4km 지점부터 100%'). 공식 문서로는 확인하지 못함. 공식 자료로 확인하지 못한 값이 섞여 있어 참고용입니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.kado.net/news/articleView.html?idxno=1257856",
+      "effective": "2024-08-05",
+      "confidence": "low",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GW-TAEBAEK",
+      "country": "KR",
+      "region": "강원 태백",
+      "regionEn": "TAEBAEK",
+      "match": {
+        "regions": [
+          "강원특별자치도",
+          "강원도",
+          "Gangwon-do",
+          "Gangwon State",
+          "Gangwon"
+        ],
+        "cities": [
+          "태백시",
+          "Taebaek"
+        ]
+      },
+      "lat": 37.1641,
+      "lng": 128.9856,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "강원특별자치도 태백 중형택시 요금 (2024-08-05 시행). 심야 할증 23~24시 20%, 0~2시 30%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 구간별 복합할증 31%~52%. 태백시 답변(태백관광 불편사항 신고 게시판, 2024-08)에 따르면 태백시 고시 제2008-47호(2008-11-01 시행) 복합할증제에 따라 여러 구간에 31~52%를 적용하며 택시 안에 복합할증율 조견표를 비치한다. 2024-08-01 이용객 글에도 시내에서 요금이 131원씩 올라갔다(31% 구간)는 내용이 있다. 어느 구간이 몇 %인지는 확인하지 못했다. 할증 구간은 호출 앱의 예상요금에 반영되지 않는다. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다. 공식 자료로 확인하지 못한 값이 섞여 있어 참고용입니다.",
+      "verified": "2026-11-21",
+      "source": "https://kwnews.co.kr/article/202407160123971",
+      "effective": "2024-08-05",
+      "confidence": "low",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GW-PYEONGCHANG",
+      "country": "KR",
+      "region": "강원 평창·양양",
+      "regionEn": "PYEONGCHANG",
+      "match": {
+        "regions": [
+          "강원특별자치도",
+          "강원도",
+          "Gangwon-do",
+          "Gangwon State",
+          "Gangwon"
+        ],
+        "cities": [
+          "평창군",
+          "양양군",
+          "Pyeongchang",
+          "Yangyang"
+        ]
+      },
+      "lat": 37.3708,
+      "lng": 128.3903,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 200
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 200,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "강원특별자치도 평창·양양 중형택시 요금 (2024-08-05 시행). 심야 할증 23~24시 20%, 0~2시 30%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 단가에 복합할증 100% 포함. 기본거리(2km) 이후 전 구간에 복합할증 100%가 붙어 실제 미터 단가가 131m당 200원·31초당 200원이다(도 고시 단가는 100원). 위 unitFare·timeFare 200원에 이미 들어 있으므로 따로 더 얹으면 안 된다. 평창군청 '택시요금 산정기준' 표: 거리운임 2km 이후 131m당 200원·시간운임 15km/h 이하 31초당 200원, 비고 '복합할증 100% 포함'(평창군 고시 제2024-126호). 양양군청 공지(2024-07-26): 거리운임 100원/131m·시간운임 100원/31초, '2km 초과 시 복합할증 100%, 호출비 1,000원(현행과 동일)'. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.pc.go.kr/portal/part/traffic/part-hygiene-traffic",
+      "effective": "2024-08-05",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-GW-YANGGU",
+      "country": "KR",
+      "region": "강원 양구",
+      "regionEn": "YANGGU",
+      "match": {
+        "regions": [
+          "강원특별자치도",
+          "강원도",
+          "Gangwon-do",
+          "Gangwon State",
+          "Gangwon"
+        ],
+        "cities": [
+          "양구군",
+          "Yanggu"
+        ]
+      },
+      "lat": 38.11,
+      "lng": 127.9899,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4600,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 31,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 24,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 2,
+          "percent": 30
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "강원특별자치도 양구 중형택시 요금 (2024-08-24 시행). 심야 할증 23~24시 20%, 0~2시 30%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증 100%(2024년 조정에서도 변동 없음). 적용 구간은 기사에 없다. 평창·양양처럼 2km 이후 전 구간이라면 실제 단가는 131m·31초당 200원이 된다. 양구군청의 옛 택시이용 안내표(2019년 이전 요금: 기본 3,500원, 152m/160원, 40초/160원)는 '복합할증구간 60%'라고 구간을 한정해 적고 있어 전 구간 적용인지 단정하지 못했다. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.kwnews.co.kr/article/202408190102125",
+      "effective": "2024-08-24",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CB-CHEONGJU",
+      "country": "KR",
+      "region": "충북 청주",
+      "regionEn": "CHEONGJU",
+      "match": {
+        "regions": [
+          "충청북도",
+          "Chungcheongbuk-do",
+          "North Chungcheong"
+        ],
+        "cities": [
+          "청주시",
+          "Cheongju"
+        ],
+        "regionDefault": true
+      },
+      "lat": 36.6424,
+      "lng": 127.489,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1800,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 127,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "충청북도 청주 중형택시 요금 (2023-08-21 시행). 심야 할증 22~23시 20%, 23~2시 40%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 13개 읍·면 지역(옛 청원군)에 복합할증 35%: 기본요금 4,000원 적용 거리가 1.12km로 줄고 거리·시간 단가가 35% 비싸진다(127m·32초당 약 135원). 2026-09-28 04시부터 출발지와 목적지가 같은 읍·면 안이면 복합할증을 해제해 동 지역과 같은 요금(1.8km 4,000원, 127m·32초당 100원). 서로 다른 읍·면 사이 이동이나 읍·면을 경유하는 통행은 종전 35% 유지. 복합할증률은 2015년 7월 55%→35%. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.cj-ilbo.com/news/articleView.html?idxno=1112688",
+      "effective": "2023-08-21",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2027-01-15",
+        "why": "충북도가 기본요금 4,500~4,800원 인상안을 2026년 말~2027년 초에 확정할 계획입니다."
+      }
+    },
+    {
+      "id": "KR-CB-CHUNGJU",
+      "country": "KR",
+      "region": "충북 충주",
+      "regionEn": "CHUNGJU",
+      "match": {
+        "regions": [
+          "충청북도",
+          "Chungcheongbuk-do",
+          "North Chungcheong"
+        ],
+        "cities": [
+          "충주시",
+          "Chungju"
+        ]
+      },
+      "lat": 36.991,
+      "lng": 127.9259,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1800,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 127,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "충청북도 충주 중형택시 요금 (2023-08-21 시행). 심야 할증 22~23시 20%, 23~2시 40%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 동 지역과 읍·면 지역 사이를 이동하면 복합할증 60%(중형 기준, 나무위키 '2km마다 60%'). 한국교통대 학생·교직원은 2019-03-23부터 할증 면제라는 설명도 있음. 공식 문서로는 확인하지 못함. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다. 공식 자료로 확인하지 못한 값이 섞여 있어 참고용입니다.",
+      "verified": "2026-11-21",
+      "source": "https://kpinews.kr/newsView/179568433586854",
+      "effective": "2023-08-21",
+      "confidence": "low",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2027-01-15",
+        "why": "충북도가 기본요금 4,500~4,800원 인상안을 2026년 말~2027년 초에 확정할 계획입니다."
+      }
+    },
+    {
+      "id": "KR-CB-JECHEON",
+      "country": "KR",
+      "region": "충북 제천",
+      "regionEn": "JECHEON",
+      "match": {
+        "regions": [
+          "충청북도",
+          "Chungcheongbuk-do",
+          "North Chungcheong"
+        ],
+        "cities": [
+          "제천시",
+          "Jecheon"
+        ]
+      },
+      "lat": 37.1326,
+      "lng": 128.191,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1800,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 127,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "충청북도 제천 중형택시 요금 (2023-08-21 시행). 심야 할증 22~23시 20%, 23~2시 40%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증 63%(충청일보: 2023년 조정에서도 63% 유지). 나무위키에 따르면 동·읍·면 구분 없이 미터기 출발 후 4km 이후부터 적용된다(적용 방식은 공식 확인 못 함). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.ccdailynews.com/news/articleView.html?idxno=2223334",
+      "effective": "2023-08-21",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2027-01-15",
+        "why": "충북도가 기본요금 4,500~4,800원 인상안을 2026년 말~2027년 초에 확정할 계획입니다."
+      }
+    },
+    {
+      "id": "KR-CB-EUMSEONG",
+      "country": "KR",
+      "region": "충북 증평·진천 외 2곳",
+      "regionEn": "EUMSEONG",
+      "match": {
+        "regions": [
+          "충청북도",
+          "Chungcheongbuk-do",
+          "North Chungcheong"
+        ],
+        "cities": [
+          "증평군",
+          "진천군",
+          "괴산군",
+          "음성군",
+          "Jeungpyeong",
+          "Jincheon",
+          "Goesan",
+          "Eumseong"
+        ]
+      },
+      "lat": 36.9403,
+      "lng": 127.6905,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 900,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 127,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "충청북도 증평·진천·괴산·음성 중형택시 요금 (2023-08-21 시행). 심야 할증 22~23시 20%, 23~2시 40%, 2~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증 60%가 전 구간에 적용되는 군 지역 요금이다. 4개 군이 2023-08-14 고시한 공통 기준이 '기본 4,000원/900m, 127m당 160원, 시속 15km 이하 32초당 160원'이므로 위 unitFare·timeFare 160원은 복합할증을 이미 반영한 값으로 보인다(100원×1.6). 따로 60%를 더 얹으면 안 된다. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.fnnews.com/news/202308171427511976",
+      "effective": "2023-08-21",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2027-01-15",
+        "why": "충북도가 기본요금 4,500~4,800원 인상안을 2026년 말~2027년 초에 확정할 계획입니다."
+      }
+    },
+    {
+      "id": "KR-CN-CHEONAN",
+      "country": "KR",
+      "region": "충남 천안",
+      "regionEn": "CHEONAN",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "천안시",
+          "Cheonan"
+        ],
+        "regionDefault": true
+      },
+      "lat": 36.8151,
+      "lng": 127.1139,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1400,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 110,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 천안 중형택시 요금 (2023-09-01 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-01",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-ASAN",
+      "country": "KR",
+      "region": "충남 아산",
+      "regionEn": "ASAN",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "아산시",
+          "Asan"
+        ]
+      },
+      "lat": 36.7898,
+      "lng": 127.0019,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1400,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 105,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 아산 중형택시 요금 (2023-09-01 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-01",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-GONGJU",
+      "country": "KR",
+      "region": "충남 공주",
+      "regionEn": "GONGJU",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "공주시",
+          "Gongju"
+        ]
+      },
+      "lat": 36.4466,
+      "lng": 127.119,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1200,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 85,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 25,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 공주 중형택시 요금 (2023-09-22 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-22",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-BORYEONG",
+      "country": "KR",
+      "region": "충남 보령",
+      "regionEn": "BORYEONG",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "보령시",
+          "Boryeong"
+        ]
+      },
+      "lat": 36.3334,
+      "lng": 126.6127,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1200,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 83,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 25,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 보령 중형택시 요금 (2023-08-19 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-08-19",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-SEOSAN",
+      "country": "KR",
+      "region": "충남 서산·당진",
+      "regionEn": "SEOSAN",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "서산시",
+          "당진시",
+          "Seosan",
+          "Dangjin",
+          "Sosan"
+        ]
+      },
+      "lat": 36.7848,
+      "lng": 126.4503,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1200,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 75,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 21,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 서산·당진 중형택시 요금 (2023-09-23 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-23",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-NONSAN",
+      "country": "KR",
+      "region": "충남 논산",
+      "regionEn": "NONSAN",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "논산시",
+          "Nonsan"
+        ]
+      },
+      "lat": 36.1872,
+      "lng": 127.0987,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1300,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 89,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 논산 중형택시 요금 (2023-09-22 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-22",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-GYERYONG",
+      "country": "KR",
+      "region": "충남 계룡",
+      "regionEn": "GYERYONG",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "계룡시",
+          "Gyeryong"
+        ]
+      },
+      "lat": 36.2745,
+      "lng": 127.2488,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1400,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 85,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 35,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 계룡 중형택시 요금 (2023-09-26 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-26",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-GEUMSAN",
+      "country": "KR",
+      "region": "충남 금산",
+      "regionEn": "GEUMSAN",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "금산군",
+          "Geumsan"
+        ]
+      },
+      "lat": 36.1088,
+      "lng": 127.4881,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 75,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 금산 중형택시 요금 (2023-12-26 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-12-26",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-BUYEO",
+      "country": "KR",
+      "region": "충남 부여",
+      "regionEn": "BUYEO",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "부여군",
+          "Buyeo"
+        ]
+      },
+      "lat": 36.2757,
+      "lng": 126.9098,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 78,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 21,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 부여 중형택시 요금 (2023-09-06 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-06",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-SEOCHEON",
+      "country": "KR",
+      "region": "충남 서천",
+      "regionEn": "SEOCHEON",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "서천군",
+          "Seocheon"
+        ]
+      },
+      "lat": 36.0803,
+      "lng": 126.6919,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1200,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 80,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 25,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 서천 중형택시 요금 (2023-09-22 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-22",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-CHEONGYANG",
+      "country": "KR",
+      "region": "충남 청양",
+      "regionEn": "CHEONGYANG",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "청양군",
+          "Cheongyang"
+        ]
+      },
+      "lat": 36.4592,
+      "lng": 126.8022,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 75,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 청양 중형택시 요금 (2023-09-25 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-25",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-HONGSEONG",
+      "country": "KR",
+      "region": "충남 홍성·예산",
+      "regionEn": "HONGSEONG",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "홍성군",
+          "예산군",
+          "Hongseong",
+          "Yesan"
+        ]
+      },
+      "lat": 36.6012,
+      "lng": 126.6608,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1100,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 74,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 홍성·예산 중형택시 요금 (2023-09-01 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 32%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-09-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 32,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-CN-TAEAN",
+      "country": "KR",
+      "region": "충남 태안",
+      "regionEn": "TAEAN",
+      "match": {
+        "regions": [
+          "충청남도",
+          "Chungcheongnam-do",
+          "South Chungcheong"
+        ],
+        "cities": [
+          "태안군",
+          "Taean"
+        ]
+      },
+      "lat": 36.7456,
+      "lng": 126.298,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4000,
+      "baseDistanceM": 1000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 72,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "충청남도 태안 중형택시 요금 (2023-08-26 시행). 심야 할증 22~4시 30%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+      "effective": "2023-08-26",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 30,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-JB-JEONJU",
+      "country": "KR",
+      "region": "전북 전주",
+      "regionEn": "JEONJU",
+      "match": {
+        "regions": [
+          "전북특별자치도",
+          "전라북도",
+          "Jeollabuk-do",
+          "Jeonbuk State",
+          "Jeonbuk",
+          "North Jeolla"
+        ],
+        "cities": [
+          "전주시",
+          "Jeonju"
+        ],
+        "regionDefault": true
+      },
+      "lat": 35.8242,
+      "lng": 127.148,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전북특별자치도 전주 중형택시 요금 (2023-08-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 50%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a8874b82ad01898bf39f2b4ef3&page=720",
+      "effective": "2023-08-01",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 50,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-JB-IKSAN",
+      "country": "KR",
+      "region": "전북 익산·군산 외 3곳",
+      "regionEn": "IKSAN",
+      "match": {
+        "regions": [
+          "전북특별자치도",
+          "전라북도",
+          "Jeollabuk-do",
+          "Jeonbuk State",
+          "Jeonbuk",
+          "North Jeolla"
+        ],
+        "cities": [
+          "익산시",
+          "군산시",
+          "정읍시",
+          "김제시",
+          "남원시",
+          "Iksan",
+          "Gunsan",
+          "Jeongeup",
+          "Gimje",
+          "Namwon",
+          "Namweon"
+        ]
+      },
+      "lat": 35.9483,
+      "lng": 126.9577,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전북특별자치도 익산·군산·정읍·김제·남원 중형택시 요금 (2023-08-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 시마다 다름. 군산시: 운행거리 5.026km 초과분 40%. 익산시: 6.020km 이후 40%(요금 7,300원부터 단위요금 140원). 정읍시·김제시: 복합할증 40%(적용 구간·지역은 확인 못 함). 남원시: 먼 거리·오지 운행 시 40% 이내. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.pressian.com/pages/articles/2023071916271082970",
+      "effective": "2023-08-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-JB-WANJU",
+      "country": "KR",
+      "region": "전북 완주·고창 외 2곳",
+      "regionEn": "WANJU",
+      "match": {
+        "regions": [
+          "전북특별자치도",
+          "전라북도",
+          "Jeollabuk-do",
+          "Jeonbuk State",
+          "Jeonbuk",
+          "North Jeolla"
+        ],
+        "cities": [
+          "완주군",
+          "고창군",
+          "부안군",
+          "임실군",
+          "Wanju",
+          "Gochang",
+          "Buan",
+          "Imsil",
+          "Kochang"
+        ]
+      },
+      "lat": 35.9047,
+      "lng": 127.1622,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 163
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 163,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전북특별자치도 완주·고창·부안·임실 중형택시 요금 (2023-08-11 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 군 전역에 복합할증이 단위요금에 이미 반영된 형태(도 기준 100원 대신 134m·32초당 163원, 기본요금 5,000원). 그 위에 더 붙는 읍·면 할증은 확인되지 않음. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.wanju.go.kr/news/planweb/board/view.9is?dataUid=a70a5c82948b467c9be3d6b54e3ca7ab&contentUid=ff808081898ba9ba0189f1e5b91101a9&boardUid=ff8080818b024d8e018b1c99655f1226&page=235",
+      "effective": "2023-08-11",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-JB-JINAN",
+      "country": "KR",
+      "region": "전북 진안·무주 외 1곳",
+      "regionEn": "JINAN",
+      "match": {
+        "regions": [
+          "전북특별자치도",
+          "전라북도",
+          "Jeollabuk-do",
+          "Jeonbuk State",
+          "Jeonbuk",
+          "North Jeolla"
+        ],
+        "cities": [
+          "진안군",
+          "무주군",
+          "장수군",
+          "Jinan",
+          "Muju",
+          "Jangsu"
+        ]
+      },
+      "lat": 35.7917,
+      "lng": 127.4249,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 167
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 167,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전북특별자치도 진안·무주·장수 중형택시 요금 (2023-08-17 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 군 전역에 복합할증이 단위요금에 이미 반영된 형태(134m·32초당 167원). 무주군은 복합할증 63%→67%라고 지역 택시조합 글에 적혀 있음. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.pressian.com/pages/articles/2023081110502755566",
+      "effective": "2023-08-17",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-JB-SUNCHANG",
+      "country": "KR",
+      "region": "전북 순창",
+      "regionEn": "SUNCHANG",
+      "match": {
+        "regions": [
+          "전북특별자치도",
+          "전라북도",
+          "Jeollabuk-do",
+          "Jeonbuk State",
+          "Jeonbuk",
+          "North Jeolla"
+        ],
+        "cities": [
+          "순창군",
+          "Sunchang"
+        ]
+      },
+      "lat": 35.3744,
+      "lng": 127.1374,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 165
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 165,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전북특별자치도 순창 중형택시 요금 (2023-09-29 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증 65%가 단위요금에 반영된 형태(134m·32초당 165원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다. 공식 자료로 확인하지 못한 값이 섞여 있어 참고용입니다.",
+      "verified": "2026-11-21",
+      "source": "https://pongdu.net/3278",
+      "effective": "2023-09-29",
+      "confidence": "low",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      }
+    },
+    {
+      "id": "KR-JN-MOKPO",
+      "country": "KR",
+      "region": "전남 목포",
+      "regionEn": "MOKPO",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "목포시",
+          "Mokpo"
+        ],
+        "regionDefault": true
+      },
+      "lat": 34.8118,
+      "lng": 126.3922,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 목포 중형택시 요금 (2023-11-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산).",
+      "verified": "2026-11-21",
+      "source": "https://www.metroseoul.co.kr/article/20231026500382",
+      "effective": "2023-11-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "groups": [
+          [
+            "목포시",
+            "무안군",
+            "Mokpo",
+            "Muan"
+          ]
+        ]
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-SUNCHEON",
+      "country": "KR",
+      "region": "전남 순천·광양",
+      "regionEn": "SUNCHEON",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "순천시",
+          "광양시",
+          "Suncheon",
+          "Gwangyang"
+        ]
+      },
+      "lat": 34.9507,
+      "lng": 127.4872,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 순천·광양 중형택시 요금 (2023-11-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 40%가 붙습니다(심야 할증과 합산). 복합할증: 순천시: 읍·면 등 복합할증 지역 40%(2023년에 35%→40%), 승차지점부터 적용. 광양시: 복합할증구역 요금이 따로 있음(2km까지 5,500원, 이후 80m·21초당 100원)이고 구역 경계부터 적용. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://gwangyang.go.kr/kor/board.es?mid=a11007000000&bid=0057&list_no=156497&act=view",
+      "effective": "2023-11-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 40,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-YEOSU",
+      "country": "KR",
+      "region": "전남 여수",
+      "regionEn": "YEOSU",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "여수시",
+          "Yeosu"
+        ]
+      },
+      "lat": 34.7604,
+      "lng": 127.6622,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 여수 중형택시 요금 (2023-11-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야와 겹쳐도 40%). 복합할증: 운행거리 9km 이상부터 130m·30초당 140원(단위요금 40% 할증). 9km까지는 100원. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.metroseoul.co.kr/article/20231023500546",
+      "effective": "2023-11-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 35,
+        "unit": "city",
+        "percentWhenSurcharged": 40
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-NAJU",
+      "country": "KR",
+      "region": "전남 나주",
+      "regionEn": "NAJU",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "나주시",
+          "Naju"
+        ]
+      },
+      "lat": 35.016,
+      "lng": 126.7108,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4300,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 140
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 140,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 나주 중형택시 요금 (2023-11-10 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야와 겹쳐도 40%). 복합할증: 단위요금 자체가 140원(도 기준 100원에 40% 복합할증이 반영된 형태)으로 보도됨. 동 지역·혁신도시와 읍·면의 구분이 있는지는 확인 못 함. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.kpinews.kr/newsView/1065600293324231",
+      "effective": "2023-11-10",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 35,
+        "unit": "city",
+        "percentWhenSurcharged": 40
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-MUAN",
+      "country": "KR",
+      "region": "전남 무안·장성 외 1곳",
+      "regionEn": "MUAN",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "무안군",
+          "장성군",
+          "담양군",
+          "Muan",
+          "Jangseong",
+          "Damyang"
+        ]
+      },
+      "lat": 34.9904,
+      "lng": 126.4816,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 무안·장성·담양 중형택시 요금 (2023-11-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 군 전역에 복합할증이 단위요금에 이미 반영된 형태(130m·30초당 160원, 기본요금 5,000원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://kpinews.kr/newsView/1065616161667946",
+      "effective": "2023-11-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "groups": [
+          [
+            "목포시",
+            "무안군",
+            "Mokpo",
+            "Muan"
+          ]
+        ]
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-GANGJIN",
+      "country": "KR",
+      "region": "전남 함평·강진",
+      "regionEn": "GANGJIN",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "함평군",
+          "강진군",
+          "Hampyeong",
+          "Gangjin"
+        ]
+      },
+      "lat": 34.642,
+      "lng": 126.7672,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 함평·강진 중형택시 요금 (2023-11-06 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야와 겹쳐도 40%). 복합할증: 군 전역에 복합할증이 단위요금에 이미 반영된 형태(130m·30초당 160원). 고시에서 말하는 '복합'은 심야와 사업구역 외 운행이 겹칠 때 40%를 뜻함. 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.gangjin.go.kr/www/government/notice/gosi?mode=view&idx=23929",
+      "effective": "2023-11-06",
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 35,
+        "unit": "city",
+        "percentWhenSurcharged": 40
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-YEONGGWANG",
+      "country": "KR",
+      "region": "전남 영광·곡성",
+      "regionEn": "YEONGGWANG",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "영광군",
+          "곡성군",
+          "Yeonggwang",
+          "Gokseong"
+        ]
+      },
+      "lat": 35.2772,
+      "lng": 126.512,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 영광·곡성 중형택시 요금 (2023-11-01 시행). 심야 할증 0~4시 20%. 복합할증: 군 전역에 복합할증이 단위요금에 이미 반영된 형태(130m·30초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://kpinews.kr/newsView/1065588690650501",
+      "effective": "2023-11-01",
+      "confidence": "medium",
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-HAENAM",
+      "country": "KR",
+      "region": "전남 해남",
+      "regionEn": "HAENAM",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "해남군",
+          "Haenam"
+        ]
+      },
+      "lat": 34.5733,
+      "lng": 126.5992,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 해남 중형택시 요금 (2023-11-24 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증이 단위요금에 반영된 형태(130m·30초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://haoah.co.kr/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%ED%83%9D%EC%8B%9C-%EA%B8%B0%EB%B3%B8%EC%9A%94%EA%B8%88-%EC%9D%B4%EC%9A%A9%EC%9A%94%EA%B8%88-%ED%95%A0%EC%A6%9D%EC%9A%94%EA%B8%88/",
+      "effective": "2023-11-24",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-WANDO",
+      "country": "KR",
+      "region": "전남 완도",
+      "regionEn": "WANDO",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "완도군",
+          "Wando"
+        ]
+      },
+      "lat": 34.311,
+      "lng": 126.755,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4700,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 완도 중형택시 요금 (2023-11-06 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증이 단위요금에 반영된 형태(130m·30초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.metroseoul.co.kr/article/20231107500762",
+      "effective": "2023-11-06",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 35,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-JANGHEUNG",
+      "country": "KR",
+      "region": "전남 장흥",
+      "regionEn": "JANGHEUNG",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "장흥군",
+          "Jangheung"
+        ]
+      },
+      "lat": 34.6816,
+      "lng": 126.9069,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 130,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 장흥 중형택시 요금 (2023-12-01 시행). 심야 할증 0~4시 20%. 복합할증: 복합할증이 단위요금에 반영된 형태(130m당 160원, 32초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.jangheung.go.kr/www/organization/news/notification?print=true&idx=23076&v_cnt=1246&search_type=title&page=7&mode=view",
+      "effective": "2023-12-01",
+      "confidence": "high",
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-HWASUN",
+      "country": "KR",
+      "region": "전남 화순",
+      "regionEn": "HWASUN",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "화순군",
+          "Hwasun"
+        ]
+      },
+      "lat": 35.0645,
+      "lng": 126.9864,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 134,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 화순 중형택시 요금 (2023-11-09 시행). 심야 할증 0~4시 20%. 복합할증: 복합할증이 단위요금에 반영된 형태(134m·32초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.yna.co.kr/view/AKR20231010092800054",
+      "effective": "2023-11-09",
+      "confidence": "medium",
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-GOHEUNG",
+      "country": "KR",
+      "region": "전남 고흥",
+      "regionEn": "GOHEUNG",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "고흥군",
+          "Goheung",
+          "Kohung"
+        ]
+      },
+      "lat": 34.6111,
+      "lng": 127.285,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 124,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 고흥 중형택시 요금 (2023-12-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증이 단위요금에 반영된 형태(124m·32초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.tonghabnews.com/news/articleView.html?idxno=153447",
+      "effective": "2023-12-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-BOSEONG",
+      "country": "KR",
+      "region": "전남 보성",
+      "regionEn": "BOSEONG",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "보성군",
+          "Boseong"
+        ]
+      },
+      "lat": 34.7714,
+      "lng": 127.08,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 124,
+          "fare": 170
+        }
+      ],
+      "timeUnitSec": 32,
+      "timeFare": 170,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 보성 중형택시 요금 (2023-11-10 시행). 심야 할증 0~4시 20%. 복합할증: 복합할증이 단위요금에 반영된 형태(124m·32초당 170원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.boseong.go.kr/www/open_administration/city_news/press_release?mode=view&idx=1141126",
+      "effective": "2023-11-10",
+      "confidence": "high",
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-JINDO",
+      "country": "KR",
+      "region": "전남 진도",
+      "regionEn": "JINDO",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "진도군",
+          "Jindo"
+        ]
+      },
+      "lat": 34.4868,
+      "lng": 126.2635,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 115,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 진도 중형택시 요금 (2023-11-01 시행). 심야 할증 0~4시 20%. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야 할증과 합산). 복합할증: 복합할증이 단위요금에 반영된 형태(115m·30초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://jindo.go.kr/home/board/B0016.cs?act=read&articleId=139062",
+      "effective": "2023-11-01",
+      "confidence": "medium",
+      "outOfArea": {
+        "percent": 35,
+        "unit": "city"
+      },
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
+      "id": "KR-JN-SINAN",
+      "country": "KR",
+      "region": "전남 신안",
+      "regionEn": "SINAN",
+      "match": {
+        "regions": [
+          "전라남도",
+          "Jeollanam-do",
+          "South Jeolla"
+        ],
+        "cities": [
+          "신안군",
+          "Sinan"
+        ]
+      },
+      "lat": 34.8335,
+      "lng": 126.3517,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 5000,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 140,
+          "fare": 160
+        }
+      ],
+      "timeUnitSec": 35,
+      "timeFare": 160,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 0,
+          "endHour": 4,
+          "percent": 20
+        }
+      ],
+      "note": "전라남도 신안 중형택시 요금 (2023-11-06 시행). 심야 할증 0~4시 20%. 복합할증: 복합할증이 단위요금에 반영된 형태(140m·35초당 160원). 읍·면 구간의 복합할증은 계산에 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.news1.kr/local/gwangju-jeonnam/5220596",
+      "effective": "2023-11-06",
+      "confidence": "medium",
+      "review": {
+        "on": "2026-12-15",
+        "why": "전남 택시 기본요금 500원 인상이 의결되어 시·군별 고시가 2026년 11~12월에 예정되어 있습니다."
+      }
+    },
+    {
       "id": "JP-TOKYO",
       "country": "JP",
       "region": "도쿄",
@@ -1107,7 +4541,7 @@
           "percent": 20
         }
       ],
-      "note": "도쿄 23구·무사시노·미타카(特別区・武三地区) 일반 택시(보통차) 상한운임으로, 2026년 4월 20일 개정(인상률 10.14%)분입니다. 호출료(迎車料金), 고속도로 통행료, 9,000엔 초과분 장거리 할인은 반영하지 않았습니다.",
+      "note": "도쿄 23구·무사시노·미타카(特別区・武三地区) 일반 택시(보통차) 상한운임으로, 2026년 4월 20일 개정(인상률 10.14%)분입니다. 호출료(迎車料金)와 고속도로 통행료는 반영하지 않았습니다. 미터 금액이 9,000엔을 넘으면 넘는 부분을 10% 깎아 주는 장거리 할인을 반영했습니다(대부분의 회사가 적용). 구역 밖으로 나가도 할증은 없습니다.",
       "source": "https://wwwtb.mlit.go.jp/kanto/content/000369955.pdf",
       "effective": "2026-04-20",
       "verified": "2026-11-21",
@@ -1180,6 +4614,10 @@
           "Chofu",
           "Narita Airport"
         ]
+      },
+      "discountAbove": {
+        "fare": 9000,
+        "percent": 10
       }
     },
     {
@@ -1213,7 +4651,7 @@
           "percent": 20
         }
       ],
-      "note": "오사카 지구(오사카부 전역, 오사카시역 교통권 포함) 일반 택시(보통차) 상한운임으로, 2025년 11월 5일 개정(인상률 10.88%)분입니다. 호출료, 고속도로 통행료, 회사별 장거리 할인은 반영하지 않았습니다.",
+      "note": "오사카 지구(오사카부 전역, 오사카시역 교통권 포함) 일반 택시(보통차) 상한운임으로, 2025년 11월 5일 개정(인상률 10.88%)분입니다. 호출료, 고속도로 통행료, 회사별 장거리 할인은 반영하지 않았습니다. 구역 밖으로 나가도 할증은 없습니다. 9,000엔 초과분 10% 장거리 할인은 회사마다 달라 반영하지 않았습니다.",
       "source": "https://wwwtb.mlit.go.jp/kinki/content/000359487.pdf",
       "effective": "2025-11-05",
       "verified": "2026-11-21",
@@ -1612,6 +5050,10 @@
           "Zhaoqing",
           "Shenzhen"
         ]
+      },
+      "review": {
+        "on": "2027-01-10",
+        "why": "변동 요금이 2027년 1월에 다시 신고됩니다."
       }
     },
     {
@@ -1710,7 +5152,7 @@
       "timeFare": 2.1,
       "slowSpeedKmh": 12,
       "surcharges": [],
-      "note": "홍콩 시구(빨간색) 택시 요금으로, 2024년 7월 14일 시행분입니다. 야간 할증은 없으며, 짐 1개당 6홍콩달러, 전화 예약 5홍콩달러, 동물 5홍콩달러, 터널 통행료(해저터널은 25+회차분 25홍콩달러)는 반영하지 않았습니다.",
+      "note": "홍콩 시구(빨간색) 택시 요금으로, 2024년 7월 14일 시행분입니다. 야간 할증은 없으며, 짐 1개당 6홍콩달러, 전화 예약 5홍콩달러, 동물 5홍콩달러, 터널 통행료(해저터널은 25+회차분 25홍콩달러)는 반영하지 않았습니다. 해저터널을 건너면 통행료 25홍콩달러에 돌아갈 통행료 25홍콩달러가 더 붙습니다(전용 승차장 승차 등 예외가 있어 반영하지 않음).",
       "source": "https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/taxi/taxi_fare_of_hong_kong/index.html",
       "effective": "2024-07-14",
       "verified": "2026-11-21",
@@ -1827,6 +5269,10 @@
           "Yilan",
           "Hsinchu"
         ]
+      },
+      "review": {
+        "on": "2027-01-15",
+        "why": "기본요금 인상 요청이 심의 중입니다. 결과를 확인하세요."
       }
     },
     {
@@ -2058,7 +5504,7 @@
       "timeFare": 1,
       "slowSpeedKmh": 6,
       "surcharges": [],
-      "note": "방콕 택시미터 요금(2023-01-13 시행, 일반 소형 택시 기준): 기본 35바트(1km, 대형 택시는 40바트), 이후 km당 6.5~10.5바트(거리 구간별), 시속 6km 이하에서는 분당 3바트. 공항 승차장 요금(50바트), 호출료(20바트), 고속도로 통행료는 반영하지 못했습니다.",
+      "note": "방콕 택시미터 요금(2023-01-13 시행, 일반 소형 택시 기준): 기본 35바트(1km, 대형 택시는 40바트), 이후 km당 6.5~10.5바트(거리 구간별), 시속 6km 이하에서는 분당 3바트. 공항 승차장 요금(50바트), 호출료(20바트), 고속도로 통행료는 반영하지 못했습니다. 논타부리·빠툼타니·사뭇쁘라깐·차층사오·사뭇사콘·나콘빠톰에서는 미터 대신 기사와 합의한 요금이 허용됩니다(화면에 표시).",
       "source": "https://www.itax.in.th/media/%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%97%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B8%B5%E0%B9%88/",
       "effective": "2023-01-13",
       "verified": "2026-11-21",
@@ -2084,7 +5530,29 @@
           "Nakhon Pathom",
           "Samut Sakhon"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "ตกลงราคา (agreed fare allowed)",
+          "where": {
+            "regions": [
+              "Nonthaburi",
+              "นนทบุรี",
+              "Pathum Thani",
+              "ปทุมธานี",
+              "Samut Prakan",
+              "สมุทรปราการ",
+              "Chachoengsao",
+              "ฉะเชิงเทรา",
+              "Samut Sakhon",
+              "สมุทรสาคร",
+              "Nakhon Pathom",
+              "นครปฐม"
+            ]
+          },
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "VN-HCMC",
@@ -2413,6 +5881,10 @@
           "Bahadurgarh",
           "Sonipat"
         ]
+      },
+      "review": {
+        "on": "2027-01-15",
+        "why": "2026년 11월 요금 개정을 요구하는 파업이 있었습니다. 개정 여부를 확인하세요."
       }
     },
     {
@@ -2447,7 +5919,7 @@
           "baseFare": 5.5
         }
       ],
-      "note": "두바이 RTA 일반 택시를 길에서 잡을 때의 요금입니다(기본 5디르함, 밤 10시~아침 6시 5.5디르함, km당 2.45디르함, 최소 12디르함). km당 요금은 연료 가격에 따라 수시로 조정되며, 살릭 통행료(게이트당 약 4~6디르함), 공항 출발 기본요금 20디르함, 앱 예약 요금(기본 9~13디르함, 최소 13디르함)은 반영하지 않았습니다.",
+      "note": "두바이 RTA 일반 택시를 길에서 잡을 때의 요금입니다(기본 5디르함, 밤 10시~아침 6시 5.5디르함, km당 2.45디르함, 최소 12디르함). km당 요금은 연료 가격에 따라 수시로 조정되며, 살릭 통행료(게이트당 약 4~6디르함), 공항 출발 기본요금 20디르함, 앱 예약 요금(기본 9~13디르함, 최소 13디르함)은 반영하지 않았습니다. 샤르자로 들어가면 20디르함이 한 번 추가됩니다(반영).",
       "source": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/taxi-fare",
       "verified": "2026-11-21",
       "confidence": "high",
@@ -2466,7 +5938,20 @@
           "Al Ain",
           "Ras Al Khaimah"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Sharjah entry fee",
+          "where": {
+            "regions": [
+              "Sharjah",
+              "الشارقة",
+              "إمارة الشارقة"
+            ]
+          },
+          "flat": 20
+        }
+      ]
     },
     {
       "id": "AE-ABUDHABI",
@@ -2549,7 +6034,7 @@
           "baseFare": 4
         }
       ],
-      "note": "도하 카르와(모와살랏) 택시의 2018년 2월 1일 시행 요금입니다(기본 4리얄, 도하 시내 낮 km당 1.6리얄·밤 1.9리얄, 최소 10리얄). 하마드 공항 출발 기본요금 25리얄, 도하 밖 km당 1.9리얄, 전화 예약비 5리얄은 반영하지 않았습니다.",
+      "note": "도하 카르와(모와살랏) 택시의 2018년 2월 1일 시행 요금입니다(기본 4리얄, 도하 시내 낮 km당 1.6리얄·밤 1.9리얄, 최소 10리얄). 하마드 공항 출발 기본요금 25리얄, 도하 밖 km당 1.9리얄, 전화 예약비 5리얄은 반영하지 않았습니다. 도하 시 밖 구간은 낮에도 km당 1.9리얄입니다(도하 시의 경계가 자료에 없어 반영하지 않음).",
       "minFare": 10,
       "source": "https://www.qatar-tribune.com/article/110438/NATION/Taxi-fares-revised-to-meet-operational-costs-Karwa/amp",
       "effective": "2018-02-01",
@@ -2766,7 +6251,7 @@
           "baseFare": 12.46
         }
       ],
-      "note": "이스라엘 전국 공통(에일라트 제외) 일반 택시 미터 요금으로 2026년 4월 1일 시행, 부가세 18% 포함입니다(기본 12.46셰켈, 분당 1.95셰켈과 km당 1.95셰켈을 동시에 합산, 10km 넘으면 km당 3.79셰켈). 실제 미터는 시간과 거리를 함께 더하므로 이 앱에서는 근사값으로 계산되며, 호출비 5.78셰켈, 벤구리온 공항 추가금 5셰켈, 6번 도로 통행료 등은 반영하지 않았습니다.",
+      "note": "이스라엘 전국 공통(에일라트 제외) 일반 택시 미터 요금으로 2026년 4월 1일 시행, 부가세 18% 포함입니다(기본 12.46셰켈, 분당 1.95셰켈과 km당 1.95셰켈을 동시에 합산, 10km 넘으면 km당 3.79셰켈). 실제 미터는 시간과 거리를 함께 더하므로 이 앱에서는 근사값으로 계산되며, 호출비 5.78셰켈, 벤구리온 공항 추가금 5셰켈, 6번 도로 통행료 등은 반영하지 않았습니다. 2027년 4월 1일부터 요금표가 바뀔 예정입니다.",
       "source": "https://icab.co.il/wp-content/uploads/2026/05/taxi-rate-26.pdf",
       "effective": "2026-04-01",
       "verified": "2026-11-21",
@@ -2779,6 +6264,10 @@
           "Bethlehem",
           "Nablus"
         ]
+      },
+      "review": {
+        "on": "2027-03-15",
+        "why": "2027-04-01 부터 영구 요금표로 바뀝니다(관보 2026-03-30). 새 숫자를 예정 변경으로 넣어야 합니다."
       }
     },
     {
@@ -2933,7 +6422,7 @@
           "baseFare": 4.4
         }
       ],
-      "note": "런던 블랙캡(TfL 규제 택시) 요금, 2026년 4월 25일 시행. 최소요금 £4.40. 공휴일 종일 야간요율(Tariff 3), 히드로 승차 £1.60·공항 하차 최대 £6, 전화/앱 예약 최대 £2, 성탄·연말 £4 추가는 반영하지 않음.",
+      "note": "런던 블랙캡(TfL 규제 택시) 요금, 2026년 4월 25일 시행. 최소요금 £4.40. 공휴일 종일 야간요율(Tariff 3), 히드로 승차 £1.60·공항 하차 최대 £6, 전화/앱 예약 최대 £2, 성탄·연말 £4 추가는 반영하지 않음. 목적지가 그레이터 런던 밖이면 출발 전에 기사와 요금을 협의할 수 있고, 협의하지 않으면 미터 금액이 상한입니다(화면에 표시).",
       "source": "https://tfl.gov.uk/modes/taxis-and-minicabs/taxi-fares/tariffs",
       "effective": "2026-04-25",
       "verified": "2026-11-21",
@@ -2990,7 +6479,13 @@
           "Gatwick Airport (Crawley)",
           "Luton"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Outside Greater London (fare by agreement)",
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "GB-MANCHESTER",
@@ -3024,7 +6519,7 @@
           "baseFare": 3.8
         }
       ],
-      "note": "맨체스터 시의회가 정한 해크니 캐리지(블랙캡) 최고 요금, 2023년 9월 15일 시행. 공휴일 종일 야간요율, 성탄·연말 야간요율+50%, 추가 승객 1인당 20p, 피카딜리역 60p·공항 차단기 요금은 반영하지 않음.",
+      "note": "맨체스터 시의회가 정한 해크니 캐리지(블랙캡) 최고 요금, 2023년 9월 15일 시행. 공휴일 종일 야간요율, 성탄·연말 야간요율+50%, 추가 승객 1인당 20p, 피카딜리역 60p·공항 차단기 요금은 반영하지 않음. 그레이터 맨체스터 밖은 기사와 협의하는 요금입니다(화면에 표시). 시 경계에서 4마일 넘게 떨어진 광역권 안 목적지도 협의 요금인데 이 조건은 반영하지 않았습니다.",
       "source": "https://www.manchester.gov.uk/taxis-and-private-hire/taxi-and-private-hire-passenger-information/taxi-fares-and-charges/public-taxi-fares-and-charges",
       "effective": "2023-09-15",
       "verified": "2026-11-21",
@@ -3047,7 +6542,18 @@
           "Bury",
           "Bolton"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Outside Greater Manchester (fare by agreement)",
+          "outside": {
+            "subregions": [
+              "Greater Manchester"
+            ]
+          },
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "IE-DUBLIN",
@@ -3170,7 +6676,7 @@
           "baseFare": 3
         }
       ],
-      "note": "파리 택시(taxis parisiens) 시내 구역 요금, 2026년 1월 21일 경찰청 고시(2026-00088), 2월 1일부터 적용. 최소요금 €8. 외곽(교외) 구역 요율, 공휴일 종일 B요율, 예약료 €4/€7, 5번째 승객부터 €5.50, 공항 정액요금(CDG €56/€65, 오를리 €45/€36)은 반영하지 않음.",
+      "note": "파리 택시(taxis parisiens) 시내 구역 요금, 2026년 1월 21일 경찰청 고시(2026-00088), 2월 1일부터 적용. 최소요금 €8. 공휴일 종일 B요율, 예약료 €4/€7, 5번째 승객부터 €5.50, 공항 정액요금(CDG €56/€65, 오를리 €45/€36)은 반영하지 않음. 순환도로 밖 교외 구역은 낮 B요율·밤과 일요일 C요율, 그 구역 밖은 항상 C요율입니다(반영).",
       "source": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134824/987340/file/recueil-75-2026-047-recueil-des-actes-administratifs-special%20du%2021.01.2026.pdf",
       "effective": "2026-02-01",
       "verified": "2026-11-21",
@@ -3274,7 +6780,118 @@
           "Saint-Germain-en-Laye",
           "Chessy (Disneyland Paris)"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Zone suburbaine (tarif B / C)",
+          "where": {
+            "cities": [
+              "Antony",
+              "Asnières-sur-Seine",
+              "Bagneux",
+              "Bois-Colombes",
+              "Boulogne-Billancourt",
+              "Bourg-la-Reine",
+              "Châtenay-Malabry",
+              "Châtillon",
+              "Clamart",
+              "Clichy",
+              "Colombes",
+              "Courbevoie",
+              "Fontenay-aux-Roses",
+              "La Garenne-Colombes",
+              "Gennevilliers",
+              "Issy-les-Moulineaux",
+              "Levallois-Perret",
+              "Malakoff",
+              "Montrouge",
+              "Nanterre",
+              "Neuilly-sur-Seine",
+              "Le Plessis-Robinson",
+              "Puteaux",
+              "Sceaux",
+              "Suresnes",
+              "Vanves",
+              "Villeneuve-la-Garenne",
+              "Aubervilliers",
+              "Bagnolet",
+              "Bobigny",
+              "Bondy",
+              "Le Bourget",
+              "La Courneuve",
+              "Drancy",
+              "Dugny",
+              "Épinay-sur-Seine",
+              "L'Île-Saint-Denis",
+              "Les Lilas",
+              "Montreuil",
+              "Noisy-le-Sec",
+              "Pantin",
+              "Les Pavillons-sous-Bois",
+              "Pierrefitte-sur-Seine",
+              "Le Pré-Saint-Gervais",
+              "Romainville",
+              "Rosny-sous-Bois",
+              "Saint-Denis",
+              "Saint-Ouen-sur-Seine",
+              "Saint-Ouen",
+              "Stains",
+              "Villemomble",
+              "Villetaneuse",
+              "Alfortville",
+              "Arcueil",
+              "Bonneuil-sur-Marne",
+              "Bry-sur-Marne",
+              "Cachan",
+              "Champigny-sur-Marne",
+              "Charenton-le-Pont",
+              "Chevilly-Larue",
+              "Choisy-le-Roi",
+              "Créteil",
+              "Fontenay-sous-Bois",
+              "Fresnes",
+              "Gentilly",
+              "L'Haÿ-les-Roses",
+              "Ivry-sur-Seine",
+              "Joinville-le-Pont",
+              "Le Kremlin-Bicêtre",
+              "Maisons-Alfort",
+              "Nogent-sur-Marne",
+              "Orly",
+              "Le Perreux-sur-Marne",
+              "Rungis",
+              "Saint-Mandé",
+              "Saint-Maur-des-Fossés",
+              "Saint-Maurice",
+              "Thiais",
+              "Villejuif",
+              "Vincennes",
+              "Vitry-sur-Seine"
+            ]
+          },
+          "percent": 27.7,
+          "bands": [
+            {
+              "startHour": 19,
+              "endHour": 7,
+              "percent": 35.4
+            },
+            {
+              "startHour": 0,
+              "endHour": 24,
+              "days": [
+                0
+              ],
+              "percent": 35.4
+            }
+          ]
+        },
+        {
+          "name": "Au-delà de la zone suburbaine (tarif C)",
+          "percent": 35.4,
+          "percentWhenSurcharged": 35.4
+        }
+      ]
     },
     {
       "id": "FR-LYON",
@@ -3320,7 +6937,7 @@
           "baseFare": 3.1
         }
       ],
-      "note": "리옹(론 주) 택시 최고 요금, 2026년 2월 19일 주지사 고시(69-2026-02-19-00002). 주간 A요율 기준, 야간(19~7시)·일요일·공휴일은 B요율(+50%). 최소요금 €8. 빈 차 귀환 요율 C/D(km당 €2/€3), 예약료 €2/€4, 5번째 승객 €4, 큰 짐 €2는 반영하지 않음.",
+      "note": "리옹(론 주) 택시 최고 요금, 2026년 2월 19일 주지사 고시(69-2026-02-19-00002). 주간 A요율 기준, 야간(19~7시)·일요일·공휴일은 B요율(+50%). 최소요금 €8. 빈 차 귀환 요율 C/D(km당 €2/€3), 예약료 €2/€4, 5번째 승객 €4, 큰 짐 €2는 반영하지 않음. 택시가 빈 차로 돌아가야 하는 편도 운행은 km 요금이 2배인 C·D요율입니다(적용 지점이 고시에 없어 반영하지 않음).",
       "source": "https://www.rhone.gouv.fr/contenu/telechargement/67519/454692/file/Arr%C3%AAt%C3%A9%20reglementant%20les%20tarifs%20taxis%20dans%20le%20d%C3%A9partement%20du%20Rh%C3%B4ne%202026.pdf",
       "effective": "2026-02-19",
       "verified": "2026-11-21",
@@ -3376,7 +6993,7 @@
       "timeFare": 0.2,
       "slowSpeedKmh": 13.93,
       "surcharges": [],
-      "note": "베를린 일반 택시 표준요금(Tarifstufe 2, 주야 동일), 2022-12-20 시행 후 요금액 변동 없음(2024년 개정은 예약 정액요금 도입만). 길에서 잡은 2km 이내 단거리 정액 6유로, BER 공항 출발 가산 1.50유로·공항요금제, 5인 이상 대형택시 6유로는 반영하지 않음.",
+      "note": "베를린 일반 택시 표준요금(Tarifstufe 2, 주야 동일), 2022-12-20 시행 후 요금액 변동 없음(2024년 개정은 예약 정액요금 도입만). 길에서 잡은 2km 이내 단거리 정액 6유로, BER 공항 출발 가산 1.50유로·공항요금제, 5인 이상 대형택시 6유로는 반영하지 않음. 시 경계를 넘는 운행은 출발 전에 기사와 요금을 정할 수 있고 정하지 않으면 미터 요금입니다(화면에 표시). BER 공항은 미터 요금이 그대로 적용됩니다.",
       "source": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g22520606.pdf",
       "effective": "2022-12-20",
       "verified": "2026-11-21",
@@ -3396,7 +7013,22 @@
           "Teltow",
           "Hennigsdorf"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Flughafen BER (Tarif gilt weiter)",
+          "where": {
+            "cities": [
+              "Schönefeld",
+              "Schoenefeld"
+            ]
+          }
+        },
+        {
+          "name": "Außerhalb Berlins (Preis frei vereinbar)",
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "DE-MUNICH",
@@ -3428,7 +7060,7 @@
       "timeFare": 0.2,
       "slowSpeedKmh": 14.44,
       "surcharges": [],
-      "note": "뮌헨 일반 택시 요금(주야 동일), 2026-05-19 개정·2026-07-01 시행: 시작요금 5.90유로, 7km까지 km당 2.70유로, 이후 2.50유로, 대기 시간당 39유로. 공항·박람회장·중앙역 구간 정액(96/90/41유로), 5인 이상 대형택시 10유로, 자전거 7.50유로는 반영하지 않음.",
+      "note": "뮌헨 일반 택시 요금(주야 동일), 2026-05-19 개정·2026-07-01 시행: 시작요금 5.90유로, 7km까지 km당 2.70유로, 이후 2.50유로, 대기 시간당 39유로. 공항·박람회장·중앙역 구간 정액(96/90/41유로), 5인 이상 대형택시 10유로, 자전거 7.50유로는 반영하지 않음. 의무운행구역(뮌헨 시와 주변 군) 밖으로 나가는 운행은 출발 전에 요금을 자유롭게 정합니다(구역 경계를 지명으로 가릴 수 없어 반영하지 않음).",
       "source": "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/410/version8/0.html",
       "effective": "2026-07-01",
       "verified": "2026-11-21",
@@ -3479,7 +7111,7 @@
       "timeFare": 0.1,
       "slowSpeedKmh": 14.08,
       "surcharges": [],
-      "note": "함부르크 일반 택시 미터요금, 2025-02-01 시행(시간대 구분 폐지, 요일·시간 무관 단일요금). 5인 이상 대형택시·자전거 운반 8유로와 예약 시 정액요금(12/20/35km 이하 38/52/82유로)은 반영하지 않음.",
+      "note": "함부르크 일반 택시 미터요금, 2025-02-01 시행(시간대 구분 폐지, 요일·시간 무관 단일요금). 5인 이상 대형택시·자전거 운반 8유로와 예약 시 정액요금(12/20/35km 이하 38/52/82유로)은 반영하지 않음. 목적지가 함부르크 밖이면 출발 전에 기사와 계산 방식을 정합니다(화면에 표시).",
       "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/die-themen-der-behoerde/fuer-taxi-fahrgaeste/taxi-fahrpreise-410302",
       "effective": "2025-02-01",
       "verified": "2026-11-21",
@@ -3499,7 +7131,13 @@
           "Seevetal",
           "Buxtehude"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Umland (Preis nach Vereinbarung)",
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "DE-FRANKFURT",
@@ -3526,7 +7164,7 @@
       "timeFare": 0.1,
       "slowSpeedKmh": 15.84,
       "surcharges": [],
-      "note": "프랑크푸르트 일반 택시 미터요금(2024-12-18 시행 Taxentarif): 기본 4유로, km당 2.40유로, 대기 시간당 38유로. 예약 시 정액요금(km당 2.40~4유로, 기본요금 없음)과 대형택시 가산은 반영하지 않음.",
+      "note": "프랑크푸르트 일반 택시 미터요금(2024-12-18 시행 Taxentarif): 기본 4유로, km당 2.40유로, 대기 시간당 38유로. 예약 시 정액요금(km당 2.40~4유로, 기본요금 없음)과 대형택시 가산은 반영하지 않음. 의무운행구역 밖은 협의 요금으로 보이나 조례 원문을 확인하지 못해 반영하지 않았습니다.",
       "source": "https://www.frankfurt-main.ihk.de/branchenthemen/verkehr-logistik/verkehr-logistik-aktuell/festpreis-bei-taxis-in-frankfurt-eingefuehrt-6420100",
       "effective": "2024-12-18",
       "verified": "2026-11-21",
@@ -3583,6 +7221,10 @@
       "confidence": "high",
       "match": {
         "country": true
+      },
+      "review": {
+        "on": "2027-01-02",
+        "why": "법정 최고요율이 매년 1월 1일 조정됩니다. 2027년 요율을 확인하세요."
       }
     },
     {
@@ -3749,7 +7391,7 @@
           "baseFare": 6.3
         }
       ],
-      "note": "제네바주 택시 법정 최고요금(RTVTC 제32조, 2022-11-01 시행): 기본 6.30프랑, 요금I km당 3.20프랑, 요금II(야간·토요일 저녁·일요일·공휴일) km당 3.80프랑, 대기 시간당 60프랑. 공항 승차 시 기본 7.80프랑, 공항 구간 정액(25~60프랑), 짐·스키·개 1.50프랑, 4인 이상 승차·주 경계 밖 운행 시 요금II 적용은 반영하지 않음.",
+      "note": "제네바주 택시 법정 최고요금(RTVTC 제32조, 2022-11-01 시행): 기본 6.30프랑, 요금I km당 3.20프랑, 요금II(야간·토요일 저녁·일요일·공휴일) km당 3.80프랑, 대기 시간당 60프랑. 공항 승차 시 기본 7.80프랑, 공항 구간 정액(25~60프랑), 짐·스키·개 1.50프랑, 4인 이상 승차·주 경계 밖 운행 시 요금II 적용은 반영하지 않음. 제네바 주 밖과 셀리니는 낮에도 요금 II(km당 3.80프랑)입니다(구역 밖 구간에 반영, 실제로는 운행 전체에 적용).",
       "source": "https://silgeneve.ch/legis/program/books/rsg/pdf/rsg_h1_31p01.pdf",
       "effective": "2022-11-01",
       "verified": "2026-11-21",
@@ -3772,7 +7414,27 @@
           "Thonon-les-Bains",
           "Annecy"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Tarif II (Céligny)",
+          "where": {
+            "cities": [
+              "Céligny",
+              "Celigny"
+            ]
+          },
+          "percent": 18.75,
+          "percentWhenSurcharged": 18.75,
+          "distanceOnly": true
+        },
+        {
+          "name": "Tarif II (hors canton)",
+          "percent": 18.75,
+          "percentWhenSurcharged": 18.75,
+          "distanceOnly": true
+        }
+      ]
     },
     {
       "id": "AT-VIENNA",
@@ -3822,7 +7484,7 @@
           "baseFare": 4.3
         }
       ],
-      "note": "빈 택시 법정요금(2023-06-02 시행, 이후 인상 없음): 주간 기본 3.80유로, 야간(23~6시)·일요일·공휴일 기본 4.30유로에 거리·시간 15% 할증. 실제 미터는 거리요금과 시간요금을 주행 내내 동시에 더하므로 이 앱 값은 근사치이며, 전화·앱 호출 2유로와 5인 이상 2유로 가산은 반영하지 않음.",
+      "note": "빈 택시 법정요금(2023-06-02 시행, 이후 인상 없음): 주간 기본 3.80유로, 야간(23~6시)·일요일·공휴일 기본 4.30유로에 거리·시간 15% 할증. 실제 미터는 거리요금과 시간요금을 주행 내내 동시에 더하므로 이 앱 값은 근사치이며, 전화·앱 호출 2유로와 5인 이상 2유로 가산은 반영하지 않음. 슈베하트 공항으로 가면 택시의 귀로 몫 18유로가 더해집니다(반영, 상공회의소 안내문 기준).",
       "source": "https://www.wko.at/wien/transport-verkehr/befoerderungsgewerbe-personenkraftwagen/wiener-taxitarif.pdf",
       "effective": "2023-06-02",
       "verified": "2026-11-21",
@@ -3843,7 +7505,18 @@
           "Korneuburg",
           "Baden"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Flughafen Schwechat (Retourfahrt)",
+          "where": {
+            "cities": [
+              "Schwechat"
+            ]
+          },
+          "flat": 18
+        }
+      ]
     },
     {
       "id": "IT-ROME",
@@ -3965,7 +7638,7 @@
           "baseFare": 6.6
         }
       ],
-      "note": "밀라노를 포함한 롬바르디아 공항권역 공통 택시 미터 요금으로, 2024-07-31부터 시행 중이며 2026년 9월 주정부 결의(DGR XII/6828)로 2026년에도 그대로 유지되었습니다. 미터 금액이 일정액을 넘으면 km·시간 단가가 1.5배가 되는 누진제와 시속 50km 초과 시 1.7배 할증, 말펜사·오리오 알 세리오 공항 정액 요금(114유로·128유로), 공항 출발 최저 요금 16유로는 반영하지 않았습니다.",
+      "note": "밀라노를 포함한 롬바르디아 공항권역 공통 택시 미터 요금으로, 2024-07-31부터 시행 중이며 2026년 9월 주정부 결의(DGR XII/6828)로 2026년에도 그대로 유지되었습니다. 미터 금액이 일정액을 넘으면 km·시간 단가가 1.5배가 되는 누진제와 시속 50km 초과 시 1.7배 할증, 말펜사·오리오 알 세리오 공항 정액 요금(114유로·128유로), 공항 출발 최저 요금 16유로는 반영하지 않았습니다. 미터 금액이 일정액을 넘으면 단가가 1.5배(K1), 시속 50km 초과 주행에는 1.7배(K2)가 되는 누진 계수는 기준 금액을 확인하지 못해 반영하지 않았습니다(장거리 요금이 실제보다 낮게 나옵니다).",
       "source": "https://www.regione.lombardia.it/infrastrutture-trasporti-e-mobilita/taxi-collegamenti-aeroportuali-e-noleggio/servizio-e-tariffe-taxi-nel-bacino-aeroportuale",
       "effective": "2024-07-31",
       "verified": "2026-11-21",
@@ -4034,6 +7707,10 @@
           "Novara",
           "Lecco"
         ]
+      },
+      "review": {
+        "on": "2027-07-01",
+        "why": "정기 조정이 보통 7월 1일입니다. 누진 계수(K1·K2)의 기준 금액도 확인해 반영하세요."
       }
     },
     {
@@ -4179,6 +7856,10 @@
           "Azuqueca de Henares",
           "Illescas"
         ]
+      },
+      "review": {
+        "on": "2026-12-20",
+        "why": "2027-01-01 평균 4.83% 인상안이 가격위원회 절차 중입니다. 확정 금액을 확인하세요."
       }
     },
     {
@@ -4225,7 +7906,7 @@
           "baseFare": 2.8
         }
       ],
-      "note": "바르셀로나 광역권(AMB) 일반 택시의 2026년 요금(2026-01-19 시행)입니다. T-1은 평일 08~20시, T-2는 평일 20~08시와 토·일·공휴일에 적용됩니다. 길에서 잡는 택시에는 최저 요금이 없으며, 공항·크루즈 부두 4.60유로, 산츠역 출발 2.55유로, 피라 그란 비아 출발 3.30유로, 공항 출발 최저 21유로, 전화·앱 예약 최저 8유로는 반영하지 않았습니다.",
+      "note": "바르셀로나 광역권(AMB) 일반 택시의 2026년 요금(2026-01-19 시행)입니다. T-1은 평일 08~20시, T-2는 평일 20~08시와 토·일·공휴일에 적용됩니다. 길에서 잡는 택시에는 최저 요금이 없으며, 공항·크루즈 부두 4.60유로, 산츠역 출발 2.55유로, 피라 그란 비아 출발 3.30유로, 공항 출발 최저 21유로, 전화·앱 예약 최저 8유로는 반영하지 않았습니다. 광역권(AMB) 밖 목적지는 주정부 시외 요금(낮 약 21.5%, 밤·주말 약 31.9% 높음)입니다(구역 밖 구간에 반영, 실제로는 운행 전체에 적용되고 최저 7.25유로).",
       "source": "https://taxi.amb.cat/en/usuari/tarifes",
       "effective": "2026-01-19",
       "verified": "2026-11-21",
@@ -4285,7 +7966,18 @@
           "Martorell",
           "Sitges"
         ]
-      }
+      },
+      "review": {
+        "on": "2027-01-10",
+        "why": "시내 요금 고시의 유효 기간이 2027-01-17 까지로 보입니다. 2027년 요금을 확인하세요."
+      },
+      "beyond": [
+        {
+          "name": "Tarifa interurbana (T-6 / T-7)",
+          "percent": 21.5,
+          "percentWhenSurcharged": 31.9
+        }
+      ]
     },
     {
       "id": "PT-LISBON",
@@ -4381,6 +8073,10 @@
       "confidence": "medium",
       "match": {
         "country": true
+      },
+      "review": {
+        "on": "2027-01-21",
+        "why": "모든 미터기가 새 기준 요금으로 바뀌는 기한입니다. 요금표가 새 요금과 맞는지 확인하세요."
       }
     },
     {
@@ -4417,7 +8113,7 @@
           "baseFare": 1.8
         }
       ],
-      "note": "그리스 전국 공통 택시 요금으로 아테네의 노란색 일반 택시에 적용되며, 2022년 요금표를 고친 2026-09-18 자 장관 결정(관보 Β' 5674)이 현재 기준입니다. 요금 1은 시내 05~24시, 요금 2는 00~05시와 시 경계 밖에서 적용됩니다. 공항 출발·도착 4유로, 항구·기차역·시외버스터미널 승차 1.07유로, 공항↔도심 정액 요금(50유로·65유로), 예약 호출료는 반영하지 않았습니다.",
+      "note": "그리스 전국 공통 택시 요금으로 아테네의 노란색 일반 택시에 적용되며, 2022년 요금표를 고친 2026-09-18 자 장관 결정(관보 Β' 5674)이 현재 기준입니다. 요금 1은 시내 05~24시, 요금 2는 00~05시와 시 경계 밖에서 적용됩니다. 공항 출발·도착 4유로, 항구·기차역·시외버스터미널 승차 1.07유로, 공항↔도심 정액 요금(50유로·65유로), 예약 호출료는 반영하지 않았습니다. 영업구역(아테네 외곽 경계) 밖 구간은 낮에도 요금 2(km당 1.25유로)입니다(경계를 지명으로 가릴 수 없어 반영하지 않음).",
       "source": "https://www.taxheaven.gr/circulars/55396/147620-16-09-2026",
       "effective": "2026-09-18",
       "verified": "2026-11-21",
@@ -4832,7 +8528,7 @@
       "timeFare": 1,
       "slowSpeedKmh": 10,
       "surcharges": [],
-      "note": "프라하 시가 정한 미터 택시 최고요금(가격고시 3/2026, 2026년 10월 하순 시행): 승차 기본 70Kč + 42Kč/km + 대기·서행 7Kč/분, 추가 할증·부가요금 금지. 2026년 10월 1일~20일경에는 최고요금 규제가 일시 폐지되었다가 다시 도입됨. 앱 호출 서비스(Uber, Bolt 등 미터 없는 차량)는 규제 대상이 아님.",
+      "note": "프라하 시가 정한 미터 택시 최고요금(가격고시 3/2026, 2026년 10월 하순 시행): 승차 기본 70Kč + 42Kč/km + 대기·서행 7Kč/분, 추가 할증·부가요금 금지. 2026년 10월 1일~20일경에는 최고요금 규제가 일시 폐지되었다가 다시 도입됨. 앱 호출 서비스(Uber, Bolt 등 미터 없는 차량)는 규제 대상이 아님. 목적지가 프라하 밖이면 최고요금 규제가 없어 기사와 정하는 요금입니다(화면에 표시).",
       "source": "https://mf.gov.cz/assets/attachments/2026-10-20_Cenovy-vestnik-106-2026.pdf",
       "effective": "2026-10-21",
       "verified": "2026-11-21",
@@ -4854,7 +8550,13 @@
           "Černošice",
           "Hostivice"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Mimo Prahu (smluvní cena)",
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "HU-BUDAPEST",
@@ -4881,7 +8583,7 @@
       "timeFare": 5,
       "slowSpeedKmh": 14.96,
       "surcharges": [],
-      "note": "부다페스트 시가 정한 고정(통일) 택시 요금으로 모든 택시가 동일하게 적용, 2026년 8월 1일 인상 시행: 기본 1300Ft + 521Ft/km + 130Ft/분(서행·대기 시). 종전(2023년 3월~)은 1100Ft + 440Ft/km + 110Ft/분. 리스트 페렌츠 공항 출발·도착 시 추가되는 공항요금 800Ft와 예약료는 반영하지 않음.",
+      "note": "부다페스트 시가 정한 고정(통일) 택시 요금으로 모든 택시가 동일하게 적용, 2026년 8월 1일 인상 시행: 기본 1300Ft + 521Ft/km + 130Ft/분(서행·대기 시). 종전(2023년 3월~)은 1100Ft + 440Ft/km + 110Ft/분. 리스트 페렌츠 공항 출발·도착 시 추가되는 공항요금 800Ft와 예약료는 반영하지 않음. 시 경계 밖으로 가면 목적지에서 시 경계까지 돌아오는 구간의 거리 요금도 받을 수 있습니다(2022년 관보 기준, 기기가 이 지역의 행정구역 이름을 주지 않아 반영하지 않음).",
       "source": "https://infostart.hu/belfold/2026/08/01/taxizas-kozlekedes-vasut-nagy-valtozasok-leptek-eletbe-szombattol",
       "effective": "2026-08-01",
       "verified": "2026-11-21",
@@ -5005,7 +8707,7 @@
           "flat": 2.5
         }
       ],
-      "note": "뉴욕시 옐로캡(메달리온 택시) 미터 요금, 2022년 12월 19일 시행. 맨해튼 96번가 이남 혼잡 할증료 $2.50, 60번가 이남 혼잡통행료 $0.75, JFK 정액 $70, 라과디아 $5, 뉴어크 $20 추가금, 통행료·팁은 반영하지 않았습니다.",
+      "note": "뉴욕시 옐로캡(메달리온 택시) 미터 요금, 2022년 12월 19일 시행. 맨해튼 96번가 이남 혼잡 할증료 $2.50, 60번가 이남 혼잡통행료 $0.75, JFK 정액 $70, 라과디아 $5, 통행료·팁은 반영하지 않았습니다. 시 경계를 넘으면: 웨스트체스터·나소 카운티는 경계부터 미터 요율이 2배, 뉴어크는 $20 추가, 그 밖의 시외는 출발 전에 기사와 합의하는 정액 요금입니다(반영).",
       "source": "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page",
       "effective": "2022-12-19",
       "verified": "2026-11-21",
@@ -5032,7 +8734,32 @@
           "Bronx County",
           "Richmond County"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Newark Surcharge",
+          "where": {
+            "cities": [
+              "Newark"
+            ]
+          },
+          "flat": 20
+        },
+        {
+          "name": "Out of City Rate (Nassau / Westchester)",
+          "where": {
+            "subregions": [
+              "Westchester County",
+              "Nassau County"
+            ]
+          },
+          "percent": 100
+        },
+        {
+          "name": "Out of City (negotiated flat rate)",
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "US-LA",
@@ -5140,7 +8867,7 @@
           "flat": 1
         }
       ],
-      "note": "시카고시(BACP) 택시 미터 요금으로, 10년 만에 인상되어 2026년 7월 1일부터 시행 중입니다. 추가 승객 요금(첫 1명 $1.00, 이후 1명당 $0.50), 전자결제 수수료 $0.50, 공항 출발세 $4.00, 통행료는 반영하지 않았습니다.",
+      "note": "시카고시(BACP) 택시 미터 요금으로, 10년 만에 인상되어 2026년 7월 1일부터 시행 중입니다. 추가 승객 요금(첫 1명 $1.00, 이후 1명당 $0.50), 전자결제 수수료 $0.50, 공항 출발세 $4.00, 통행료는 반영하지 않았습니다. 시 경계를 넘어 교외로 가면 경계부터 미터 요금의 1.5배입니다(반영, 공식 안내판 문구를 검색 색인으로 확인). 공항에서 교외로 가는 경우의 별도 규칙은 반영하지 않았습니다.",
       "source": "https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/ridesmartchicago/chicagotaxiplacard2026.pdf",
       "effective": "2026-07-01",
       "verified": "2026-11-21",
@@ -5162,7 +8889,13 @@
           "Naperville",
           "Gary (Indiana)"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Meter and a half (beyond city limits)",
+          "percent": 50
+        }
+      ]
     },
     {
       "id": "US-SF",
@@ -5188,7 +8921,7 @@
       "timeFare": 0.65,
       "slowSpeedKmh": 19.31,
       "surcharges": [],
-      "note": "샌프란시스코(SFMTA) 택시 미터 요금으로, 2022년 11월 17일부터 시행 중입니다. SFO 공항 픽업 수수료 $6.00, 시 경계 밖 15마일 초과 구간의 150% 할증, 교량 통행료는 반영하지 않았습니다.",
+      "note": "샌프란시스코(SFMTA) 택시 미터 요금으로, 2022년 11월 17일부터 시행 중입니다. SFO 공항 픽업 수수료 $6.00, 시 경계 밖 15마일 초과 구간의 150% 할증, 교량 통행료는 반영하지 않았습니다. 시 경계 밖으로 15마일을 넘게 가는 운행은 전체 미터 요금의 150%를 받습니다(계산에 반영하지 않음).",
       "source": "https://www.sfmta.com/getting-around/taxi/taxi-fares",
       "effective": "2022-11-17",
       "verified": "2026-11-21",
@@ -5269,6 +9002,10 @@
           "Fairfax",
           "National Harbor"
         ]
+      },
+      "review": {
+        "on": "2026-12-26",
+        "why": "긴급 유류할증료 $1.00 의 한시 적용이 2026-12-25 에 끝납니다. 연장됐는지 확인하고, 끝났으면 추가금에서 빼야 합니다."
       }
     },
     {
@@ -5343,7 +9080,7 @@
       "timeFare": 0.25,
       "slowSpeedKmh": 17.75,
       "surcharges": [],
-      "note": "토론토시 택시의 길거리 승차·승차장 미터 요금(시 조례 546장 부록 A)으로, 기본 $3.25에 2022년 5월 도입된 유류할증료 $1.00이 더해져 미터가 $4.25에서 시작합니다. 4명 초과 승객 1인당 $2.00, 카드 결제 수수료, 피어슨 공항 정액요금은 반영하지 않았습니다.",
+      "note": "토론토시 택시의 길거리 승차·승차장 미터 요금(시 조례 546장 부록 A)으로, 기본 $3.25에 2022년 5월 도입된 유류할증료 $1.00이 더해져 미터가 $4.25에서 시작합니다. 4명 초과 승객 1인당 $2.00, 카드 결제 수수료, 피어슨 공항 정액요금은 반영하지 않았습니다. 목적지가 시 경계에서 5km 넘게 떨어져 있으면 출발 전에 기사와 정액 요금을 합의할 수 있습니다(합의가 없으면 미터 요금).",
       "extras": [
         {
           "name": "유류할증료",
@@ -5415,6 +9152,10 @@
           "Mission",
           "Squamish"
         ]
+      },
+      "review": {
+        "on": "2027-05-01",
+        "why": "2027년 중반에 위원회 표준 요율로 바뀔 예정입니다(날짜 미고시)."
       }
     },
     {
@@ -5697,7 +9438,7 @@
           "percent": 20
         }
       ],
-      "note": "부에노스아이레스 시내 택시 요금으로 2026년 11월 1일부터 시행 중입니다(기본 2,550페소, 200m 또는 대기 1분마다 255페소). 밤 22시~06시는 20% 할증(기본 3,060페소, 단위 306페소)입니다. 2027년 2월 1일부터 단위 요금이 310페소(야간 372페소)로 다시 오를 예정이며, 추가 짐 요금(단위 요금의 5배)은 반영하지 않았습니다.",
+      "note": "부에노스아이레스 시내 택시 요금으로 2026년 11월 1일부터 시행 중입니다(기본 2,550페소, 200m 또는 대기 1분마다 255페소). 밤 22시~06시는 20% 할증(기본 3,060페소, 단위 306페소)입니다. 2027년 2월 1일부터 단위 요금이 310페소(야간 372페소)로 오르며, 그날부터 앱이 자동으로 새 요금을 씁니다. 추가 짐 요금(단위 요금의 5배)은 반영하지 않았습니다. 시 경계를 넘어가고 같은 택시로 돌아오지 않으면 택시가 돌아오는 거리만큼 추가 요금을 받을 수 있습니다(금액 기준이 공개되어 있지 않아 반영하지 않음).",
       "source": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/885043",
       "effective": "2026-11-01",
       "verified": "2026-11-21",
@@ -5726,7 +9467,23 @@
           "Quilmes",
           "Ezeiza (EZE Airport)"
         ]
-      }
+      },
+      "upcoming": [
+        {
+          "effective": "2027-02-01",
+          "set": {
+            "baseFare": 3100,
+            "distanceTiers": [
+              {
+                "uptoM": null,
+                "unitM": 200,
+                "fare": 310
+              }
+            ],
+            "timeFare": 310
+          }
+        }
+      ]
     },
     {
       "id": "CL-SANTIAGO",
@@ -5752,7 +9509,7 @@
       "timeFare": 200,
       "slowSpeedKmh": 12,
       "surcharges": [],
-      "note": "산티아고 일반 택시(taxi básico, 검은 차체에 노란 지붕) 요금입니다. 기본요금은 2026년 8월 10일부터 500페소이고, 200m 또는 대기 60초마다 붙는 금액은 택시마다 정해진 범위 안에서 다르며 여기서는 확인된 가장 최근 상한(200페소)을 썼습니다. 이 단위 요금은 공식 문서로 확인하지 못한 참고값이며, 차량 앞유리에 붙은 요금표가 우선합니다.",
+      "note": "산티아고 일반 택시(taxi básico, 검은 차체에 노란 지붕) 요금입니다. 기본요금은 2026년 8월 10일부터 500페소이고, 200m 또는 대기 60초마다 붙는 금액은 택시마다 정해진 범위 안에서 다르며 여기서는 확인된 가장 최근 상한(200페소)을 썼습니다. 이 단위 요금은 공식 문서로 확인하지 못한 참고값이며, 차량 앞유리에 붙은 요금표가 우선합니다. 도시 반경(요금 구역) 밖으로 나가는 운행은 기사와 합의하는 요금입니다(화면에 표시).",
       "source": "https://www.expat.com/en/guide/south-america/chile/santiago/37461-getting-around-santiago.html",
       "effective": "2026-08-10",
       "confidence": "low",
@@ -5808,7 +9565,13 @@
           "Pirque",
           "Calera de Tango"
         ]
-      }
+      },
+      "beyond": [
+        {
+          "name": "Tarifa convencional (fuera del radio urbano)",
+          "negotiated": true
+        }
+      ]
     },
     {
       "id": "AU-SYDNEY",
