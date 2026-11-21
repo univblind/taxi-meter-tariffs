@@ -1,0 +1,1362 @@
+{
+ "lastRun": "2026-11-21",
+ "sources": {
+  "KR-SEOUL": {
+   "url": "https://news.seoul.go.kr/traffic/archives/1659",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4800,
+    100,
+    131,
+    5800,
+    6700
+   ],
+   "fails": 0
+  },
+  "KR-BUSAN": {
+   "url": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
+   "version": 6,
+   "fails": 1,
+   "error": "ECONNRESET"
+  },
+  "KR-INCHEON": {
+   "url": "https://www.incheon.go.kr/traffic/TR010201",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4800,
+    100,
+    135
+   ],
+   "fails": 0
+  },
+  "KR-DAEGU": {
+   "url": "https://www.daegu.go.kr/tra/?menu_id=00000647",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    125,
+    800
+   ],
+   "fails": 0
+  },
+  "KR-GWANGJU": {
+   "url": "https://www.mt.co.kr/policy/2025/10/13/2025101313451027607",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4800,
+    100,
+    132
+   ],
+   "fails": 0
+  },
+  "KR-DAEJEON": {
+   "url": "https://www.mt.co.kr/policy/2026/10/26/2026102610445369029",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4800,
+    100,
+    125
+   ],
+   "fails": 0
+  },
+  "KR-JEJU": {
+   "url": "https://jeju.go.kr/traffic/bus/taxifee.htm",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100,
+    126,
+    120
+   ],
+   "fails": 0
+  },
+  "KR-GG-STD": {
+   "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+   "version": 6,
+   "kind": "file",
+   "hash": "ffbf1e9504016aaf",
+   "fails": 0
+  },
+  "KR-GG-A": {
+   "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+   "version": 6,
+   "kind": "file",
+   "hash": "ffbf1e9504016aaf",
+   "fails": 0
+  },
+  "KR-GG-B": {
+   "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+   "version": 6,
+   "kind": "file",
+   "hash": "ffbf1e9504016aaf",
+   "fails": 0
+  },
+  "KR-GG-GWANGMYEONG": {
+   "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+   "version": 6,
+   "kind": "file",
+   "hash": "ffbf1e9504016aaf",
+   "fails": 0
+  },
+  "KR-ULSAN": {
+   "url": "https://www.ulsan.go.kr/u/traffic/contents.ulsan?mId=001003006001000000",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    125,
+    800
+   ],
+   "fails": 0
+  },
+  "KR-SEJONG": {
+   "url": "https://www.sejong.go.kr/viewer/result/R0653/BBS_0000095534fdT77840.hwpx.files/1.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-GN-CHANGWON": {
+   "url": "https://miryang.go.kr/web/index.do?mnNo=50305000000",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GN-YANGSAN": {
+   "url": "https://v.daum.net/v/20260625202457752",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GN-HAMAN": {
+   "url": "https://www.idomin.com/news/articleView.html?idxno=2015711",
+   "version": 6,
+   "fails": 1,
+   "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "KR-GN-GOSEONG": {
+   "url": "https://www.metroseoul.co.kr/article/20261117500586",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    150,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-GB-POHANG": {
+   "url": "https://www.pohang.go.kr/portal/board/post/view.do?idx=1015665&bcIdx=100&mid=0201010000",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KR-GB-CHILGOK": {
+   "url": "https://www.kbmaeil.com/article/20260113500274",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GB-GIMCHEON": {
+   "url": "https://v.daum.net/v/20260102112520864",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GB-GUMI": {
+   "url": "https://www.gumi.go.kr/traffic/contents.do?mid=0105020000",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GB-GYEONGSAN": {
+   "url": "https://view.asiae.co.kr/article/2026020214194175554",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-GB-YEONGJU": {
+   "url": "https://www.yeongju.go.kr/open_content/main/page.do?mnu_uid=1521&parm_bod_uid=1167422&step=258",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KR-GB-YEONGCHEON": {
+   "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4064283",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GB-YECHEON": {
+   "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4062960",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    100,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GB-ULJIN": {
+   "url": "https://www.uljin.go.kr/index.uljin?menuCd=DOM_000000106003006002",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500,
+    163,
+    128
+   ],
+   "fails": 0
+  },
+  "KR-GB-ULLEUNG": {
+   "url": "https://news.tf.co.kr/read/national/2288685.htm",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4500
+   ],
+   "fails": 0
+  },
+  "KR-GW-WONJU": {
+   "url": "https://its.gn.go.kr/information/openTaxiPage",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    100,
+    131,
+    200
+   ],
+   "fails": 0
+  },
+  "KR-GW-DONGHAE": {
+   "url": "https://www.kwnews.co.kr/article/201904170507188",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    100,
+    200
+   ],
+   "fails": 0
+  },
+  "KR-GW-SOKCHO": {
+   "url": "https://www.kado.net/news/articleView.html?idxno=1257856",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    100,
+    131
+   ],
+   "fails": 0
+  },
+  "KR-GW-TAEBAEK": {
+   "url": "https://kwnews.co.kr/article/202407160123971",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    100,
+    131
+   ],
+   "fails": 0
+  },
+  "KR-GW-PYEONGCHANG": {
+   "url": "https://www.pc.go.kr/portal/part/traffic/part-hygiene-traffic",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    200,
+    131
+   ],
+   "fails": 0
+  },
+  "KR-GW-YANGGU": {
+   "url": "https://www.kwnews.co.kr/article/202408190102125",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4600,
+    100,
+    131
+   ],
+   "fails": 0
+  },
+  "KR-CB-CHEONGJU": {
+   "url": "https://www.cj-ilbo.com/news/articleView.html?idxno=1112688",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    127
+   ],
+   "fails": 0
+  },
+  "KR-CB-CHUNGJU": {
+   "url": "https://kpinews.kr/newsView/179568433586854",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    127
+   ],
+   "fails": 0
+  },
+  "KR-CB-JECHEON": {
+   "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2223334",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100,
+    127
+   ],
+   "fails": 0
+  },
+  "KR-CB-EUMSEONG": {
+   "url": "https://www.fnnews.com/news/202308171427511976",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    160,
+    127
+   ],
+   "fails": 0
+  },
+  "KR-CN-CHEONAN": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100,
+    110
+   ],
+   "fails": 0
+  },
+  "KR-CN-ASAN": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100,
+    105
+   ],
+   "fails": 0
+  },
+  "KR-CN-GONGJU": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-BORYEONG": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-SEOSAN": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-NONSAN": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-GYERYONG": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-GEUMSAN": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-BUYEO": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-SEOCHEON": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-CHEONGYANG": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-HONGSEONG": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-CN-TAEAN": {
+   "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4000,
+    100
+   ],
+   "fails": 0
+  },
+  "KR-JB-JEONJU": {
+   "url": "https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a8874b82ad01898bf39f2b4ef3&page=720",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100,
+    134
+   ],
+   "fails": 0
+  },
+  "KR-JB-IKSAN": {
+   "url": "https://www.pressian.com/pages/articles/2023071916271082970",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100,
+    134
+   ],
+   "fails": 0
+  },
+  "KR-JB-WANJU": {
+   "url": "https://www.wanju.go.kr/news/planweb/board/view.9is?dataUid=a70a5c82948b467c9be3d6b54e3ca7ab&contentUid=ff808081898ba9ba0189f1e5b91101a9&boardUid=ff8080818b024d8e018b1c99655f1226&page=235",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    163,
+    134
+   ],
+   "fails": 0
+  },
+  "KR-JB-JINAN": {
+   "url": "https://www.pressian.com/pages/articles/2023081110502755566",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    167,
+    134
+   ],
+   "fails": 0
+  },
+  "KR-JB-SUNCHANG": {
+   "url": "https://pongdu.net/3278",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    165,
+    134
+   ],
+   "fails": 0
+  },
+  "KR-JN-MOKPO": {
+   "url": "https://www.metroseoul.co.kr/article/20231026500382",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-SUNCHEON": {
+   "url": "https://gwangyang.go.kr/kor/board.es?mid=a11007000000&bid=0057&list_no=156497&act=view",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-YEOSU": {
+   "url": "https://www.metroseoul.co.kr/article/20231023500546",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    100,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-NAJU": {
+   "url": "https://www.kpinews.kr/newsView/1065600293324231",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4300,
+    140,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-MUAN": {
+   "url": "https://kpinews.kr/newsView/1065616161667946",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    160,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-GANGJIN": {
+   "url": "https://www.gangjin.go.kr/www/government/notice/gosi?mode=view&idx=23929",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KR-JN-YEONGGWANG": {
+   "url": "https://kpinews.kr/newsView/1065588690650501",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    160,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-HAENAM": {
+   "url": "https://haoah.co.kr/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%ED%83%9D%EC%8B%9C-%EA%B8%B0%EB%B3%B8%EC%9A%94%EA%B8%88-%EC%9D%B4%EC%9A%A9%EC%9A%94%EA%B8%88-%ED%95%A0%EC%A6%9D%EC%9A%94%EA%B8%88/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4800,
+    160,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-WANDO": {
+   "url": "https://www.metroseoul.co.kr/article/20231107500762",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4700,
+    160,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-JANGHEUNG": {
+   "url": "https://www.jangheung.go.kr/www/organization/news/notification?print=true&idx=23076&v_cnt=1246&search_type=title&page=7&mode=view",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    160,
+    130
+   ],
+   "fails": 0
+  },
+  "KR-JN-HWASUN": {
+   "url": "https://www.yna.co.kr/view/AKR20231010092800054",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KR-JN-GOHEUNG": {
+   "url": "https://www.tonghabnews.com/news/articleView.html?idxno=153447",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    160,
+    124
+   ],
+   "fails": 0
+  },
+  "KR-JN-BOSEONG": {
+   "url": "https://www.boseong.go.kr/www/open_administration/city_news/press_release?mode=view&idx=1141126",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    170,
+    124
+   ],
+   "fails": 0
+  },
+  "KR-JN-JINDO": {
+   "url": "https://jindo.go.kr/home/board/B0016.cs?act=read&articleId=139062",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000,
+    160,
+    115
+   ],
+   "fails": 0
+  },
+  "KR-JN-SINAN": {
+   "url": "https://www.news1.kr/local/gwangju-jeonnam/5220596",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5000
+   ],
+   "fails": 0
+  },
+  "JP-TOKYO": {
+   "url": "https://wwwtb.mlit.go.jp/kanto/content/000369955.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "01540adace8e1aee",
+   "fails": 0
+  },
+  "JP-OSAKA": {
+   "url": "https://wwwtb.mlit.go.jp/kinki/content/000359487.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "247cecc044dabb7d",
+   "fails": 0
+  },
+  "JP-NAGOYA": {
+   "url": "https://wwwtb.mlit.go.jp/chubu/press/pdf/jikou2025091101.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "69e7ca4b4f753b69",
+   "fails": 0
+  },
+  "JP-FUKUOKA": {
+   "url": "https://wwwtb.mlit.go.jp/kyushu/content/000374925.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "00cf1916fbb089b6",
+   "fails": 0
+  },
+  "CN-BEIJING": {
+   "url": "https://zdzqgw.beijing.gov.cn/zqfw/bjsdgjjc/bjsdgjjcjb/202410/t20241012_3917838.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-SHANGHAI": {
+   "url": "https://fgw.sh.gov.cn/wx_ggjt/20200727/e80ea0d667da4fb0afc95c30e173865f.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-GUANGZHOU": {
+   "url": "https://www.gz.gov.cn/zwgk/sjfb/sjkd/content/post_10337021.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-SHENZHEN": {
+   "url": "https://www.sz.gov.cn/ztfw/jtly/wyc_184756/ggjtcx/czccx/content/post_4888409.html",
+   "version": 6,
+   "fails": 1,
+   "error": "ECONNRESET"
+  },
+  "HK-HONGKONG": {
+   "url": "https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/taxi/taxi_fare_of_hong_kong/index.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "TW-TAIPEI": {
+   "url": "https://www.businesstoday.com.tw/article/category/183030/post/202609210033/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "TW-KAOHSIUNG": {
+   "url": "https://www.nownews.com/news/6554804",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    200,
+    100
+   ],
+   "fails": 0
+  },
+  "SG-SINGAPORE": {
+   "url": "https://www.cdgtaxi.com.sg/fares/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4.6,
+    0.27,
+    400,
+    350
+   ],
+   "fails": 0
+  },
+  "MY-KL": {
+   "url": "https://www.thestar.com.my/news/nation/2015/03/20/public-transport-to-cost-more-fares-increased-for-taxi-train-and-express-bus-services",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "TH-BANGKOK": {
+   "url": "https://www.itax.in.th/media/%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%97%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B8%B5%E0%B9%88/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "VN-HCMC": {
+   "url": "https://vinasun.vn/dich-vu-taxi",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    16000
+   ],
+   "fails": 0
+  },
+  "VN-HANOI": {
+   "url": "https://g7taxi.vn/bang-gia-cuoc-taxi-g7/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    20000,
+    12500,
+    40000
+   ],
+   "fails": 0
+  },
+  "ID-JAKARTA": {
+   "url": "https://www.bluebirdgroup.com/news/penyesuaian-tarif-taksi-bluebird-di-wilayah-jabodetabek?lang=en",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    9000,
+    5200.21,
+    5000
+   ],
+   "fails": 0
+  },
+  "PH-MANILA": {
+   "url": "https://www.sunstar.com.ph/manila/ltfrb-sets-new-puv-rates-effective-sept-28",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "IN-MUMBAI": {
+   "url": "https://transport.maharashtra.gov.in/Site/Upload/GR/Metered_Taxi_Tariff_Card.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "5db8147504e7871e",
+   "fails": 0
+  },
+  "IN-DELHI": {
+   "url": "https://www.dnaindia.com/delhi/report-delhi-auto-taxi-fares-hiked-as-govt-notifies-new-rates-delhi-auto-new-fare-check-new-details-3016354",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "AE-DUBAI": {
+   "url": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/taxi-fare",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "AE-ABUDHABI": {
+   "url": "https://admobility.gov.ae/en/taxi-fares",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5,
+    0.5,
+    1.82,
+    5.5
+   ],
+   "fails": 0
+  },
+  "QA-DOHA": {
+   "url": "https://www.qatar-tribune.com/article/110438/NATION/Taxi-fares-revised-to-meet-operational-costs-Karwa/amp",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SA-RIYADH": {
+   "url": "https://www.youm7.com/story/2022/3/13/%D8%B9%D9%83%D8%A7%D8%B8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A3%D8%AC%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-17-%D9%8810-%D8%B1%D9%8A%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89/5690177",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "TR-ISTANBUL": {
+   "url": "https://www.haberturk.com/zamli-taksi-ucretleri-2026-yeni-taksi-acilis-ucreti-ve-kisa-mesafe-indi-bindi-ne-kadar-oldu-3899248",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    71.94,
+    230,
+    47.92
+   ],
+   "fails": 0
+  },
+  "IL-TELAVIV": {
+   "url": "https://icab.co.il/wp-content/uploads/2026/05/taxi-rate-26.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "5966521190d8fc19",
+   "fails": 0
+  },
+  "EG-CAIRO": {
+   "url": "https://www.youm7.com/story/2026/3/31/%E2%80%8B%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A9-%D8%B1%D9%83%D9%88%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%88%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A8%D9%80/7360111",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "ZA-JOBURG": {
+   "url": "https://www.numbeo.com/taxi-fare/in/Johannesburg",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    14,
+    15,
+    240
+   ],
+   "fails": 0
+  },
+  "GB-LONDON": {
+   "url": "https://tfl.gov.uk/modes/taxis-and-minicabs/taxi-fares/tariffs",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "GB-MANCHESTER": {
+   "url": "https://www.manchester.gov.uk/taxis-and-private-hire/taxi-and-private-hire-passenger-information/taxi-fares-and-charges/public-taxi-fares-and-charges",
+   "version": 6,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "IE-DUBLIN": {
+   "url": "https://www.irishstatutebook.ie/eli/2024/si/479/made/en/print",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4.4,
+    0.2,
+    151.5,
+    1.32,
+    116.3,
+    1.72,
+    25.7,
+    5.4
+   ],
+   "fails": 0
+  },
+  "FR-PARIS": {
+   "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134824/987340/file/recueil-75-2026-047-recueil-des-actes-administratifs-special%20du%2021.01.2026.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "dd19f77ab1d4d5a7",
+   "fails": 0
+  },
+  "FR-LYON": {
+   "url": "https://www.rhone.gouv.fr/contenu/telechargement/67519/454692/file/Arr%C3%AAt%C3%A9%20reglementant%20les%20tarifs%20taxis%20dans%20le%20d%C3%A9partement%20du%20Rh%C3%B4ne%202026.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "4f9c53b775c2fc0b",
+   "fails": 0
+  },
+  "DE-BERLIN": {
+   "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g22520606.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "dd798e6f6b51b461",
+   "fails": 0
+  },
+  "DE-MUNICH": {
+   "url": "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/410/version8/0.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5.9,
+    0.2,
+    74.07,
+    2.7,
+    80,
+    2.5,
+    18.46,
+    39
+   ],
+   "fails": 0
+  },
+  "DE-HAMBURG": {
+   "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/die-themen-der-behoerde/fuer-taxi-fahrgaeste/taxi-fahrpreise-410302",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4.5,
+    0.1,
+    2.7,
+    2
+   ],
+   "fails": 0
+  },
+  "DE-FRANKFURT": {
+   "url": "https://www.frankfurt-main.ihk.de/branchenthemen/verkehr-logistik/verkehr-logistik-aktuell/festpreis-bei-taxis-in-frankfurt-eingefuehrt-6420100",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    2.4
+   ],
+   "fails": 0
+  },
+  "NL-AMSTERDAM": {
+   "url": "https://www.rijksoverheid.nl/onderwerpen/taxi/vraag-en-antwoord/wat-zijn-de-kosten-voor-een-taxi",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4.31
+   ],
+   "fails": 0
+  },
+  "BE-BRUSSELS": {
+   "url": "https://be.brussels/fr/transport-mobilite/transport-en-commun/taxi-et-mobilite-partagee/prendre-un-taxi",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    2.6,
+    8
+   ],
+   "fails": 0
+  },
+  "CH-ZURICH": {
+   "url": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/935/440/935.440_Taxitarif%20V3.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "979a0ead3e3eb9f5",
+   "fails": 0
+  },
+  "CH-GENEVA": {
+   "url": "https://silgeneve.ch/legis/program/books/rsg/pdf/rsg_h1_31p01.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "9078fbf7ef5967d2",
+   "fails": 0
+  },
+  "AT-VIENNA": {
+   "url": "https://www.wko.at/wien/transport-verkehr/befoerderungsgewerbe-personenkraftwagen/wiener-taxitarif.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "84c0c6be8e5f7808",
+   "fails": 0
+  },
+  "IT-ROME": {
+   "url": "https://www.comune.roma.it/web-resources/cms/documents/TariffarioTaxi_giugno2026.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "7c2218ba8ffbdf45",
+   "fails": 0
+  },
+  "IT-MILAN": {
+   "url": "https://www.regione.lombardia.it/infrastrutture-trasporti-e-mobilita/taxi-collegamenti-aeroportuali-e-noleggio/servizio-e-tariffe-taxi-nel-bacino-aeroportuale",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "ES-MADRID": {
+   "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/03/BOCM-20251203-38.PDF",
+   "version": 6,
+   "kind": "file",
+   "hash": "03f1e8f51c62f20d",
+   "fails": 0
+  },
+  "ES-BARCELONA": {
+   "url": "https://taxi.amb.cat/en/usuari/tarifes",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    2.8,
+    1.35
+   ],
+   "fails": 0
+  },
+  "PT-LISBON": {
+   "url": "https://www.amt-autoridade.pt/media/6186/comunicado-tarifas-a-vigor-nos-táxis-em-2027.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "cab1cfe46d5892da",
+   "fails": 0
+  },
+  "GR-ATHENS": {
+   "url": "https://www.taxheaven.gr/circulars/55396/147620-16-09-2026",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SE-STOCKHOLM": {
+   "url": "https://www.taxistockholm.se/sv/priser/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    595.04
+   ],
+   "fails": 0
+  },
+  "NO-OSLO": {
+   "url": "https://www.oslotaxi.no/priser",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    140
+   ],
+   "fails": 0
+  },
+  "DK-COPENHAGEN": {
+   "url": "https://dantaxi.dk/taxa-pris/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "FI-HELSINKI": {
+   "url": "https://taksihelsinki.fi/tilaa-taksi/taksin-hinta/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5.7,
+    14.4,
+    8
+   ],
+   "fails": 0
+  },
+  "PL-WARSAW": {
+   "url": "https://warszawa19115.pl/-/op%C5%82aty-za-przejazd-taks%C3%B3wk%C4%85",
+   "version": 6,
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  "CZ-PRAGUE": {
+   "url": "https://mf.gov.cz/assets/attachments/2026-10-20_Cenovy-vestnik-106-2026.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "c91de1943d7a76fb",
+   "fails": 0
+  },
+  "HU-BUDAPEST": {
+   "url": "https://infostart.hu/belfold/2026/08/01/taxizas-kozlekedes-vasut-nagy-valtozasok-leptek-eletbe-szombattol",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    1300,
+    520.83
+   ],
+   "fails": 0
+  },
+  "RU-MOSCOW": {
+   "url": "https://taxi.yandex.ru/moscow/tariff",
+   "version": 6,
+   "fails": 1,
+   "error": "ETIMEDOUT"
+  },
+  "US-NYC": {
+   "url": "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    3,
+    1,
+    2.5
+   ],
+   "fails": 0
+  },
+  "US-LA": {
+   "url": "https://ladot.lacity.gov/sites/default/files/documents/taxicab-rates-2023.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "50b842a4be4a4901",
+   "fails": 0
+  },
+  "US-CHICAGO": {
+   "url": "https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/ridesmartchicago/chicagotaxiplacard2026.pdf",
+   "version": 6,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "US-SF": {
+   "url": "https://www.sfmta.com/getting-around/taxi/taxi-fares",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4.15,
+    0.65
+   ],
+   "fails": 0
+  },
+  "US-DC": {
+   "url": "https://dfhv.dc.gov/page/taxicab-fares",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4,
+    0.4167,
+    0.5,
+    1
+   ],
+   "fails": 0
+  },
+  "US-LASVEGAS": {
+   "url": "https://taxi.nv.gov/uploadedFiles/taxinvgov/content/About_Us/ALL/BoardMeetings/2026/March/Taxi-Authority-Board-Order-for-Fuel-Surcharge_4-26.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "0fa51f80160100e4",
+   "fails": 0
+  },
+  "CA-TORONTO": {
+   "url": "https://www.toronto.ca/legdocs/municode/toronto-code-546.pdf",
+   "version": 6,
+   "kind": "file",
+   "hash": "22f7deb1ac7c119c",
+   "fails": 0
+  },
+  "CA-VANCOUVER": {
+   "url": "https://www.ptboard.bc.ca/rule-9-common-rate-metro-vancouver",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    3.75,
+    0.1,
+    45.95,
+    2.18,
+    9.25
+   ],
+   "fails": 0
+  },
+  "CA-MONTREAL": {
+   "url": "https://www.ctq.gouv.qc.ca/permis-et-autorisations-de-transport/transport-remunere-de-personnes-par-automobile/tarifs-de-transport-remunere-de-personnes-par-automobile/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    4.1,
+    2.05,
+    4.7,
+    1.05
+   ],
+   "fails": 0
+  },
+  "MX-CDMX": {
+   "url": "http://web.archive.org/web/20250324053626/https://www.semovi.cdmx.gob.mx/tramites-y-servicios/transparencia/preguntas-frecuentes",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    8.74,
+    1.07,
+    250
+   ],
+   "fails": 0
+  },
+  "BR-SAOPAULO": {
+   "url": "https://prefeitura.sp.gov.br/web/mobilidade/w/saiba_como_e_e_como_funciona/3875",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    6.55,
+    4.8
+   ],
+   "fails": 0
+  },
+  "BR-RIO": {
+   "url": "https://www.normasbrasil.com.br/norma/resolucao-3893-2025-rio-de-janeiro_488787.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    6.3,
+    3.85
+   ],
+   "fails": 0
+  },
+  "AR-BUENOSAIRES": {
+   "url": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/885043",
+   "version": 6,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CL-SANTIAGO": {
+   "url": "https://www.expat.com/en/guide/south-america/chile/santiago/37461-getting-around-santiago.html",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    500,
+    200
+   ],
+   "fails": 0
+  },
+  "AU-SYDNEY": {
+   "url": "https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5.17,
+    2.61,
+    2.37,
+    2.65,
+    1.32
+   ],
+   "fails": 0
+  },
+  "AU-MELBOURNE": {
+   "url": "https://safetransport.vic.gov.au/on-the-road/cpv-driver-accreditation/fares-and-levies/",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    5.4,
+    2.1,
+    6.75,
+    8,
+    1.25
+   ],
+   "fails": 0
+  },
+  "NZ-AUCKLAND": {
+   "url": "https://at.govt.nz/bus-train-ferry/accessible-travel/total-mobility-scheme/total-mobility-taxi-operators-fares",
+   "version": 6,
+   "kind": "text",
+   "numbers": [
+    2.95
+   ],
+   "fails": 0
+  }
+ },
+ "alerted": {
+  "soon:KR-GN-GOSEONG:2026-12-01": "2026-11-21",
+  "unverified:ZA-JOBURG": "2026-11-21",
+  "unverified:RU-MOSCOW": "2026-11-21",
+  "unverified:CL-SANTIAGO": "2026-11-21"
+ }
+}
