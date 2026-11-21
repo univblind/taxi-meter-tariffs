@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 3,
+  "version": 4,
   "updated": "2026-11-21",
   "countries": [
     {
@@ -294,7 +294,7 @@
       "regionEn": "SEOUL",
       "lat": 37.5665,
       "lng": 126.978,
-      "radiusKm": 35,
+      "radiusKm": 18,
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
@@ -337,7 +337,13 @@
       "source": "https://news.seoul.go.kr/traffic/archives/1659",
       "verified": "2026-11-20",
       "effective": "2023-02-01",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "서울특별시",
+          "Seoul"
+        ]
+      }
     },
     {
       "id": "KR-BUSAN",
@@ -346,7 +352,7 @@
       "regionEn": "BUSAN",
       "lat": 35.1796,
       "lng": 129.0756,
-      "radiusKm": 30,
+      "radiusKm": 20,
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
@@ -386,7 +392,13 @@
       "source": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
       "verified": "2026-11-20",
       "effective": "2023-06-01",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "부산광역시",
+          "Busan"
+        ]
+      }
     },
     {
       "id": "KR-INCHEON",
@@ -395,7 +407,7 @@
       "regionEn": "INCHEON",
       "lat": 37.4563,
       "lng": 126.7052,
-      "radiusKm": 25,
+      "radiusKm": 15,
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
@@ -435,7 +447,13 @@
       "source": "https://www.incheon.go.kr/traffic/TR010201",
       "verified": "2026-11-20",
       "effective": "2023-07-01",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "인천광역시",
+          "Incheon"
+        ]
+      }
     },
     {
       "id": "KR-DAEGU",
@@ -444,7 +462,7 @@
       "regionEn": "DAEGU",
       "lat": 35.8714,
       "lng": 128.6014,
-      "radiusKm": 25,
+      "radiusKm": 15,
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
@@ -484,7 +502,13 @@
       "source": "https://www.daegu.go.kr/tra/?menu_id=00000647",
       "verified": "2026-11-20",
       "effective": "2025-02-22",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "대구광역시",
+          "Daegu"
+        ]
+      }
     },
     {
       "id": "KR-GWANGJU",
@@ -493,7 +517,7 @@
       "regionEn": "GWANGJU",
       "lat": 35.1595,
       "lng": 126.8526,
-      "radiusKm": 25,
+      "radiusKm": 13,
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
@@ -533,7 +557,13 @@
       "source": "https://www.mt.co.kr/policy/2025/10/13/2025101313451027607",
       "verified": "2026-11-20",
       "effective": "2025-10-22",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "광주광역시",
+          "Gwangju"
+        ]
+      }
     },
     {
       "id": "KR-DAEJEON",
@@ -542,7 +572,7 @@
       "regionEn": "DAEJEON",
       "lat": 36.3504,
       "lng": 127.3845,
-      "radiusKm": 25,
+      "radiusKm": 13,
       "currency": "KRW",
       "symbol": "₩",
       "decimals": 0,
@@ -582,7 +612,13 @@
       "source": "https://www.mt.co.kr/policy/2026/10/26/2026102610445369029",
       "verified": "2026-11-20",
       "effective": "2026-11-01",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "대전광역시",
+          "Daejeon"
+        ]
+      }
     },
     {
       "id": "KR-JEJU",
@@ -624,6 +660,271 @@
       "source": "https://jeju.go.kr/traffic/bus/taxifee.htm",
       "verified": "2026-11-20",
       "effective": "2024-07-01",
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "제주특별자치도",
+          "제주도",
+          "Jeju-do",
+          "Jeju"
+        ]
+      }
+    },
+    {
+      "id": "KR-GG-STD",
+      "country": "KR",
+      "region": "경기 (표준)",
+      "regionEn": "GYEONGGI",
+      "match": {
+        "regions": [
+          "경기도",
+          "Gyeonggi-do"
+        ],
+        "cities": [
+          "수원시",
+          "성남시",
+          "고양시",
+          "부천시",
+          "안산시",
+          "안양시",
+          "남양주시",
+          "의정부시",
+          "시흥시",
+          "파주시",
+          "김포시",
+          "군포시",
+          "구리시",
+          "의왕시",
+          "과천시",
+          "Suwon",
+          "Seongnam",
+          "Goyang",
+          "Bucheon",
+          "Ansan",
+          "Anyang",
+          "Namyangju",
+          "Uijeongbu",
+          "Siheung",
+          "Paju",
+          "Gimpo",
+          "Gunpo",
+          "Guri",
+          "Uiwang",
+          "Gwacheon"
+        ]
+      },
+      "lat": 37.2636,
+      "lng": 127.0286,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 1600,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "경기도 표준형 중형택시 요금 (2023년 7월 1일 시행). 수원·성남·고양·부천·안산·안양·남양주·의정부·시흥·파주·김포·군포·구리·의왕·과천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 시계외 할증 20%는 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+      "effective": "2023-07-01",
+      "confidence": "high"
+    },
+    {
+      "id": "KR-GG-A",
+      "country": "KR",
+      "region": "경기 (도농 가형)",
+      "regionEn": "GYEONGGI A",
+      "match": {
+        "regions": [
+          "경기도",
+          "Gyeonggi-do"
+        ],
+        "cities": [
+          "용인시",
+          "화성시",
+          "평택시",
+          "광주시",
+          "하남시",
+          "오산시",
+          "양주시",
+          "동두천시",
+          "Yongin",
+          "Hwaseong",
+          "Pyeongtaek",
+          "Gwangju",
+          "Hanam",
+          "Osan",
+          "Yangju",
+          "Dongducheon"
+        ]
+      },
+      "lat": 37.2411,
+      "lng": 127.1776,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 1800,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 104,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 25,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "경기도 도농복합 가형 중형택시 요금 (2023년 7월 1일 시행). 용인·화성·평택·광주·하남·오산·양주·동두천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 시계외 할증 20%는 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+      "effective": "2023-07-01",
+      "confidence": "high"
+    },
+    {
+      "id": "KR-GG-B",
+      "country": "KR",
+      "region": "경기 (도농 나형)",
+      "regionEn": "GYEONGGI B",
+      "match": {
+        "regions": [
+          "경기도",
+          "Gyeonggi-do"
+        ],
+        "cities": [
+          "이천시",
+          "안성시",
+          "포천시",
+          "여주시",
+          "양평군",
+          "가평군",
+          "연천군",
+          "Icheon",
+          "Anseong",
+          "Pocheon",
+          "Yeoju",
+          "Yangpyeong",
+          "Gapyeong",
+          "Yeoncheon"
+        ]
+      },
+      "lat": 37.272,
+      "lng": 127.435,
+      "radiusKm": 12,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 2000,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 83,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 20,
+      "timeFare": 100,
+      "slowSpeedKmh": 15,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 4,
+          "percent": 30
+        }
+      ],
+      "note": "경기도 도농복합 나형 중형택시 요금 (2023년 7월 1일 시행). 이천·안성·포천·여주·양평·가평·연천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 시계외 할증 20%는 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+      "effective": "2023-07-01",
+      "confidence": "high"
+    },
+    {
+      "id": "KR-GG-GWANGMYEONG",
+      "country": "KR",
+      "region": "광명",
+      "regionEn": "GWANGMYEONG",
+      "match": {
+        "regions": [
+          "경기도",
+          "Gyeonggi-do"
+        ],
+        "cities": [
+          "광명시",
+          "Gwangmyeong"
+        ]
+      },
+      "lat": 37.4786,
+      "lng": 126.8644,
+      "radiusKm": 4,
+      "currency": "KRW",
+      "symbol": "₩",
+      "decimals": 0,
+      "baseFare": 4800,
+      "baseDistanceM": 1600,
+      "distanceTiers": [
+        {
+          "uptoM": null,
+          "unitM": 131,
+          "fare": 100
+        }
+      ],
+      "timeUnitSec": 30,
+      "timeFare": 100,
+      "slowSpeedKmh": 15.72,
+      "surcharges": [
+        {
+          "name": "심야",
+          "startHour": 22,
+          "endHour": 23,
+          "percent": 20,
+          "baseFare": 5800
+        },
+        {
+          "name": "심야",
+          "startHour": 23,
+          "endHour": 2,
+          "percent": 40,
+          "baseFare": 6700
+        },
+        {
+          "name": "심야",
+          "startHour": 2,
+          "endHour": 4,
+          "percent": 20,
+          "baseFare": 5800
+        }
+      ],
+      "note": "광명시는 서울 구로·금천구와 사업구역이 통합되어 서울 택시 요금을 적용합니다 (2023년 2월 1일 시행). 시계외 할증 20%는 반영하지 않았습니다.",
+      "verified": "2026-11-21",
+      "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
+      "effective": "2023-02-01",
       "confidence": "high"
     },
     {
