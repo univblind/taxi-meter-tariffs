@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 4,
+  "version": 5,
   "updated": "2026-11-21",
   "countries": [
     {
@@ -333,7 +333,7 @@
           "baseFare": 5800
         }
       ],
-      "note": "서울시 중형택시 요금 (2023년 2월 1일 시행). 심야 기본요금 5,800원·6,700원. 시계외 할증 20%는 미반영.",
+      "note": "서울시 중형택시 요금 (2023년 2월 1일 시행). 심야 기본요금 5,800원·6,700원. 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "source": "https://news.seoul.go.kr/traffic/archives/1659",
       "verified": "2026-11-20",
       "effective": "2023-02-01",
@@ -342,6 +342,15 @@
         "regions": [
           "서울특별시",
           "Seoul"
+        ],
+        "wholeRegion": true
+      },
+      "outOfArea": {
+        "percent": 20,
+        "unit": "region",
+        "exempt": [
+          "광명시",
+          "Gwangmyeong"
         ]
       }
     },
@@ -388,7 +397,7 @@
           "percent": 20
         }
       ],
-      "note": "부산시 중형택시 요금 (2023년 6월 1일 시행). 시계외 할증 30%는 미반영.",
+      "note": "부산시 중형택시 요금 (2023년 6월 1일 시행). 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "source": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
       "verified": "2026-11-20",
       "effective": "2023-06-01",
@@ -397,7 +406,12 @@
         "regions": [
           "부산광역시",
           "Busan"
-        ]
+        ],
+        "wholeRegion": true
+      },
+      "outOfArea": {
+        "percent": 30,
+        "unit": "region"
       }
     },
     {
@@ -443,7 +457,7 @@
           "percent": 20
         }
       ],
-      "note": "인천시 중형택시 요금 (2023년 7월 1일 시행). 시계외 할증 30%는 미반영.",
+      "note": "인천시 중형택시 요금 (2023년 7월 1일 시행). 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "source": "https://www.incheon.go.kr/traffic/TR010201",
       "verified": "2026-11-20",
       "effective": "2023-07-01",
@@ -452,7 +466,12 @@
         "regions": [
           "인천광역시",
           "Incheon"
-        ]
+        ],
+        "wholeRegion": true
+      },
+      "outOfArea": {
+        "percent": 30,
+        "unit": "region"
       }
     },
     {
@@ -498,7 +517,7 @@
           "percent": 20
         }
       ],
-      "note": "대구시 중형택시 요금 (2025년 2월 22일 시행). 시계외 할증 35%는 미반영. 2027년 초 인상이 검토되고 있음.",
+      "note": "대구시 중형택시 요금 (2025년 2월 22일 시행). 2027년 초 인상이 검토되고 있음. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "source": "https://www.daegu.go.kr/tra/?menu_id=00000647",
       "verified": "2026-11-20",
       "effective": "2025-02-22",
@@ -507,7 +526,12 @@
         "regions": [
           "대구광역시",
           "Daegu"
-        ]
+        ],
+        "wholeRegion": true
+      },
+      "outOfArea": {
+        "percent": 35,
+        "unit": "region"
       }
     },
     {
@@ -553,7 +577,7 @@
           "percent": 20
         }
       ],
-      "note": "광주 중형택시 요금 (2025년 10월 22일 시행). 시계외 할증 35~40%는 미반영. 시청 고시 원문이 아닌 언론 보도 3건으로 확인.",
+      "note": "광주 중형택시 요금 (2025년 10월 22일 시행). 시청 고시 원문이 아닌 언론 보도 3건으로 확인. 사업구역 밖으로 나가면 그 구간에 시계외 할증 35%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "source": "https://www.mt.co.kr/policy/2025/10/13/2025101313451027607",
       "verified": "2026-11-20",
       "effective": "2025-10-22",
@@ -562,7 +586,12 @@
         "regions": [
           "광주광역시",
           "Gwangju"
-        ]
+        ],
+        "wholeRegion": true
+      },
+      "outOfArea": {
+        "percent": 35,
+        "unit": "region"
       }
     },
     {
@@ -608,7 +637,7 @@
           "percent": 20
         }
       ],
-      "note": "대전시 중형택시 요금 (2026년 11월 1일 시행, 할증은 2026년 3월 16일 시행). 시계외 할증 30%는 미반영. 시청 고시 원문이 아닌 언론 보도 5건으로 확인.",
+      "note": "대전시 중형택시 요금 (2026년 11월 1일 시행, 할증은 2026년 3월 16일 시행). 시청 고시 원문이 아닌 언론 보도 5건으로 확인. 사업구역 밖으로 나가면 그 구간에 시계외 할증 30%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "source": "https://www.mt.co.kr/policy/2026/10/26/2026102610445369029",
       "verified": "2026-11-20",
       "effective": "2026-11-01",
@@ -617,7 +646,12 @@
         "regions": [
           "대전광역시",
           "Daejeon"
-        ]
+        ],
+        "wholeRegion": true
+      },
+      "outOfArea": {
+        "percent": 30,
+        "unit": "region"
       }
     },
     {
@@ -667,7 +701,8 @@
           "제주도",
           "Jeju-do",
           "Jeju"
-        ]
+        ],
+        "wholeRegion": true
       }
     },
     {
@@ -739,11 +774,45 @@
           "percent": 30
         }
       ],
-      "note": "경기도 표준형 중형택시 요금 (2023년 7월 1일 시행). 수원·성남·고양·부천·안산·안양·남양주·의정부·시흥·파주·김포·군포·구리·의왕·과천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 시계외 할증 20%는 반영하지 않았습니다.",
+      "note": "경기도 표준형 중형택시 요금 (2023년 7월 1일 시행). 수원·성남·고양·부천·안산·안양·남양주·의정부·시흥·파주·김포·군포·구리·의왕·과천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "verified": "2026-11-21",
       "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
       "effective": "2023-07-01",
-      "confidence": "high"
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "groups": [
+          [
+            "안양시",
+            "과천시",
+            "군포시",
+            "의왕시",
+            "Anyang",
+            "Gwacheon",
+            "Gunpo",
+            "Uiwang"
+          ],
+          [
+            "구리시",
+            "남양주시",
+            "Guri",
+            "Namyangju"
+          ],
+          [
+            "화성시",
+            "오산시",
+            "Hwaseong",
+            "Osan"
+          ],
+          [
+            "하남시",
+            "광주시",
+            "Hanam",
+            "Gwangju"
+          ]
+        ]
+      }
     },
     {
       "id": "KR-GG-A",
@@ -800,11 +869,45 @@
           "percent": 30
         }
       ],
-      "note": "경기도 도농복합 가형 중형택시 요금 (2023년 7월 1일 시행). 용인·화성·평택·광주·하남·오산·양주·동두천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 시계외 할증 20%는 반영하지 않았습니다.",
+      "note": "경기도 도농복합 가형 중형택시 요금 (2023년 7월 1일 시행). 용인·화성·평택·광주·하남·오산·양주·동두천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "verified": "2026-11-21",
       "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
       "effective": "2023-07-01",
-      "confidence": "high"
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "groups": [
+          [
+            "안양시",
+            "과천시",
+            "군포시",
+            "의왕시",
+            "Anyang",
+            "Gwacheon",
+            "Gunpo",
+            "Uiwang"
+          ],
+          [
+            "구리시",
+            "남양주시",
+            "Guri",
+            "Namyangju"
+          ],
+          [
+            "화성시",
+            "오산시",
+            "Hwaseong",
+            "Osan"
+          ],
+          [
+            "하남시",
+            "광주시",
+            "Hanam",
+            "Gwangju"
+          ]
+        ]
+      }
     },
     {
       "id": "KR-GG-B",
@@ -859,11 +962,45 @@
           "percent": 30
         }
       ],
-      "note": "경기도 도농복합 나형 중형택시 요금 (2023년 7월 1일 시행). 이천·안성·포천·여주·양평·가평·연천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 시계외 할증 20%는 반영하지 않았습니다.",
+      "note": "경기도 도농복합 나형 중형택시 요금 (2023년 7월 1일 시행). 이천·안성·포천·여주·양평·가평·연천에 적용됩니다. 심야 23~04시 30% 할증. 자기 시·군(사업구역) 밖으로 나가면 붙는 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "verified": "2026-11-21",
       "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
       "effective": "2023-07-01",
-      "confidence": "high"
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "groups": [
+          [
+            "안양시",
+            "과천시",
+            "군포시",
+            "의왕시",
+            "Anyang",
+            "Gwacheon",
+            "Gunpo",
+            "Uiwang"
+          ],
+          [
+            "구리시",
+            "남양주시",
+            "Guri",
+            "Namyangju"
+          ],
+          [
+            "화성시",
+            "오산시",
+            "Hwaseong",
+            "Osan"
+          ],
+          [
+            "하남시",
+            "광주시",
+            "Hanam",
+            "Gwangju"
+          ]
+        ]
+      }
     },
     {
       "id": "KR-GG-GWANGMYEONG",
@@ -921,11 +1058,23 @@
           "baseFare": 5800
         }
       ],
-      "note": "광명시는 서울 구로·금천구와 사업구역이 통합되어 서울 택시 요금을 적용합니다 (2023년 2월 1일 시행). 시계외 할증 20%는 반영하지 않았습니다.",
+      "note": "광명시는 서울 구로·금천구와 사업구역이 통합되어 서울 택시 요금을 적용합니다 (2023년 2월 1일 시행). 사업구역 밖으로 나가면 그 구간에 시계외 할증 20%가 붙습니다(심야 할증과 합산). 귀로 운행과 공항·위례신도시 예외는 반영하지 않았습니다.",
       "verified": "2026-11-21",
       "source": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
       "effective": "2023-02-01",
-      "confidence": "high"
+      "confidence": "high",
+      "outOfArea": {
+        "percent": 20,
+        "unit": "city",
+        "exempt": [
+          "구로구",
+          "금천구",
+          "Guro-gu",
+          "Geumcheon-gu",
+          "Guro District",
+          "Geumcheon District"
+        ]
+      }
     },
     {
       "id": "JP-TOKYO",
@@ -962,7 +1111,76 @@
       "source": "https://wwwtb.mlit.go.jp/kanto/content/000369955.pdf",
       "effective": "2026-04-20",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Tokyo",
+          "東京都"
+        ],
+        "cities": [
+          "Chiyoda",
+          "千代田区",
+          "Chuo",
+          "中央区",
+          "Minato",
+          "港区",
+          "Shinjuku",
+          "新宿区",
+          "Bunkyo",
+          "文京区",
+          "Taito",
+          "台東区",
+          "Sumida",
+          "墨田区",
+          "Koto",
+          "江東区",
+          "Shinagawa",
+          "品川区",
+          "Meguro",
+          "目黒区",
+          "Ota",
+          "大田区",
+          "Setagaya",
+          "世田谷区",
+          "Shibuya",
+          "渋谷区",
+          "Nakano",
+          "中野区",
+          "Suginami",
+          "杉並区",
+          "Toshima",
+          "豊島区",
+          "Kita",
+          "北区",
+          "Arakawa",
+          "荒川区",
+          "Itabashi",
+          "板橋区",
+          "Nerima",
+          "練馬区",
+          "Adachi",
+          "足立区",
+          "Katsushika",
+          "葛飾区",
+          "Edogawa",
+          "江戸川区",
+          "Musashino",
+          "武蔵野市",
+          "Mitaka",
+          "三鷹市",
+          "Suginami City"
+        ],
+        "exclude": [
+          "Yokohama",
+          "Kawasaki",
+          "Saitama",
+          "Kawaguchi",
+          "Chiba",
+          "Urayasu (Tokyo Disneyland)",
+          "Chofu",
+          "Narita Airport"
+        ]
+      }
     },
     {
       "id": "JP-OSAKA",
@@ -999,7 +1217,24 @@
       "source": "https://wwwtb.mlit.go.jp/kinki/content/000359487.pdf",
       "effective": "2025-11-05",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Osaka",
+          "大阪府"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Kobe",
+          "Amagasaki",
+          "Nishinomiya",
+          "Itami",
+          "Kyoto",
+          "Nara",
+          "Ikoma",
+          "Wakayama"
+        ]
+      }
     },
     {
       "id": "JP-NAGOYA",
@@ -1036,7 +1271,59 @@
       "source": "https://wwwtb.mlit.go.jp/chubu/press/pdf/jikou2025091101.pdf",
       "effective": "2025-10-14",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Aichi",
+          "愛知県"
+        ],
+        "cities": [
+          "Nagoya",
+          "名古屋市",
+          "Seto",
+          "瀬戸市",
+          "Tsushima",
+          "津島市",
+          "Owariasahi",
+          "尾張旭市",
+          "Toyoake",
+          "豊明市",
+          "Nisshin",
+          "日進市",
+          "Aisai",
+          "愛西市",
+          "Kiyosu",
+          "清須市",
+          "Kitanagoya",
+          "北名古屋市",
+          "Yatomi",
+          "弥富市",
+          "Ama",
+          "あま市",
+          "Nagakute",
+          "長久手市",
+          "Togo",
+          "東郷町",
+          "Toyoyama",
+          "豊山町",
+          "Oharu",
+          "大治町",
+          "Kanie",
+          "蟹江町",
+          "Tobishima",
+          "飛島村"
+        ],
+        "exclude": [
+          "Kasugai",
+          "Ichinomiya",
+          "Komaki",
+          "Toyota",
+          "Tokoname (Chubu Centrair Airport)",
+          "Kariya",
+          "Kuwana",
+          "Gifu"
+        ]
+      }
     },
     {
       "id": "JP-FUKUOKA",
@@ -1073,7 +1360,55 @@
       "source": "https://wwwtb.mlit.go.jp/kyushu/content/000374925.pdf",
       "effective": "2026-07-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Fukuoka",
+          "福岡県"
+        ],
+        "cities": [
+          "Fukuoka",
+          "福岡市",
+          "Kasuga",
+          "春日市",
+          "Onojo",
+          "大野城市",
+          "Chikushino",
+          "筑紫野市",
+          "Dazaifu",
+          "太宰府市",
+          "Koga",
+          "古賀市",
+          "Itoshima",
+          "糸島市",
+          "Nakagawa",
+          "那珂川市",
+          "Umi",
+          "宇美町",
+          "Sasaguri",
+          "篠栗町",
+          "Shime",
+          "志免町",
+          "Sue",
+          "須恵町",
+          "Shingu",
+          "新宮町",
+          "Hisayama",
+          "久山町",
+          "Kasuya",
+          "粕屋町"
+        ],
+        "exclude": [
+          "Kitakyushu",
+          "Kurume",
+          "Munakata",
+          "Fukutsu",
+          "Ogori",
+          "Iizuka",
+          "Tosu",
+          "Karatsu"
+        ]
+      }
     },
     {
       "id": "CN-BEIJING",
@@ -1122,7 +1457,22 @@
       "source": "https://zdzqgw.beijing.gov.cn/zqfw/bjsdgjjc/bjsdgjjcjb/202410/t20241012_3917838.html",
       "effective": "2018-08-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Beijing",
+          "北京市"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Langfang",
+          "Sanhe (Yanjiao)",
+          "Gu'an",
+          "Xianghe",
+          "Zhuozhou",
+          "Tianjin"
+        ]
+      }
     },
     {
       "id": "CN-SHANGHAI",
@@ -1164,7 +1514,25 @@
       "source": "https://fgw.sh.gov.cn/wx_ggjt/20200727/e80ea0d667da4fb0afc95c30e173865f.html",
       "effective": "2022-01-15",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Shanghai",
+          "上海市",
+          "Shang Hai Shi"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Kunshan",
+          "Huaqiao",
+          "Taicang",
+          "Suzhou",
+          "Jiashan",
+          "Jiaxing",
+          "Pinghu",
+          "Qidong"
+        ]
+      }
     },
     {
       "id": "CN-GUANGZHOU",
@@ -1224,7 +1592,27 @@
       "source": "https://www.gz.gov.cn/zwgk/sjfb/sjkd/content/post_10337021.html",
       "effective": "2024-11-30",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Guangdong",
+          "广东省",
+          "Guangdong Province"
+        ],
+        "cities": [
+          "Guangzhou",
+          "广州市"
+        ],
+        "exclude": [
+          "Foshan",
+          "Dongguan",
+          "Qingyuan",
+          "Zhongshan",
+          "Huizhou",
+          "Zhaoqing",
+          "Shenzhen"
+        ]
+      }
     },
     {
       "id": "CN-SHENZHEN",
@@ -1271,7 +1659,27 @@
       "source": "https://www.sz.gov.cn/ztfw/jtly/wyc_184756/ggjtcx/czccx/content/post_4888409.html",
       "effective": "2021-08-20",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Guangdong",
+          "广东省",
+          "Guang Dong Sheng"
+        ],
+        "cities": [
+          "Shenzhen",
+          "深圳市",
+          "Shen Zhen Shi"
+        ],
+        "exclude": [
+          "Hong Kong",
+          "Dongguan",
+          "Huizhou",
+          "Zhongshan",
+          "Zhuhai",
+          "Guangzhou"
+        ]
+      }
     },
     {
       "id": "HK-HONGKONG",
@@ -1306,7 +1714,61 @@
       "source": "https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/taxi/taxi_fare_of_hong_kong/index.html",
       "effective": "2024-07-14",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Hong Kong",
+          "香港",
+          "Hong Kong Island",
+          "香港島",
+          "Kowloon",
+          "九龍",
+          "New Territories",
+          "新界"
+        ],
+        "cities": [
+          "Central and Western",
+          "中西區",
+          "Wan Chai",
+          "灣仔區",
+          "Eastern",
+          "東區",
+          "Southern",
+          "南區",
+          "Yau Tsim Mong",
+          "油尖旺區",
+          "Sham Shui Po",
+          "深水埗區",
+          "Kowloon City",
+          "九龍城區",
+          "Wong Tai Sin",
+          "黃大仙區",
+          "Kwun Tong",
+          "觀塘區",
+          "Kwai Tsing",
+          "葵青區",
+          "Tsuen Wan",
+          "荃灣區",
+          "Sha Tin",
+          "沙田區",
+          "Tseung Kwan O",
+          "將軍澳",
+          "Tung Chung",
+          "東涌",
+          "Chek Lap Kok",
+          "赤鱲角"
+        ],
+        "exclude": [
+          "Yuen Long",
+          "Tuen Mun",
+          "Tai Po",
+          "Sheung Shui",
+          "Fanling",
+          "Sai Kung Town",
+          "South Lantau (Mui Wo, Tai O)",
+          "Shenzhen"
+        ]
+      }
     },
     {
       "id": "TW-TAIPEI",
@@ -1343,7 +1805,29 @@
       "source": "https://www.businesstoday.com.tw/article/category/183030/post/202609210033/",
       "effective": "2023-04-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Taipei",
+          "Taipei City",
+          "台北市",
+          "臺北市",
+          "New Taipei",
+          "New Taipei City",
+          "新北市",
+          "Keelung",
+          "Keelung City",
+          "基隆市"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Taoyuan",
+          "Taoyuan International Airport",
+          "Zhongli",
+          "Yilan",
+          "Hsinchu"
+        ]
+      }
     },
     {
       "id": "TW-KAOHSIUNG",
@@ -1380,7 +1864,19 @@
       "source": "https://www.nownews.com/news/6554804",
       "effective": "2022-01-27",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Kaohsiung",
+          "Kaohsiung City",
+          "高雄市"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Tainan",
+          "Pingtung"
+        ]
+      }
     },
     {
       "id": "SG-SINGAPORE",
@@ -1451,7 +1947,13 @@
       "source": "https://www.cdgtaxi.com.sg/fares/",
       "effective": "2026-03-24",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "country": true,
+        "exclude": [
+          "Johor Bahru"
+        ]
+      }
     },
     {
       "id": "MY-KL",
@@ -1488,7 +1990,24 @@
       "source": "https://www.thestar.com.my/news/nation/2015/03/20/public-transport-to-cost-more-fares-increased-for-taxi-train-and-express-bus-services",
       "effective": "2015-03",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Kuala Lumpur",
+          "Wilayah Persekutuan Kuala Lumpur",
+          "Federal Territory of Kuala Lumpur",
+          "Selangor",
+          "Putrajaya",
+          "Wilayah Persekutuan Putrajaya"
+        ],
+        "exclude": [
+          "Seremban",
+          "Nilai",
+          "Port Dickson",
+          "Genting Highlands",
+          "Bentong"
+        ]
+      }
     },
     {
       "id": "TH-BANGKOK",
@@ -1543,7 +2062,29 @@
       "source": "https://www.itax.in.th/media/%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%97%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B8%B5%E0%B9%88/",
       "effective": "2023-01-13",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Bangkok",
+          "Krung Thep Maha Nakhon",
+          "กรุงเทพมหานคร",
+          "Nonthaburi",
+          "นนทบุรี",
+          "Samut Prakan",
+          "สมุทรปราการ",
+          "Pathum Thani",
+          "ปทุมธานี"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Pattaya",
+          "Chonburi",
+          "Ayutthaya",
+          "Chachoengsao",
+          "Nakhon Pathom",
+          "Samut Sakhon"
+        ]
+      }
     },
     {
       "id": "VN-HCMC",
@@ -1578,7 +2119,24 @@
       "note": "호찌민 최대 전통 택시 회사 Vinasun의 4인승(Toyota Vios) 요금: 기본 16,000동/500m, 25km까지 km당 16,400동, 26km부터 km당 13,500동(부가세 포함). 2026년 3월 약 11~12% 인상이 보도되었으며 통행료·공항 진입료·대기 요금은 반영하지 못했습니다.",
       "source": "https://vinasun.vn/dich-vu-taxi",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Ho Chi Minh City",
+          "Ho Chi Minh",
+          "Thành phố Hồ Chí Minh",
+          "Hồ Chí Minh"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Bien Hoa",
+          "Thu Dau Mot",
+          "Di An",
+          "Vung Tau",
+          "Tan An",
+          "My Tho"
+        ]
+      }
     },
     {
       "id": "VN-HANOI",
@@ -1614,7 +2172,24 @@
       "source": "https://g7taxi.vn/bang-gia-cuoc-taxi-g7/",
       "effective": "2024-08-27",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Hanoi",
+          "Ha Noi",
+          "Hà Nội",
+          "Thành phố Hà Nội"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Bac Ninh",
+          "Hung Yen",
+          "Vinh Yen",
+          "Phu Ly",
+          "Hoa Binh",
+          "Thai Nguyen"
+        ]
+      }
     },
     {
       "id": "ID-JAKARTA",
@@ -1654,7 +2229,55 @@
       "source": "https://www.bluebirdgroup.com/news/penyesuaian-tarif-taksi-bluebird-di-wilayah-jabodetabek?lang=en",
       "effective": "2024-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Jakarta",
+          "DKI Jakarta",
+          "Daerah Khusus Ibukota Jakarta",
+          "Daerah Khusus Jakarta",
+          "Special Capital Region of Jakarta",
+          "West Java",
+          "Jawa Barat",
+          "Banten"
+        ],
+        "cities": [
+          "Jakarta",
+          "Central Jakarta",
+          "Jakarta Pusat",
+          "South Jakarta",
+          "Jakarta Selatan",
+          "West Jakarta",
+          "Jakarta Barat",
+          "East Jakarta",
+          "Jakarta Timur",
+          "North Jakarta",
+          "Jakarta Utara",
+          "Bogor",
+          "Kota Bogor",
+          "Kabupaten Bogor",
+          "Depok",
+          "Kota Depok",
+          "Tangerang",
+          "Kota Tangerang",
+          "Kabupaten Tangerang",
+          "South Tangerang",
+          "Tangerang Selatan",
+          "Bekasi",
+          "Kota Bekasi",
+          "Kabupaten Bekasi",
+          "Kecamatan Setiabudi"
+        ],
+        "exclude": [
+          "Karawang",
+          "Serang",
+          "Cilegon",
+          "Cianjur",
+          "Purwakarta",
+          "Sukabumi",
+          "Bandung"
+        ]
+      }
     },
     {
       "id": "PH-MANILA",
@@ -1684,7 +2307,10 @@
       "source": "https://www.sunstar.com.ph/manila/ltfrb-sets-new-puv-rates-effective-sept-28",
       "effective": "2026-09-28",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "IN-MUMBAI",
@@ -1721,7 +2347,18 @@
       "source": "https://transport.maharashtra.gov.in/Site/Upload/GR/Metered_Taxi_Tariff_Card.pdf",
       "effective": "2026-09-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Maharashtra",
+          "महाराष्ट्र"
+        ],
+        "exclude": [
+          "Lonavala",
+          "Pune",
+          "Nashik"
+        ]
+      }
     },
     {
       "id": "IN-DELHI",
@@ -1758,7 +2395,25 @@
       "source": "https://www.dnaindia.com/delhi/report-delhi-auto-taxi-fares-hiked-as-govt-notifies-new-rates-delhi-auto-new-fare-check-new-details-3016354",
       "effective": "2023-01-09",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Delhi",
+          "दिल्ली",
+          "National Capital Territory of Delhi",
+          "NCT of Delhi"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Noida",
+          "Greater Noida",
+          "Ghaziabad",
+          "Gurugram",
+          "Faridabad",
+          "Bahadurgarh",
+          "Sonipat"
+        ]
+      }
     },
     {
       "id": "AE-DUBAI",
@@ -1795,7 +2450,23 @@
       "note": "두바이 RTA 일반 택시를 길에서 잡을 때의 요금입니다(기본 5디르함, 밤 10시~아침 6시 5.5디르함, km당 2.45디르함, 최소 12디르함). km당 요금은 연료 가격에 따라 수시로 조정되며, 살릭 통행료(게이트당 약 4~6디르함), 공항 출발 기본요금 20디르함, 앱 예약 요금(기본 9~13디르함, 최소 13디르함)은 반영하지 않았습니다.",
       "source": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/taxi-fare",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Dubai",
+          "دبي",
+          "إمارة دبي"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Sharjah",
+          "Ajman",
+          "Umm Al Quwain",
+          "Abu Dhabi",
+          "Al Ain",
+          "Ras Al Khaimah"
+        ]
+      }
     },
     {
       "id": "AE-ABUDHABI",
@@ -1832,7 +2503,19 @@
       "note": "아부다비 통합교통센터(ITC) 일반(실버) 택시 요금입니다(기본 5디르함, 밤 10시~아침 6시 5.5디르함, km당 1.82디르함, 대기 분당 0.5디르함, 최소 12디르함). 공항 출발 기본요금 20디르함, 전화·앱 예약비(낮 4·밤 5디르함), 다르브 통행료는 반영하지 않았습니다.",
       "source": "https://admobility.gov.ae/en/taxi-fares",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Abu Dhabi",
+          "أبو ظبي",
+          "أبوظبي",
+          "إمارة أبوظبي"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Dubai"
+        ]
+      }
     },
     {
       "id": "QA-DOHA",
@@ -1871,7 +2554,10 @@
       "source": "https://www.qatar-tribune.com/article/110438/NATION/Taxi-fares-revised-to-meet-operational-costs-Karwa/amp",
       "effective": "2018-02-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "SA-RIYADH",
@@ -1926,7 +2612,10 @@
       "source": "https://www.youm7.com/story/2022/3/13/%D8%B9%D9%83%D8%A7%D8%B8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A3%D8%AC%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-17-%D9%8810-%D8%B1%D9%8A%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89/5690177",
       "effective": "2022-03",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "TR-ISTANBUL",
@@ -1957,7 +2646,22 @@
       "source": "https://www.haberturk.com/zamli-taksi-ucretleri-2026-yeni-taksi-acilis-ucreti-ve-kisa-mesafe-indi-bindi-ne-kadar-oldu-3899248",
       "effective": "2026-07-20",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Istanbul",
+          "İstanbul"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Gebze",
+          "Darica",
+          "Izmit",
+          "Cerkezkoy",
+          "Corlu",
+          "Yalova"
+        ]
+      }
     },
     {
       "id": "IL-TELAVIV",
@@ -2066,7 +2770,16 @@
       "source": "https://icab.co.il/wp-content/uploads/2026/05/taxi-rate-26.pdf",
       "effective": "2026-04-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "country": true,
+        "exclude": [
+          "Eilat",
+          "Ramallah",
+          "Bethlehem",
+          "Nablus"
+        ]
+      }
     },
     {
       "id": "EG-CAIRO",
@@ -2096,7 +2809,25 @@
       "source": "https://www.youm7.com/story/2026/3/31/%E2%80%8B%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A9-%D8%B1%D9%83%D9%88%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%88%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A8%D9%80/7360111",
       "effective": "2026-03-10",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Cairo",
+          "Cairo Governorate",
+          "القاهرة",
+          "محافظة القاهرة"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Giza",
+          "6th of October City",
+          "Sheikh Zayed City",
+          "Shubra El Kheima",
+          "Obour City",
+          "10th of Ramadan City",
+          "Banha"
+        ]
+      }
     },
     {
       "id": "ZA-JOBURG",
@@ -2124,7 +2855,21 @@
       "surcharges": [],
       "note": "요하네스버그에는 정부가 정한 단일 미터 요금이 없고 택시 회사마다 요금이 다릅니다. 이 값은 공개된 추정치(기본 약 14랜드, km당 약 15랜드)를 쓴 참고용이며, 타기 전에 기사와 요금을 확인하는 것이 좋습니다.",
       "source": "https://www.numbeo.com/taxi-fare/in/Johannesburg",
-      "confidence": "low"
+      "confidence": "low",
+      "match": {
+        "regions": [
+          "Gauteng"
+        ],
+        "exclude": [
+          "Pretoria",
+          "Centurion",
+          "Kempton Park (O.R. Tambo Airport)",
+          "Germiston",
+          "Benoni",
+          "Krugersdorp",
+          "Vereeniging"
+        ]
+      }
     },
     {
       "id": "GB-LONDON",
@@ -2192,7 +2937,60 @@
       "source": "https://tfl.gov.uk/modes/taxis-and-minicabs/taxi-fares/tariffs",
       "effective": "2026-04-25",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "England"
+        ],
+        "cities": [
+          "London",
+          "Greater London",
+          "City of London",
+          "Westminster",
+          "City of Westminster",
+          "Camden",
+          "Greenwich",
+          "Hackney",
+          "Hammersmith and Fulham",
+          "Islington",
+          "Kensington and Chelsea",
+          "Lambeth",
+          "Lewisham",
+          "Southwark",
+          "Tower Hamlets",
+          "Wandsworth",
+          "Barking and Dagenham",
+          "Barnet",
+          "Bexley",
+          "Brent",
+          "Bromley",
+          "Croydon",
+          "Ealing",
+          "Enfield",
+          "Haringey",
+          "Harrow",
+          "Havering",
+          "Hillingdon",
+          "Hounslow",
+          "Kingston upon Thames",
+          "Merton",
+          "Newham",
+          "Redbridge",
+          "Richmond upon Thames",
+          "Sutton",
+          "Waltham Forest"
+        ],
+        "exclude": [
+          "Watford",
+          "Slough",
+          "Epsom",
+          "Dartford",
+          "Brentwood",
+          "Staines-upon-Thames",
+          "Gatwick Airport (Crawley)",
+          "Luton"
+        ]
+      }
     },
     {
       "id": "GB-MANCHESTER",
@@ -2230,7 +3028,26 @@
       "source": "https://www.manchester.gov.uk/taxis-and-private-hire/taxi-and-private-hire-passenger-information/taxi-fares-and-charges/public-taxi-fares-and-charges",
       "effective": "2023-09-15",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "England"
+        ],
+        "cities": [
+          "Manchester",
+          "City of Manchester"
+        ],
+        "exclude": [
+          "Salford",
+          "Stretford",
+          "Sale",
+          "Altrincham",
+          "Stockport",
+          "Oldham",
+          "Bury",
+          "Bolton"
+        ]
+      }
     },
     {
       "id": "IE-DUBLIN",
@@ -2294,7 +3111,10 @@
       "source": "https://www.irishstatutebook.ie/eli/2024/si/479/made/en/print",
       "effective": "2024-12-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "FR-PARIS",
@@ -2354,7 +3174,107 @@
       "source": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134824/987340/file/recueil-75-2026-047-recueil-des-actes-administratifs-special%20du%2021.01.2026.pdf",
       "effective": "2026-02-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Île-de-France",
+          "Ile-de-France"
+        ],
+        "cities": [
+          "Paris",
+          "Antony",
+          "Asnières-sur-Seine",
+          "Bagneux",
+          "Bois-Colombes",
+          "Boulogne-Billancourt",
+          "Bourg-la-Reine",
+          "Châtenay-Malabry",
+          "Châtillon",
+          "Clamart",
+          "Clichy",
+          "Colombes",
+          "Courbevoie",
+          "Fontenay-aux-Roses",
+          "La Garenne-Colombes",
+          "Gennevilliers",
+          "Issy-les-Moulineaux",
+          "Levallois-Perret",
+          "Malakoff",
+          "Montrouge",
+          "Nanterre",
+          "Neuilly-sur-Seine",
+          "Le Plessis-Robinson",
+          "Puteaux",
+          "Sceaux",
+          "Suresnes",
+          "Vanves",
+          "Villeneuve-la-Garenne",
+          "Aubervilliers",
+          "Bagnolet",
+          "Bobigny",
+          "Bondy",
+          "Le Bourget",
+          "La Courneuve",
+          "Drancy",
+          "Dugny",
+          "Épinay-sur-Seine",
+          "L'Île-Saint-Denis",
+          "Les Lilas",
+          "Montreuil",
+          "Noisy-le-Sec",
+          "Pantin",
+          "Les Pavillons-sous-Bois",
+          "Pierrefitte-sur-Seine",
+          "Le Pré-Saint-Gervais",
+          "Romainville",
+          "Rosny-sous-Bois",
+          "Saint-Denis",
+          "Saint-Ouen-sur-Seine",
+          "Saint-Ouen",
+          "Stains",
+          "Villemomble",
+          "Villetaneuse",
+          "Alfortville",
+          "Arcueil",
+          "Bonneuil-sur-Marne",
+          "Bry-sur-Marne",
+          "Cachan",
+          "Champigny-sur-Marne",
+          "Charenton-le-Pont",
+          "Chevilly-Larue",
+          "Choisy-le-Roi",
+          "Créteil",
+          "Fontenay-sous-Bois",
+          "Fresnes",
+          "Gentilly",
+          "L'Haÿ-les-Roses",
+          "Ivry-sur-Seine",
+          "Joinville-le-Pont",
+          "Le Kremlin-Bicêtre",
+          "Maisons-Alfort",
+          "Nogent-sur-Marne",
+          "Orly",
+          "Le Perreux-sur-Marne",
+          "Rungis",
+          "Saint-Mandé",
+          "Saint-Maur-des-Fossés",
+          "Saint-Maurice",
+          "Thiais",
+          "Villejuif",
+          "Vincennes",
+          "Vitry-sur-Seine"
+        ],
+        "exclude": [
+          "Versailles",
+          "Saint-Cloud",
+          "Sèvres",
+          "Aulnay-sous-Bois",
+          "Noisy-le-Grand",
+          "Argenteuil",
+          "Saint-Germain-en-Laye",
+          "Chessy (Disneyland Paris)"
+        ]
+      }
     },
     {
       "id": "FR-LYON",
@@ -2404,7 +3324,22 @@
       "source": "https://www.rhone.gouv.fr/contenu/telechargement/67519/454692/file/Arr%C3%AAt%C3%A9%20reglementant%20les%20tarifs%20taxis%20dans%20le%20d%C3%A9partement%20du%20Rh%C3%B4ne%202026.pdf",
       "effective": "2026-02-19",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Auvergne-Rhône-Alpes"
+        ],
+        "exclude": [
+          "Vienne",
+          "Bourgoin-Jallieu",
+          "Villefontaine",
+          "Saint-Étienne",
+          "Miribel",
+          "Montluel",
+          "Trévoux",
+          "Bourg-en-Bresse"
+        ]
+      }
     },
     {
       "id": "DE-BERLIN",
@@ -2445,7 +3380,23 @@
       "source": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g22520606.pdf",
       "effective": "2022-12-20",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Berlin"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Potsdam",
+          "Schönefeld (BER Airport)",
+          "Falkensee",
+          "Oranienburg",
+          "Bernau bei Berlin",
+          "Königs Wusterhausen",
+          "Teltow",
+          "Hennigsdorf"
+        ]
+      }
     },
     {
       "id": "DE-MUNICH",
@@ -2481,7 +3432,22 @@
       "source": "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/410/version8/0.html",
       "effective": "2026-07-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Bavaria",
+          "Bayern"
+        ],
+        "exclude": [
+          "Dachau",
+          "Fürstenfeldbruck",
+          "Germering",
+          "Starnberg",
+          "Ebersberg",
+          "Wolfratshausen",
+          "Augsburg"
+        ]
+      }
     },
     {
       "id": "DE-HAMBURG",
@@ -2517,7 +3483,23 @@
       "source": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/die-themen-der-behoerde/fuer-taxi-fahrgaeste/taxi-fahrpreise-410302",
       "effective": "2025-02-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Hamburg"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Norderstedt",
+          "Pinneberg",
+          "Wedel",
+          "Ahrensburg",
+          "Reinbek",
+          "Glinde",
+          "Seevetal",
+          "Buxtehude"
+        ]
+      }
     },
     {
       "id": "DE-FRANKFURT",
@@ -2548,7 +3530,26 @@
       "source": "https://www.frankfurt-main.ihk.de/branchenthemen/verkehr-logistik/verkehr-logistik-aktuell/festpreis-bei-taxis-in-frankfurt-eingefuehrt-6420100",
       "effective": "2024-12-18",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Hesse",
+          "Hessen"
+        ],
+        "cities": [
+          "Frankfurt",
+          "Frankfurt am Main"
+        ],
+        "exclude": [
+          "Offenbach am Main",
+          "Neu-Isenburg",
+          "Eschborn",
+          "Bad Homburg",
+          "Bad Vilbel",
+          "Wiesbaden",
+          "Mainz"
+        ]
+      }
     },
     {
       "id": "NL-AMSTERDAM",
@@ -2579,7 +3580,10 @@
       "source": "https://www.rijksoverheid.nl/onderwerpen/taxi/vraag-en-antwoord/wat-zijn-de-kosten-voor-een-taxi",
       "effective": "2026-01-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "BE-BRUSSELS",
@@ -2618,7 +3622,28 @@
       "source": "https://be.brussels/fr/transport-mobilite/transport-en-commun/taxi-et-mobilite-partagee/prendre-un-taxi",
       "effective": "2022-10-21",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Brussels",
+          "Brussels-Capital Region",
+          "Région de Bruxelles-Capitale",
+          "Brussels Hoofdstedelijk Gewest",
+          "Bruxelles",
+          "Brussel"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Zaventem (Brussels Airport)",
+          "Machelen",
+          "Vilvoorde",
+          "Dilbeek",
+          "Waterloo",
+          "Halle",
+          "Leuven",
+          "Mechelen"
+        ]
+      }
     },
     {
       "id": "CH-ZURICH",
@@ -2648,7 +3673,29 @@
       "source": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/935/440/935.440_Taxitarif%20V3.pdf",
       "effective": "2015-01-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Zurich",
+          "Zürich",
+          "Canton of Zurich",
+          "Kanton Zürich"
+        ],
+        "cities": [
+          "Zurich",
+          "Zürich"
+        ],
+        "exclude": [
+          "Kloten (Zurich Airport)",
+          "Opfikon",
+          "Wallisellen",
+          "Dübendorf",
+          "Schlieren",
+          "Dietikon",
+          "Winterthur",
+          "Zug"
+        ]
+      }
     },
     {
       "id": "CH-GENEVA",
@@ -2706,7 +3753,26 @@
       "source": "https://silgeneve.ch/legis/program/books/rsg/pdf/rsg_h1_31p01.pdf",
       "effective": "2022-11-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Geneva",
+          "Genève",
+          "Canton of Geneva",
+          "Canton de Genève"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Annemasse",
+          "Saint-Julien-en-Genevois",
+          "Ferney-Voltaire",
+          "Gex",
+          "Divonne-les-Bains",
+          "Nyon",
+          "Thonon-les-Bains",
+          "Annecy"
+        ]
+      }
     },
     {
       "id": "AT-VIENNA",
@@ -2760,7 +3826,24 @@
       "source": "https://www.wko.at/wien/transport-verkehr/befoerderungsgewerbe-personenkraftwagen/wiener-taxitarif.pdf",
       "effective": "2023-06-02",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Vienna",
+          "Wien"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Schwechat (Vienna Airport)",
+          "Klosterneuburg",
+          "Mödling",
+          "Perchtoldsdorf",
+          "Vösendorf",
+          "Purkersdorf",
+          "Korneuburg",
+          "Baden"
+        ]
+      }
     },
     {
       "id": "IT-ROME",
@@ -2819,7 +3902,27 @@
       "source": "https://www.comune.roma.it/web-resources/cms/documents/TariffarioTaxi_giugno2026.pdf",
       "effective": "2026-06",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Lazio",
+          "Latium"
+        ],
+        "cities": [
+          "Rome",
+          "Roma"
+        ],
+        "exclude": [
+          "Fiumicino",
+          "Ciampino",
+          "Frascati",
+          "Tivoli",
+          "Guidonia Montecelio",
+          "Pomezia",
+          "Monterotondo",
+          "Anzio"
+        ]
+      }
     },
     {
       "id": "IT-MILAN",
@@ -2866,7 +3969,72 @@
       "source": "https://www.regione.lombardia.it/infrastrutture-trasporti-e-mobilita/taxi-collegamenti-aeroportuali-e-noleggio/servizio-e-tariffe-taxi-nel-bacino-aeroportuale",
       "effective": "2024-07-31",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Lombardy",
+          "Lombardia"
+        ],
+        "cities": [
+          "Milan",
+          "Milano",
+          "Arese",
+          "Assago",
+          "Bollate",
+          "Bresso",
+          "Buccinasco",
+          "Cesano Boscone",
+          "Cologno Monzese",
+          "Cormano",
+          "Corsico",
+          "Lacchiarella",
+          "Legnano",
+          "Novate Milanese",
+          "Opera",
+          "Paderno Dugnano",
+          "Pero",
+          "Peschiera Borromeo",
+          "Rho",
+          "Rozzano",
+          "San Donato Milanese",
+          "San Giuliano Milanese",
+          "Segrate",
+          "Trezzano sul Naviglio",
+          "Vimodrone",
+          "Bergamo",
+          "Grassobbio",
+          "Orio al Serio",
+          "Seriate",
+          "Arsago Seprio",
+          "Busto Arsizio",
+          "Cardano al Campo",
+          "Casorate Sempione",
+          "Cassano Magnago",
+          "Ferno",
+          "Gallarate",
+          "Golasecca",
+          "Laveno-Mombello",
+          "Lonate Pozzolo",
+          "Luino",
+          "Samarate",
+          "Saronno",
+          "Sesto Calende",
+          "Somma Lombardo",
+          "Varese",
+          "Vergiate",
+          "Vizzola Ticino"
+        ],
+        "exclude": [
+          "Monza",
+          "Sesto San Giovanni",
+          "Cinisello Balsamo",
+          "Como",
+          "Pavia",
+          "Lodi",
+          "Novara",
+          "Lecco"
+        ]
+      }
     },
     {
       "id": "ES-MADRID",
@@ -2916,7 +4084,102 @@
       "source": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/03/BOCM-20251203-38.PDF",
       "effective": "2026-01-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Community of Madrid",
+          "Comunidad de Madrid",
+          "Madrid"
+        ],
+        "cities": [
+          "Madrid",
+          "Ajalvir",
+          "Alcobendas",
+          "Alcorcón",
+          "Algete",
+          "Arganda del Rey",
+          "Arroyomolinos",
+          "Boadilla del Monte",
+          "Brunete",
+          "Campo Real",
+          "Chinchón",
+          "Ciempozuelos",
+          "Colmenar Viejo",
+          "Coslada",
+          "Fuenlabrada",
+          "Getafe",
+          "Humanes de Madrid",
+          "Humanes",
+          "Las Rozas de Madrid",
+          "Las Rozas",
+          "Leganés",
+          "Loeches",
+          "Majadahonda",
+          "Mejorada del Campo",
+          "Moraleja de Enmedio",
+          "Morata de Tajuña",
+          "Móstoles",
+          "Navalcarnero",
+          "Parla",
+          "Paracuellos de Jarama",
+          "Paracuellos del Jarama",
+          "Pinto",
+          "Pozuelo de Alarcón",
+          "Quijorna",
+          "Rivas-Vaciamadrid",
+          "Rivas Vaciamadrid",
+          "San Fernando de Henares",
+          "San Martín de la Vega",
+          "San Sebastián de los Reyes",
+          "Serranillos del Valle",
+          "Titulcia",
+          "Torrejón de la Calzada",
+          "Torres de la Alameda",
+          "Tres Cantos",
+          "Valdemoro",
+          "Velilla de San Antonio",
+          "Villaconejos",
+          "Villalbilla",
+          "Villanueva del Pardillo",
+          "Villaviciosa de Odón",
+          "Aranjuez",
+          "Cobeña",
+          "Perales de Tajuña",
+          "Sevilla la Nueva",
+          "Torrejón de Velasco",
+          "Torrelodones",
+          "Valdelaguna",
+          "Villanueva de Perales",
+          "Daganzo de Arriba",
+          "Daganzo",
+          "Guadalix de la Sierra",
+          "Villanueva de la Cañada",
+          "San Agustín del Guadalix",
+          "San Agustín de Guadalix",
+          "Miraflores de la Sierra",
+          "Moralzarzal",
+          "Fresno de Torote",
+          "Fresno del Torote",
+          "El Molar",
+          "Galapagar",
+          "Hoyo de Manzanares",
+          "Villamanta",
+          "Villamantilla",
+          "El Álamo",
+          "Fuente el Saz de Jarama",
+          "Valdetorres de Jarama"
+        ],
+        "exclude": [
+          "Alcalá de Henares",
+          "Torrejón de Ardoz",
+          "Collado Villalba",
+          "San Lorenzo de El Escorial",
+          "Guadarrama",
+          "Guadalajara",
+          "Azuqueca de Henares",
+          "Illescas"
+        ]
+      }
     },
     {
       "id": "ES-BARCELONA",
@@ -2966,7 +4229,63 @@
       "source": "https://taxi.amb.cat/en/usuari/tarifes",
       "effective": "2026-01-19",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Catalonia",
+          "Catalunya",
+          "Cataluña"
+        ],
+        "cities": [
+          "Barcelona",
+          "Badalona",
+          "Badia del Vallès",
+          "Barberà del Vallès",
+          "Begues",
+          "Castellbisbal",
+          "Castelldefels",
+          "Cerdanyola del Vallès",
+          "Cervelló",
+          "Corbera de Llobregat",
+          "Cornellà de Llobregat",
+          "Esplugues de Llobregat",
+          "Gavà",
+          "L'Hospitalet de Llobregat",
+          "Hospitalet de Llobregat",
+          "Molins de Rei",
+          "Montcada i Reixac",
+          "Montgat",
+          "Pallejà",
+          "La Palma de Cervelló",
+          "El Papiol",
+          "El Prat de Llobregat",
+          "Ripollet",
+          "Sant Adrià de Besòs",
+          "Sant Andreu de la Barca",
+          "Sant Boi de Llobregat",
+          "Sant Climent de Llobregat",
+          "Sant Cugat del Vallès",
+          "Sant Feliu de Llobregat",
+          "Sant Joan Despí",
+          "Sant Just Desvern",
+          "Sant Vicenç dels Horts",
+          "Santa Coloma de Cervelló",
+          "Santa Coloma de Gramenet",
+          "Tiana",
+          "Torrelles de Llobregat",
+          "Viladecans"
+        ],
+        "exclude": [
+          "Sabadell",
+          "Terrassa",
+          "Rubí",
+          "Mataró",
+          "Granollers",
+          "Mollet del Vallès",
+          "Martorell",
+          "Sitges"
+        ]
+      }
     },
     {
       "id": "PT-LISBON",
@@ -3059,7 +4378,10 @@
       "source": "https://www.amt-autoridade.pt/media/6186/comunicado-tarifas-a-vigor-nos-táxis-em-2027.pdf",
       "effective": "2026-10-29",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "GR-ATHENS",
@@ -3099,7 +4421,10 @@
       "source": "https://www.taxheaven.gr/circulars/55396/147620-16-09-2026",
       "effective": "2026-09-18",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "country": true
+      }
     },
     {
       "id": "SE-STOCKHOLM",
@@ -3129,7 +4454,20 @@
       "note": "스톡홀름은 요금 자율제라 최대 회사인 Taxi Stockholm의 공시 미터 요금(1~4인, 요일·시간 구분 없는 단일 요금)을 사용: 기본 59kr + 14.90kr/km + 595kr/시간(거리·시간 동시 부과), 비교가격(10km·15분) 357kr. 다른 회사 택시는 요금이 크게 다를 수 있으며, 알란다 공항 정액요금·5인 이상 대형차 요금은 반영하지 않음.",
       "source": "https://www.taxistockholm.se/sv/priser/",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Stockholm County",
+          "Stockholms län",
+          "Stockholm"
+        ],
+        "exclude": [
+          "Uppsala",
+          "Enköping",
+          "Strängnäs",
+          "Knivsta"
+        ]
+      }
     },
     {
       "id": "NO-OSLO",
@@ -3226,7 +4564,21 @@
       "source": "https://www.oslotaxi.no/priser",
       "effective": "2024-12-15",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Oslo"
+        ],
+        "exclude": [
+          "Lillestrøm",
+          "Gardermoen (Oslo Airport)",
+          "Drammen",
+          "Asker",
+          "Sandvika",
+          "Ski",
+          "Moss"
+        ]
+      }
     },
     {
       "id": "DK-COPENHAGEN",
@@ -3310,7 +4662,15 @@
       "note": "코펜하겐 최대 택시 회사 Dantaxi 요금 기준: 주간(월~금 06~18시) 기본 39kr + 11.30kr/km + 분당 6.67kr, 저녁·밤·주말 기본 49kr + 14.74kr/km + 분당 7.50kr. 거리와 시간이 함께 붙는 요금이라 평균 속도를 가정한 근사값입니다. 법정 상한은 이보다 30~40% 높습니다. 공항 승차료와 다리 통행료는 반영하지 않았습니다.",
       "source": "https://dantaxi.dk/taxa-pris/",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "country": true,
+        "exclude": [
+          "Malmö",
+          "Lund",
+          "Helsingborg"
+        ]
+      }
     },
     {
       "id": "FI-HELSINKI",
@@ -3359,7 +4719,23 @@
       "minFare": 14.4,
       "source": "https://taksihelsinki.fi/tilaa-taksi/taksin-hinta/",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Uusimaa",
+          "Nyland"
+        ],
+        "exclude": [
+          "Kerava",
+          "Järvenpää",
+          "Tuusula",
+          "Sipoo",
+          "Kirkkonummi",
+          "Nurmijärvi",
+          "Porvoo",
+          "Hyvinkää"
+        ]
+      }
     },
     {
       "id": "PL-WARSAW",
@@ -3408,7 +4784,28 @@
       "source": "https://warszawa19115.pl/-/op%C5%82aty-za-przejazd-taks%C3%B3wk%C4%85",
       "effective": "2024-09-22",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Masovian Voivodeship",
+          "Mazowieckie",
+          "Województwo mazowieckie"
+        ],
+        "cities": [
+          "Warsaw",
+          "Warszawa"
+        ],
+        "exclude": [
+          "Piaseczno",
+          "Pruszków",
+          "Legionowo",
+          "Marki",
+          "Ząbki",
+          "Otwock",
+          "Łomianki",
+          "Nowy Dwór Mazowiecki (Modlin Airport)"
+        ]
+      }
     },
     {
       "id": "CZ-PRAGUE",
@@ -3439,7 +4836,25 @@
       "source": "https://mf.gov.cz/assets/attachments/2026-10-20_Cenovy-vestnik-106-2026.pdf",
       "effective": "2026-10-21",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Prague",
+          "Praha",
+          "Hlavní město Praha"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Kladno",
+          "Říčany",
+          "Brandýs nad Labem",
+          "Beroun",
+          "Kralupy nad Vltavou",
+          "Mělník",
+          "Černošice",
+          "Hostivice"
+        ]
+      }
     },
     {
       "id": "HU-BUDAPEST",
@@ -3470,7 +4885,23 @@
       "source": "https://infostart.hu/belfold/2026/08/01/taxizas-kozlekedes-vasut-nagy-valtozasok-leptek-eletbe-szombattol",
       "effective": "2026-08-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Budapest"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Budaörs",
+          "Érd",
+          "Vecsés",
+          "Szentendre",
+          "Gödöllő",
+          "Dunakeszi",
+          "Törökbálint",
+          "Szigetszentmiklós"
+        ]
+      }
     },
     {
       "id": "RU-MOSCOW",
@@ -3500,7 +4931,25 @@
       "note": "모스크바에는 시가 정한 미터 요금이 없어, 시장 대부분을 차지하는 Yandex Go '이코노미' 공시 요금표를 참고값으로 사용: 최소 189₽(1km·3분 포함), 이후 최대 13₽/km + 13₽/분(거리·시간 동시 부과). 실제 요금은 수요에 따른 배율(서지)과 사전 확정가로 결정되어 이 값과 크게 다를 수 있음. 공항·유료도로·대기료는 반영하지 않음.",
       "minFare": 189,
       "source": "https://taxi.yandex.ru/moscow/tariff",
-      "confidence": "low"
+      "confidence": "low",
+      "match": {
+        "regions": [
+          "Moscow",
+          "Москва",
+          "Moskva"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Khimki",
+          "Mytishchi",
+          "Balashikha",
+          "Lyubertsy",
+          "Krasnogorsk",
+          "Odintsovo",
+          "Korolyov",
+          "Podolsk"
+        ]
+      }
     },
     {
       "id": "US-NYC",
@@ -3560,7 +5009,30 @@
       "source": "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page",
       "effective": "2022-12-19",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "New York",
+          "New York State"
+        ],
+        "exclude": [
+          "Jersey City",
+          "Hoboken",
+          "Newark (incl. Newark Airport EWR)",
+          "Fort Lee",
+          "Yonkers",
+          "New Rochelle",
+          "White Plains",
+          "Nassau County (Hempstead, Great Neck)"
+        ],
+        "subregions": [
+          "New York County",
+          "Kings County",
+          "Queens County",
+          "Bronx County",
+          "Richmond County"
+        ]
+      }
     },
     {
       "id": "US-LA",
@@ -3589,7 +5061,47 @@
       "note": "로스앤젤레스시(LADOT) 허가 택시의 미터 요금으로, LADOT '2023 개정 요금표' 기준입니다(정확한 시행일은 확인하지 못함). LAX 출발 추가금 $4.00, LAX 출발 최소요금 $16.50, LAX–다운타운 정액 $51.15는 반영하지 않았습니다.",
       "source": "https://ladot.lacity.gov/sites/default/files/documents/taxicab-rates-2023.pdf",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "California"
+        ],
+        "cities": [
+          "Los Angeles",
+          "North Hollywood",
+          "Van Nuys",
+          "Sherman Oaks",
+          "Studio City",
+          "Encino",
+          "Tarzana",
+          "Reseda",
+          "Northridge",
+          "Canoga Park",
+          "Woodland Hills",
+          "Chatsworth",
+          "Granada Hills",
+          "Sylmar",
+          "Pacoima",
+          "Sun Valley",
+          "Panorama City",
+          "Venice",
+          "Playa del Rey",
+          "Pacific Palisades",
+          "San Pedro",
+          "Wilmington",
+          "Harbor City"
+        ],
+        "exclude": [
+          "Santa Monica",
+          "Beverly Hills",
+          "West Hollywood",
+          "Culver City",
+          "Burbank",
+          "Glendale",
+          "Pasadena",
+          "Long Beach"
+        ]
+      }
     },
     {
       "id": "US-CHICAGO",
@@ -3632,7 +5144,25 @@
       "source": "https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/ridesmartchicago/chicagotaxiplacard2026.pdf",
       "effective": "2026-07-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Illinois"
+        ],
+        "cities": [
+          "Chicago"
+        ],
+        "exclude": [
+          "Evanston",
+          "Oak Park",
+          "Cicero",
+          "Skokie",
+          "Rosemont",
+          "Schaumburg",
+          "Naperville",
+          "Gary (Indiana)"
+        ]
+      }
     },
     {
       "id": "US-SF",
@@ -3662,7 +5192,26 @@
       "source": "https://www.sfmta.com/getting-around/taxi/taxi-fares",
       "effective": "2022-11-17",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "California"
+        ],
+        "cities": [
+          "San Francisco",
+          "San Francisco County"
+        ],
+        "exclude": [
+          "Daly City",
+          "South San Francisco",
+          "Millbrae",
+          "San Mateo",
+          "Oakland",
+          "Berkeley",
+          "Sausalito",
+          "Emeryville"
+        ]
+      }
     },
     {
       "id": "US-DC",
@@ -3702,7 +5251,25 @@
       "source": "https://dfhv.dc.gov/page/taxicab-fares",
       "effective": "2024-08-02",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "District of Columbia",
+          "Washington, D.C.",
+          "Washington D.C."
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Arlington",
+          "Alexandria",
+          "Reagan National Airport (Arlington, Virginia)",
+          "Bethesda",
+          "Silver Spring",
+          "Tysons",
+          "Fairfax",
+          "National Harbor"
+        ]
+      }
     },
     {
       "id": "US-LASVEGAS",
@@ -3739,7 +5306,18 @@
       "source": "https://taxi.nv.gov/uploadedFiles/taxinvgov/content/About_Us/ALL/BoardMeetings/2026/March/Taxi-Authority-Board-Order-for-Fuel-Surcharge_4-26.pdf",
       "effective": "2026-04-09",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Nevada"
+        ],
+        "exclude": [
+          "Pahrump (Nye County)"
+        ],
+        "subregions": [
+          "Clark County"
+        ]
+      }
     },
     {
       "id": "CA-TORONTO",
@@ -3775,7 +5353,29 @@
       "source": "https://www.toronto.ca/legdocs/municode/toronto-code-546.pdf",
       "effective": "2022-05",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Ontario"
+        ],
+        "cities": [
+          "Toronto",
+          "Etobicoke",
+          "North York",
+          "Scarborough",
+          "East York"
+        ],
+        "exclude": [
+          "Mississauga (incl. Toronto Pearson Airport)",
+          "Brampton",
+          "Vaughan",
+          "Markham",
+          "Richmond Hill",
+          "Pickering",
+          "Ajax",
+          "Oakville"
+        ]
+      }
     },
     {
       "id": "CA-VANCOUVER",
@@ -3804,7 +5404,18 @@
       "note": "메트로 밴쿠버 공통 택시 요금(BC 여객운송위원회 규칙 9, GST 5% 포함)으로, 현행 요율의 정확한 시행일은 확인하지 못했습니다. 밴쿠버 공항(YVR) 출발 구역 정액요금과 $4.00 공항 추가금, 크루즈 터미널 정액요금, 통행료는 반영하지 않았습니다.",
       "source": "https://www.ptboard.bc.ca/rule-9-common-rate-metro-vancouver",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "British Columbia",
+          "Colombie-Britannique"
+        ],
+        "exclude": [
+          "Abbotsford",
+          "Mission",
+          "Squamish"
+        ]
+      }
     },
     {
       "id": "CA-MONTREAL",
@@ -3848,7 +5459,20 @@
       "source": "https://www.ctq.gouv.qc.ca/permis-et-autorisations-de-transport/transport-remunere-de-personnes-par-automobile/tarifs-de-transport-remunere-de-personnes-par-automobile/",
       "effective": "2022-09-12",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Quebec",
+          "Québec"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Ottawa (Ontario)",
+          "Hawkesbury (Ontario)",
+          "Cornwall (Ontario)",
+          "Plattsburgh (New York, USA)"
+        ]
+      }
     },
     {
       "id": "MX-CDMX",
@@ -3884,7 +5508,26 @@
       "note": "멕시코시티 길거리에서 잡는 일반 택시(taxi libre) 요금입니다. 기본 8.74페소에 250m 또는 45초마다 1.07페소가 오르고, 23시~06시는 20% 할증됩니다. 정류장 택시(sitio, 기본 13.10)와 콜택시(radio taxi, 기본 27.30), 공항 택시 요금은 반영하지 않았습니다.",
       "source": "http://web.archive.org/web/20250324053626/https://www.semovi.cdmx.gob.mx/tramites-y-servicios/transparencia/preguntas-frecuentes",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Mexico City",
+          "Ciudad de México",
+          "CDMX",
+          "Distrito Federal"
+        ],
+        "wholeRegion": true,
+        "exclude": [
+          "Naucalpan",
+          "Tlalnepantla",
+          "Ecatepec",
+          "Nezahualcóyotl",
+          "Huixquilucan (Interlomas)",
+          "Chimalhuacán",
+          "Felipe Ángeles Airport AIFA (Santa Lucía)",
+          "Toluca"
+        ]
+      }
     },
     {
       "id": "BR-SAOPAULO",
@@ -3932,7 +5575,28 @@
       "source": "https://prefeitura.sp.gov.br/web/mobilidade/w/saiba_como_e_e_como_funciona/3875",
       "effective": "2025-08-11",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "São Paulo",
+          "State of São Paulo",
+          "Estado de São Paulo"
+        ],
+        "cities": [
+          "São Paulo",
+          "Sao Paulo"
+        ],
+        "exclude": [
+          "Guarulhos (incl. GRU Airport)",
+          "Osasco",
+          "Santo André",
+          "São Bernardo do Campo",
+          "São Caetano do Sul",
+          "Diadema",
+          "Barueri",
+          "Taboão da Serra"
+        ]
+      }
     },
     {
       "id": "BR-RIO",
@@ -3980,7 +5644,27 @@
       "source": "https://www.normasbrasil.com.br/norma/resolucao-3893-2025-rio-de-janeiro_488787.html",
       "effective": "2026-01-02",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Rio de Janeiro",
+          "State of Rio de Janeiro",
+          "Estado do Rio de Janeiro"
+        ],
+        "cities": [
+          "Rio de Janeiro"
+        ],
+        "exclude": [
+          "Niterói",
+          "São Gonçalo",
+          "Duque de Caxias",
+          "Nova Iguaçu",
+          "São João de Meriti",
+          "Nilópolis",
+          "Belford Roxo",
+          "Itaguaí"
+        ]
+      }
     },
     {
       "id": "AR-BUENOSAIRES",
@@ -4017,7 +5701,32 @@
       "source": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/885043",
       "effective": "2026-11-01",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Buenos Aires",
+          "Ciudad Autónoma de Buenos Aires",
+          "Cdad. Autónoma de Buenos Aires",
+          "Autonomous City of Buenos Aires",
+          "CABA"
+        ],
+        "cities": [
+          "Buenos Aires",
+          "Ciudad Autónoma de Buenos Aires",
+          "Cdad. Autónoma de Buenos Aires",
+          "CABA"
+        ],
+        "exclude": [
+          "Avellaneda",
+          "Lanús",
+          "Vicente López",
+          "San Isidro",
+          "La Matanza (San Justo)",
+          "Tres de Febrero",
+          "Quilmes",
+          "Ezeiza (EZE Airport)"
+        ]
+      }
     },
     {
       "id": "CL-SANTIAGO",
@@ -4046,7 +5755,60 @@
       "note": "산티아고 일반 택시(taxi básico, 검은 차체에 노란 지붕) 요금입니다. 기본요금은 2026년 8월 10일부터 500페소이고, 200m 또는 대기 60초마다 붙는 금액은 택시마다 정해진 범위 안에서 다르며 여기서는 확인된 가장 최근 상한(200페소)을 썼습니다. 이 단위 요금은 공식 문서로 확인하지 못한 참고값이며, 차량 앞유리에 붙은 요금표가 우선합니다.",
       "source": "https://www.expat.com/en/guide/south-america/chile/santiago/37461-getting-around-santiago.html",
       "effective": "2026-08-10",
-      "confidence": "low"
+      "confidence": "low",
+      "match": {
+        "regions": [
+          "Santiago Metropolitan Region",
+          "Región Metropolitana",
+          "Región Metropolitana de Santiago"
+        ],
+        "cities": [
+          "Santiago",
+          "Cerrillos",
+          "Cerro Navia",
+          "Conchalí",
+          "El Bosque",
+          "Estación Central",
+          "Huechuraba",
+          "Independencia",
+          "La Cisterna",
+          "La Florida",
+          "La Granja",
+          "La Pintana",
+          "La Reina",
+          "Las Condes",
+          "Lo Barnechea",
+          "Lo Espejo",
+          "Lo Prado",
+          "Macul",
+          "Maipú",
+          "Ñuñoa",
+          "Pedro Aguirre Cerda",
+          "Peñalolén",
+          "Providencia",
+          "Pudahuel",
+          "Quilicura",
+          "Quinta Normal",
+          "Recoleta",
+          "Renca",
+          "San Joaquín",
+          "San Miguel",
+          "San Ramón",
+          "Vitacura",
+          "Puente Alto",
+          "San Bernardo"
+        ],
+        "exclude": [
+          "Colina (Chicureo)",
+          "Lampa",
+          "Buin",
+          "Padre Hurtado",
+          "Peñaflor",
+          "Talagante",
+          "Pirque",
+          "Calera de Tango"
+        ]
+      }
     },
     {
       "id": "AU-SYDNEY",
@@ -4105,7 +5867,20 @@
       "source": "https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges",
       "effective": "2026-06-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "New South Wales"
+        ],
+        "exclude": [
+          "Lithgow",
+          "Bowral",
+          "Mittagong",
+          "Kiama",
+          "Cessnock",
+          "Nelson Bay"
+        ]
+      }
     },
     {
       "id": "AU-MELBOURNE",
@@ -4189,7 +5964,20 @@
       "source": "https://safetransport.vic.gov.au/on-the-road/cpv-driver-accreditation/fares-and-levies/",
       "effective": "2026-07-01",
       "verified": "2026-11-21",
-      "confidence": "high"
+      "confidence": "high",
+      "match": {
+        "regions": [
+          "Victoria"
+        ],
+        "exclude": [
+          "Bacchus Marsh",
+          "Gisborne",
+          "Kyneton",
+          "Kilmore",
+          "Warragul",
+          "Drouin"
+        ]
+      }
     },
     {
       "id": "NZ-AUCKLAND",
@@ -4218,7 +6006,19 @@
       "note": "오클랜드는 택시 요금이 자율화되어 회사마다 다릅니다. 여기서는 가장 큰 회사인 오클랜드 코옵 택시(Auckland Co-op Taxis)의 요금(기본 3.00달러, km당 2.95달러, 대기 분당 0.95달러)을 썼으며, 오클랜드 교통국(AT)이 2026년 10월 28일 갱신한 운영사 요금표 기준입니다. 다른 회사는 훨씬 비싸거나 쌀 수 있고(예: Corporate Cabs 기본 7.00달러·km당 약 4.15달러), 공항 출발 요금·카드 수수료·전화 예약료는 반영하지 않았습니다.",
       "source": "https://at.govt.nz/bus-train-ferry/accessible-travel/total-mobility-scheme/total-mobility-taxi-operators-fares",
       "verified": "2026-11-21",
-      "confidence": "medium"
+      "confidence": "medium",
+      "match": {
+        "regions": [
+          "Auckland",
+          "Tāmaki Makaurau"
+        ],
+        "exclude": [
+          "Waiheke Island",
+          "Pukekohe",
+          "Warkworth",
+          "Hamilton"
+        ]
+      }
     }
   ]
 }
