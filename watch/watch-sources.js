@@ -26,6 +26,13 @@ const stateFile = path.resolve(process.argv[3] || path.join(__dirname, '..', 'do
 const reportFile = path.resolve(process.argv[4] || path.join(__dirname, '..', 'docs', 'watch', 'report.md'));
 
 const STALE_DAYS = 180; // 확인일이 이만큼 지나면 다시 조사
+/** 매주 돌아가며 다시 확인할 지역 수. 약 500곳이면 1년에 한 번씩 모든 지역을 다시 본다 */
+const ROTATE_PER_WEEK = 10;
+/**
+ * 물가가 빨리 올라(대략 연 20% 이상) 택시 요금이 1년에 여러 번 바뀌는 나라. 매달 첫 점검에서 모두 다시 확인한다.
+ * 해마다 IMF 물가 전망을 보고 고친다.
+ */
+const HIGH_INFLATION = new Set(['AR', 'VE', 'TR', 'IR', 'NG', 'EG', 'ZW', 'SD', 'SS', 'LB', 'SY', 'YE', 'ET', 'MW', 'AO', 'HT', 'MM', 'BI', 'CU', 'SL', 'GH', 'PK']);
 const UPCOMING_NOTICE_DAYS = 14; // 예정 변경을 이만큼 앞두고 알림
 const TIMEOUT_MS = 30000;
 const CONCURRENCY = 6;
@@ -340,6 +347,29 @@ async function main() {
   for (const n of news.items) findings.push(['뉴스: 요금 변경 보도', n.id, `${n.name}: ${n.title} (${n.date})\n  ${n.link}`, `news:${n.key}`]);
   if (news.failed) notes.push(`뉴스 검색 ${news.failed}건을 읽지 못했습니다 (일시적인 접속 제한일 수 있음).`);
 
+  // 7. 물가가 빨리 오르는 나라: 요금이 1년에 여러 번 바뀌므로 매달 첫 점검에서 모두 다시 확인한다
+  const month = today.slice(0, 7);
+  if (Number(today.slice(8, 10)) <= 7) {
+    for (const t of tariffs) {
+      if (!HIGH_INFLATION.has(t.country)) continue;
+      findings.push(['물가가 빠른 나라 (매달 확인)', t.id, `${t.region} (${t.id}): 마지막 확인 ${t.verified || '없음'}. 이번 달 요금 인상 고시·보도가 있는지 확인하세요.`, `inflation:${t.id}:${month}`]);
+    }
+  }
+
+  // 8. 돌아가며 다시 확인: 뉴스가 잘 안 나오는 작은 나라도 놓치지 않도록, 매주 가장 오래전에 확인한 곳을 골라
+  //    다시 조사한다. 한 번 고른 곳은 확인일이 바뀌지 않아도 그날을 기준으로 다시 줄을 선다 (같은 곳만 계속 나오지 않게)
+  const flagged = new Set(findings.map((f) => f[1]));
+  const rotated = { ...(state.rotated || {}) };
+  const lastLook = (t) => [t.verified || '0000-00-00', rotated[t.id] || '0000-00-00'].sort().pop();
+  const due = tariffs
+    .filter((t) => !flagged.has(t.id))
+    .sort((a, b) => lastLook(a).localeCompare(lastLook(b)) || (b.population || 0) - (a.population || 0))
+    .slice(0, ROTATE_PER_WEEK);
+  for (const t of due) {
+    rotated[t.id] = today;
+    findings.push(['돌아가며 다시 확인 (매주)', t.id, `${t.region} (${t.id}): 마지막 확인 ${t.verified || '없음'}. 지금도 같은 요금인지 공식 자료로 확인하세요.\n  ${t.source || '출처 없음'}`, `rotate:${t.id}:${today}`]);
+  }
+
   // 이미 알린 것은 다시 알리지 않는다
   const fresh = findings.filter((f) => !state.alerted[f[3]]);
   const alerted = {};
@@ -369,7 +399,7 @@ async function main() {
 
   fs.mkdirSync(path.dirname(stateFile), { recursive: true });
   fs.mkdirSync(path.dirname(reportFile), { recursive: true });
-  fs.writeFileSync(stateFile, JSON.stringify({ lastRun: today, sources, alerted }, null, 1) + '\n');
+  fs.writeFileSync(stateFile, JSON.stringify({ lastRun: today, sources, alerted, rotated }, null, 1) + '\n');
   fs.writeFileSync(reportFile, lines.join('\n') + '\n');
   if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `alert=${fresh.length ? 'true' : 'false'}\n`);
 
