@@ -401,6 +401,22 @@ async function main() {
   fs.mkdirSync(path.dirname(reportFile), { recursive: true });
   fs.writeFileSync(stateFile, JSON.stringify({ lastRun: today, sources, alerted, rotated }, null, 1) + '\n');
   fs.writeFileSync(reportFile, lines.join('\n') + '\n');
+
+  // 이번에 새로 알린 지역의 출처 페이지 글을 저장소에 남긴다 (watch/pages/<id>.txt).
+  // 매주 이슈를 읽는 클라우드 점검(AI)은 인터넷 접속이 허용된 사이트로 제한돼 공식 페이지를 직접 못 여는 일이 많아,
+  // GitHub Actions 가 읽어 둔 글을 보고 판단하게 한다. 매번 새로 쓰고(지난주 것은 지움) 지역당 12,000자까지만.
+  const pagesDir = path.join(path.dirname(reportFile), 'pages');
+  fs.rmSync(pagesDir, { recursive: true, force: true });
+  fs.mkdirSync(pagesDir, { recursive: true });
+  let saved = 0;
+  for (const id of new Set(fresh.map((f) => f[1]))) {
+    const t = tariffs.find((x) => x.id === id);
+    const r = t && t.source ? fetched[t.source] : null;
+    if (!r || !r.ok || r.kind !== 'text') continue;
+    fs.writeFileSync(path.join(pagesDir, `${id}.txt`), `${t.source}\n${today} 에 읽음\n\n${r.text.trim().slice(0, 12000)}\n`);
+    saved++;
+  }
+  console.log(`출처 페이지 글 ${saved}개 저장: ${pagesDir}`);
   if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `alert=${fresh.length ? 'true' : 'false'}\n`);
 
   const watchable = Object.values(sources).filter((s) => !s.fails && (s.kind === 'file' || (s.numbers && s.numbers.length))).length;
