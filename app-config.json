@@ -1,0 +1,7 @@
+{
+  "minBuild": {
+    "android": 1,
+    "ios": 1
+  },
+  "note": "이 번호보다 낮은 빌드는 업데이트해야 쓸 수 있다. 새 버전이 스토어에 공개된 뒤에 올린다. (scripts/publish-app-config.js)"
+}
