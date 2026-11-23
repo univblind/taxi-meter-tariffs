@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 11,
-  "updated": "2026-11-22",
+  "version": 12,
+  "updated": "2026-11-23",
   "countries": [
     {
       "code": "KR",
@@ -43471,27 +43471,28 @@
       "lat": 16.8409,
       "lng": 96.1735,
       "radiusKm": 40,
-      "currency": "USD",
-      "symbol": "$",
+      "currency": "MMK",
+      "symbol": "K",
       "symbolAfter": false,
-      "decimals": 2,
-      "baseFare": 1,
+      "decimals": 0,
+      "baseFare": 1500,
       "baseDistanceM": 0,
       "distanceTiers": [
         {
           "uptoM": null,
           "unitM": 100,
-          "fare": 0.1
+          "fare": 60
         }
       ],
-      "timeUnitSec": 13.19,
-      "timeFare": 0.01,
-      "slowSpeedKmh": 5,
+      "timeUnitSec": 0,
+      "timeFare": 0,
+      "slowSpeedKmh": 0,
       "surcharges": [],
-      "note": "양곤에는 법으로 정한 택시 미터 요금이 없어 타기 전에 운전사와 값을 정하거나 Grab 등 앱의 확정 요금을 씁니다(교통부의 2015년 미터 시범 사업은 기본요금 합의에 이르지 못했습니다). Numbeo 이용자 제보 평균(2026-11-18)을 참고 요금으로 씁니다(짯 표시가 안 돼 미국 달러): 기본 1달러, km당 1달러, 대기 1시간 2.73달러. 2026년 3월 연료값 급등 뒤 택시비가 크게 올랐습니다.",
-      "source": "https://www.numbeo.com/cost-of-living/in/Yangon?displayCurrency=MMK",
-      "effective": "2026-11-18",
-      "confidence": "low",
+      "note": "양곤 지역 민간 차량 감독위원회가 2023년 6월 23일 양곤시 택시협회와 합의해 발표한 표준 요금입니다. 타면 1,500짯이고 km마다 600짯이 붙으며, 앱 호출 회사도 이 요율만 받도록 했습니다. 대기 요금과 할증은 정하지 않았습니다. 실제로는 미터를 거의 쓰지 않아 타기 전에 값을 정하는 경우가 많습니다. 2023년 12월 연료난과 2026년 3월 연료값 인상 뒤에는 거리 요금이 이보다 비싸게 불리는 일이 많습니다.",
+      "source": "https://www.gnlm.com.mm/k600-per-kilo-set-to-equalize-taxi-fares/",
+      "effective": "2023-06",
+      "verified": "2026-11-23",
+      "confidence": "medium",
       "match": {
         "country": true
       }
