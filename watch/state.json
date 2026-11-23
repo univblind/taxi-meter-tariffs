@@ -1,9 +1,9 @@
 {
- "lastRun": "2026-11-21",
+ "lastRun": "2026-11-23",
  "sources": {
   "KR-SEOUL": {
    "url": "https://news.seoul.go.kr/traffic/archives/1659",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4800,
@@ -16,13 +16,13 @@
   },
   "KR-BUSAN": {
    "url": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=68131&gugun=Next",
-   "version": 6,
-   "fails": 2,
+   "version": 12,
+   "fails": 3,
    "error": "ECONNRESET"
   },
   "KR-INCHEON": {
    "url": "https://www.incheon.go.kr/traffic/TR010201",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4800,
@@ -33,7 +33,7 @@
   },
   "KR-DAEGU": {
    "url": "https://www.daegu.go.kr/tra/?menu_id=00000647",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -45,7 +45,7 @@
   },
   "KR-GWANGJU": {
    "url": "https://www.mt.co.kr/policy/2025/10/13/2025101313451027607",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4800,
@@ -56,7 +56,7 @@
   },
   "KR-DAEJEON": {
    "url": "https://www.mt.co.kr/policy/2026/10/26/2026102610445369029",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4800,
@@ -67,7 +67,7 @@
   },
   "KR-JEJU": {
    "url": "https://jeju.go.kr/traffic/bus/taxifee.htm",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
@@ -79,35 +79,35 @@
   },
   "KR-GG-STD": {
    "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "ffbf1e9504016aaf",
    "fails": 0
   },
   "KR-GG-A": {
    "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "ffbf1e9504016aaf",
    "fails": 0
   },
   "KR-GG-B": {
    "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "ffbf1e9504016aaf",
    "fails": 0
   },
   "KR-GG-GWANGMYEONG": {
    "url": "https://www.gg.go.kr/cmmn/download.do?idx=812608",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "ffbf1e9504016aaf",
    "fails": 0
   },
   "KR-ULSAN": {
    "url": "https://www.ulsan.go.kr/u/traffic/contents.ulsan?mId=001003006001000000",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -119,7 +119,7 @@
   },
   "KR-SEJONG": {
    "url": "https://www.sejong.go.kr/viewer/result/R0653/BBS_0000095534fdT77840.hwpx.files/1.html",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -129,7 +129,7 @@
   },
   "KR-GN-CHANGWON": {
    "url": "https://miryang.go.kr/web/index.do?mnNo=50305000000",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -140,7 +140,7 @@
   },
   "KR-GN-YANGSAN": {
    "url": "https://v.daum.net/v/20260625202457752",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -151,32 +151,32 @@
   },
   "KR-GN-HAMAN": {
    "url": "https://www.idomin.com/news/articleView.html?idxno=2015711",
-   "version": 6,
-   "fails": 2,
+   "version": 12,
+   "fails": 3,
    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
   },
   "KR-GN-GOSEONG": {
    "url": "https://www.metroseoul.co.kr/article/20261117500586",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
     150,
     130
    ],
-   "fails": 1,
+   "fails": 2,
    "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-GB-POHANG": {
    "url": "https://www.pohang.go.kr/portal/board/post/view.do?idx=1015665&bcIdx=100&mid=0201010000",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "KR-GB-CHILGOK": {
    "url": "https://www.kbmaeil.com/article/20260113500274",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -187,7 +187,7 @@
   },
   "KR-GB-GIMCHEON": {
    "url": "https://v.daum.net/v/20260102112520864",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -198,7 +198,7 @@
   },
   "KR-GB-GUMI": {
    "url": "https://www.gumi.go.kr/traffic/contents.do?mid=0105020000",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -209,7 +209,7 @@
   },
   "KR-GB-GYEONGSAN": {
    "url": "https://view.asiae.co.kr/article/2026020214194175554",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -219,14 +219,14 @@
   },
   "KR-GB-YEONGJU": {
    "url": "https://www.yeongju.go.kr/open_content/main/page.do?mnu_uid=1521&parm_bod_uid=1167422&step=258",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "KR-GB-YEONGCHEON": {
    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4064283",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -237,7 +237,7 @@
   },
   "KR-GB-YECHEON": {
    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4062960",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
@@ -248,27 +248,30 @@
   },
   "KR-GB-ULJIN": {
    "url": "https://www.uljin.go.kr/index.uljin?menuCd=DOM_000000106003006002",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4500,
     163,
     128
    ],
-   "fails": 0
+   "fails": 1,
+   "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
   },
   "KR-GB-ULLEUNG": {
-   "url": "https://news.tf.co.kr/read/national/2288685.htm",
-   "version": 6,
+   "url": "https://kbmaeil.com/article/20251204500506",
+   "version": 12,
    "kind": "text",
    "numbers": [
-    4500
+    4500,
+    100,
+    128
    ],
    "fails": 0
   },
   "KR-GW-WONJU": {
    "url": "https://its.gn.go.kr/information/openTaxiPage",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -279,18 +282,19 @@
    "fails": 0
   },
   "KR-GW-DONGHAE": {
-   "url": "https://www.kwnews.co.kr/article/201904170507188",
-   "version": 6,
+   "url": "https://www.kado.net/news/articleView.html?idxno=1257856",
+   "version": 12,
    "kind": "text",
    "numbers": [
+    4600,
     100,
-    200
+    131
    ],
    "fails": 0
   },
   "KR-GW-SOKCHO": {
    "url": "https://www.kado.net/news/articleView.html?idxno=1257856",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -301,7 +305,7 @@
   },
   "KR-GW-TAEBAEK": {
    "url": "https://kwnews.co.kr/article/202407160123971",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -312,7 +316,7 @@
   },
   "KR-GW-PYEONGCHANG": {
    "url": "https://www.pc.go.kr/portal/part/traffic/part-hygiene-traffic",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -323,7 +327,7 @@
   },
   "KR-GW-YANGGU": {
    "url": "https://www.kwnews.co.kr/article/202408190102125",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4600,
@@ -334,17 +338,18 @@
   },
   "KR-CB-CHEONGJU": {
    "url": "https://www.cj-ilbo.com/news/articleView.html?idxno=1112688",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
+    100,
     127
    ],
    "fails": 0
   },
   "KR-CB-CHUNGJU": {
    "url": "https://kpinews.kr/newsView/179568433586854",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -354,7 +359,7 @@
   },
   "KR-CB-JECHEON": {
    "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2223334",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -365,7 +370,7 @@
   },
   "KR-CB-EUMSEONG": {
    "url": "https://www.fnnews.com/news/202308171427511976",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -376,7 +381,7 @@
   },
   "KR-CN-CHEONAN": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -387,7 +392,7 @@
   },
   "KR-CN-ASAN": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -398,7 +403,7 @@
   },
   "KR-CN-GONGJU": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -408,7 +413,7 @@
   },
   "KR-CN-BORYEONG": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -418,7 +423,7 @@
   },
   "KR-CN-SEOSAN": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -428,7 +433,7 @@
   },
   "KR-CN-NONSAN": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -438,7 +443,7 @@
   },
   "KR-CN-GYERYONG": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -448,7 +453,7 @@
   },
   "KR-CN-GEUMSAN": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -458,7 +463,7 @@
   },
   "KR-CN-BUYEO": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -468,7 +473,7 @@
   },
   "KR-CN-SEOCHEON": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -478,7 +483,7 @@
   },
   "KR-CN-CHEONGYANG": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
@@ -488,7 +493,7 @@
   },
   "KR-CN-HONGSEONG": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -498,7 +503,7 @@
   },
   "KR-CN-TAEAN": {
    "url": "https://transport.chungnam.go.kr/guide/chargeTaxi.do",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4000,
@@ -508,7 +513,7 @@
   },
   "KR-JB-JEONJU": {
    "url": "https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a8874b82ad01898bf39f2b4ef3&page=720",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
@@ -519,7 +524,7 @@
   },
   "KR-JB-IKSAN": {
    "url": "https://www.pressian.com/pages/articles/2023071916271082970",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
@@ -530,7 +535,7 @@
   },
   "KR-JB-WANJU": {
    "url": "https://www.wanju.go.kr/news/planweb/board/view.9is?dataUid=a70a5c82948b467c9be3d6b54e3ca7ab&contentUid=ff808081898ba9ba0189f1e5b91101a9&boardUid=ff8080818b024d8e018b1c99655f1226&page=235",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -541,7 +546,7 @@
   },
   "KR-JB-JINAN": {
    "url": "https://www.pressian.com/pages/articles/2023081110502755566",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -551,31 +556,30 @@
    "fails": 0
   },
   "KR-JB-SUNCHANG": {
-   "url": "https://pongdu.net/3278",
-   "version": 6,
+   "url": "https://www.asiae.co.kr/en/article/2023082409474748592",
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
-    165,
     134
    ],
    "fails": 0
   },
   "KR-JN-MOKPO": {
    "url": "https://www.metroseoul.co.kr/article/20231026500382",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
     100,
     130
    ],
-   "fails": 1,
+   "fails": 2,
    "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-SUNCHEON": {
    "url": "https://gwangyang.go.kr/kor/board.es?mid=a11007000000&bid=0057&list_no=156497&act=view",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
@@ -586,19 +590,19 @@
   },
   "KR-JN-YEOSU": {
    "url": "https://www.metroseoul.co.kr/article/20231023500546",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
     100,
     130
    ],
-   "fails": 1,
+   "fails": 2,
    "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-NAJU": {
    "url": "https://www.kpinews.kr/newsView/1065600293324231",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4300,
@@ -609,7 +613,7 @@
   },
   "KR-JN-MUAN": {
    "url": "https://kpinews.kr/newsView/1065616161667946",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -620,15 +624,15 @@
   },
   "KR-JN-GANGJIN": {
    "url": "https://www.gangjin.go.kr/www/government/notice/gosi?mode=view&idx=23929",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
-   "fails": 1,
+   "fails": 2,
    "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-YEONGGWANG": {
    "url": "https://kpinews.kr/newsView/1065588690650501",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -639,7 +643,7 @@
   },
   "KR-JN-HAENAM": {
    "url": "https://haoah.co.kr/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%ED%83%9D%EC%8B%9C-%EA%B8%B0%EB%B3%B8%EC%9A%94%EA%B8%88-%EC%9D%B4%EC%9A%A9%EC%9A%94%EA%B8%88-%ED%95%A0%EC%A6%9D%EC%9A%94%EA%B8%88/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4800,
@@ -650,19 +654,19 @@
   },
   "KR-JN-WANDO": {
    "url": "https://www.metroseoul.co.kr/article/20231107500762",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4700,
     160,
     130
    ],
-   "fails": 1,
+   "fails": 2,
    "error": "UND_ERR_CONNECT_TIMEOUT"
   },
   "KR-JN-JANGHEUNG": {
    "url": "https://www.jangheung.go.kr/www/organization/news/notification?print=true&idx=23076&v_cnt=1246&search_type=title&page=7&mode=view",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -673,14 +677,14 @@
   },
   "KR-JN-HWASUN": {
    "url": "https://www.yna.co.kr/view/AKR20231010092800054",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "KR-JN-GOHEUNG": {
    "url": "https://www.tonghabnews.com/news/articleView.html?idxno=153447",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -691,7 +695,7 @@
   },
   "KR-JN-BOSEONG": {
    "url": "https://www.boseong.go.kr/www/open_administration/city_news/press_release?mode=view&idx=1141126",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -702,7 +706,7 @@
   },
   "KR-JN-JINDO": {
    "url": "https://jindo.go.kr/home/board/B0016.cs?act=read&articleId=139062",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000,
@@ -713,72 +717,275 @@
   },
   "KR-JN-SINAN": {
    "url": "https://www.news1.kr/local/gwangju-jeonnam/5220596",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5000
    ],
-   "fails": 1,
+   "fails": 2,
    "error": "HTTP 403"
   },
   "JP-TOKYO": {
    "url": "https://wwwtb.mlit.go.jp/kanto/content/000369955.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "01540adace8e1aee",
    "fails": 0
   },
   "JP-OSAKA": {
    "url": "https://wwwtb.mlit.go.jp/kinki/content/000359487.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "247cecc044dabb7d",
    "fails": 0
   },
   "JP-NAGOYA": {
    "url": "https://wwwtb.mlit.go.jp/chubu/press/pdf/jikou2025091101.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "69e7ca4b4f753b69",
    "fails": 0
   },
   "JP-FUKUOKA": {
    "url": "https://wwwtb.mlit.go.jp/kyushu/content/000374925.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "00cf1916fbb089b6",
    "fails": 0
   },
+  "JP-YOKOHAMA": {
+   "url": "https://wwwtb.mlit.go.jp/kanto/content/000274834.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2cbff031c250b3b0",
+   "fails": 0
+  },
+  "JP-SAITAMA": {
+   "url": "https://wwwtb.mlit.go.jp/kanto/content/000274834.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2cbff031c250b3b0",
+   "fails": 0
+  },
+  "JP-CHIBA": {
+   "url": "https://wwwtb.mlit.go.jp/kanto/content/000274834.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2cbff031c250b3b0",
+   "fails": 0
+  },
+  "JP-TAMA": {
+   "url": "https://wwwtb.mlit.go.jp/kanto/content/000274834.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2cbff031c250b3b0",
+   "fails": 0
+  },
+  "JP-SAGAMIHARA": {
+   "url": "https://wwwtb.mlit.go.jp/kanto/content/000274834.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2cbff031c250b3b0",
+   "fails": 0
+  },
+  "JP-KOBE": {
+   "url": "https://wwwtb.mlit.go.jp/kinki/content/000360832.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "010ac8a6aefe48fd",
+   "fails": 0
+  },
+  "JP-SAPPORO": {
+   "url": "https://wwwtb.mlit.go.jp/hokkaido/content/000362131.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2c2493723e771ec4",
+   "fails": 0
+  },
+  "JP-KYOTO": {
+   "url": "https://wwwtb.mlit.go.jp/kinki/content/000353887.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "ae0bbc4736fddb59",
+   "fails": 0
+  },
+  "JP-SHIZUOKA": {
+   "url": "https://wwwtb.mlit.go.jp/chubu/jidosya/jouyou_kouji/joyou_jidoninkaunchin.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "8191077a381fe31c",
+   "fails": 0
+  },
+  "JP-OKAYAMA": {
+   "url": "https://wwwtb.mlit.go.jp/chugoku/content/000360825.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "56856296fc995729",
+   "fails": 0
+  },
+  "JP-HIROSHIMA": {
+   "url": "https://wwwtb.mlit.go.jp/chugoku/content/000361364.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "cc18c6430e655549",
+   "fails": 0
+  },
+  "JP-SENDAI": {
+   "url": "https://wwwtb.mlit.go.jp/tohoku/content/000368064.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "9be314b14764cb50",
+   "fails": 0
+  },
+  "JP-OKINAWA": {
+   "url": "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/bustaxi/jigyoukyoka/taxi/unchin/kouji-koutehabaunchin-tougou.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "21475c0ea0fca29e",
+   "fails": 0
+  },
+  "JP-KUMAMOTO": {
+   "url": "https://wwwtb.mlit.go.jp/kyushu/content/000384668.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "0b676ea09f0963bf",
+   "fails": 0
+  },
+  "JP-KITAKYUSHU": {
+   "url": "https://wwwtb.mlit.go.jp/kyushu/content/000384670.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "00a8520aa06094f6",
+   "fails": 0
+  },
   "CN-BEIJING": {
    "url": "https://zdzqgw.beijing.gov.cn/zqfw/bjsdgjjc/bjsdgjjcjb/202410/t20241012_3917838.html",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "CN-SHANGHAI": {
    "url": "https://fgw.sh.gov.cn/wx_ggjt/20200727/e80ea0d667da4fb0afc95c30e173865f.html",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "CN-GUANGZHOU": {
    "url": "https://www.gz.gov.cn/zwgk/sjfb/sjkd/content/post_10337021.html",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "CN-SHENZHEN": {
    "url": "https://www.sz.gov.cn/ztfw/jtly/wyc_184756/ggjtcx/czccx/content/post_4888409.html",
-   "version": 6,
-   "fails": 2,
-   "error": "ECONNRESET"
+   "version": 12,
+   "fails": 3,
+   "error": "ERR_SSL_BAD_ECPOINT"
+  },
+  "CN-CHONGQING": {
+   "url": "http://fzggw.cq.gov.cn/zwgk/zfxxgkml/jgxx/jgzc/202003/t20200304_5579226.html",
+   "version": 12,
+   "fails": 1,
+   "error": "ETIMEDOUT"
+  },
+  "CN-CHENGDU": {
+   "url": "http://cd.bendibao.com/live/2024329/181136.shtm",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    0.95,
+    500
+   ],
+   "fails": 0
+  },
+  "CN-WUHAN": {
+   "url": "https://www.wuchang.gov.cn/zwgk_37/fdzdgknr/qtzdgknr/jgsf/202005/t20200501_1219545.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-HANGZHOU": {
+   "url": "https://m.thepaper.cn/baijiahao_4816219",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.75
+   ],
+   "fails": 0
+  },
+  "CN-TIANJIN": {
+   "url": "https://fzgg.tj.gov.cn/zwgk_47325/zcfg_47338/zcwjx/fgwj/202012/t20201219_5067912.html",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "CN-XIAN": {
+   "url": "https://www.shaanxi.gov.cn/hd/wxszsjh/lyxd/202404/t20240426_2327434.html",
+   "version": 12,
+   "fails": 1,
+   "error": "ETIMEDOUT"
+  },
+  "CN-ZHENGZHOU": {
+   "url": "https://www.henan.gov.cn/2024/08-12/3053640.html",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "CN-SUZHOU": {
+   "url": "https://credit.suzhou.gov.cn/html/wap_jgsc",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-CHANGSHA": {
+   "url": "http://fgw.hunan.gov.cn/xxgk_70899/gzdtf/gzdt/201503/t20150319_2046654.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-QINGDAO": {
+   "url": "http://www.qingdao.gov.cn/zwgk/xxgk/jtys/gkml/gzxx/202407/t20240718_8141656.shtml",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    500
+   ],
+   "fails": 0
+  },
+  "CN-NANJING": {
+   "url": "http://jtyst.jiangsu.gov.cn/art/2017/12/19/art_41987_7017346.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CN-SHENYANG": {
+   "url": "https://jtj.shenyang.gov.cn/zmhd/hfxd/202111/t20211119_1046692.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    500
+   ],
+   "fails": 0
   },
   "HK-HONGKONG": {
    "url": "https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/taxi/taxi_fare_of_hong_kong/index.html",
-   "version": 6,
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "HK-LANTAU": {
+   "url": "https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/taxi/taxi_fare_of_hong_kong/index.html",
+   "version": 12,
    "kind": "text",
    "numbers": [
     200
@@ -787,7 +994,7 @@
   },
   "TW-TAIPEI": {
    "url": "https://www.businesstoday.com.tw/article/category/183030/post/202609210033/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     200
@@ -796,7 +1003,7 @@
   },
   "TW-KAOHSIUNG": {
    "url": "https://www.nownews.com/news/6554804",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     200,
@@ -804,9 +1011,48 @@
    ],
    "fails": 0
   },
+  "TW-TAICHUNG": {
+   "url": "https://www.nownews.com/news/6464647",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "TW-TAOYUAN": {
+   "url": "https://udn.com/news/story/7324/9275209",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "TW-TAINAN": {
+   "url": "https://www.kingautos.net/341257",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200,
+    100
+   ],
+   "fails": 0
+  },
+  "TW-HSINCHU": {
+   "url": "https://news.ltn.com.tw/news/life/breakingnews/3028996",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    200,
+    225
+   ],
+   "fails": 0
+  },
   "SG-SINGAPORE": {
    "url": "https://www.cdgtaxi.com.sg/fares/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4.6,
@@ -818,23 +1064,43 @@
   },
   "MY-KL": {
    "url": "https://www.thestar.com.my/news/nation/2015/03/20/public-transport-to-cost-more-fares-increased-for-taxi-train-and-express-bus-services",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     200
    ],
    "fails": 0
   },
+  "MY-PENANG": {
+   "url": "https://www.apad.gov.my/index.php/doclink/soalan-lazim-faq-program-teksi-madani-nasional/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb2FsYW4tbGF6aW0tZmFxLXByb2dyYW0tdGVrc2ktbWFkYW5pLW5hc2lvbmFsIiwiaWF0IjoxNzg3ODgxOTc5LCJleHAiOjE3ODc5NjgzNzl9.BraZkY47Fxlqu66geyw29q3AsuoUT5VY7oPu-8TFuy8",
+   "version": 12,
+   "kind": "file",
+   "hash": "3fb080589b39d5a1",
+   "fails": 0
+  },
+  "MY-JOHORBAHRU": {
+   "url": "https://www.apad.gov.my/index.php/doclink/soalan-lazim-faq-program-teksi-madani-nasional/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb2FsYW4tbGF6aW0tZmFxLXByb2dyYW0tdGVrc2ktbWFkYW5pLW5hc2lvbmFsIiwiaWF0IjoxNzg3ODgxOTc5LCJleHAiOjE3ODc5NjgzNzl9.BraZkY47Fxlqu66geyw29q3AsuoUT5VY7oPu-8TFuy8",
+   "version": 12,
+   "kind": "file",
+   "hash": "3fb080589b39d5a1",
+   "fails": 0
+  },
   "TH-BANGKOK": {
    "url": "https://www.itax.in.th/media/%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%97%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B8%B5%E0%B9%88/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
+  "TH-PHUKET": {
+   "url": "https://www.thephuketnews.com/officials-clarify-phuket-metered-taxi-fares-87662.php",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
   "VN-HCMC": {
    "url": "https://vinasun.vn/dich-vu-taxi",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     16000
@@ -843,7 +1109,7 @@
   },
   "VN-HANOI": {
    "url": "https://g7taxi.vn/bang-gia-cuoc-taxi-g7/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     20000,
@@ -852,9 +1118,40 @@
    ],
    "fails": 0
   },
+  "VN-HAIPHONG": {
+   "url": "https://www.greensm.com/vn-vi/news/taxi-hai-phong",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    14800,
+    50000
+   ],
+   "fails": 0
+  },
+  "VN-DANANG": {
+   "url": "https://www.greensm.com/vn-vi/news/taxi-da-nang",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    30500,
+    60000
+   ],
+   "fails": 0
+  },
+  "VN-CANTHO": {
+   "url": "https://www.greensm.com/vn-vi/news/taxi-can-tho",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    10000,
+    100,
+    60000
+   ],
+   "fails": 0
+  },
   "ID-JAKARTA": {
    "url": "https://www.bluebirdgroup.com/news/penyesuaian-tarif-taksi-bluebird-di-wilayah-jabodetabek?lang=en",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     9000,
@@ -863,37 +1160,89 @@
    ],
    "fails": 0
   },
+  "ID-BALI": {
+   "url": "https://www.balivillahub.com/blog/how-much-is-a-ride-per-kilometer-in-bali",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 429"
+  },
   "PH-MANILA": {
    "url": "https://www.sunstar.com.ph/manila/ltfrb-sets-new-puv-rates-effective-sept-28",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "IN-MUMBAI": {
    "url": "https://transport.maharashtra.gov.in/Site/Upload/GR/Metered_Taxi_Tariff_Card.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "5db8147504e7871e",
    "fails": 0
   },
   "IN-DELHI": {
    "url": "https://www.dnaindia.com/delhi/report-delhi-auto-taxi-fares-hiked-as-govt-notifies-new-rates-delhi-auto-new-fare-check-new-details-3016354",
-   "version": 6,
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "IN-KOLKATA": {
+   "url": "https://wbxpress.com/taxi-fares-2018/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "IN-BENGALURU": {
+   "url": "https://www.thenewsminute.com/karnataka/karnataka-cab-fares-to-go-up-as-govt-revises-rates-disallows-surge-pricing",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "IN-CHENNAI": {
+   "url": "https://www.dtnext.in/news/tamilnadu/tamil-nadu-revises-auto-fares-after-13-years-minimum-charge-fixed-at-rs-50",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "IN-HYDERABAD": {
+   "url": "https://www.siasat.com/telangana-hikes-auto-fares-for-first-time-in-12-years-3551675/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "IN-AHMEDABAD": {
+   "url": "https://deshgujarat.com/2026/06/22/auto-rickshaw-fares-hiked-in-ahmedabad/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "IN-PUNE": {
+   "url": "https://www.thebridgechronicle.com/pune/pune-pcmc-auto-rickshaw-fare-hike-september-1-base-fare-rs30-agn97",
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "AE-DUBAI": {
    "url": "https://www.rta.ae/wps/portal/rta/ae/home/promotion/taxi-fare",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "AE-ABUDHABI": {
    "url": "https://admobility.gov.ae/en/taxi-fares",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5,
@@ -903,23 +1252,37 @@
    ],
    "fails": 0
   },
+  "AE-RASALKHAIMAH": {
+   "url": "https://www.rakta.gov.ae/taxi-service",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4,
+    6,
+    0.5,
+    1.88,
+    5,
+    2
+   ],
+   "fails": 0
+  },
   "QA-DOHA": {
    "url": "https://www.qatar-tribune.com/article/110438/NATION/Taxi-fares-revised-to-meet-operational-costs-Karwa/amp",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "SA-RIYADH": {
    "url": "https://www.youm7.com/story/2022/3/13/%D8%B9%D9%83%D8%A7%D8%B8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B9-%D8%A3%D8%AC%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-17-%D9%8810-%D8%B1%D9%8A%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF-%D8%A7%D9%84%D8%A3%D8%AF%D9%86%D9%89/5690177",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "TR-ISTANBUL": {
    "url": "https://www.haberturk.com/zamli-taksi-ucretleri-2026-yeni-taksi-acilis-ucreti-ve-kisa-mesafe-indi-bindi-ne-kadar-oldu-3899248",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     71.94,
@@ -928,48 +1291,209 @@
    ],
    "fails": 0
   },
+  "TR-ANKARA": {
+   "url": "https://www.hemenhesap.com/hesap/taksi/ankara",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200,
+    100
+   ],
+   "fails": 0
+  },
+  "TR-IZMIR": {
+   "url": "https://www.evrensel.net/haber/5980207/izmir-de-taksi-ve-minibus-ucretlerine-yine-zam",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    210,
+    100,
+    240
+   ],
+   "fails": 0
+  },
+  "TR-BURSA": {
+   "url": "https://www.karekod.org/blog/guncel-bursa-taksi-fiyatlari/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    190,
+    5.5,
+    100
+   ],
+   "fails": 0
+  },
+  "TR-ANTALYA": {
+   "url": "https://www.eleman.net/is-rehberi/guncel/antalya-da-ulasim-ucretlerine-zam-h23647",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200,
+    100
+   ],
+   "fails": 0
+  },
+  "TR-ADANA": {
+   "url": "https://www.gazetevatan.com/sehirler/adana/adanada-taksi-ucretlerine-rekor-zam-kisa-mesafe-indi-bindi-ucreti-dudak-ucuklatti-2339221",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    170
+   ],
+   "fails": 0
+  },
+  "TR-KONYA": {
+   "url": "https://www.konyaninsesi.com.tr/konya-da-taksi-ucretlerine-zam-geldi-iste-yeni-fiyatlar/184204",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
   "IL-TELAVIV": {
    "url": "https://icab.co.il/wp-content/uploads/2026/05/taxi-rate-26.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "5966521190d8fc19",
    "fails": 0
   },
   "EG-CAIRO": {
    "url": "https://www.youm7.com/story/2026/3/31/%E2%80%8B%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A9-%D8%B1%D9%83%D9%88%D8%A8-%D8%A7%D9%84%D8%AA%D8%A7%D9%83%D8%B3%D9%89-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%88%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A8%D9%80/7360111",
-   "version": 6,
+   "version": 12,
    "kind": "text",
-   "numbers": [],
+   "numbers": [
+    125
+   ],
    "fails": 0
   },
   "ZA-JOBURG": {
    "url": "https://www.numbeo.com/taxi-fare/in/Johannesburg",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     14,
-    15,
     240
+   ],
+   "fails": 0
+  },
+  "ZA-CAPETOWN": {
+   "url": "https://www.taxi-calculator.com/taxi-rate-cape-town/371",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    25,
+    18,
+    80
+   ],
+   "fails": 0
+  },
+  "ZA-DURBAN": {
+   "url": "https://www.taxi-calculator.com/taxi-rate-durban/518",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    30,
+    11,
+    120
+   ],
+   "fails": 0
+  },
+  "ZA-PRETORIA": {
+   "url": "https://www.taxi-calculator.com/taxi-rate-pretoria/372",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    25,
+    55
    ],
    "fails": 0
   },
   "GB-LONDON": {
    "url": "https://tfl.gov.uk/modes/taxis-and-minicabs/taxi-fares/tariffs",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
-   "fails": 1,
+   "fails": 2,
    "error": "HTTP 403"
   },
   "GB-MANCHESTER": {
    "url": "https://www.manchester.gov.uk/taxis-and-private-hire/taxi-and-private-hire-passenger-information/taxi-fares-and-charges/public-taxi-fares-and-charges",
-   "version": 6,
-   "fails": 2,
+   "version": 12,
+   "fails": 3,
    "error": "HTTP 403"
+  },
+  "GB-BIRMINGHAM": {
+   "url": "https://www.birmingham.gov.uk/download/downloads/id/11462/hackney_carriage_fare_table.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "db33feb4d27b9ceb",
+   "fails": 0
+  },
+  "GB-LEEDS": {
+   "url": "https://www.leeds.gov.uk/licensing/taxi-and-private-hire-licensing/are-you-taxi-aware",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.6
+   ],
+   "fails": 0
+  },
+  "GB-GLASGOW": {
+   "url": "https://onlineservices.glasgow.gov.uk/councillorsandcommittees/viewSelectedDocument.asp?c=P62AFQDNUTZL0GZL81",
+   "version": 12,
+   "kind": "file",
+   "hash": "a89d625606612270",
+   "fails": 0
+  },
+  "GB-LIVERPOOL": {
+   "url": "https://liverpool.gov.uk/media/rbnl5l0c/hackney-carriage-rates-of-fare-2025.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "ECONNREFUSED"
+  },
+  "GB-NOTTINGHAM": {
+   "url": "https://www.nottinghamcity.gov.uk/information-for-business/business-information-and-support/business-and-trading-licences-and-permits/taxi-licensing/hackney-carriage-fares",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2
+   ],
+   "fails": 0
+  },
+  "GB-SHEFFIELD": {
+   "url": "https://www.sheffield.gov.uk/taxi-licensing/passenger-information/hackney-carriage-fares-and-charges",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "GB-BRISTOL": {
+   "url": "https://www.bristol.gov.uk/files/documents/2015-final-agreed-tariff-card-oct-2018",
+   "version": 12,
+   "kind": "file",
+   "hash": "020ad4a35131fb68",
+   "fails": 0
+  },
+  "GB-EDINBURGH": {
+   "url": "https://consultationhub.edinburgh.gov.uk/sfc/taxi-fare-review-2026-proposed-tariff/supporting_documents/advert-1-31-mar-26docx-1",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "GB-BELFAST": {
+   "url": "https://www.legislation.gov.uk/nisr/2023/185/made",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.2,
+    0.2,
+    5,
+    4
+   ],
+   "fails": 0
   },
   "IE-DUBLIN": {
    "url": "https://www.irishstatutebook.ie/eli/2024/si/479/made/en/print",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4.4,
@@ -985,29 +1509,84 @@
   },
   "FR-PARIS": {
    "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134824/987340/file/recueil-75-2026-047-recueil-des-actes-administratifs-special%20du%2021.01.2026.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "dd19f77ab1d4d5a7",
    "fails": 0
   },
   "FR-LYON": {
    "url": "https://www.rhone.gouv.fr/contenu/telechargement/67519/454692/file/Arr%C3%AAt%C3%A9%20reglementant%20les%20tarifs%20taxis%20dans%20le%20d%C3%A9partement%20du%20Rh%C3%B4ne%202026.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "4f9c53b775c2fc0b",
+   "fails": 2,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-MARSEILLE": {
+   "url": "https://www.taxiaix.fr/pdf/Taxis-Tarifs2026.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "aacfa1d3277e5753",
+   "fails": 0
+  },
+  "FR-LILLE": {
+   "url": "https://www.nord.gouv.fr/contenu/telechargement/105103/739093/file/2026-02-02%20AP%20tarifs%20taxis%20Nord%202026.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-BORDEAUX": {
+   "url": "https://www.gironde.gouv.fr/contenu/telechargement/78249/585652/file/AP%20TAXIS%202026-1.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-NICE": {
+   "url": "https://www.alpes-maritimes.gouv.fr/contenu/telechargement/58820/449527/file/Arr%C3%AAt%C3%A9%20taxi%202026.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-NANTES": {
+   "url": "https://www.loire-atlantique.gouv.fr/contenu/telechargement/71077/512360/file/RAA%20n%C2%B0018%20du%2029%20janvier%202026.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-STRASBOURG": {
+   "url": "https://www.bas-rhin.gouv.fr/contenu/telechargement/62216/443347/file/Arr%C3%AAt%C3%A9%20tarifs%20courses%20taxi%2026.01.26.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-MONTPELLIER": {
+   "url": "https://www.herault.gouv.fr/contenu/telechargement/56292/412458/file/Tarifs%20Courses%20de%20TAXIS%202026.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-RENNES": {
+   "url": "https://www.ille-et-vilaine.gouv.fr/contenu/telechargement/79964/628721/file/2026-01-20-arr%C3%AAt%C3%A9%20tarifs%20taxis%202026.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_SOCKET"
+  },
+  "FR-GRENOBLE": {
+   "url": "https://www.isere.gouv.fr/contenu/telechargement/81726/630990/file/AP%20tarifs%20des%20courses%20en%20taxis%20Isere%202026.pdf",
+   "version": 12,
    "fails": 1,
    "error": "UND_ERR_SOCKET"
   },
   "DE-BERLIN": {
    "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/gvbl/g22520606.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "dd798e6f6b51b461",
    "fails": 0
   },
   "DE-MUNICH": {
    "url": "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/410/version8/0.html",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5.9,
@@ -1023,7 +1602,7 @@
   },
   "DE-HAMBURG": {
    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/die-themen-der-behoerde/fuer-taxi-fahrgaeste/taxi-fahrpreise-410302",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4.5,
@@ -1035,16 +1614,95 @@
   },
   "DE-FRANKFURT": {
    "url": "https://www.frankfurt-main.ihk.de/branchenthemen/verkehr-logistik/verkehr-logistik-aktuell/festpreis-bei-taxis-in-frankfurt-eingefuehrt-6420100",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     2.4
    ],
    "fails": 0
   },
+  "DE-COLOGNE": {
+   "url": "https://www.stadt-koeln.de/mediaasset/content/bekanntmachungen/2026/2026.04.14_0066-01_koelner_taxitarif_2026.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "4253d20daa2b6835",
+   "fails": 0
+  },
+  "DE-DUSSELDORF": {
+   "url": "https://www.duesseldorf.de/fileadmin/Amt13/bekanntmachungen/2025/25_03/250219_Neufassung_Taxentarifordnung_2025_mit_Bekanntmachungsanordnung_web_bf.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "f295d127f2ffd181",
+   "fails": 0
+  },
+  "DE-STUTTGART": {
+   "url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "5f1d39f32bbde64b",
+   "fails": 0
+  },
+  "DE-LEIPZIG": {
+   "url": "https://www.leipzig.de/service-portal/satzungen/details/satzung/3-10-2/download",
+   "version": 12,
+   "kind": "file",
+   "hash": "f7fef95bd7803a8d",
+   "fails": 0
+  },
+  "DE-DORTMUND": {
+   "url": "https://www.dortmund.de/newsroom/nachrichten-dortmund.de/mindestentgelte-fuer-mietwagenunternehmen-gelten-ab-1.-september.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.8,
+    2.2
+   ],
+   "fails": 0
+  },
+  "DE-ESSEN": {
+   "url": "https://service.essen.de/detail/-/vr-bis-detail/dokument/117448/download",
+   "version": 12,
+   "kind": "file",
+   "hash": "b97bee0c90e559a5",
+   "fails": 0
+  },
+  "DE-BREMEN": {
+   "url": "https://gesetzblatt.bremen.de/fastmedia/218/2024_11_14_GBl_Nr_0116_signed.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "DE-DRESDEN": {
+   "url": "https://dresden.de/media/pdf/verkehr/verordnung_taxitarif.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "eabeb7b22d618c6a",
+   "fails": 0
+  },
+  "DE-HANNOVER": {
+   "url": "https://www.hannover.de/content/download/1047075/file/VO+Bef%C3%B6rderungsentgelte+TaxiTarif_26-06-2025-INTRANET.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "b3a888ddc3e57a69",
+   "fails": 0
+  },
+  "DE-NUREMBERG": {
+   "url": "https://www.nuernberg.de/imperia/md/zentral/dokumente/stadtrecht/320_801.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "a5626e7aa19d0597",
+   "fails": 0
+  },
+  "DE-DUISBURG": {
+   "url": "https://www.duisburg.de/rathaus/rathausundpolitik/ortsrecht/S32.08-Taxen-Tarifverordnung-ab-01.09.2025.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "cd66d24a66792e66",
+   "fails": 0
+  },
   "NL-AMSTERDAM": {
    "url": "https://www.rijksoverheid.nl/onderwerpen/taxi/vraag-en-antwoord/wat-zijn-de-kosten-voor-een-taxi",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4.31
@@ -1053,7 +1711,7 @@
   },
   "BE-BRUSSELS": {
    "url": "https://be.brussels/fr/transport-mobilite/transport-en-commun/taxi-et-mobilite-partagee/prendre-un-taxi",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     2.6,
@@ -1061,51 +1719,174 @@
    ],
    "fails": 0
   },
+  "BE-ANTWERP": {
+   "url": "https://antwerp-tax.be/diensten/taxi/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    12,
+    2.7,
+    3
+   ],
+   "fails": 0
+  },
+  "BE-GHENT": {
+   "url": "https://stad.gent/nl/mobiliteit-openbare-werken/mobiliteit/met-de-taxi/taxi-nemen-gent",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.6
+   ],
+   "fails": 0
+  },
+  "BE-LIEGE": {
+   "url": "https://wallex.wallonie.be/fr/contents/acts/106/106292.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    0.1
+   ],
+   "fails": 0
+  },
   "CH-ZURICH": {
    "url": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/935/440/935.440_Taxitarif%20V3.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "979a0ead3e3eb9f5",
    "fails": 0
   },
   "CH-GENEVA": {
    "url": "https://silgeneve.ch/legis/program/books/rsg/pdf/rsg_h1_31p01.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "9078fbf7ef5967d2",
    "fails": 0
   },
+  "CH-BASEL": {
+   "url": "https://bs.lexwork.naz.ch/de/dta/563.280.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "854be4fb740ac742",
+   "fails": 0
+  },
+  "CH-BERN": {
+   "url": "https://www.baerentaxi.ch/taxi-tarife-bern",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    7.8,
+    4.5,
+    3.5
+   ],
+   "fails": 0
+  },
   "AT-VIENNA": {
    "url": "https://www.wko.at/wien/transport-verkehr/befoerderungsgewerbe-personenkraftwagen/wiener-taxitarif.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "84c0c6be8e5f7808",
    "fails": 0
   },
+  "AT-LINZ": {
+   "url": "https://newsletter.wko.at/Media/896bf1d9-abd3-458d-a304-c201a72724a2/auszug-aus-linzer-taxitarif---kleber-2025.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "aed5b3dcb0d3a4c7",
+   "fails": 0
+  },
+  "AT-GRAZ": {
+   "url": "https://ogd.ris.bka.gv.at/Dokumente/Landesnormen/LST40033229/LST40033229.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4.9,
+    2.3,
+    2.8
+   ],
+   "fails": 0
+  },
+  "AT-SALZBURG": {
+   "url": "https://www.salzburg.gv.at/fileadmin/Dateien/Verkehr/Verkehrsunternehmen/Taxitarif_VO_Stadt_Salzburg_Bergheim_Wals-Sizenheim_2024.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "41dd0e110c12aa83",
+   "fails": 0
+  },
+  "AT-INNSBRUCK": {
+   "url": "https://ogd.ris.bka.gv.at/Dokumente/Vbl/VBL_TI_LH_20251117_132/VBL_TI_LH_20251117_132.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    8.25,
+    0.2,
+    93.02,
+    2.15,
+    10.5
+   ],
+   "fails": 0
+  },
   "IT-ROME": {
    "url": "https://www.comune.roma.it/web-resources/cms/documents/TariffarioTaxi_giugno2026.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "7c2218ba8ffbdf45",
    "fails": 0
   },
   "IT-MILAN": {
    "url": "https://www.regione.lombardia.it/infrastrutture-trasporti-e-mobilita/taxi-collegamenti-aeroportuali-e-noleggio/servizio-e-tariffe-taxi-nel-bacino-aeroportuale",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
+  "IT-NAPLES": {
+   "url": "https://www.dma.unina.it/izzo/pdetd25/Taxi_ordinary_rates_2024.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "198da56661e7eb3d",
+   "fails": 0
+  },
+  "IT-TURIN": {
+   "url": "https://www.cittametropolitana.torino.it/sites/default/files/pagina/ub0_uc3/documenti/TAXI%20E%20NCC/TARIFFE_PER_GLI_UTENTI.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "416fef355a96fc5f",
+   "fails": 0
+  },
+  "IT-CATANIA": {
+   "url": "https://www.balarm.it/news/rivoluzione-taxi-a-catania-tariffe-fisse-per-l-aeroporto-e-nuove-formule-quali-e-i-costi-167398",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    7,
+    1.6
+   ],
+   "fails": 0
+  },
+  "IT-BOLOGNA": {
+   "url": "https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=602cc218af88d000571a3914",
+   "version": 12,
+   "kind": "file",
+   "hash": "a75fde472e28ce3b",
+   "fails": 0
+  },
+  "IT-GENOA": {
+   "url": "https://5966.it/wp-content/uploads/2024/09/tariffario_nuovo_taxi.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "3081649b4acc2060",
+   "fails": 0
+  },
   "ES-MADRID": {
    "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/03/BOCM-20251203-38.PDF",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "03f1e8f51c62f20d",
    "fails": 0
   },
   "ES-BARCELONA": {
    "url": "https://taxi.amb.cat/en/usuari/tarifes",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     2.8,
@@ -1113,48 +1894,138 @@
    ],
    "fails": 0
   },
+  "ES-VALENCIA": {
+   "url": "https://dogv.gva.es/datos/2025/12/30/pdf/2025_52522_es.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "684332decda7a2ab",
+   "fails": 0
+  },
+  "ES-SEVILLE": {
+   "url": "https://www.sevilla.org/servicios/movilidad/instituto-del-taxi/tablon-de-anuncios/23-publicacion-tarifas-tablon-anuncios.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "15c60917edf4dd56",
+   "fails": 0
+  },
+  "ES-MALAGA": {
+   "url": "https://movilidad.malaga.eu/opencms/export/sites/movilidad/.content/galerias/taxi/3-Tarifas-urbanas-e-interurbanas-actualizado-a-marzo-2026.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "5f7f28dfc10bbd6e",
+   "fails": 0
+  },
+  "ES-BILBAO": {
+   "url": "https://www.euskadi.eus/bopv2/datos/2025/12/2505418a.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "9a544de82a0806f7",
+   "fails": 0
+  },
+  "ES-ZARAGOZA": {
+   "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1365617120202&type=pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "864db36faf066350",
+   "fails": 0
+  },
+  "ES-PALMA": {
+   "url": "https://www.caib.es/eboibfront/es/2025/12118/702702/resolucio-del-conseller-d-habitatge-territori-i-mo",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.5,
+    1.2,
+    19.4,
+    2.85
+   ],
+   "fails": 0
+  },
+  "ES-ALICANTE": {
+   "url": "https://dogv.gva.es/datos/2025/12/30/pdf/2025_52508_es.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "5e54c5e014e87011",
+   "fails": 0
+  },
+  "ES-MURCIA": {
+   "url": "https://transparencia.carm.es/wres/transparencia/doc/Organos-colegiados/Consejo_Asesor_Regional_de_Precios/2022-11-18/Acta.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "59a0b1e9da7abde8",
+   "fails": 0
+  },
   "PT-LISBON": {
    "url": "https://www.amt-autoridade.pt/media/6186/comunicado-tarifas-a-vigor-nos-táxis-em-2027.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "cab1cfe46d5892da",
    "fails": 0
   },
   "GR-ATHENS": {
    "url": "https://www.taxheaven.gr/circulars/55396/147620-16-09-2026",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "SE-STOCKHOLM": {
    "url": "https://www.taxistockholm.se/sv/priser/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     595.04
    ],
    "fails": 0
   },
+  "SE-GOTHENBURG": {
+   "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxikunder/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SE-MALMO": {
+   "url": "https://www.taxiskane.com/malmo",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    469.97
+   ],
+   "fails": 0
+  },
   "NO-OSLO": {
    "url": "https://www.oslotaxi.no/priser",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     140
    ],
    "fails": 0
   },
+  "NO-BERGEN": {
+   "url": "https://www.bergentaxi.no/priser/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    102,
+    169,
+    111,
+    121,
+    134
+   ],
+   "fails": 0
+  },
   "DK-COPENHAGEN": {
    "url": "https://dantaxi.dk/taxa-pris/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
   "FI-HELSINKI": {
    "url": "https://taksihelsinki.fi/tilaa-taksi/taksin-hinta/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5.7,
@@ -1163,9 +2034,30 @@
    ],
    "fails": 0
   },
+  "FI-TAMPERE": {
+   "url": "https://www.taksitampere.fi/hinnat/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    6.5,
+    12.9,
+    8.5
+   ],
+   "fails": 0
+  },
+  "FI-TURKU": {
+   "url": "https://www.turuntaksi.fi/hinnasto",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    6.9,
+    8.9
+   ],
+   "fails": 0
+  },
   "PL-WARSAW": {
    "url": "https://warszawa19115.pl/-/op%C5%82aty-za-przejazd-taks%C3%B3wk%C4%85",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     10,
@@ -1174,16 +2066,37 @@
    ],
    "fails": 0
   },
+  "PL-KRAKOW": {
+   "url": "https://krakow.pl/krakow_open_city/news/321609,245,komunikat,getting_around_krakow_by_taxi__a_guide_for_passengers.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "PL-WROCLAW": {
+   "url": "https://www.wroclaw.pl/komunikacja/taksowka-wroclaw-ceny-przejazd",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
   "CZ-PRAGUE": {
    "url": "https://mf.gov.cz/assets/attachments/2026-10-20_Cenovy-vestnik-106-2026.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "c91de1943d7a76fb",
    "fails": 0
   },
+  "CZ-BRNO": {
+   "url": "https://sbirkapp.gov.cz/detail/SPP6SQ5T5ULIZ3X6/text",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
   "HU-BUDAPEST": {
    "url": "https://infostart.hu/belfold/2026/08/01/taxizas-kozlekedes-vasut-nagy-valtozasok-leptek-eletbe-szombattol",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     1300,
@@ -1193,13 +2106,37 @@
   },
   "RU-MOSCOW": {
    "url": "https://taxi.yandex.ru/moscow/tariff",
-   "version": 6,
-   "fails": 2,
+   "version": 12,
+   "fails": 3,
+   "error": "HTTP 403"
+  },
+  "RU-STPETERSBURG": {
+   "url": "https://taxi.yandex.ru/spb/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "RU-YEKATERINBURG": {
+   "url": "https://taxi.yandex.ru/ekb/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "RU-NOVOSIBIRSK": {
+   "url": "https://taxi.yandex.ru/novosibirsk/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "RU-KAZAN": {
+   "url": "https://taxi.yandex.ru/kazan/tariff",
+   "version": 12,
+   "fails": 1,
    "error": "HTTP 403"
   },
   "US-NYC": {
    "url": "https://www.nyc.gov/site/tlc/passengers/taxi-fare.page",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     3,
@@ -1210,20 +2147,20 @@
   },
   "US-LA": {
    "url": "https://ladot.lacity.gov/sites/default/files/documents/taxicab-rates-2023.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "50b842a4be4a4901",
    "fails": 0
   },
   "US-CHICAGO": {
    "url": "https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/ridesmartchicago/chicagotaxiplacard2026.pdf",
-   "version": 6,
-   "fails": 2,
+   "version": 12,
+   "fails": 3,
    "error": "HTTP 403"
   },
   "US-SF": {
    "url": "https://www.sfmta.com/getting-around/taxi/taxi-fares",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4.15,
@@ -1233,7 +2170,7 @@
   },
   "US-DC": {
    "url": "https://dfhv.dc.gov/page/taxicab-fares",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4,
@@ -1245,21 +2182,119 @@
   },
   "US-LASVEGAS": {
    "url": "https://taxi.nv.gov/uploadedFiles/taxinvgov/content/About_Us/ALL/BoardMeetings/2026/March/Taxi-Authority-Board-Order-for-Fuel-Surcharge_4-26.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "0fa51f80160100e4",
    "fails": 0
   },
+  "US-DALLAS": {
+   "url": "https://files.amlegal.com/pdffiles/Dallas/32467.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "24f83f7ee52fd9f7",
+   "fails": 0
+  },
+  "US-HOUSTON": {
+   "url": "https://communityimpact.com/bellaire-meyerland-west-university/government/maximum-houston-taxi-fares-upped-28/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.72,
+    4.72
+   ],
+   "fails": 0
+  },
+  "US-ATLANTA": {
+   "url": "https://www.atlantanewsfirst.com/2023/06/06/atlanta-city-council-approves-taxi-fare-increases/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.5
+   ],
+   "fails": 0
+  },
+  "US-MIAMI": {
+   "url": "https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2025/251162.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "a8f92b64b4bbad69",
+   "fails": 0
+  },
+  "US-PHILADELPHIA": {
+   "url": "https://philapark.org/?p=1974",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.7,
+    0.3,
+    37.6,
+    1.35
+   ],
+   "fails": 0
+  },
+  "US-PHOENIX": {
+   "url": "https://skyharbor.com/ground-transportation/taxis-shuttles",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "US-BOSTON": {
+   "url": "https://police.boston.gov/taxi-rates/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.6,
+    28
+   ],
+   "fails": 0
+  },
+  "US-SEATTLE": {
+   "url": "https://www.seattle.gov/business-regulations/taxis-for-hires-and-tncs/regional-dispatch-agencies",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.6
+   ],
+   "fails": 0
+  },
+  "US-SANDIEGO": {
+   "url": "https://www.sdmts.com/sites/default/files/2026-02/public-hearing-notice-2026-taxicab-maximum-rates-of-fare-2.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "cbea64a68c69b626",
+   "fails": 0
+  },
+  "US-CHARLOTTE": {
+   "url": "https://www.charlottenc.gov/files/assets/police/v/3/documents/pvhdocs/pvh-taxi_rates.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "0fef3691a5c133bc",
+   "fails": 0
+  },
+  "US-BALTIMORE": {
+   "url": "https://www.psc.state.md.us/transportation/wp-content/uploads/sites/6/Balto-City-Taxicab-Rate-Sheet-Effective-7-18-14.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "9bd1e5a014182bb6",
+   "fails": 0
+  },
+  "US-SANANTONIO": {
+   "url": "https://www.sa.gov/Directory/Departments/SAPD/About/Divisions/Ground-Transportation",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
   "CA-TORONTO": {
    "url": "https://www.toronto.ca/legdocs/municode/toronto-code-546.pdf",
-   "version": 6,
+   "version": 12,
    "kind": "file",
    "hash": "22f7deb1ac7c119c",
    "fails": 0
   },
   "CA-VANCOUVER": {
    "url": "https://www.ptboard.bc.ca/rule-9-common-rate-metro-vancouver",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     3.75,
@@ -1272,7 +2307,7 @@
   },
   "CA-MONTREAL": {
    "url": "https://www.ctq.gouv.qc.ca/permis-et-autorisations-de-transport/transport-remunere-de-personnes-par-automobile/tarifs-de-transport-remunere-de-personnes-par-automobile/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     4.1,
@@ -1282,9 +2317,88 @@
    ],
    "fails": 0
   },
+  "CA-CALGARY": {
+   "url": "https://www.calgary.ca/taxis-ride-share/meter-rates.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4.5,
+    0.23,
+    120
+   ],
+   "fails": 0
+  },
+  "CA-EDMONTON": {
+   "url": "https://www.edmonton.ca/sites/default/files/public-files/assets/Bylaws/C17400.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "3a4648303aa5c63d",
+   "fails": 0
+  },
+  "CA-OTTAWA": {
+   "url": "https://ottawa.ca/en/vehicle-hire-law-no-2016-272",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.8,
+    0.18
+   ],
+   "fails": 0
+  },
+  "CA-WINNIPEG": {
+   "url": "https://legacy.winnipeg.ca/vehiclesforhire/maximum-fare-schedule.stm",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.95,
+    0.19,
+    100
+   ],
+   "fails": 0
+  },
+  "CA-MISSISSAUGA": {
+   "url": "https://www.mississauga.ca/wp-content/uploads/2026/05/01140119/Public-Vehicle-Licensing-By-law-0420-2004.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "32dcda8addfca9d5",
+   "fails": 0
+  },
+  "CA-BRAMPTON": {
+   "url": "https://brampton.ca/EN/City-Hall/Bylaws/Archive/219-2024.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "4ac58f93bfedb749",
+   "fails": 0
+  },
+  "CA-HAMILTON": {
+   "url": "https://www.hamilton.ca/sites/default/files/2022-06/22-102.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "362ddedbf94f57df",
+   "fails": 0
+  },
+  "CA-WATERLOOREGION": {
+   "url": "https://media-003-ca.cdn.govstack.com/regionofwaterloo-018-ca/media/5t3bxhy4/consolidated-taxi-cab-by-law-16-044-march-2026.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "3e9e3e3d7d88bff2",
+   "fails": 0
+  },
+  "CA-HALIFAX": {
+   "url": "https://www.casinotaxi.ca/rates",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.4,
+    0.25,
+    0.2,
+    1.82
+   ],
+   "fails": 0
+  },
   "MX-CDMX": {
    "url": "http://web.archive.org/web/20250324053626/https://www.semovi.cdmx.gob.mx/tramites-y-servicios/transparencia/preguntas-frecuentes",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     8.74,
@@ -1293,9 +2407,18 @@
    ],
    "fails": 0
   },
+  "MX-MONTERREY": {
+   "url": "https://amp.milenio.com/estados/choferes-taxis-nuevo-leon-hablan-aumento-banderazo",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.22
+   ],
+   "fails": 0
+  },
   "BR-SAOPAULO": {
    "url": "https://prefeitura.sp.gov.br/web/mobilidade/w/saiba_como_e_e_como_funciona/3875",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     6.55,
@@ -1305,7 +2428,7 @@
   },
   "BR-RIO": {
    "url": "https://www.normasbrasil.com.br/norma/resolucao-3893-2025-rio-de-janeiro_488787.html",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     6.3,
@@ -1313,26 +2436,158 @@
    ],
    "fails": 0
   },
+  "BR-BELOHORIZONTE": {
+   "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/tarifa-de-taxi-ficara-mais-cara-em-bh-a-partir-deste-sabado-8-veja-valores/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.4,
+    4.5,
+    39
+   ],
+   "fails": 0
+  },
+  "BR-BRASILIA": {
+   "url": "https://agenciabrasilia.df.gov.br/w/taxis-do-distrito-federal-sao-autorizados-a-circular-com-novas-tarifas",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    6.59,
+    3.59,
+    39.91
+   ],
+   "fails": 0
+  },
+  "BR-PORTOALEGRE": {
+   "url": "https://prefeitura.poa.br/eptc/noticias/eptc-orienta-sobre-o-inicio-da-nova-tarifa-de-taxi-em-porto-alegre",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    7.24,
+    3.62
+   ],
+   "fails": 0
+  },
+  "BR-RECIFE": {
+   "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/02/11707652-recife-reajusta-tarifas-de-taxi-e-amplia-horario-da-bandeira-2-veja-valores.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.12,
+    3.35,
+    26.67
+   ],
+   "fails": 0
+  },
+  "BR-FORTALEZA": {
+   "url": "https://mais.opovo.com.br/colunistas/vertical/2026/01/09/andar-de-taxi-fica-mais-caro-em-fortaleza.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    6.82,
+    4.06,
+    40.59
+   ],
+   "fails": 0
+  },
+  "BR-SALVADOR": {
+   "url": "https://atarde.com.br/salvador/taxi-em-salvador-fica-mais-caro-veja-os-novos-valores-1377134",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    6.47,
+    3.23
+   ],
+   "fails": 0
+  },
+  "BR-GOIANIA": {
+   "url": "https://tribunadoplanalto.com.br/?p=91935",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.71,
+    3.43,
+    28.62
+   ],
+   "fails": 0
+  },
+  "BR-BELEM": {
+   "url": "https://www.oliberal.com/economia/prefeitura-de-belem-sobe-36-valor-do-quilometro-rodadoem-taxis-1.1005648",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4.03
+   ],
+   "fails": 0
+  },
+  "BR-CURITIBA": {
+   "url": "https://www.normasbrasil.com.br/norma/decreto-2652-2025-curitiba_488327.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.4,
+    4.06,
+    33.43
+   ],
+   "fails": 0
+  },
   "AR-BUENOSAIRES": {
    "url": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/885043",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [],
    "fails": 0
   },
-  "CL-SANTIAGO": {
-   "url": "https://www.expat.com/en/guide/south-america/chile/santiago/37461-getting-around-santiago.html",
-   "version": 6,
+  "AR-CORDOBA": {
+   "url": "https://www.cadena3.com/noticia/sociedad/rige-el-aumento-del-25-en-la-tarifa-de-taxis-en-cordoba-desde-este-sabado_539556",
+   "version": 12,
    "kind": "text",
    "numbers": [
-    500,
-    200
+    1900,
+    150
    ],
+   "fails": 0
+  },
+  "AR-ROSARIO": {
+   "url": "https://www.cadena3.com/noticia/noticias-rosario/el-concejo-aprobo-un-aumento-en-la-tarifa-de-taxis-y-remises-en-rosario_523799",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2752,
+    116,
+    100
+   ],
+   "fails": 0
+  },
+  "AR-MENDOZA": {
+   "url": "https://www.elsol.com.ar/wp-content/uploads/2026/07/pedido_320741_14072026.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "b984e1ea8817676f",
+   "fails": 0
+  },
+  "AR-LAPLATA": {
+   "url": "https://sibom.slyt.gba.gob.ar/bulletins/14934/contents/2386743",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2000,
+    200,
+    130,
+    2600
+   ],
+   "fails": 0
+  },
+  "CL-SANTIAGO": {
+   "url": "https://web.archive.org/web/20260213175517/https://mtt.gob.cl/wp-content/uploads/2026/01/Rex-41-2026_-Reajuste-tarifario_firmado_SSO.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "55cd070334512412",
    "fails": 0
   },
   "AU-SYDNEY": {
    "url": "https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5.17,
@@ -1345,7 +2600,7 @@
   },
   "AU-MELBOURNE": {
    "url": "https://safetransport.vic.gov.au/on-the-road/cpv-driver-accreditation/fares-and-levies/",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     5.4,
@@ -1356,21 +2611,1750 @@
    ],
    "fails": 0
   },
+  "AU-BRISBANE": {
+   "url": "https://www.qld.gov.au/transport/public/operators/information-for-passengers/passenger-rights-and-fares/taxi-service-standards",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.8,
+    2.77,
+    6.2
+   ],
+   "fails": 0
+  },
+  "AU-PERTH": {
+   "url": "https://www.transport.wa.gov.au/On-demandTransport/on-demand-rank-or-hail-taxi-fares.asp",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5.6,
+    2.2,
+    8,
+    4.7
+   ],
+   "fails": 0
+  },
+  "AU-ADELAIDE": {
+   "url": "https://www.sa.gov.au/topics/driving-and-transport/industry-services/taxi-and-passenger-transport/taxi-fares-and-charges",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4,
+    2.35,
+    5.4,
+    2.5,
+    2.1
+   ],
+   "fails": 0
+  },
+  "AU-CANBERRA": {
+   "url": "https://www.legislation.act.gov.au/DownloadFile/di/2026-35/current/PDF/2026-35.PDF",
+   "version": 12,
+   "kind": "file",
+   "hash": "6fbd939cac251b7b",
+   "fails": 0
+  },
+  "AU-HOBART": {
+   "url": "https://www.legislation.tas.gov.au/view/pdf/authorised/2026-04-22%202026-04-22/sr-2025-001",
+   "version": 12,
+   "kind": "file",
+   "hash": "1a844a3390e263ec",
+   "fails": 0
+  },
+  "AU-DARWIN": {
+   "url": "https://nt.gov.au/__data/assets/pdf_file/0010/1620658/S53.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
   "NZ-AUCKLAND": {
    "url": "https://at.govt.nz/bus-train-ferry/accessible-travel/total-mobility-scheme/total-mobility-taxi-operators-fares",
-   "version": 6,
+   "version": 12,
    "kind": "text",
    "numbers": [
     2.95
    ],
    "fails": 0
+  },
+  "NZ-WELLINGTON": {
+   "url": "https://www.metlink.org.nz/getting-started/accessibility/total-mobility",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4.5,
+    3.85,
+    2
+   ],
+   "fails": 0
+  },
+  "ET-ADDIS-ABABA": {
+   "url": "https://en.wikivoyage.org/wiki/Addis_Ababa",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    150,
+    240
+   ],
+   "fails": 0
+  },
+  "KE-NAIROBI": {
+   "url": "https://www.kenyans.co.ke/news/125051-fears-higher-fares-govt-moves-set-minimum-digital-cab-prices",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    300
+   ],
+   "fails": 0
+  },
+  "TZ-DAR-ES-SALAAM": {
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-announces-new-fares-after-fuel-prices-increase-5428338",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    1200,
+    5000
+   ],
+   "fails": 0
+  },
+  "RW-KIGALI": {
+   "url": "https://rura.rw/fileadmin/user_upload/RURA/Documents/Tariffs/Annoncement_fare__for_Tax_cabs__1_.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "680c3164749b223f",
+   "fails": 0
+  },
+  "CD-KINSHASA": {
+   "url": "https://yango.com/kinshasa/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "CG-BRAZZAVILLE": {
+   "url": "https://fr.allafrica.com/stories/202407300189.html",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "AO-LUANDA": {
+   "url": "https://yango.com/luanda/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "MZ-MAPUTO": {
+   "url": "https://clubofmozambique.com/news/taxi-drivers-want-to-charge-50-meticais-more-per-kilometre-in-maputo-city-219237",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "MG-ANTANANARIVO": {
+   "url": "https://yango.com/antananarivo/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "GA-LIBREVILLE": {
+   "url": "https://yango.com/libreville/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "NA-WINDHOEK": {
+   "url": "https://www.nampa.org/text/22923734",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "BW-GABORONE": {
+   "url": "https://dailynews.gov.bw/news-detail/90891",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SC-MAHE": {
+   "url": "https://nation.sc/articles/17706/cabinet-affairs",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "MA-CASABLANCA": {
+   "url": "https://www.lavieeco.com/influences/societe/la-wilaya-de-casablanca-veut-mettre-de-lordre-dans-le-transport-par-petits-taxis/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "TN-TUNIS": {
+   "url": "https://www.webdo.tn/fr/actualite/national/tunisie-augmentation-des-tarifs-du-transport-irregulier/200094/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "NG-ABUJA": {
+   "url": "https://techeconomy.ng/bolt-users-in-abuja-to-pay-more/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "SN-DAKAR": {
+   "url": "https://yango.com/dakar/tariff/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "CM-DOUALA": {
+   "url": "https://yango.com/douala/tariff/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "BJ-COTONOU": {
+   "url": "https://yango.com/cotonou/tariff/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "MR-NOUAKCHOTT": {
+   "url": "https://yango.com/nouakchott/tariff/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "SL-FREETOWN": {
+   "url": "https://yango.com/freetown/tariff/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "MO-MACAU": {
+   "url": "https://www.dsat.gov.mo/dsat/subpage.aspx?a_id=1610600672",
+   "version": 12,
+   "fails": 1,
+   "error": "응답 없음(시간 초과)"
+  },
+  "FJ-SUVA": {
+   "url": "https://fijisun.com.fj/living/transport/taxi-association-disappointed-over-return-to-normal-fare-from-september-30",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    1
+   ],
+   "fails": 0
+  },
+  "PG-PORT-MORESBY": {
+   "url": "https://iccc.gov.pg/2026/10/16/public-notice-adjustment-to-pmv-and-taxi-fares-for-all-licensed-routes-in-png/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    5,
+    6.7
+   ],
+   "fails": 0
+  },
+  "GU-GUAM": {
+   "url": "https://visitguam.com/plan/getting-around",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.4,
+    0.8
+   ],
+   "fails": 0
+  },
+  "BN-BANDAR-SERI-BEGAWAN": {
+   "url": "https://thewheat.github.io/brunei-taxi-fare-calculator/files/taxi-fare-draft.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "a7aa02beabd47c3c",
+   "fails": 0
+  },
+  "LA-VIENTIANE": {
+   "url": "https://asianews.network/new-mini-taxi-service-in-laos-to-provide-eco-friendly-transport-options-boost-employment/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "BD-DHAKA": {
+   "url": "https://today.thefinancialexpress.com.bd/print/brtas-order-on-meter-based-fares-of-cng-auto-rickshaws-withdrawn-1739730677",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "LK-COLOMBO": {
+   "url": "https://newsfirst.lk/2026/03/23/first-kilometer-fare-for-three-wheelers-raised-to-rs-110",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    110
+   ],
+   "fails": 0
+  },
+  "NP-KATHMANDU": {
+   "url": "https://kathmandupost.com/province-no-3/2026/04/12/bagmati-revises-public-transport-fares-after-fuel-price-hike",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200
+   ],
+   "fails": 0
+  },
+  "MV-MALE": {
+   "url": "https://plus.mv/?p=86812",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "BT-THIMPHU": {
+   "url": "https://drive.google.com/file/d/1qz9PfUSOt3xCSqBrkqC-tL4vcuaWTz-L/view?usp=sharing",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KZ-ALMATY": {
+   "url": "https://taxi.yandex.kz/almaty/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "UZ-TASHKENT": {
+   "url": "https://taxi.yandex.uz/tashkent/tariff",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4600
+   ],
+   "fails": 0
+  },
+  "KG-BISHKEK": {
+   "url": "https://taxi.yandex.ru/bishkek/tariff",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "TJ-DUSHANBE": {
+   "url": "https://asiaplus.news/?p=322648",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3
+   ],
+   "fails": 0
+  },
+  "BM-HAMILTON": {
+   "url": "https://www.bermudalaws.bm/Laws/Consolidated%20Law/1952/Motor%20Taxi%20Regulations%201952",
+   "version": 12,
+   "kind": "file",
+   "hash": "1233e1f958057ca9",
+   "fails": 0
+  },
+  "KY-GEORGE-TOWN": {
+   "url": "https://caymanlawschool.ky/n0c-storage/legislation2/traffic_public_passenger_vehicles_amendment_regulations_2019.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "81f306ec9e776196",
+   "fails": 0
+  },
+  "JM-KINGSTON": {
+   "url": "https://jis.gov.jm/cabinet-approves-16-per-cent-fare-increase-for-public-passenger-vehicle-operators",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    375
+   ],
+   "fails": 0
+  },
+  "PR-SAN-JUAN": {
+   "url": "https://ntsp.pr.gov/ServiciosProgramas/Secretaria/Reglamentos/Reglamentos/9358%20C%C3%B3digo%20de%20Reglamentos%20de%20la%20NTSP.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  "RO-BUCHAREST": {
+   "url": "https://www.antena3.ro/en/amp/taxi-fees-will-go-up-in-bucharest-491861.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.5
+   ],
+   "fails": 0
+  },
+  "BG-SOFIA": {
+   "url": "https://bnrnews.bg/en/post/408705/increase-in-price-of-taxi-services-in-sofia",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    1.24
+   ],
+   "fails": 0
+  },
+  "RS-BELGRADE": {
+   "url": "https://biznis.kurir.rs/novcanik/9492873/nove-cene-taksija-u-beogradu",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    320,
+    105.04,
+    1800
+   ],
+   "fails": 0
+  },
+  "HR-ZAGREB": {
+   "url": "https://wizi.hr/gradovi/zagreb/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4
+   ],
+   "fails": 0
+  },
+  "SI-LJUBLJANA": {
+   "url": "https://www.visitljubljana.com/en/visitors/travel-information/getting-around/taxis",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "BA-SARAJEVO": {
+   "url": "https://www.taxi-calculator.com/taxi-rate-sarajevo/756",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.5,
+    1.5,
+    15
+   ],
+   "fails": 0
+  },
+  "MK-SKOPJE": {
+   "url": "https://docs.google.com/document/d/1moBITG4f6cHvcPMkisP-2Fm8lvHuCIQU/export?format=pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "9ffd982aa264c4fb",
+   "fails": 0
+  },
+  "MD-CHISINAU": {
+   "url": "https://taxi.yandex.com/kishinev/tariff/econom",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "BY-MINSK": {
+   "url": "https://taxi.yandex.by/minsk/tariff",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "GE-TBILISI": {
+   "url": "https://taxi.yandex.com/tbilisi/tariff/econom",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "AM-YEREVAN": {
+   "url": "https://taxi.yandex.com/yerevan/tariff/start",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    300
+   ],
+   "fails": 0
+  },
+  "CO-BOGOTA": {
+   "url": "https://www.noticiasrcn.com/economia/asi-quedo-el-recargo-del-aeropuerto-y-la-unidad-por-cada-cien-metros-en-los-taxis-para-2026-992479",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4500,
+    8000,
+    159,
+    100,
+    3800
+   ],
+   "fails": 0
+  },
+  "CR-NATIONAL": {
+   "url": "https://delfino.cr/2026/10/pasajes-de-autobus-subiran-687-este-miercoles-y-taxis-aumentaran-desde-el-martes",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    870,
+    870.32
+   ],
+   "fails": 0
+  },
+  "UY-MONTEVIDEO": {
+   "url": "https://impo.com.uy/bases/resoluciones/340-2025/1",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "EC-QUITO": {
+   "url": "https://www.eltelegrafo.com.ec/noticias/quito/210/alza-de-tarifas-de-taxis-se-aprobo-en-ausencia-de-ap",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    0.5,
+    1.45,
+    0.4
+   ],
+   "fails": 0
+  },
+  "JO-AMMAN": {
+   "url": "https://www.jordannews.jo/Section-109/News/New-Fare-Rates-for-Taxis-and-Public-Transport-Vehicles-Take-Effect-51293",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "BH-MANAMA": {
+   "url": "https://www.mtt.gov.bh/taxis-fares/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    1,
+    1.25
+   ],
+   "fails": 0
+  },
+  "OM-MUSCAT": {
+   "url": "https://www.omanobserver.om/article/40730/Front Stories/300-baisa-starting-fare-in-orange-taxis",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KW-KUWAIT": {
+   "url": "https://gulfbusiness.com/?p=88454",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "CY-NICOSIA": {
+   "url": "https://www.cylaw.org/KDP/data/2022_1_293.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "17e905becb38cae2",
+   "fails": 0
+  },
+  "MT-MALTA": {
+   "url": "https://www.transport.gov.mt/Land/Public-Transport/Other-Public-Transport/Taxis-829",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.5,
+    2.5,
+    1.6,
+    1.4,
+    1.3,
+    1,
+    0.85
+   ],
+   "fails": 0
+  },
+  "MC-MONACO": {
+   "url": "https://cvb.visitmonaco.com/en/practical-information/getting-around/getting-around-by-taxi",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    1.33
+   ],
+   "fails": 0
+  },
+  "AD-ANDORRA": {
+   "url": "https://www.alto.ad/transport/2026/03/andorra-announces-2026-taxi-fare-increases",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.2,
+    0.05,
+    1.4
+   ],
+   "fails": 0
+  },
+  "IS-REYKJAVIK": {
+   "url": "https://www.iceland-highlights.com/guide-to-taxis-in-iceland/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    730,
+    351
+   ],
+   "fails": 0
+  },
+  "PE-LIMA": {
+   "url": "https://yango.com/en_int/lima/tariff/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "VE-CARACAS": {
+   "url": "https://yango.com/en_int/caracas/tariff/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "BO-LAPAZ": {
+   "url": "https://www.numbeo.com/cost-of-living/in/La-Paz?displayCurrency=BOB",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    12.5,
+    100,
+    10,
+    60
+   ],
+   "fails": 0
+  },
+  "PY-ASUNCION": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Asuncion?displayCurrency=PYG",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "GY-GEORGETOWN": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Georgetown?displayCurrency=GYD",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    900,
+    100,
+    500,
+    2500
+   ],
+   "fails": 0
+  },
+  "SR-PARAMARIBO": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Paramaribo?displayCurrency=SRD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "PA-PANAMA": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Panama-City?displayCurrency=USD",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2.5,
+    100,
+    1.8
+   ],
+   "fails": 0
+  },
+  "GT-GUATEMALA": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Guatemala-City?displayCurrency=GTQ",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    40,
+    100,
+    5,
+    60
+   ],
+   "fails": 0
+  },
+  "HN-TEGUCIGALPA": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Tegucigalpa?displayCurrency=HNL",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "SV-SANSALVADOR": {
+   "url": "https://www.numbeo.com/cost-of-living/in/San-Salvador?displayCurrency=USD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "NI-MANAGUA": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Managua?displayCurrency=NIO",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "BZ-BELIZECITY": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Belize-City?displayCurrency=BZD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "GF-CAYENNE": {
+   "url": "https://www.taxis-de-france.com/arretesprefectoraux/2025/973.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "b1cd372cdae619ab",
+   "fails": 0
+  },
+  "DO-SANTO-DOMINGO": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Santo-Domingo?displayCurrency=DOP",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "TT-PORT-OF-SPAIN": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Port-Of-Spain?displayCurrency=TTD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "CU-HAVANA": {
+   "url": "https://www.numbeo.com/taxi-fare/in/Havana?displayCurrency=CUP",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "HT-PORT-AU-PRINCE": {
+   "url": "https://www.numbeo.com/cost-of-living/country_result.jsp?country=Haiti&displayCurrency=HTG",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "BS-NASSAU": {
+   "url": "https://www.roadtraffic.gov.bs/wp-content/uploads/2016/04/Taxi-CabMaximumFareRegulations_1.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "3d098c7b7c578ea1",
+   "fails": 0
+  },
+  "BB-BRIDGETOWN": {
+   "url": "https://barbadosdigital.nyc3.digitaloceanspaces.com/Statutory%20Instruments/Road%20Traffic%20%28Amendment%29%20Regulations%202023.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "abde2d3dbd7e983c",
+   "fails": 0
+  },
+  "LC-CASTRIES": {
+   "url": "https://www.attorneygeneralchambers.com/laws-of-saint-lucia/motor-vehicles-and-road-traffic-act/part-1-taxi-fares-in-ec",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "GD-ST-GEORGES": {
+   "url": "https://www.puregrenada.com/grenada-airport-taxi-association",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "VC-KINGSTOWN": {
+   "url": "https://www.gov.vc/images/pdf_documents/Approval_for_Bus_and_Taxi_Fares_SVG.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "ec21c8b56de18cf3",
+   "fails": 0
+  },
+  "AG-ST-JOHNS": {
+   "url": "http://web.archive.org/web/20210831003640/https://www.antiguanice.com/v2/uploadsfiles/Taxi%20and%20tour%20fares%20-%20ABTB%20final.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "95145de5ef521740",
+   "fails": 0
+  },
+  "KN-BASSETERRE": {
+   "url": "https://www.seereiseplanung-kreuzfahrten.de/wp-content/uploads/Taxi-Fares-in-St.-Kitts.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "30b993015c72590c",
+   "fails": 0
+  },
+  "DM-ROSEAU": {
+   "url": "https://www.news.gov.dm/news/news-items/cabinet-approves-the-implementation-of-new-bus-fares-and-taxi-rates-2",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "AW-ORANJESTAD": {
+   "url": "https://taxi.aw/assets/taxi-fares-2026-05-18.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "f08d63f281e4afef",
+   "fails": 0
+  },
+  "CW-WILLEMSTAD": {
+   "url": "https://www.gobytaxi.com/north-america/curacao/willemstad",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "VI-CHARLOTTE-AMALIE": {
+   "url": "https://www.vinow.com/stthomas/getting_around_stt/taxi_stt/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "MQ-FORT-DE-FRANCE": {
+   "url": "https://www.martinique.gouv.fr/sites/default/files/contenu/telechargement/23756/185724/file/recueil-r02-2025-087-recueil-des-actes-administratifs.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "fd98437e7a56491b",
+   "fails": 0
+  },
+  "GP-POINTE-A-PITRE": {
+   "url": "https://www.taxis-de-france.com/arretesprefectoraux/2026/971.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "86549e6a3108d8b4",
+   "fails": 0
+  },
+  "PK-KARACHI": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Karachi?displayCurrency=PKR",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "AF-KABUL": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Kabul?displayCurrency=AFN",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "TM-ASHGABAT": {
+   "url": "https://turkmenportal.com/en/blog/45793/servis-onlayn-taksi-v-ashhabade-nachal-pokazyvat-stoimost-poezdki-v-prilozhenii-pered-zakazom",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "MN-ULAANBAATAR": {
+   "url": "https://ubcab.mn/mn/ubcab",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2000
+   ],
+   "fails": 0
+  },
+  "IR-TEHRAN": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Tehran?displayCurrency=IRR",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "IQ-BAGHDAD": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Baghdad?displayCurrency=IQD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "LB-BEIRUT": {
+   "url": "https://www.almodon.com/economy/2026/06/22/%D8%AA%D8%B9%D8%B1%D9%81%D8%A9-%D8%A7%D9%84%D9%86%D9%82%D9%84-%D9%84%D8%A7-%D8%AA%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%88%D9%82%D8%A7%D8%AA-%D9%84%D9%84%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%AE%D8%A7%D8%B5%D8%A9",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SY-DAMASCUS": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Damascus?displayCurrency=SYP",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "YE-SANAA": {
+   "url": "https://www.combien-coute.net/cout-de-la-vie/yemen/sanaa/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "PS-RAMALLAH": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Ramallah?displayCurrency=ILS",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "LU-LUXEMBOURG": {
+   "url": "https://transports.public.lu/dam-assets/taxis/reforme-taxis-volet-client.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "32e7ca010e01bc5d",
+   "fails": 0
+  },
+  "LI-VADUZ": {
+   "url": "https://www.numbeo.com/cost-of-living/country_result.jsp?country=Liechtenstein&displayCurrency=CHF",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "SM-SAN-MARINO": {
+   "url": "https://www.numbeo.com/cost-of-living/country_result.jsp?country=San+Marino&displayCurrency=EUR",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "UG-KAMPALA": {
+   "url": "https://en.wikivoyage.org/wiki/Kampala",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2000,
+    250,
+    100,
+    15000
+   ],
+   "fails": 0
+  },
+  "ZM-LUSAKA": {
+   "url": "https://en.wikivoyage.org/wiki/Lusaka",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "ZW-HARARE": {
+   "url": "https://en.wikivoyage.org/wiki/Harare",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "MW-LILONGWE": {
+   "url": "https://www.combien-coute.net/taxi/malawi/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "MU-PORT-LOUIS": {
+   "url": "https://en.wikivoyage.org/wiki/Mauritius",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    200,
+    100,
+    150,
+    1000.2
+   ],
+   "fails": 0
+  },
+  "SD-KHARTOUM": {
+   "url": "https://www.euaa.europa.eu/coi/3-key-socio-economic-indicators-focus-khartoum/32-mobility-and-flight-connections",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "SS-JUBA": {
+   "url": "https://www.eyeradio.org/?p=114601",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "SO-MOGADISHU": {
+   "url": "https://360nations.com/africa/somalia/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "DJ-DJIBOUTI": {
+   "url": "https://www.journalofficiel.dj/wp-json/wp/v2/texte-juridique/82223",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    500,
+    100
+   ],
+   "fails": 0
+  },
+  "ER-ASMARA": {
+   "url": "https://visiearth.pages.dev/er/getting-around-when-to-go-and-budget/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    150
+   ],
+   "fails": 0
+  },
+  "GQ-MALABO": {
+   "url": "https://www.gobytaxi.com/africa/equatorial-guinea/bioko-norte/malabo",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "TD-NDJAMENA": {
+   "url": "https://tchadinfos.com/2024/02/17/societe-les-prix-de-transport-en-commun-ont-grimpe-suite-a-laugmentation-des-prix-de-carburant/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    250,
+    100
+   ],
+   "fails": 0
+  },
+  "CF-BANGUI": {
+   "url": "https://tchadinfos.com/2023/01/11/rca-le-gouvernement-augmente-les-prix-des-transports-en-commun/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "BI-BUJUMBURA": {
+   "url": "https://www.cyriljarnias.com/?p=39485",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2000,
+    100
+   ],
+   "fails": 0
+  },
+  "KM-MORONI": {
+   "url": "https://lagazettedescomores.com/assets/images2026/PDF/lagazette-5119.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2756c3fc3fbac251",
+   "fails": 0
+  },
+  "ST-SAO-TOME": {
+   "url": "https://www.numbeo.com/cost-of-living/country_result.jsp?country=Sao+Tome+And+Principe&displayCurrency=STN",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "LS-MASERU": {
+   "url": "https://newsdayonline.co.ls/?p=19441",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    17
+   ],
+   "fails": 0
+  },
+  "SZ-MBABANE": {
+   "url": "https://www.eswatiniobserver.com/?p=13464",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    12.5
+   ],
+   "fails": 0
+  },
+  "RE-SAINT-DENIS": {
+   "url": "https://www.reunion.aeroport.fr/en/passagers/transports/taxis",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    3.7,
+    7.3,
+    1.12,
+    18.35
+   ],
+   "fails": 0
+  },
+  "YT-MAMOUDZOU": {
+   "url": "https://www.mayottehebdo.com/?p=39945",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KH-PHNOM-PENH": {
+   "url": "https://www.numbeo.com/taxi-fare/in/Phnom-Penh?displayCurrency=KHR",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "MM-YANGON": {
+   "url": "https://www.gnlm.com.mm/k600-per-kilo-set-to-equalize-taxi-fares/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    1500,
+    100,
+    600
+   ],
+   "fails": 0
+  },
+  "TL-DILI": {
+   "url": "https://www.numbeo.com/cost-of-living/in/Dili?displayCurrency=USD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "WS-APIA": {
+   "url": "https://lta.gov.ws/wp-content/uploads/2026/08/Bus-Taxi-Fare-List.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "2fc9923ffb689bf3",
+   "fails": 0
+  },
+  "TO-NUKUALOFA": {
+   "url": "https://www.jarniascyril.com/?p=26297",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "VU-PORT-VILA": {
+   "url": "https://www.numbeo.com/cost-of-living/country_result.jsp?country=Vanuatu&displayCurrency=VUV",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "SB-HONIARA": {
+   "url": "https://theislandsun.com.sb/taxi-fare-rate-remains-in-limbo-ahead-of-price-rise-tomorrow/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "NC-NOUMEA": {
+   "url": "https://juridoc.gouv.nc/JuriDoc/JdJonc.nsf/0/1FB8C2DCC4E9744C4B257B46007EA695/$File/8891.pdf",
+   "version": 12,
+   "fails": 1,
+   "error": "응답 없음(시간 초과)"
+  },
+  "PF-PAPEETE": {
+   "url": "https://www.service-public.pf/dtt/wp-content/uploads/sites/47/2023/12/affichette-maj-avec-tampon_2023_page-0001-scaled.jpg",
+   "version": 12,
+   "kind": "file",
+   "hash": "3c8e9eb560bd194d",
+   "fails": 0
+  },
+  "PW-KOROR": {
+   "url": "https://pristineparadisepalau.com/wp-content/uploads/2025/12/TAXI-ZONE-Rates-1.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "03005466ab2d67e1",
+   "fails": 0
+  },
+  "FM-KOLONIA": {
+   "url": "https://www.numbeo.com/cost-of-living/country_result.jsp?country=Micronesia&displayCurrency=USD",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "MH-MAJURO": {
+   "url": "https://marshallislandsjournal.com/taxis-hike-hits-hard/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "KI-SOUTH-TARAWA": {
+   "url": "https://visiearth.pages.dev/ki/getting-around-when-to-go-and-budget/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "LV-RIGA": {
+   "url": "https://likumi.lv/ta/id/307730",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "AL-TIRANA": {
+   "url": "https://shqiptarja.com/lajm/veliaj-me-kompanite-e-taksive-tirana-qyteti-me-me-shume-taksi-elektrike-ne-rajon-liberalizimi-i-tregut-modernizoi-sherbimin",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "EE-TALLINN": {
+   "url": "https://www.err.ee/1609536736/tavataksoga-tallinna-lennujaama-soitmine-kallineb",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "UA-KYIV": {
+   "url": "https://fakty.com.ua/ua/ukraine/20261027-ne-bilshe-75-kabmin-obmezhyv-zrostannya-tsin-na-taksi-v-kyyevi-pid-chas-tryvog/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SK-BRATISLAVA": {
+   "url": "https://www.teraz.sk/bratislavsky-kraj/uber-podla-taxikarov-navadza-vodicov/157612-clanok.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "ME-PODGORICA": {
+   "url": "https://www.paragraf.me/dnevne-vijesti/13092019/13092019-vijest3.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "XK-PRISTINA": {
+   "url": "https://periskopi.com/en/2022/3/life-expensive-kosovo-continues-auto-tax-prices-spread",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    2
+   ],
+   "fails": 0
+  },
+  "LT-VILNIUS": {
+   "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/dcc41e80d12e11e6a476d5908abd2210/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "AZ-BAKU": {
+   "url": "https://jam-news.net/az/azərbaycanda-taksi-tarifləri/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "DZ-ALGIERS": {
+   "url": "https://www.algerie360.com/les-tarifs-des-taxis-individuels-explication-detaillee-des-prix-en-vigueur/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CI-ABIDJAN": {
+   "url": "https://web.archive.org/web/20261009230643/https://www.numbeo.com/cost-of-living/in/Abidjan?displayCurrency=XOF",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    1000,
+    250,
+    100,
+    15000
+   ],
+   "fails": 0
+  },
+  "GH-ACCRA": {
+   "url": "https://web.archive.org/web/20261114183316/https://www.numbeo.com/cost-of-living/in/Accra",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    20,
+    100,
+    15,
+    60
+   ],
+   "fails": 0
+  },
+  "TG-LOME": {
+   "url": "https://actulome.com/prix-du-transport-a-lome-taxi-zem-bus-gozem/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    350,
+    100
+   ],
+   "fails": 0
+  },
+  "CV-PRAIA": {
+   "url": "https://caboverde24.info/2026/09/29/taxis-na-praia-a-lei-obriga-ao-taximetro-mas-a-classe-diz-que-deixou-de-o-usar-ha-20-anos-quem-deve-fixar-o-preco/",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "LY-TRIPOLI": {
+   "url": "https://www.combien-coute.net/taxi/libye/tripoli/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "ML-BAMAKO": {
+   "url": "https://www.ankataa.com/blog/2018/12/18/the-cost-of-taxis-in-bamako",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "BF-OUAGADOUGOU": {
+   "url": "https://www.memoireonline.com/07/22/13059/m_Les-transports-collectifs--Ouagadougou-Le-cas-des-taxis18.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    300,
+    500
+   ],
+   "fails": 0
+  },
+  "NE-NIAMEY": {
+   "url": "https://www.combien-coute.net/taxi/niger/niamey/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "GN-CONAKRY": {
+   "url": "https://www.combien-coute.net/taxi/guinee/conakry/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "LR-MONROVIA": {
+   "url": "https://allafrica.com/stories/202604070319.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "GM-BANJUL": {
+   "url": "https://en.wikivoyage.org/wiki/The_Gambia",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    300
+   ],
+   "fails": 0
+  },
+  "GW-BISSAU": {
+   "url": "https://en.wikivoyage.org/wiki/Bissau",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100,
+    500
+   ],
+   "fails": 0
+  },
+  "EH-LAAYOUNE": {
+   "url": "https://360nations.com/africa/western-sahara/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    0.5,
+    100
+   ],
+   "fails": 0
+  },
+  "GI-GIBRALTAR": {
+   "url": "https://gibraltarlaws.gov.gi/uploads/legislations/transport/Taxi%20Fares/2022s166.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "798a9f6f3821cba9",
+   "fails": 0
+  },
+  "IM-DOUGLAS": {
+   "url": "https://www.iomtoday.co.im/news/how-taxi-fares-are-changing-in-the-isle-of-man-896558",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4.7
+   ],
+   "fails": 0
+  },
+  "JE-ST-HELIER": {
+   "url": "https://jerseylaw.je/laws/current/ro_62_2017",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    4.15,
+    4.4
+   ],
+   "fails": 0
+  },
+  "AX-MARIEHAMN": {
+   "url": "https://www.regeringen.ax/sites/default/files/attachments/article/%C3%85LANDS%20LANDSKAPSREGERINGS%20BESLUT%20om%20taxitaxor%20inom%20%C3%85land_0.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "720bac61842e85d3",
+   "fails": 0
+  },
+  "VA-VATICAN": {
+   "url": "https://www.comune.roma.it/web-resources/cms/documents/TariffarioTaxi_giugno2026.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "7c2218ba8ffbdf45",
+   "fails": 0
+  },
+  "FO-TORSHAVN": {
+   "url": "http://taxi.fo/kostnadur",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "MS-BRADES": {
+   "url": "https://www.gov.ms/wp-content/uploads/2023/05/SRO-No.-10-of-2023-Passenger-Fares-Regulations.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "33f182c45cf78ed6",
+   "fails": 0
+  },
+  "SX-PHILIPSBURG": {
+   "url": "https://www.sintmaartengov.org/Documents/Official%20Publications/AB%202022,%20no.%2009%20Landsbesluit%20taxitarieven%202020.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "52163e73dc04dc75",
+   "fails": 0
+  },
+  "GG-ST-PETER-PORT": {
+   "url": "https://gazette.guernseypress.com/notices/8455",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "GL-NUUK": {
+   "url": "https://www.combien-coute.net/taxi/groenland/nuuk/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "TC-PROVIDENCIALES": {
+   "url": "https://www.visittci.com/providenciales/getting-around/taxis",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "VG-ROAD-TOWN": {
+   "url": "https://bvinews.com/wp-content/uploads/2022/12/SI-No-106-of-2022-Road-Traffic-Passenger-Fares-Amendment-Regulations-2022.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "ea8751e050cb0968",
+   "fails": 0
+  },
+  "AI-THE-VALLEY": {
+   "url": "https://www.gov.ai/Legislation/Regulations/V010-Passenger%20Fares%20Regulations.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "ee16b45ad8f19c89",
+   "fails": 0
+  },
+  "PM-SAINT-PIERRE": {
+   "url": "https://360nations.com/north-america/saint-pierre-and-miquelon/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "BL-GUSTAVIA": {
+   "url": "https://www.journaldesaintbarth.com/actualites/conseil-territorial/la-grille-tarifaire-des-taxis-enfin-adoptee-202410112208.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "MF-MARIGOT": {
+   "url": "https://comsaintmartin.cdn.prismic.io/comsaintmartin/Z6S0UJbqstJ9-TEy_A3TAXIFARESNAFSANSQRCODE.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "6266d1327ca56629",
+   "fails": 0
+  },
+  "AS-PAGO-PAGO": {
+   "url": "https://www.samoanews.com/node/108539",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "BQ-KRALENDIJK": {
+   "url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2023-29614/currentitem",
+   "version": 12,
+   "kind": "file",
+   "hash": "40e54ed196fd92f7",
+   "fails": 0
+  },
+  "CK-AVARUA": {
+   "url": "https://cookislandspocketguide.com/?p=259475",
+   "version": 12,
+   "kind": "text",
+   "numbers": [
+    100
+   ],
+   "fails": 0
+  },
+  "FK-STANLEY": {
+   "url": "https://360nations.com/south-america/falkland-islands/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "MP-SAIPAN": {
+   "url": "https://cnmilaw.gov/docs/admincode/T20/T20-80.pdf",
+   "version": 12,
+   "kind": "file",
+   "hash": "418102af4c96ba5d",
+   "fails": 0
+  },
+  "NR-YAREN": {
+   "url": "https://www.travelwithhello.com/blog/nauru-transport-guide",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "NU-ALOFI": {
+   "url": "https://360nations.com/oceania/niue/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "SH-JAMESTOWN": {
+   "url": "https://gobytaxi.com/africa/saint-helena/jamestown",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "SJ-LONGYEARBYEN": {
+   "url": "https://www.gobytaxi.com/europe/norway/central-norway/longyearbyen",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "TV-FUNAFUTI": {
+   "url": "https://www.milehacker.com/travel/tuvalu/getting-around-tuvalu-public-transport-taxis-car-r/",
+   "version": 12,
+   "fails": 1,
+   "error": "HTTP 403"
+  },
+  "WF-MATA-UTU": {
+   "url": "https://360nations.com/oceania/wallis-and-futuna/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "NF-BURNT-PINE": {
+   "url": "https://360nations.com/oceania/norfolk-island/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CC-WEST-ISLAND": {
+   "url": "https://360nations.com/asia/cocos-islands/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
+  },
+  "CX-FLYING-FISH-COVE": {
+   "url": "https://360nations.com/asia/christmas-island/cost-transportation.html",
+   "version": 12,
+   "kind": "text",
+   "numbers": [],
+   "fails": 0
   }
  },
  "alerted": {
   "soon:KR-GN-GOSEONG:2026-12-01": "2026-11-21",
-  "gone:ZA-JOBURG:15": "2026-11-21",
+  "unverified:VN-HAIPHONG": "2026-11-23",
+  "unverified:VN-DANANG": "2026-11-23",
+  "unverified:VN-CANTHO": "2026-11-23",
+  "unverified:ID-BALI": "2026-11-23",
   "unverified:ZA-JOBURG": "2026-11-21",
+  "unverified:ZA-CAPETOWN": "2026-11-23",
+  "unverified:ZA-DURBAN": "2026-11-23",
+  "unverified:ZA-PRETORIA": "2026-11-23",
+  "unverified:BE-ANTWERP": "2026-11-23",
+  "unverified:CH-BERN": "2026-11-23",
+  "unverified:SE-GOTHENBURG": "2026-11-23",
   "unverified:RU-MOSCOW": "2026-11-21",
-  "unverified:CL-SANTIAGO": "2026-11-21"
+  "unverified:RU-STPETERSBURG": "2026-11-23",
+  "unverified:RU-YEKATERINBURG": "2026-11-23",
+  "unverified:RU-NOVOSIBIRSK": "2026-11-23",
+  "unverified:RU-KAZAN": "2026-11-23",
+  "unverified:NZ-WELLINGTON": "2026-11-23",
+  "unverified:ET-ADDIS-ABABA": "2026-11-23",
+  "unverified:KE-NAIROBI": "2026-11-23",
+  "unverified:CD-KINSHASA": "2026-11-23",
+  "unverified:AO-LUANDA": "2026-11-23",
+  "unverified:MG-ANTANANARIVO": "2026-11-23",
+  "unverified:GA-LIBREVILLE": "2026-11-23",
+  "unverified:NG-ABUJA": "2026-11-23",
+  "unverified:SN-DAKAR": "2026-11-23",
+  "unverified:CM-DOUALA": "2026-11-23",
+  "unverified:BJ-COTONOU": "2026-11-23",
+  "unverified:MR-NOUAKCHOTT": "2026-11-23",
+  "unverified:SL-FREETOWN": "2026-11-23",
+  "unverified:LA-VIENTIANE": "2026-11-23",
+  "unverified:KZ-ALMATY": "2026-11-23",
+  "unverified:UZ-TASHKENT": "2026-11-23",
+  "unverified:KG-BISHKEK": "2026-11-23",
+  "unverified:RO-BUCHAREST": "2026-11-23",
+  "unverified:HR-ZAGREB": "2026-11-23",
+  "unverified:BA-SARAJEVO": "2026-11-23",
+  "unverified:MD-CHISINAU": "2026-11-23",
+  "unverified:BY-MINSK": "2026-11-23",
+  "unverified:GE-TBILISI": "2026-11-23",
+  "unverified:AM-YEREVAN": "2026-11-23",
+  "unverified:IS-REYKJAVIK": "2026-11-23",
+  "unverified:PE-LIMA": "2026-11-23",
+  "unverified:VE-CARACAS": "2026-11-23",
+  "unverified:BO-LAPAZ": "2026-11-23",
+  "unverified:PY-ASUNCION": "2026-11-23",
+  "unverified:GY-GEORGETOWN": "2026-11-23",
+  "unverified:SR-PARAMARIBO": "2026-11-23",
+  "unverified:PA-PANAMA": "2026-11-23",
+  "unverified:GT-GUATEMALA": "2026-11-23",
+  "unverified:HN-TEGUCIGALPA": "2026-11-23",
+  "unverified:SV-SANSALVADOR": "2026-11-23",
+  "unverified:NI-MANAGUA": "2026-11-23",
+  "unverified:BZ-BELIZECITY": "2026-11-23",
+  "unverified:DO-SANTO-DOMINGO": "2026-11-23",
+  "unverified:TT-PORT-OF-SPAIN": "2026-11-23",
+  "unverified:CU-HAVANA": "2026-11-23",
+  "unverified:HT-PORT-AU-PRINCE": "2026-11-23",
+  "unverified:CW-WILLEMSTAD": "2026-11-23",
+  "unverified:PK-KARACHI": "2026-11-23",
+  "unverified:AF-KABUL": "2026-11-23",
+  "unverified:MN-ULAANBAATAR": "2026-11-23",
+  "unverified:IR-TEHRAN": "2026-11-23",
+  "unverified:IQ-BAGHDAD": "2026-11-23",
+  "unverified:SY-DAMASCUS": "2026-11-23",
+  "unverified:YE-SANAA": "2026-11-23",
+  "unverified:PS-RAMALLAH": "2026-11-23",
+  "unverified:LU-LUXEMBOURG": "2026-11-23",
+  "unverified:LI-VADUZ": "2026-11-23",
+  "unverified:SM-SAN-MARINO": "2026-11-23",
+  "unverified:UG-KAMPALA": "2026-11-23",
+  "unverified:ZM-LUSAKA": "2026-11-23",
+  "unverified:ZW-HARARE": "2026-11-23",
+  "unverified:MW-LILONGWE": "2026-11-23",
+  "unverified:MU-PORT-LOUIS": "2026-11-23",
+  "unverified:SD-KHARTOUM": "2026-11-23",
+  "unverified:SS-JUBA": "2026-11-23",
+  "unverified:SO-MOGADISHU": "2026-11-23",
+  "unverified:DJ-DJIBOUTI": "2026-11-23",
+  "unverified:ER-ASMARA": "2026-11-23",
+  "unverified:GQ-MALABO": "2026-11-23",
+  "unverified:TD-NDJAMENA": "2026-11-23",
+  "unverified:CF-BANGUI": "2026-11-23",
+  "unverified:BI-BUJUMBURA": "2026-11-23",
+  "unverified:KM-MORONI": "2026-11-23",
+  "unverified:ST-SAO-TOME": "2026-11-23",
+  "unverified:KH-PHNOM-PENH": "2026-11-23",
+  "unverified:TL-DILI": "2026-11-23",
+  "unverified:TO-NUKUALOFA": "2026-11-23",
+  "unverified:VU-PORT-VILA": "2026-11-23",
+  "unverified:SB-HONIARA": "2026-11-23",
+  "unverified:FM-KOLONIA": "2026-11-23",
+  "unverified:MH-MAJURO": "2026-11-23",
+  "unverified:KI-SOUTH-TARAWA": "2026-11-23",
+  "unverified:LV-RIGA": "2026-11-23",
+  "unverified:AL-TIRANA": "2026-11-23",
+  "unverified:EE-TALLINN": "2026-11-23",
+  "unverified:UA-KYIV": "2026-11-23",
+  "unverified:SK-BRATISLAVA": "2026-11-23",
+  "unverified:LT-VILNIUS": "2026-11-23",
+  "unverified:AZ-BAKU": "2026-11-23",
+  "unverified:CI-ABIDJAN": "2026-11-23",
+  "unverified:GH-ACCRA": "2026-11-23",
+  "unverified:TG-LOME": "2026-11-23",
+  "unverified:LY-TRIPOLI": "2026-11-23",
+  "unverified:ML-BAMAKO": "2026-11-23",
+  "unverified:BF-OUAGADOUGOU": "2026-11-23",
+  "unverified:NE-NIAMEY": "2026-11-23",
+  "unverified:GN-CONAKRY": "2026-11-23",
+  "unverified:LR-MONROVIA": "2026-11-23",
+  "unverified:GM-BANJUL": "2026-11-23",
+  "unverified:GW-BISSAU": "2026-11-23",
+  "unverified:EH-LAAYOUNE": "2026-11-23",
+  "unverified:FO-TORSHAVN": "2026-11-23",
+  "unverified:GL-NUUK": "2026-11-23",
+  "unverified:PM-SAINT-PIERRE": "2026-11-23",
+  "unverified:CK-AVARUA": "2026-11-23",
+  "unverified:FK-STANLEY": "2026-11-23",
+  "unverified:NR-YAREN": "2026-11-23",
+  "unverified:NU-ALOFI": "2026-11-23",
+  "unverified:SH-JAMESTOWN": "2026-11-23",
+  "unverified:SJ-LONGYEARBYEN": "2026-11-23",
+  "unverified:TV-FUNAFUTI": "2026-11-23",
+  "unverified:WF-MATA-UTU": "2026-11-23",
+  "unverified:NF-BURNT-PINE": "2026-11-23",
+  "unverified:CC-WEST-ISLAND": "2026-11-23",
+  "unverified:CX-FLYING-FISH-COVE": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiW0FVX3lxTE90OHlxS0FiTy13WXV5bF8yNHZhZGw1a0docEFRbkFpODNkMm5ydUNlM0VyOEdpY2UyWnB1VXp1U3p0MkQtLVAxOFVFaGFEbTFDWE81UXQtdGctMlXSAWBBVV95cUxPcjh4Y3NEN2lxcW5XMmxsaVlPbDNtZEdQNzRJV1NvUURLZEFYcEtITXY3YnpiUDBjaFlJMlZQa2cxRE1OSExaaUFpT2xCRjNyUTR6RmRfWF9VX1JCTzlUYXo?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGU5NmVwU0R0aFo3Mm1CTHNNZTJ6YS1iMTVTdExzY011LUJjc05oSUFYTkZkMW1TZmxKMzU4QlRWcHY2RU91Z0UxajBZeGZEWTRkUHpzM3ZKX3Fqek5JOUtla2d2Q3pfNlhyX2ZOZUk4X0NqZjd1M3JjZXc1dnhOZ1NYR3AwWXVaVUpFNUV5Q0lfazVzdFNmUXh3czNPTTg2NWZlTFUtMTN3UWxZdm9zZw?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQnl0eUZnSFVSX3k0b25QMnNpcnBHVnNWdGpJZTlWck16Z2t1anVwT2dpcHNfLTRrb0VzS09BZnlfTU5RbTJoUXU0dFdjOG81UnR2ci1zSHNwRG9wdHluT2ZBV1YzRTFzSExGUkFqeEdldVpDcGFQQXFFQlo0OXVDVWxZVVZqUjN4dkV6TmVOc3FCZFpJcU5YaHRHMzBvYUEtZElZN3dyOVVrOUHSAbMBQVVfeXFMTzdPN1B1NzJOeU5lZ2JkRDMxMUtMQy1UTXk5QVRUa3ozQlFVWC1ESTJQS0E4TnhfMVRBc1hBVm9tVzFwd3E2WVFKZkJ0aW1ERzY0ck4wc1JiaElsV0Iza2tUY1BrNGxXcElCMlR4QlZJWDhvMUZYQUVUNU51SlpGRGs1eDNYWUUxSWtfdGg1ZWZqbU9lQVAtS3dmMTR2dUxqM085cUZFMktHSXktZk8xYVNJdzQ?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNzBmVGttcmNieHdQZ01HSWF6UWxWcUN2N2JEMmNuT3ZUY0E4eTlkT2o0QUtTSzVabk9vTFhiclhXd1hiVW14NDNDdy1FdFYxUnRSaFA3THp3SjNrcDZtbkpmTHlETXNma3J4UFhMUGFMQzdRc3N3bW10QVdEMUFLSHhmMWc1UjZqUmJrRUhEQm9PemhpUUtQNkdyTXhDbXYyODlJTlVZUE56TkowcU9FUEk3d1ctMEZIOE12cTB1cVNFVVFvUldic3p5eGNJSUlQcFBlNHNCVW9aeXpMSE03RjVPQmtKSnlxYm5hQVFyZXFUR0lmX3JVcjZB0gH_AUFVX3lxTFBCelBXdlZlenpZM0d2Z2cxcFNpbmN6NXctMnhkV0pDTWMyLUs5N0VYamlobXdEc0tvV2VBSnQtQnFlVE9zQkhrWDhCSmJYNDFPUHJ5NXlqeDVhZDNkaHQwYW5XaFQtSnRpSGtyM2k1TWloQkRPcXJJVVVGTVRNWDJaS051eTJiSmVtT1lQdXUzMURQczl1YXVLU05mdVlJU19pMVhaXzA1amFFODB6UFdpZUhYa1FUUjVjOUVfQU5Uam1leFJsVnNxOEdXYUxmeVhIUVdXQlFIenNrQUR4UVB2NUVYZUJfM2R0emh0WTY2elNCSExTT0k0OU51SmNERQ?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiygFBVV95cUxQR1FLOEVHM1B2am9nTGNUUTNpazlfaWI3V1ppS0pINXNad21lZ3JPVUZlNGxycFVqMWlfeHVJeWVrSkpmVHlzUXBNUWtfM0hiVWswUnVMa3VZZVZlWFY4RWNSQVp4dlpHZjlId3cyM2tSZVR0X0kyOGRlaC1OZXBXSG1CcnV1UkkzOHJENEwwWmRwcms5b2hKV2VxclFBWDNvbzNEa3lfWkxyb1l3WTIyMUxVRDJsRTRXajNNSFI1ZEhoLU9lR3dmRzlR0gHPAUFVX3lxTE9Bd3FzRGp2ZFFvWGR6M3VYWDYyeDVWOWRuek9oTGhuU3lrYUVXbVpNeENYSmYtME50Vi1XMEE3elJld05Bb2hnUDNDdkJBQkNYSGpKMm12Y3F6S2RpenNjRjh4TVNMdnpQWEhkZVlyWTh3X21oMExxOU81UGlFVjhIUi15N3NHSDE2Q3ZnMXJ0RXludnp0ZWpZOG1lT1BJa2pLXzAyM0liLUFtenQ3dGRnamxRM0pUbEl5M1RrTGNzNUxjby1WaFBnb0xIVTdnZw?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSnN1NlkzMTEyZGxyd190TGpmZ2hmeTNRM3JXODRCUEpkbDlYdnNzdFo1YzRNamlPY2Y4ZmdoUGcwbnJkWEpwbjg3QTlQbTF1ZGdhSUJYNmh5dGthT3FERFc3b0g3WUQyX0lXZm9RWWYxVVhFR3FzZVZmVmZfUWxHcVBWZGw2UEJnLUtjMmdqNUxZVjQzbEVISHdHMi16MXZPQmwxOXJaSk9adVJGelBieEtqMFRtUWtBZngyUGhESVRlV0UybGF4OEdKMU43MFduem5UZmxuakNfbUxzUEIyYmw3Y3dxYXhNTGU2aFhUSWgwZ9IB9wFBVV95cUxOOVM2VEZ3RmsycG5WaDlYS3VVX0NzM05qWjlZSlByVC1wYWdRcF8xb0ltNjJIRVMzNk1tZWxGUEpHLXUtdDMtYnNLQm5IbGFsY1RFQTVxQzk4Z3pjeEQxc1dnb1RmTmpCUGtUbUhrRk5OZjNMazhnMTJBNDFjSWtQN0ZhSjQybnQxZnFITFR4Qk1faEVsNGNUNzQyM2RxVDI4MFhsZDl5NTRHelRwNGhRWEJKYVFjaVItZk5HcGtpNmViSDUxV0pYbXJ5cDhFandSR2dLcWlDNGlDYTZKUFZ0UXZFS3dsY3RZbXVpaTRKQkZqREZ1eHJZ?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMipgFBVV95cUxQRDlzdzRvTF9yRGdpdGVtWTJtWW51S0xYZkVxRDQtNWdxUjZRZEJOOE1OcWlYaXpnaVJVZGVpTlB2OG96ckNESV9OS050STA0VmJuTzVJQ3pSUHR6NGpPSE9IazlSWkN5djU3TnBDVTl0ZWhWWHMtNmlucFdCTlY3U1NFYjhFMklzOXczaElsNlVQX08wQjRIZlFmbnVNNlBhTktfcGhR?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiZEFVX3lxTE96VXJnR0dnem1TWDRONF81dkYwMGpBT3kwV25KdUFPUXlKLUNzTURxOTNKc3BnbUV2RW56SG9YeFB2WkNiMGJ2M2tfYlBFa0NPaEFGLXNwQ0xpanFkZ0tOOFlmX3I?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMEJ4dnZPbElBd0gtSVpZdTlGR09WVnkxNEhHcGZPMnJYcUJ0YURoaXRJMXotdUNRd3lRa1RIRE13T3FBbFhENnhFc0N0azJwenhEWmktTVNDU0xqY2U3WEthVFBIa0pvZUdCUVBHSTZCRHJ4QmxfOVFIdTNwMS05aW9QZDhUeDVndXJ6d3JhNmRYcWo1VnJ5Mnhua1ZPSS0wallySUhsaUJYTXcweUxFNjdDck92MHpyUkJlanUxZTA5LXFIcGN2Rkc1blNDMVBsUlFrV3dRUGc0MVV5WExv0gHkAUFVX3lxTE9kZExPX08xZTY2QUtDblNIOFROVHVOZ0RvbkdfZlpBeXZjNm9PQmUyNk1VWXhObmFnV1ZkQ19HZ0NMNUNJU2dqVVZINGZzbUpRVTNNSUFBOUlfbjY1VHBKazlhM05mMTdlOHp1VVRIa1BrYTZMdEZLOWFTYmZOcF9xLVlyYlVxQ0IwSHVQd0FiQkEzZ1ZuVFRtcTZnVWlwcHRVa2ZHX2l4ejRnVzBMbHdhTkt4N3hrOTFCcU9LdFZGT1MycDF0UklNVVAtTzFGTnJJWlR1NVAtRUJSNGd1YmpvMlFDbw?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMizwFBVV95cUxNa2RTYVFUeTdIRU16d05sUG1hS283VjlIdTQzUGU0dy16WUU2SXp2MEg4ZmZsRF94YWVmYWF4N3E1eGtCZGgxVUhlMEVwcS1mcF9LVnVtMzdtQW14ODFnOE1jZlJiM1Y1dWdJOG1wVUZpdWhzbTdMNlB1aDdVY1BRbzYtMU9hblBubVBOXzRZQmxKOU9UcnNoVzRWOFdKa09JZFZ3OE9ncXZUdnQyWVdJS05WUHJseXVoYWJWQlhuQ1V0ZHBnb1c4R1VmTGN4Y2PSAdQBQVVfeXFMTnZhYkNWc2QzMmJ4WjZYckJrc2ZuejNpQm5xbkstcDdFdW1Wd1NVS05WazdyR1F3R0hpTWswMlIxM3F3cjVQZVZYYUtMTF85ZlM1OFE3YlZNUkVQZEJqZEZ4elVoNXZKTWEzNDVIbGEwRm9LVHkzMFlGRmw2UmVOVmF2MWZzY2VPWldrVGZ0NVBnbkNHQzJVWmdTRkxIQWNwR28wb25uUmp3WW9sU1NZdzMtSk5LUFM5ZWFZRVF4djdRTTdJTW5ZLVVKb0pvdFgzbE5UUFU?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMizwFBVV95cUxPSlZYdFdITGVKT2dUQ0dBbzhoNW9ac0RlZ2xOXzEyR0NlTXpIb3JvT0duMGlDcFJMSGFFTGNkMkx4TThCdHZkR0RQNmNURTJJeEx1VFMyU0lBcnY3M0J6aWlacVBBemhaLTBscVFoVGVFemprX0twdlFxdWlRbmNTWmotcFl2cGpEeXBvRk43bUxLX3ItWlRHTHdwZHNycGVsTTB1cW5WakZ0VWdnbm5zY2tXa2s0LUVzMXBHWWo0X2djcFZJX2JRU3hYYjdTb0nSAdQBQVVfeXFMT2hqT0hTT0oyUnd6d0dXLXNJZ3RmczJlVE9CclVRVWp3RGFWMU01REo2aHFtemh0RVkwLWtMQ2JQcTVrN0tpMnY4TXdRUHdvYkRwaVpvSzB3bXZUbkhqaUQ2SmUzVnllZnBPYldXdXl4VUxuWjBXTUhoQXJsR2dQOTc4eUdaN1gzT3BDdWdReEVFblg1RE5fLUpfZFE5SElxbXdySXh0M1hIZ2xYdkxNc19iTGNyQ1JtRHdzVDVKY2ZKTUlhaFRWWHg0ZGJjVVgyQllnVE4?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMingFBVV95cUxNT1VVQnBiT1hfZ2NKcFNFWnN1Z3RkcFZDYzZjeHBKWE1fZE5ETEdXUkl1WVRxUGlZYnVvYWxVVXJaZGV0TVZWNzUxRlpNZTlIZG1RWjU0V2lZVXBGS2JUMXprT254T3I3QVZCSVdKX3pFRFhvQ3JmbEg3eTRjSG1sVHM0NUdDeGw0RHZ1MURwRXd0MGpFMjB2OEJNSElqQdIBowFBVV95cUxQUXZGaTk0di1TOHNxYjVhWEI0V1F4TER6VTFQUXpBb2UtbFhvNEU4VWp0VFkwbVRLS21tQnJHV21YMFN0QlFxM1RTbWZZQ01MS0dhREY2aXg5OHB1ZWx2VlpQTTUxWmZDd09SQlU2UUtVZjliZDg5cUxXbVhxVEV5c3hWVVdYRC1yODljeWhOWnFLalYxQ0ZhOC02UVZES3k2ZGM0?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ2JYNHgxcFg0WkRHUEVUbFVEWGZXUkp3RWdUWWt3dVVmQ3dQUHhtR3VBVEp1LVJVZUtMSDVmWFBKcmxmWkt3VHM1QjFjUmZCZXI3RzBDc19RYjFvcWN0UUNpUzRuNEVjbTVDdFFYLUdPejh6SU1OeHIxajdzbVl1UFNrenRMbWlUTF91bHhBbGZ0NTQxMHMzR3prQlZJSm1MSTVqdmFKYlM?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUVtQWpTekhCV3RRWFlvYWc5TXNHSnJadXh1VVloNmdXN3poakJmaEJaVUFBWTZLQmRVUmstX3VSalp3MmtUUmllTWRRcjhETnoyWjhpOGQ5akx6eUU2T3VOWHcxeFdqU2Q0bDlYb3MzcjYxbnlSZzYtZW5kS3YwWV95Ymd2anlib3Z0QXVZSnpGQ2FJQk9MYW9kVjRoekxTZmc?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMW5LZkJzWTZRZHlsRUtaaGdhZmFIQnpaSkNvUlVMVEk2cGNtVmg5dHdWTm44aV9qa0tOZnB2a3R2enFtNFpWQ3FIbERaTkRVSkh5b1F2NlhjTU54dW8xblJkSkxQc1VGWWNsanJIT01EOEs0X0VaNGVXZFQwV3BTaTg3dW1BZzdFbllMel9SWDFDNXNVZXBDSWtmcG1qckpsb0lfbzVFNVQ3QzhXcHlhcEJ0bTdQVVBl?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMixgFBVV95cUxNUjZoMlhsWXZERUVVdTdVZ1R3QnFaNGxLWV9WV0FiUllBLTYzZEtHd3JjRTNWbUpIYy1JWHRJdjNVcFFlMGpMQ2F0Z3I2dHBYMWRtanplRVBpS3VYQm9qQkxDdU0wNGI2SnB5c2o3RV9NSGlFVDJFaUx1d2V6Y3JlUjVSdEdMS19zdGktaHVWWUc3Z1FhTk1RdWxGVW9GaXRjaGdTU3Z6NThhSTN1Slh5bERPN3QwRVZHRE5qNWlJSG5va0hhYnfSAcsBQVVfeXFMUG5zd05mZjNpSHBfdFJkdGNfcGZQN0xXUmQtV3RsTkFjaU1SZy05MWRxTXJ0eUkycVhtLU9zN0xVaC1uV2p3dlBVc2lOXy16WXNTdXA1aldWT0JwLWthQ2R5R29xSmNZQ0Qwd0NENUNkQnA5OE1Kbk5DQ00xQldBcmVXRUxSaU5aQzhrTXQ1OHNGVlV0cWhFaG9fbEVSczI5WjdRMEFxQXMxLXNfUE1uVnBVWXNPeVRabEJJeFZ2bDYwOGJJNjdwQ2ZGUTg?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiygFBVV95cUxNNkczdTlmZTVPazNOY1lCMEt3dDRHSFZxRVJmc25VbU1SSmlaLUNhaHQ4Qi1MTXBicDN6djlMbVBVT3R0T2ZGWWxLVWlwYzZmSlNLa0lRalVhektHeDEtVWY3dmNsMlVnQmRTNzdoMDlEVlVVY0xGNGUtVXo2S2ZFaGhDa2lYbHVsZ3Vua1FGeGN5M2lCSFFCQ0l3TXpjZ1ozOVhWV05TRVpIb0hNdnlmNVY4Si1ySU9ob05zcDRKYjk5U3NqVXVpV09B?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMid0FVX3lxTFByTWVKVzhwN21ycG5ReGNycnNUSXVtdnlZa3pqaGhhWHVfc3RPMkt2a21seFFkcUt6TEM2cklkNHhPS0ZlLXRPTTlZOHl2UFNqZjhRZWJKUEFLa3VIWC1IR0NuVmE4dzJLcUhUZUQ2WE5zdlpmN2c40gF3QVVfeXFMTUlIS3AzYmdkdmpDaG9ydzdwNllaVXRIbENET0dsVUpIT1pxUmFMWmhuVHVmU1ZMbk9ta2FTZTRWN2N5TEp2Sl9ObkVYWnI2WVNSdHRuLWRSOXM2LUgzeFZVNGNQLXA4NEF6RGhxazRGNFRRaUFSemc?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYUlzbmtiWmhmQk5XWFNoeE95TFkxOTFvZFRQWGx3YWxjaW95c2owUlNFU1Y0THJTTkxRME9uSXU2UEU0a2tlc3otX3A0Wm5xeTBucmU0ZDNvTTFzbGZRTnhVSEJkaHlBOVhEMF9JekgzbEUtUXg3cTFEaTBSc3lRN3Zra2ZkYkdTb2lEMHJFaEJ6dnFuaUZnLThtVkF1azRpRGV2REl4enN5bEdDdW85cHJLaFM1NnVDOWgxZFVmRFNzUURrbGhWR2xYbjh1cXFpeE03cHZQZW1MUzhHbEVVZ25HZ9IB7gFBVV95cUxOc1FzWEFpWlJIOUs5dUNqamZ5T0dYTzFMN0MtZ1JQMzV3UDM5X1pfZi1oOGxoMkhNSzhXOHNOdWF5VGYyZTU0Y1NkVWZDQ21HSGdYZnJOQjhJcVh0c0xiX09OU2pHRnZYeUUxcUpiLVVfME5ZX2puRlV6YjN6RE5DcWVWdGFjTkQ2TjZtSS00UXdiaS1Sa2RNa3dObHUtU1IzZjJuSFBSZVI4Z3hoeVdzLVBRcWdoUWU0TFNmUWZUbUFxZXJzcTF1SGZHbWdKX24tSVluMlFrRXFBdjhzQ0lhLUtTODNVdzI0UzNqb2Rn?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMigAFBVV95cUxNWThQamlKaFZVdDdHc2luQzk1NXRabWp6TWs4RFBuaFNwTTU2WGNmcmw3TDVSLUN0M0NubHVMNW5VSU5NdU03cm45RVVNN3dMdUgxM0JDWGJFMllXRDBoSEVqQUxWeERlc192a19zMW5KZjU2TGY0dlpRdkpWcklkUQ?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMivAFBVV95cUxQWFRRdEpsTlY4YWJHdnFfVF9CSmxKWFFJNWhhMnVNRGY4dGhQV29uUUY2eWhyUHdvSmQ1eDBMa2NLLU5MNXgtczRyUTRVZnJLY181cXNnSUtQREdHSEhoU3otcGFacTg1MUdfMFlLLTJ0bGI3NGFwRWxCeUNfMXU1S1pvVDRqeDFGMEd2aDZkVW91UVVHNXA3VDVjRFNTYkJyNE1fcngzTU5nS3JhcVllVkFhVEptUXFMaGlmZg?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMiogFBVV95cUxQTUZVRW0wV0lIVlFFV0Qzd0RXX1IxNnFVNDJUOEg5cUZQM1ExVE1pSXZIVkhvRXhpOGd3NDVnUTVkY2Fnc1hvakUwSll0ZEgtZ2trbG82WF9VX0F1MjF4M1FqUEZWT0h0Wm1sU1NRUjRrZXJLNTg3Tl90Z0ZjbGhmWmpHWmRLRHFwT1lfZ0lkVE40WnhmOU1MMVdRSTJwWGZPOHc?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMikwFBVV95cUxPN3hoSm9XMU9icmRIVzZOcThDTGozMHQ1Ql9iQWttYWF4bHYyblZFNGlIZm9tTjRiT0lNM3Q1ME5SckhuM0dXOUJDQTJHNkE2SURpdUpWVV9qYmltUHF5dTNMRUpKUmdWR19iaktxUGFuelV6azI1RXJKeWJwWElQWU5pT3p5NjhIQzRVVHVvTGlidDjSAZgBQVVfeXFMT3pkNHZ1cjU2alZqWTVCV1RCdWtwMXBfYXdIWGt5b19Vc3gwTHlRbVZPNVlWcTVpc3Jha1NES2V3QWpNMC1qMF9Qdkk0bFZuamxXR0tfRmptd1kwZ0R0aE0ySk0zZWM2NWZZRFFENGpGTHQ5SmhQWmVaaFV4RGNxejY3eWM0czBkWTVDME9INUhsRWEwNXhIZUU?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMirAFBVV95cUxQd0NiM0RXYmt2UW9kdmsyMExKRzRUM0NweVZ2MlhocjFOakRmYU4xYmR6RnJLNWRjTVpMM1dLclF6ZmNUdW5MeW5kT0hvcFFFV1MtYVRqVEJ0VjZteEk3ZDNkNFg3U001WEpHbXFyUkc5MUFkZXRXRklmVmhVQldhNlhxcnRzR0RJZUhSM1hnMG1Wc0hRbGpnZW9UVGs1NEZ1U3FiU014YnI2ZW5U?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMid0FVX3lxTE0xZ0J0R1R0RFhGbWNYTmxIcFB6VGhlYzZzX2dtZy1RYTF2SDFlanh4WVIxQ3MyRmVDQnpQVlJEUFk0N2JkaEN3VnMzQkQ5ZjBNMm5melY5eWtfN0xMOVF1SnR5WWcyaC13NjJwVTFCOVlZOVhUX3Q0?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeC15THlRaFA1SS1icTZ2MmdqYVVKaEFhOXVpSVZtRUFmM1lMNjFSUjlKYkpDMlU3ZU1hRkJDSzc0M0lLUFRSTWZBQ3pNRW80SWJsSHJlc1N1TndNQWc0OElrbERyaVFxRzBpM1lXUkN3aXlSY0x0UWdvdEg3eXF0aWkwYmx6eW1CVHN2b3RHU3p5SkFLeGtZOHNXbV91eWJtT28xT2tfM3ZoVVlmeUpWM195Y3FXNzhRdzRpUjdjNWNMcndOVzNwWUJJaU5TQUJwQ3hhNQ?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMihwFBVV95cUxNU1V0bWxCRGl3UW15YkdTcWJJVjZYNXhVSUtHdEprLVRCVUtaeFpiQ2dKWDZaSVZIZGVCamQ2eUFyNTg3RHI5TTFRaVJOQ1RJZW0tMV82U2ZTQU5KdnEzcG1sYmd6dV9xbHJlWnlkSFhOT1haU3FPVlZPTG1IWFppZWZnbGdzeTA?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMivgFBVV95cUxOX1hhZGpRLVdkUUVFWDEzYk5KUkE1aExJN0lqWWdIV0JyLTdrN0g4bXFWcHdRb3VkRHJVQUZKNnBzRlZCT3M4dnA0QzBjNUtSTUlabDliRVJUX09HZWEyUGwtT1F2NWVDY1F5cGVMR0JIa1lYWUlOdDM4TW1WZXdZenBLS29pZ0JIeTRKNFFtM3BtdFd0TDZlazBpU0k2SGZPcUY4OE51MEo4enhfT21oQjhWMlV2cW04bTloVEpR?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMivgFBVV95cUxOYXc0RFR2OE1iS01FaGlGeTNhMkFSRUUtQlZtejhCTk16NkQxOUVsN3ZVNXEtWDNZZ1NaVEZiYTgtZHlqSElCbm56SHUyX2RlRTdSaUhXMWJBUU51cWI2d1lmakRpV0lXSWVIYi1Yb3IweDBGZHEtM3hkV0NxTmxpZEdnVjVtbVhqV25DanVNamJNZXljWWhpUU5wVzZPZVUwWXI5ZkNFQXRYWUtuU25IQlNGal9QWFJCUUg2VXBn0gG-AUFVX3lxTE5hdzREVHY4TWJLTUVoaUZ5M2EyQVJFRS1CVm16OEJOTXo2RDE5RWw3dlU1cS1YM1lnU1pURmJhOC1keWpISUJubnpIdTJfZGVFN1JpSFcxYkFRTnVxYjZ3WWZqRGlXSVdJZUhiLVhvcjB4MEZkcS0zeGRXQ3FObGlkR2dWNW1tWGpXbkNqdU1qYk1leWNZaGlRTnBXNk9lVTBZcjlmQ0VBdFhZS25TbkhCU0ZqX1BYUkJRSDZVcGc?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMinAFBVV95cUxQNS1PS3BkNmh3UVFsR3B0MFVkaHNqaUVxSkw0OVRIeFNaeUw5TUVHV1hiU1dkZk4tNmRWUkZOdEFWbEtHZ3R6VVRTTXEyaGNLMy01SGZ2R05tRHJtVHM2OHdVZjU4a2FBVmtIWlBOdUExYjE3NWczRURBeG9UcWJrQjRTLVJ1Rlk0MlA0eHVYZmE2UFVWV0pqdzBaNTLSAaIBQVVfeXFMTnFGVmR2eGlXVFVqU1FGUVBVYzdjQmFERzlwR0NtaG5memdnSmZpQXEtbHctTUhwTkxGRXI2N2dsVmhZalloQjZ4MTlaUS0yVDViT1JYcU9uRDBUZ21ESTlldmpPWW9QaV9MNzBBLUxzOXJLODRKS1BndTNHaUFEWElKNXFKekRBUmNzNHcwM0xsR1czTFRwWkZGa2ZtOVl1cUdB?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMipAFBVV95cUxNbTh0Vk0yWE02dTlRalJROUJCTmJjcjMzUG5aN1RJRE1yVTdLazVhVm9OcDZ2M09KTHRHYTExSnRyRXFzdEwwZ3hVRE04aDAzV0N6aVd3RGpXaHFfU3RaYVY5WFZfeURfT3VFa1pnZnVDWUlpeWQwanBKNDVGTHl5SzhNNWlCX3lJSGE0TTA3RVQ2bmdKVG1oVjFuNEMwY253YWJwd9IBqgFBVV95cUxQRmVHRzNMSXh3dzJiRjN6c1k1ZHFKeUg0VVFEWXdRWlBYV2NWeTdzWkpfWXZaWWJiMkpscTk4SUpjSENfUkU1N2taUzhsOW9NYjJYdGNrWFlQRjVDdm12OFEwcTNhSlFYM2VHZm5JTS0yT1laMVNMT0JCdnlDRHZVeExRa0dfTzJlbGxZVTk3ZFY2WXprOUVvTTVZLWVSal9TcGUtN3RVWWxkdw?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMitgFBVV95cUxPckswYjVHVG1idzBqS0FfeDlvdzNBTjFuVHFWenVmT1VhZnp5cFJfb2lydWJHRldweG9MNXItV3pKNHVqVTNmM2o0ZnAxMnpoRC14SmJGVVZaRGF4dkp4V1VISFB0ZmpUb2hURUVXSk13blRWdjNaMVdhZGJuLWYxYXhKcGlrVEJDY0tvdzZicnF2SEtNeDFOd0N1a19PR0FVX2pLSXFuckpGTEdiSHZnZ2lYWEdsZ9IBuwFBVV95cUxOaFp0Yk0zVU9NX003RjFqcHdRN01LX2pDMGJ1Mlh5UzlWWGFKSm5Sc1ZrbXo0X2dQT1ZsMXU1V3hwOVJONWYtcHV1cEVxcHlkSTlBb2lZbDhDcXI2LWxfdUtzTXJsQXgyaEY3Z0xGRERfcVpNU2tVX1YyZkxpRXVYcm1XcnozcWxMLWpyWTN2SUJFTXdxRnRCVXV2WVNOS2ZsUzR1NnlSc3NHNV9tYkJuYnoybEJnWmhoaVFR?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdUFIVUdxTGlRZHNBaWdXcm44TExobUUzYVVFNC1jQ0ZmcFNwUHZVRnJXUl9SUnJkQUlkYVlRQmNVVFFrelo3UkpVc2Y2RVRNZVdfVzdCY2p1U2huNVJFUEl3XzhIWUNzenh1YVhjR3c2MjZKSVc0UUpGajh5WmFiQ3B0SkF3MW5jWGIxc0tVZENOa2xvd3pGMjFTd2ZDOTZra3ZqY1lqRkFiZ2FpVXRSdUo3NDV3eTBOV1lIZjFuNnUtRVUzZDZmUnVHellnTW1GcmRiUklPbHhBUUFGZTJxbjFXc2tCbGx4alg2enBR?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMivwFBVV95cUxQemJGdEFZbndyMWVZVXVJZ1Jub2ROTVNBWXFFSGFTVl9wQ3VYNDc4Uk9VTFI3RDViVE13SUoxUm9wVlQzSldQMG1ncVBuRmVlV3lhT1RQR2pOQzhyZFVfaDlXTnBGb2FxRDNoLTByTzF2YWhJSGp1Y2llOUhRc1dUUlg0RGwzVnhWbExaTFVXUmJTTTE3Q3hRWXlDaDc0RENIWENwbEdjcnRXOU1oTFcxVDJIR0wtdjh3TDd0aV82TdIBxAFBVV95cUxQTElzY05MRXg2R2ZDYVRmUXk4UW1KenZvcVY0cV8tUlJPRlVWeTEzNHRiZkhMaVZfOVZMWVhnU3BHWFlkV1FLRU5NWTFtZ1JjT05zVkctZWd1amt2U0FnbTJBQ29Uck43aWUxWkZPcGZmWkxFMXFrS1lXOXBXN2dsclU5dkNxeDY4VTlmNGE3cjVTcGlnaWNHRnpIS1pud3ZZRTZJaHhDbmpzOUFXX0xYOGt6SkpEcG96NHRnUmt2SWF3SlFY?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMi4wFBVV95cUxQX2tiNmN1TkZieDkwanIzd0Y0OVZ0OFNZOGJnRHVjRVhxdEtCMnA1WVRXWVExQnZiSUp6UVVxUk1iY2NVc3ZoVDlRXzJyaTJycWR6X2V5Rng4Y2NGZ1JrektmWExSelo2Qk1wUkFLa29VdDdEMkdycS1Cd2FLQmFES0VMUDBQWVV3cGFDNTl3amNnbExzVy1kYXlXNnpzYmR2QTFwLVBOcVhadmlhcGNqVHljMmN4LVZTWHJtdms2RDRIcjFyTnI5M0lqOUFGanZFYXhkQ2dxdklvS25NUTE3czY1MNIB6AFBVV95cUxQdDhMQmJPcTY5V0pCNTRiTjV4RWdfeWVLT2s1dXB1X2g1QWVYVmV4anhXTTZCc0VmUGUxUFlUbVFjbnF1blljckNMMXFTdVFOMXQ3a0RGdndwbFZZUm1ObUtHcXY4eWR4c3lLR04zNUwxR0FhZXVGUVRNRUJ3WGtZdFN4RjlnakZkUGNOcG5UN0VFNFlROVF6TmkxbFdhUHVpckJ4eTBwT3FWOGNqaks2ODJTQkdXLXVHZkY3WWRWRDctVWZ3Y2xpWHZhbTg0Qk5yRGtvUF9OWWRuM3Z1ZWdvLTN3U0FTcUlV?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMikwFBVV95cUxPbG5leTJvNzNwUFdfOUFwUDJTYXhQQmtiemhBY0JUOWx5ZWdVY2xlWVYwaFR4S05uS0I5N3p5eldxa2d3M2FNZlY2Rl9xSzhDYWVLb1NES3c4bTZidWJjX2ZQXzZOdFpHTmhwMWpQUE8zWl9ZSEQxQ0tIX0M0SnN2UnByM3hwbkVtNlJXTHdURlJfd2c?oc=5": "2026-11-23",
+  "news:https://news.google.com/rss/articles/CBMioAFBVV95cUxPbEZ5dlVSRlpjdUdDSnZBUklONEpwemswY3F1R3l6c0VfM3B5dGRYWFhwbTRPR0ZLN3dobjEtZzlEN01MQ1QxVlFhZ1QtOGdIdmxTUjIyTDNxaFFCemlRUjc2dGRfSWdjU2hfOWpHajlUaVRSWWpTRWc5dnZBczFhT3pyVzNTdk56ckE5ZURQS0tiNlVTTGs0ZGxPTW94Y2hB?oc=5": "2026-11-23",
+  "rotate:KR-SEOUL:2026-11-23": "2026-11-23",
+  "rotate:KR-BUSAN:2026-11-23": "2026-11-23",
+  "rotate:KR-INCHEON:2026-11-23": "2026-11-23",
+  "rotate:KR-DAEGU:2026-11-23": "2026-11-23",
+  "rotate:KR-DAEJEON:2026-11-23": "2026-11-23",
+  "rotate:KR-GWANGJU:2026-11-23": "2026-11-23",
+  "rotate:KR-JEJU:2026-11-23": "2026-11-23",
+  "rotate:CN-SHANGHAI:2026-11-23": "2026-11-23",
+  "rotate:BR-SAOPAULO:2026-11-23": "2026-11-23",
+  "rotate:CN-BEIJING:2026-11-23": "2026-11-23"
+ },
+ "rotated": {
+  "KR-SEOUL": "2026-11-23",
+  "KR-BUSAN": "2026-11-23",
+  "KR-INCHEON": "2026-11-23",
+  "KR-DAEGU": "2026-11-23",
+  "KR-DAEJEON": "2026-11-23",
+  "KR-GWANGJU": "2026-11-23",
+  "KR-JEJU": "2026-11-23",
+  "CN-SHANGHAI": "2026-11-23",
+  "BR-SAOPAULO": "2026-11-23",
+  "CN-BEIJING": "2026-11-23"
  }
 }
